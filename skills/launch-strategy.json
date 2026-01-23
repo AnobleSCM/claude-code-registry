@@ -1,0 +1,13 @@
+{
+  "id": "launch-strategy",
+  "name": "launch-strategy",
+  "displayName": "Launch Strategy",
+  "category": "Marketing",
+  "description": "Plan product launches, feature announcements, or release strategies. Covers phased launches, channel strategy (ORB framework), Product Hunt optimization, and ongoing launch momentum.",
+  "invocation": "/launch-strategy",
+  "source": "userSettings",
+  "tags": ["launch", "product-hunt", "go-to-market", "marketing", "announcement"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

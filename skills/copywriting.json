@@ -1,0 +1,13 @@
+{
+  "id": "copywriting",
+  "name": "copywriting",
+  "displayName": "Copywriting",
+  "category": "Marketing",
+  "description": "Write, rewrite, or improve marketing copy for any page including homepage, landing pages, pricing pages, feature pages, about pages, or product pages.",
+  "invocation": "/copywriting",
+  "source": "userSettings",
+  "tags": ["marketing", "copy", "content", "landing-page", "conversion"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

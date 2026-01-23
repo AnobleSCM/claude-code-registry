@@ -1,0 +1,13 @@
+{
+  "id": "plan",
+  "name": "Plan",
+  "displayName": "Plan",
+  "category": "Planning",
+  "description": "Software architect agent for designing implementation plans. Returns step-by-step plans, identifies critical files, and considers architectural trade-offs.",
+  "invocation": "Task tool with subagent_type=\"Plan\"",
+  "source": "built-in",
+  "tags": ["planning", "architecture", "design", "strategy", "implementation"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

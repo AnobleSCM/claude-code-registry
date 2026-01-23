@@ -1,0 +1,13 @@
+{
+  "id": "test-driven-development",
+  "name": "test-driven-development",
+  "displayName": "Test-Driven Development",
+  "category": "Development",
+  "description": "Write tests before implementation following TDD methodology. Red-green-refactor cycle with proper test isolation and coverage.",
+  "invocation": "/test-driven-development",
+  "source": "plugin:superpowers",
+  "tags": ["tdd", "testing", "methodology", "quality", "development"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

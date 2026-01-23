@@ -1,0 +1,22 @@
+{
+  "id": "stripe",
+  "name": "stripe",
+  "displayName": "Stripe",
+  "category": "Payments",
+  "description": "Search Stripe documentation, manage customers, products, prices, invoices, subscriptions, payments, and get integration recommendations.",
+  "status": "official",
+  "toolCount": 15,
+  "tools": [
+    "search_stripe_documentation", "get_stripe_account_info",
+    "list_customers", "list_products", "list_prices", "list_invoices",
+    "retrieve_balance", "list_payment_intents", "list_subscriptions",
+    "list_coupons", "list_disputes", "search_stripe_resources",
+    "fetch_stripe_resources", "stripe_integration_recommender",
+    "send_stripe_mcp_feedback"
+  ],
+  "configUrl": "https://stripe.com/docs/stripe-apps/reference/api",
+  "tags": ["payments", "stripe", "subscriptions", "invoices", "checkout"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

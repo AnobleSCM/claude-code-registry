@@ -1,0 +1,22 @@
+{
+  "id": "chrome-devtools",
+  "name": "chrome-devtools",
+  "displayName": "Chrome DevTools",
+  "category": "Browser",
+  "description": "Control Chrome browser for visual QA, accessibility inspection, debugging, screenshots, DOM interaction, network monitoring, and console access.",
+  "status": "official",
+  "toolCount": 25,
+  "tools": [
+    "click", "close_page", "drag", "emulate", "evaluate_script",
+    "fill", "fill_form", "get_console_message", "get_network_request",
+    "handle_dialog", "hover", "list_console_messages", "list_network_requests",
+    "list_pages", "navigate_page", "new_page", "performance_start_trace",
+    "performance_stop_trace", "press_key", "resize_page", "select_page",
+    "take_screenshot", "take_snapshot", "upload_file", "wait_for"
+  ],
+  "configUrl": "https://chromedevtools.github.io/devtools-protocol/",
+  "tags": ["browser", "devtools", "debugging", "screenshots", "testing"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "hookify",
+  "name": "hookify",
+  "displayName": "Hookify",
+  "category": "Configuration",
+  "description": "Create hooks to prevent unwanted Claude Code behaviors. Analyze conversations to find patterns worth preventing, then generate hook configurations.",
+  "invocation": "/hookify",
+  "source": "plugin:hookify",
+  "tags": ["hooks", "automation", "rules", "prevention", "configuration"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

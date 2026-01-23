@@ -1,0 +1,13 @@
+{
+  "id": "canvas-design",
+  "name": "canvas-design",
+  "displayName": "Canvas Design",
+  "category": "Design",
+  "description": "Create beautiful visual art in PNG and PDF documents using design philosophy. Create posters, artwork, and static visual pieces with original algorithmic designs.",
+  "invocation": "/canvas-design",
+  "source": "plugin:document-skills",
+  "tags": ["design", "art", "visual", "poster", "pdf", "png"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

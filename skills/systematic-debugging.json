@@ -1,0 +1,13 @@
+{
+  "id": "systematic-debugging",
+  "name": "systematic-debugging",
+  "displayName": "Systematic Debugging",
+  "category": "Development",
+  "description": "Structured approach to debugging errors, test failures, and unexpected behavior. Uses hypothesis-driven investigation and evidence gathering.",
+  "invocation": "/systematic-debugging",
+  "source": "plugin:superpowers",
+  "tags": ["debugging", "errors", "troubleshooting", "testing", "investigation"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

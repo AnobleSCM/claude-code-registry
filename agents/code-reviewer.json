@@ -1,0 +1,13 @@
+{
+  "id": "code-reviewer",
+  "name": "code-reviewer",
+  "displayName": "Code Reviewer",
+  "category": "Quality",
+  "description": "Expert code review specialist. Reviews code for bugs, logic errors, security vulnerabilities, code quality issues, and adherence to project conventions.",
+  "invocation": "Task tool with subagent_type=\"code-reviewer\"",
+  "source": "built-in",
+  "tags": ["review", "quality", "bugs", "security", "conventions"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

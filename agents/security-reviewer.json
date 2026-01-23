@@ -1,0 +1,13 @@
+{
+  "id": "security-reviewer",
+  "name": "security-reviewer",
+  "displayName": "Security Reviewer",
+  "category": "Security",
+  "description": "Security-focused code review specialist with minimal permissions. Read-only access ensures safe security audits for auth, data handling, and payment security.",
+  "invocation": "Task tool with subagent_type=\"security-reviewer\"",
+  "source": "built-in",
+  "tags": ["security", "audit", "vulnerabilities", "owasp", "authentication"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

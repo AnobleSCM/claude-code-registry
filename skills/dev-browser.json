@@ -1,0 +1,13 @@
+{
+  "id": "dev-browser",
+  "name": "dev-browser",
+  "displayName": "Dev Browser",
+  "category": "Development",
+  "description": "Browser automation that maintains page state across script executions. Write small, focused Playwright scripts to accomplish tasks incrementally with persistent pages.",
+  "invocation": "/dev-browser",
+  "source": "plugin:dev-browser",
+  "tags": ["browser", "automation", "playwright", "testing", "screenshots"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

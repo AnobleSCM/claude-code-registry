@@ -1,0 +1,13 @@
+{
+  "id": "e2e-test-writer",
+  "name": "e2e-test-writer",
+  "displayName": "E2E Test Writer",
+  "category": "Testing",
+  "description": "Writes Playwright E2E tests for features and bug fixes. Creates comprehensive browser-based tests covering user flows.",
+  "invocation": "Task tool with subagent_type=\"e2e-test-writer\"",
+  "source": "built-in",
+  "tags": ["e2e", "playwright", "testing", "browser", "automation"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

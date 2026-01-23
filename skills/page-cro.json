@@ -1,0 +1,13 @@
+{
+  "id": "page-cro",
+  "name": "page-cro",
+  "displayName": "Page CRO",
+  "category": "Marketing",
+  "description": "Optimize, improve, or increase conversions on any marketing page including homepage, landing pages, pricing pages, feature pages, or blog posts.",
+  "invocation": "/page-cro",
+  "source": "userSettings",
+  "tags": ["cro", "conversion", "optimization", "landing-page", "a-b-testing"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

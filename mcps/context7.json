@@ -1,0 +1,18 @@
+{
+  "id": "context7",
+  "name": "context7",
+  "displayName": "Context7",
+  "category": "Documentation",
+  "description": "Retrieve up-to-date documentation and code examples for any programming library or framework. Resolves library names to IDs and queries current docs.",
+  "status": "community",
+  "toolCount": 2,
+  "tools": [
+    "resolve-library-id",
+    "query-docs"
+  ],
+  "configUrl": "https://context7.com",
+  "tags": ["documentation", "libraries", "frameworks", "api-docs", "reference"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

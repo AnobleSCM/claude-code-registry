@@ -1,0 +1,13 @@
+{
+  "id": "brainstorming",
+  "name": "brainstorming",
+  "displayName": "Brainstorming",
+  "category": "Planning",
+  "description": "Turn ideas into fully formed designs and specs through collaborative dialogue. Asks questions one at a time, proposes approaches with trade-offs, and presents designs in validated sections.",
+  "invocation": "/brainstorming",
+  "source": "plugin:superpowers",
+  "tags": ["planning", "design", "ideation", "collaboration", "specs"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

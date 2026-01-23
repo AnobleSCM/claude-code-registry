@@ -1,27 +1,24 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-01-23",
-  "count": 20,
-  "items": [
-    "frontend-design",
-    "commit",
-    "review-pr",
-    "webapp-testing",
+  "skills": [
     "brainstorming",
-    "debugging",
+    "canvas-design",
+    "commit",
     "copywriting",
-    "pricing-strategy",
+    "dev-browser",
+    "email-sequence",
+    "feature-dev",
+    "frontend-design",
+    "hookify",
     "launch-strategy",
     "marketing-psychology",
     "page-cro",
-    "email-sequence",
-    "seo-audit",
+    "pricing-strategy",
+    "review-pr",
     "stripe-best-practices",
-    "ui-ux-pro-max",
-    "doc-coauthoring",
-    "brand-guidelines",
-    "canvas-design",
-    "algorithmic-art",
-    "mcp-builder"
+    "systematic-debugging",
+    "test-driven-development",
+    "webapp-testing"
   ]
 }

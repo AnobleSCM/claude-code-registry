@@ -1,0 +1,20 @@
+{
+  "id": "ios-simulator",
+  "name": "ios-simulator",
+  "displayName": "iOS Simulator",
+  "category": "Mobile",
+  "description": "Control iOS Simulator for mobile app testing. Take screenshots, tap, swipe, type text, install apps, launch apps, and record videos.",
+  "status": "community",
+  "toolCount": 14,
+  "tools": [
+    "get_booted_sim_id", "open_simulator", "ui_describe_all",
+    "ui_tap", "ui_type", "ui_swipe", "ui_describe_point", "ui_view",
+    "screenshot", "record_video", "stop_recording", "install_app",
+    "launch_app"
+  ],
+  "configUrl": "https://github.com/anthropics/mcp-servers",
+  "tags": ["ios", "simulator", "mobile", "testing", "screenshots"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

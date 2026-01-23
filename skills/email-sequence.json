@@ -1,0 +1,13 @@
+{
+  "id": "email-sequence",
+  "name": "email-sequence",
+  "displayName": "Email Sequence",
+  "category": "Marketing",
+  "description": "Create or optimize email sequences, drip campaigns, automated email flows, or lifecycle email programs including welcome sequences, nurture sequences, and re-engagement emails.",
+  "invocation": "/email-sequence",
+  "source": "userSettings",
+  "tags": ["email", "drip", "automation", "onboarding", "nurture"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

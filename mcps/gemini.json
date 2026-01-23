@@ -1,0 +1,20 @@
+{
+  "id": "gemini",
+  "name": "gemini",
+  "displayName": "Gemini Co-founder",
+  "category": "AI",
+  "description": "Get product/UX/engineering feedback from AI co-founder. Supports multiple personas (pm, founder, engineer, designer, etc.), modes (quick, deep, spec), and triangulation for multi-perspective review.",
+  "status": "community",
+  "toolCount": 4,
+  "tools": [
+    "ask_cofounder",
+    "compare_options",
+    "triangulate",
+    "cofounder_sessions"
+  ],
+  "configUrl": null,
+  "tags": ["ai", "feedback", "product", "ux", "review", "personas"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

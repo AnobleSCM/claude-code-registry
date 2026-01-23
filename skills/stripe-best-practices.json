@@ -1,0 +1,13 @@
+{
+  "id": "stripe-best-practices",
+  "name": "stripe-best-practices",
+  "displayName": "Stripe Best Practices",
+  "category": "Development",
+  "description": "Best practices for building Stripe integrations. Use when implementing payment processing, checkout flows, subscriptions, webhooks, Connect platforms, or any Stripe API integration.",
+  "invocation": "/stripe-best-practices",
+  "source": "userSettings",
+  "tags": ["stripe", "payments", "subscriptions", "webhooks", "checkout"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

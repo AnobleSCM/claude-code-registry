@@ -1,0 +1,13 @@
+{
+  "id": "marketing-psychology",
+  "name": "marketing-psychology",
+  "displayName": "Marketing Psychology",
+  "category": "Marketing",
+  "description": "Apply psychological principles, mental models, and behavioral science to marketing. Includes 70+ mental models for understanding why people buy and how to influence behavior ethically.",
+  "invocation": "/marketing-psychology",
+  "source": "userSettings",
+  "tags": ["psychology", "persuasion", "behavior", "conversion", "mental-models"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

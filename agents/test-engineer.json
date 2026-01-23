@@ -1,0 +1,13 @@
+{
+  "id": "test-engineer",
+  "name": "test-engineer",
+  "displayName": "Test Engineer",
+  "category": "Testing",
+  "description": "Test automation expert for writing comprehensive tests. Use proactively when new features are implemented or code is modified.",
+  "invocation": "Task tool with subagent_type=\"test-engineer\"",
+  "source": "built-in",
+  "tags": ["testing", "automation", "unit-tests", "integration", "coverage"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

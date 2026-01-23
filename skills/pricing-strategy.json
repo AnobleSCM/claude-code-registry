@@ -1,0 +1,13 @@
+{
+  "id": "pricing-strategy",
+  "name": "pricing-strategy",
+  "displayName": "Pricing Strategy",
+  "category": "Marketing",
+  "description": "Expert guidance on SaaS pricing and monetization. Includes Van Westendorp analysis, value metrics, tier structure design, freemium vs trials, and when to raise prices.",
+  "invocation": "/pricing-strategy",
+  "source": "userSettings",
+  "tags": ["pricing", "monetization", "saas", "tiers", "freemium"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}
