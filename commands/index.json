@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-01-23",
+  "count": 12,
+  "items": [
+    "help",
+    "clear",
+    "compact",
+    "config",
+    "cost",
+    "doctor",
+    "init",
+    "login",
+    "logout",
+    "memory",
+    "permissions",
+    "review"
+  ]
+}

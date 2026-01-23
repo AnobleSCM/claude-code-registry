@@ -1,0 +1,13 @@
+{
+  "id": "review-pr",
+  "name": "review-pr",
+  "displayName": "Review PR",
+  "category": "Git",
+  "description": "Comprehensive PR review using specialized agents. Reviews code for bugs, style, security, and best practices.",
+  "invocation": "/review-pr",
+  "source": "plugin:pr-review-toolkit",
+  "tags": ["git", "code-review", "pull-request", "quality"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

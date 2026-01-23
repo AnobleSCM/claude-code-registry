@@ -1,0 +1,13 @@
+{
+  "id": "commit",
+  "name": "commit",
+  "displayName": "Commit",
+  "category": "Git",
+  "description": "Create well-formatted git commits with proper messages following repository conventions.",
+  "invocation": "/commit",
+  "source": "built-in",
+  "tags": ["git", "version-control", "commits"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

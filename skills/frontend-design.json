@@ -1,0 +1,13 @@
+{
+  "id": "frontend-design",
+  "name": "frontend-design",
+  "displayName": "Frontend Design",
+  "category": "Design",
+  "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when building web components, pages, or applications.",
+  "invocation": "/frontend-design",
+  "source": "plugin:document-skills",
+  "tags": ["ui", "react", "design", "frontend", "components", "tailwind"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

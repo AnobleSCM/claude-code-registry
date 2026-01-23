@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-01-23",
+  "count": 8,
+  "items": [
+    "github",
+    "stripe",
+    "firebase",
+    "chrome-devtools",
+    "ios-simulator",
+    "context7",
+    "gemini",
+    "serena"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "description": "Supabase integration for database, authentication, storage, and edge functions.",
+  "provider": "Supabase",
+  "toolCount": 15,
+  "tools": [
+    "query",
+    "insert",
+    "update",
+    "delete",
+    "rpc",
+    "auth_sign_up",
+    "auth_sign_in",
+    "storage_upload",
+    "storage_download",
+    "storage_list"
+  ],
+  "installUrl": "https://supabase.com/docs/guides/ai/mcp",
+  "documentationUrl": "https://supabase.com/docs",
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

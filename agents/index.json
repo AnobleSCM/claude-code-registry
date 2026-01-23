@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-01-23",
+  "count": 12,
+  "items": [
+    "explore",
+    "plan",
+    "debugger",
+    "code-reviewer",
+    "test-engineer",
+    "security-reviewer",
+    "frontend-developer",
+    "backend-architect",
+    "mobile-developer",
+    "ui-ux-designer",
+    "clean-code-reviewer",
+    "session-starter"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "explore",
+  "name": "Explore",
+  "displayName": "Explore",
+  "category": "Research",
+  "description": "Fast agent specialized for exploring codebases. Use this when you need to quickly find files by patterns, search code for keywords, or answer questions about the codebase.",
+  "invocation": "Task tool with subagent_type=\"Explore\"",
+  "capabilities": [
+    "Find files by glob patterns",
+    "Search code for keywords",
+    "Answer questions about codebase structure",
+    "Quick exploration without modifying files"
+  ],
+  "tools": ["Glob", "Grep", "Read", "LS"],
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-01-23",
+  "count": 15,
+  "items": [
+    "read",
+    "write",
+    "edit",
+    "bash",
+    "glob",
+    "grep",
+    "task",
+    "web-search",
+    "web-fetch",
+    "lsp",
+    "todo-write",
+    "ask-user-question",
+    "skill",
+    "enter-plan-mode",
+    "exit-plan-mode"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "help",
+  "name": "/help",
+  "description": "Get help with using Claude Code. Shows available commands and usage information.",
+  "shortcut": "?",
+  "arguments": [],
+  "addedAt": "2026-01-23",
+  "updatedAt": "2026-01-23"
+}
