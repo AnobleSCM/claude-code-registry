@@ -1,7 +1,8 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-01-23",
-  "mcps": [
+  "count": 8,
+  "items": [
     "chrome-devtools",
     "context7",
     "firebase",

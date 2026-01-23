@@ -1,7 +1,8 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-01-23",
-  "agents": [
+  "count": 7,
+  "items": [
     "code-reviewer",
     "debugger",
     "e2e-test-writer",
