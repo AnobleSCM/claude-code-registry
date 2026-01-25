@@ -1,27 +1,13 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-01-24",
-  "count": 20,
+  "count": 6,
   "items": [
-    "ask-user-question",
-    "bash",
-    "edit",
-    "enter-plan-mode",
-    "exit-plan-mode",
-    "glob",
-    "grep",
     "kill-shell",
     "list-mcp-resources",
-    "lsp",
     "notebook-edit",
-    "read",
     "read-mcp-resource",
-    "skill",
-    "task",
-    "task-output",
-    "todo-write",
-    "web-fetch",
-    "web-search",
-    "write"
+    "read",
+    "task-output"
   ]
 }
