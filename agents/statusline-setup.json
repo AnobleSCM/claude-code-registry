@@ -1,0 +1,14 @@
+{
+  "id": "statusline-setup",
+  "name": "statusline-setup",
+  "displayName": "Status Line Setup",
+  "category": "Built-in",
+  "description": "Configure the user's Claude Code status line setting.",
+  "invocation": "Task tool with subagent_type=statusline-setup",
+  "tools": ["Read", "Edit"],
+  "source": "built-in",
+  "tags": ["configuration", "settings", "statusline"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

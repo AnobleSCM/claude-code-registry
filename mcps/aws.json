@@ -1,0 +1,15 @@
+{
+  "id": "aws",
+  "name": "AWS",
+  "displayName": "AWS",
+  "category": "Cloud",
+  "description": "AWS cloud services integration. S3 operations, Lambda invocations, and other AWS service interactions.",
+  "npmPackage": "@anthropic/mcp-server-aws",
+  "tools": ["s3_list_buckets", "s3_get_object", "s3_put_object", "lambda_invoke", "sts_get_caller_identity"],
+  "resources": [],
+  "source": "official",
+  "tags": ["aws", "cloud", "s3", "lambda"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-aws",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

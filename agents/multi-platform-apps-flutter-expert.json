@@ -1,0 +1,14 @@
+{
+  "id": "multi-platform-apps-flutter-expert",
+  "name": "multi-platform-apps:flutter-expert",
+  "displayName": "Flutter Expert",
+  "category": "Plugin - multi-platform-apps",
+  "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state management, animations, testing, and performance optimization for mobile, web, desktop, and embedded platforms.",
+  "invocation": "Task tool with subagent_type=multi-platform-apps:flutter-expert",
+  "tools": ["*"],
+  "source": "multi-platform-apps",
+  "tags": ["flutter", "dart", "cross-platform", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "writing-skills",
+  "name": "writing-skills",
+  "displayName": "Writing Skills",
+  "category": "Superpowers",
+  "description": "Create new custom skills with SKILL.md files, frontmatter configuration, supporting files, and proper invocation setup.",
+  "invocation": "/writing-skills",
+  "source": "superpowers",
+  "tags": ["skills", "creation", "customization", "workflow"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

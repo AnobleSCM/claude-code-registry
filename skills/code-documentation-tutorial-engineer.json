@@ -1,0 +1,13 @@
+{
+  "id": "code-documentation-tutorial-engineer",
+  "name": "code-documentation:tutorial-engineer",
+  "displayName": "Tutorial Engineer",
+  "category": "Plugin - code-documentation",
+  "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.",
+  "invocation": "Task tool with code-documentation:tutorial-engineer",
+  "source": "code-documentation",
+  "tags": ["tutorials", "education", "documentation", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

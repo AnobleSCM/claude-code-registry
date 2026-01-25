@@ -1,0 +1,13 @@
+{
+  "id": "undo",
+  "name": "/undo",
+  "displayName": "Undo",
+  "category": "Built-in",
+  "description": "Undo the last file change or action performed by Claude Code.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["undo", "revert", "history"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

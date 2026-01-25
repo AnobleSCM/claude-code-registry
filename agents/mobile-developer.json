@@ -1,0 +1,14 @@
+{
+  "id": "mobile-developer",
+  "name": "mobile-developer",
+  "displayName": "Mobile Developer",
+  "category": "Built-in",
+  "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, and app store optimization.",
+  "invocation": "Task tool with subagent_type=mobile-developer",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["mobile", "react-native", "flutter"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

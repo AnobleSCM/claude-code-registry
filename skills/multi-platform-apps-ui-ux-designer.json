@@ -1,0 +1,13 @@
+{
+  "id": "multi-platform-apps-ui-ux-designer",
+  "name": "multi-platform-apps:ui-ux-designer",
+  "displayName": "UI/UX Designer",
+  "category": "Plugin - multi-platform-apps",
+  "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens and inclusive design.",
+  "invocation": "Task tool with multi-platform-apps:ui-ux-designer",
+  "source": "multi-platform-apps",
+  "tags": ["ui", "ux", "design", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

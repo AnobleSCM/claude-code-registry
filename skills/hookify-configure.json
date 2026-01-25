@@ -1,0 +1,13 @@
+{
+  "id": "hookify-configure",
+  "name": "hookify:configure",
+  "displayName": "Hookify Configure",
+  "category": "Plugin - hookify",
+  "description": "Enable or disable hookify rules interactively. Manage which hooks are active for preventing unwanted behaviors.",
+  "invocation": "/hookify:configure",
+  "source": "hookify",
+  "tags": ["hooks", "configuration", "automation", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

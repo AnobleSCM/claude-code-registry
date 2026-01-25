@@ -1,0 +1,13 @@
+{
+  "id": "stripe-test-cards",
+  "name": "stripe:test-cards",
+  "displayName": "Stripe Test Cards",
+  "category": "Plugin - stripe",
+  "description": "Display Stripe test card numbers for various testing scenarios. Quick reference for payment testing.",
+  "invocation": "/stripe:test-cards",
+  "source": "stripe",
+  "tags": ["stripe", "payments", "testing", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

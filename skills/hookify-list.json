@@ -1,0 +1,13 @@
+{
+  "id": "hookify-list",
+  "name": "hookify:list",
+  "displayName": "Hookify List",
+  "category": "Plugin - hookify",
+  "description": "List all configured hookify rules. View active hooks and their configurations.",
+  "invocation": "/hookify:list",
+  "source": "hookify",
+  "tags": ["hooks", "listing", "configuration", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

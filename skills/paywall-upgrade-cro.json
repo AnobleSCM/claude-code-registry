@@ -1,0 +1,13 @@
+{
+  "id": "paywall-upgrade-cro",
+  "name": "paywall-upgrade-cro",
+  "displayName": "Paywall Upgrade CRO",
+  "category": "Marketing",
+  "description": "Create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Focuses on in-product upgrade moments where user has already experienced value.",
+  "invocation": "/paywall-upgrade-cro",
+  "source": "superpowers",
+  "tags": ["marketing", "cro", "paywall", "upsell", "freemium", "conversion"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

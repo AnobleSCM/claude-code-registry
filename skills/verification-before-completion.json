@@ -1,0 +1,13 @@
+{
+  "id": "verification-before-completion",
+  "name": "verification-before-completion",
+  "displayName": "Verification Before Completion",
+  "category": "Superpowers",
+  "description": "Verify work before claiming done. Ensures actual command output is present, exit codes verified, failure counts checked. Never claim completion without evidence.",
+  "invocation": "/verification-before-completion",
+  "source": "superpowers",
+  "tags": ["verification", "quality", "workflow", "completion"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

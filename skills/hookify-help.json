@@ -1,0 +1,13 @@
+{
+  "id": "hookify-help",
+  "name": "hookify:help",
+  "displayName": "Hookify Help",
+  "category": "Plugin - hookify",
+  "description": "Get help with the hookify plugin. Learn how to create and manage hooks for preventing unwanted behaviors.",
+  "invocation": "/hookify:help",
+  "source": "hookify",
+  "tags": ["hooks", "help", "documentation", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

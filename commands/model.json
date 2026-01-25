@@ -1,0 +1,13 @@
+{
+  "id": "model",
+  "name": "/model",
+  "displayName": "Model",
+  "category": "Built-in",
+  "description": "Switch between available Claude models (Opus, Sonnet, Haiku).",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["model", "switch", "claude"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

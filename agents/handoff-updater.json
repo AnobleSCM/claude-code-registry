@@ -1,0 +1,14 @@
+{
+  "id": "handoff-updater",
+  "name": "handoff-updater",
+  "displayName": "Handoff Updater",
+  "category": "Built-in",
+  "description": "Updates project handoff documentation after every session to maintain continuity between sessions.",
+  "invocation": "Task tool with subagent_type=handoff-updater",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["documentation", "handoff", "session", "continuity"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

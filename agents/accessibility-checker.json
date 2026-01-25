@@ -1,0 +1,14 @@
+{
+  "id": "accessibility-checker",
+  "name": "accessibility-checker",
+  "displayName": "Accessibility Checker",
+  "category": "Built-in",
+  "description": "Verifies WCAG compliance and accessibility standards in UI code and components.",
+  "invocation": "Task tool with subagent_type=accessibility-checker",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["accessibility", "wcag", "a11y", "compliance"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

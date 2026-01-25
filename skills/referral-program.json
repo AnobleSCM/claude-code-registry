@@ -1,0 +1,13 @@
+{
+  "id": "referral-program",
+  "name": "referral-program",
+  "displayName": "Referral Program",
+  "category": "Marketing",
+  "description": "Create, optimize, or analyze referral programs, affiliate programs, or word-of-mouth strategies. Covers program design, incentive structure, and growth optimization.",
+  "invocation": "/referral-program",
+  "source": "superpowers",
+  "tags": ["marketing", "referral", "affiliate", "viral", "word-of-mouth"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "think",
+  "name": "/think",
+  "displayName": "Extended Thinking",
+  "category": "Built-in",
+  "description": "Enable extended thinking mode for complex reasoning and analysis tasks.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["thinking", "reasoning", "analysis"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

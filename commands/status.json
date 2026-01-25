@@ -1,0 +1,13 @@
+{
+  "id": "status",
+  "name": "/status",
+  "displayName": "Status",
+  "category": "Built-in",
+  "description": "Show current session status including active tasks, background processes, and system state.",
+  "aliases": ["/tasks"],
+  "source": "built-in",
+  "tags": ["status", "tasks", "session"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

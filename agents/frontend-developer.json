@@ -1,0 +1,14 @@
+{
+  "id": "frontend-developer",
+  "name": "frontend-developer",
+  "displayName": "Frontend Developer",
+  "category": "Built-in",
+  "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
+  "invocation": "Task tool with subagent_type=frontend-developer",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["frontend", "react", "nextjs"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

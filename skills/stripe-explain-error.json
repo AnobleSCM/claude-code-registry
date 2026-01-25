@@ -1,0 +1,13 @@
+{
+  "id": "stripe-explain-error",
+  "name": "stripe:explain-error",
+  "displayName": "Stripe Explain Error",
+  "category": "Plugin - stripe",
+  "description": "Explain Stripe error codes and provide solutions with code examples. Debug payment integration issues quickly.",
+  "invocation": "/stripe:explain-error",
+  "source": "stripe",
+  "tags": ["stripe", "payments", "debugging", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

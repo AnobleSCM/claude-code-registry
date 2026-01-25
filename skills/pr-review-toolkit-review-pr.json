@@ -1,0 +1,13 @@
+{
+  "id": "pr-review-toolkit-review-pr",
+  "name": "pr-review-toolkit:review-pr",
+  "displayName": "Review PR",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Comprehensive PR review using specialized agents. Analyzes code quality, security, test coverage, and adherence to project guidelines.",
+  "invocation": "/review-pr",
+  "source": "pr-review-toolkit",
+  "tags": ["code-review", "pull-requests", "quality", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

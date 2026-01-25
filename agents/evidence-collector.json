@@ -1,0 +1,14 @@
+{
+  "id": "evidence-collector",
+  "name": "evidence-collector",
+  "displayName": "Evidence Collector",
+  "category": "Built-in",
+  "description": "Generates Evidence Packs after implementation work to document changes and verification.",
+  "invocation": "Task tool with subagent_type=evidence-collector",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["documentation", "evidence", "verification", "reports"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

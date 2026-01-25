@@ -1,0 +1,13 @@
+{
+  "id": "bug",
+  "name": "/bug",
+  "displayName": "Report Bug",
+  "category": "Built-in",
+  "description": "Report a bug or issue with Claude Code to the development team.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["bug", "report", "feedback"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

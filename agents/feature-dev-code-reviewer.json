@@ -1,0 +1,14 @@
+{
+  "id": "feature-dev-code-reviewer",
+  "name": "feature-dev:code-reviewer",
+  "displayName": "Feature Dev Code Reviewer",
+  "category": "Plugin - feature-dev",
+  "description": "Reviews code for bugs, logic errors, security vulnerabilities, code quality issues, and adherence to project conventions, using confidence-based filtering to report only high-priority issues.",
+  "invocation": "Task tool with subagent_type=feature-dev:code-reviewer",
+  "tools": ["Glob", "Grep", "LS", "Read", "NotebookRead", "WebFetch", "TodoWrite", "WebSearch", "KillShell", "BashOutput"],
+  "source": "feature-dev",
+  "tags": ["review", "quality", "bugs", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

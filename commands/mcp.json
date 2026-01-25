@@ -1,0 +1,13 @@
+{
+  "id": "mcp",
+  "name": "/mcp",
+  "displayName": "MCP Management",
+  "category": "Built-in",
+  "description": "Manage MCP (Model Context Protocol) servers and connections.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["mcp", "servers", "protocol"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

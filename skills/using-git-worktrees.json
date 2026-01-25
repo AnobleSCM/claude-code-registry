@@ -1,0 +1,13 @@
+{
+  "id": "using-git-worktrees",
+  "name": "using-git-worktrees",
+  "displayName": "Using Git Worktrees",
+  "category": "Superpowers",
+  "description": "Parallel development with git worktrees. Work on multiple branches simultaneously without stashing or switching contexts.",
+  "invocation": "/using-git-worktrees",
+  "source": "superpowers",
+  "tags": ["git", "worktrees", "parallel", "branches", "workflow"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "audit-runner",
+  "name": "audit-runner",
+  "displayName": "Audit Runner",
+  "category": "Built-in",
+  "description": "Runs comprehensive audits across multiple surfaces in parallel.",
+  "invocation": "Task tool with subagent_type=audit-runner",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["audit", "analysis", "parallel", "comprehensive"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

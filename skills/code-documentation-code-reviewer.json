@@ -1,0 +1,13 @@
+{
+  "id": "code-documentation-code-reviewer",
+  "name": "code-documentation:code-reviewer",
+  "displayName": "Code Docs Code Reviewer",
+  "category": "Plugin - code-documentation",
+  "description": "Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities, performance optimization, and production reliability.",
+  "invocation": "Task tool with code-documentation:code-reviewer",
+  "source": "code-documentation",
+  "tags": ["code-review", "security", "performance", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

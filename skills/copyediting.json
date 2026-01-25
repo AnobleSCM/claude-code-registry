@@ -1,0 +1,13 @@
+{
+  "id": "copyediting",
+  "name": "copyediting",
+  "displayName": "Copyediting",
+  "category": "Marketing",
+  "description": "Edit, review, or improve existing marketing copy. Provides systematic approach to editing through multiple focused passes including proofreading, polish, and copy sweep.",
+  "invocation": "/copyediting",
+  "source": "superpowers",
+  "tags": ["marketing", "copywriting", "editing", "proofreading"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

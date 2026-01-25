@@ -1,0 +1,14 @@
+{
+  "id": "debugging-toolkit-debugger",
+  "name": "debugging-toolkit:debugger",
+  "displayName": "Debugging Toolkit Debugger",
+  "category": "Plugin - debugging-toolkit",
+  "description": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.",
+  "invocation": "Task tool with subagent_type=debugging-toolkit:debugger",
+  "tools": ["*"],
+  "source": "debugging-toolkit",
+  "tags": ["debugging", "errors", "testing", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

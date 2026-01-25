@@ -1,0 +1,13 @@
+{
+  "id": "multi-platform-apps-frontend-developer",
+  "name": "multi-platform-apps:frontend-developer",
+  "displayName": "Frontend Developer",
+  "category": "Plugin - multi-platform-apps",
+  "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
+  "invocation": "Task tool with multi-platform-apps:frontend-developer",
+  "source": "multi-platform-apps",
+  "tags": ["react", "frontend", "nextjs", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

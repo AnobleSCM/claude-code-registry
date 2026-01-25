@@ -1,0 +1,13 @@
+{
+  "id": "form-cro",
+  "name": "form-cro",
+  "displayName": "Form CRO",
+  "category": "Marketing",
+  "description": "Optimize forms that are NOT signup/registration - including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms.",
+  "invocation": "/form-cro",
+  "source": "superpowers",
+  "tags": ["marketing", "cro", "forms", "conversion", "lead-capture"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

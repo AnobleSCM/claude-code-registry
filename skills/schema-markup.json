@@ -1,0 +1,13 @@
+{
+  "id": "schema-markup",
+  "name": "schema-markup",
+  "displayName": "Schema Markup",
+  "category": "Marketing",
+  "description": "Add, fix, or optimize schema markup and structured data. JSON-LD, rich snippets, FAQ schema, product schema, review schema, breadcrumb schema.",
+  "invocation": "/schema-markup",
+  "source": "superpowers",
+  "tags": ["marketing", "seo", "schema", "json-ld", "structured-data"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

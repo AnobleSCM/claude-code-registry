@@ -1,0 +1,13 @@
+{
+  "id": "multi-platform-apps-mobile-developer",
+  "name": "multi-platform-apps:mobile-developer",
+  "displayName": "Mobile Developer",
+  "category": "Plugin - multi-platform-apps",
+  "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, and app store optimization.",
+  "invocation": "Task tool with multi-platform-apps:mobile-developer",
+  "source": "multi-platform-apps",
+  "tags": ["mobile", "react-native", "cross-platform", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "postgres",
+  "name": "PostgreSQL",
+  "displayName": "PostgreSQL",
+  "category": "Database",
+  "description": "PostgreSQL database integration. Execute queries, manage schemas, and interact with PostgreSQL databases.",
+  "npmPackage": "@anthropic/mcp-server-postgres",
+  "tools": ["query"],
+  "resources": [],
+  "source": "official",
+  "tags": ["database", "postgresql", "sql", "data"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-postgres",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

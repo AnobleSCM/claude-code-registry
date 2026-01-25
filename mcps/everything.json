@@ -1,0 +1,15 @@
+{
+  "id": "everything",
+  "name": "Everything",
+  "displayName": "Everything",
+  "category": "Testing",
+  "description": "MCP test server with all capability types. Demonstrates prompts, resources, tools, sampling, and logging for testing and learning.",
+  "npmPackage": "@anthropic/mcp-server-everything",
+  "tools": ["echo", "add", "longRunningOperation", "sampleLLM", "getTinyImage"],
+  "resources": [],
+  "source": "official",
+  "tags": ["testing", "demo", "reference", "learning"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-everything",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

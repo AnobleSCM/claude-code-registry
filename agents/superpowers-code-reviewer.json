@@ -1,0 +1,14 @@
+{
+  "id": "superpowers-code-reviewer",
+  "name": "superpowers:code-reviewer",
+  "displayName": "Superpowers Code Reviewer",
+  "category": "Plugin - superpowers",
+  "description": "Use when a major project step has been completed and needs to be reviewed against the original plan and coding standards.",
+  "invocation": "Task tool with subagent_type=superpowers:code-reviewer",
+  "tools": ["*"],
+  "source": "superpowers",
+  "tags": ["review", "plans", "standards", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

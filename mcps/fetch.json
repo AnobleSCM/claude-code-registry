@@ -1,0 +1,15 @@
+{
+  "id": "fetch",
+  "name": "Fetch",
+  "displayName": "Fetch",
+  "category": "Web",
+  "description": "Fetch web content with markdown conversion. Retrieve and process web pages for analysis.",
+  "npmPackage": "@anthropic/mcp-server-fetch",
+  "tools": ["fetch"],
+  "resources": [],
+  "source": "official",
+  "tags": ["web", "fetch", "http", "scraping"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-fetch",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

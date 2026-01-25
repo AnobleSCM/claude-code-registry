@@ -1,0 +1,13 @@
+{
+  "id": "pr-review-toolkit-type-design-analyzer",
+  "name": "pr-review-toolkit:type-design-analyzer",
+  "displayName": "Type Design Analyzer",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Expert analysis of type design for encapsulation, invariant expression, usefulness, and enforcement. Reviews new or refactored types.",
+  "invocation": "Task tool with pr-review-toolkit:type-design-analyzer",
+  "source": "pr-review-toolkit",
+  "tags": ["typescript", "types", "design", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-comments",
+  "name": "/pr-comments",
+  "displayName": "PR Comments",
+  "category": "Built-in",
+  "description": "View and respond to pull request comments from GitHub.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["github", "pr", "comments", "review"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

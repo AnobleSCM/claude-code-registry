@@ -1,13 +1,13 @@
 {
   "id": "feature-dev",
-  "name": "feature-dev",
+  "name": "feature-dev:feature-dev",
   "displayName": "Feature Dev",
-  "category": "Development",
+  "category": "Plugin - feature-dev",
   "description": "Guided feature development with codebase understanding and architecture focus. Includes code-architect for blueprints, code-explorer for analysis, and code-reviewer for quality.",
   "invocation": "/feature-dev",
-  "source": "plugin:feature-dev",
-  "tags": ["features", "development", "architecture", "planning", "implementation"],
+  "source": "feature-dev",
+  "tags": ["features", "development", "architecture", "planning", "implementation", "plugin"],
   "documentationUrl": null,
-  "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23"
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
 }

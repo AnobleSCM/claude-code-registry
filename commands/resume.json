@@ -1,0 +1,13 @@
+{
+  "id": "resume",
+  "name": "/resume",
+  "displayName": "Resume",
+  "category": "Built-in",
+  "description": "Resume a previous conversation or session from where it left off.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["resume", "session", "continue"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

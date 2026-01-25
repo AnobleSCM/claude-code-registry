@@ -1,0 +1,14 @@
+{
+  "id": "theme-checker",
+  "name": "theme-checker",
+  "displayName": "Theme Checker",
+  "category": "Built-in",
+  "description": "Verifies UI works correctly across multiple themes (light, dark, etc.).",
+  "invocation": "Task tool with subagent_type=theme-checker",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["themes", "ui", "verification", "dark-mode"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

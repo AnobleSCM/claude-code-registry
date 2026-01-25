@@ -1,0 +1,13 @@
+{
+  "id": "marketing-ideas",
+  "name": "marketing-ideas",
+  "displayName": "Marketing Ideas",
+  "category": "Marketing",
+  "description": "Get marketing ideas, inspiration, or strategies for SaaS or software products. Provides 140 proven marketing approaches organized by category.",
+  "invocation": "/marketing-ideas",
+  "source": "superpowers",
+  "tags": ["marketing", "growth", "strategies", "tactics", "ideas"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "debugging-toolkit-dx-optimizer",
+  "name": "debugging-toolkit:dx-optimizer",
+  "displayName": "DX Optimizer",
+  "category": "Plugin - debugging-toolkit",
+  "description": "Developer Experience specialist. Improves tooling, setup, and workflows. Use proactively when setting up new projects, after team feedback, or when development friction is noticed.",
+  "invocation": "Task tool with subagent_type=debugging-toolkit:dx-optimizer",
+  "tools": ["*"],
+  "source": "debugging-toolkit",
+  "tags": ["dx", "tooling", "workflow", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

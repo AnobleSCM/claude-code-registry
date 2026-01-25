@@ -1,0 +1,13 @@
+{
+  "id": "notebook-edit",
+  "name": "NotebookEdit",
+  "displayName": "Notebook Edit",
+  "category": "File Operations",
+  "description": "Replace, insert, or delete cells in Jupyter notebooks (.ipynb files). Supports code and markdown cell types with edit modes for replace, insert, and delete operations.",
+  "parameters": ["notebook_path", "cell_id", "cell_type", "edit_mode", "new_source"],
+  "source": "built-in",
+  "tags": ["jupyter", "notebook", "editing", "python"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "onboarding-cro",
+  "name": "onboarding-cro",
+  "displayName": "Onboarding CRO",
+  "category": "Marketing",
+  "description": "Optimize post-signup onboarding and activation flows. Distinct from signup-flow-cro which handles registration. Focuses on getting users to their 'aha moment'.",
+  "invocation": "/onboarding-cro",
+  "source": "superpowers",
+  "tags": ["marketing", "cro", "onboarding", "activation", "user-experience"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

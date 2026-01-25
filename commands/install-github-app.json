@@ -1,0 +1,13 @@
+{
+  "id": "install-github-app",
+  "name": "/install-github-app",
+  "displayName": "Install GitHub App",
+  "category": "Built-in",
+  "description": "Install the Claude Code GitHub App for enhanced GitHub integration.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["github", "app", "installation"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

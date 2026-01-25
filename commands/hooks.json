@@ -1,0 +1,13 @@
+{
+  "id": "hooks",
+  "name": "/hooks",
+  "displayName": "Hooks",
+  "category": "Built-in",
+  "description": "Manage Claude Code hooks that execute shell commands in response to events.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["hooks", "automation", "events"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

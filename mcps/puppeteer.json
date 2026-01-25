@@ -1,0 +1,15 @@
+{
+  "id": "puppeteer",
+  "name": "Puppeteer",
+  "displayName": "Puppeteer",
+  "category": "Browser",
+  "description": "Browser automation and web scraping with Puppeteer. Navigate pages, click elements, fill forms, take screenshots, and execute JavaScript.",
+  "npmPackage": "@anthropic/mcp-server-puppeteer",
+  "tools": ["puppeteer_navigate", "puppeteer_screenshot", "puppeteer_click", "puppeteer_fill", "puppeteer_select", "puppeteer_hover", "puppeteer_evaluate"],
+  "resources": [],
+  "source": "official",
+  "tags": ["browser", "automation", "scraping", "testing"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-puppeteer",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ui-ux-designer",
+  "name": "ui-ux-designer",
+  "displayName": "UI/UX Designer",
+  "category": "Built-in",
+  "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens and inclusive design.",
+  "invocation": "Task tool with subagent_type=ui-ux-designer",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["ui", "ux", "design"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

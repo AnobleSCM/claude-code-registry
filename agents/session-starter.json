@@ -1,0 +1,14 @@
+{
+  "id": "session-starter",
+  "name": "session-starter",
+  "displayName": "Session Starter",
+  "category": "Built-in",
+  "description": "Orients Claude Code at session start by reading project state and context.",
+  "invocation": "Task tool with subagent_type=session-starter",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["session", "startup", "context"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "google-maps",
+  "name": "Google Maps",
+  "displayName": "Google Maps",
+  "category": "Location",
+  "description": "Location services with Google Maps API. Geocoding, directions, places search, and distance calculations.",
+  "npmPackage": "@anthropic/mcp-server-google-maps",
+  "tools": ["maps_geocode", "maps_reverse_geocode", "maps_search_places", "maps_get_place_details", "maps_get_directions", "maps_distance_matrix"],
+  "resources": [],
+  "source": "official",
+  "tags": ["maps", "location", "geocoding", "directions"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-google-maps",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

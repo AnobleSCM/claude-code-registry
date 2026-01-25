@@ -1,0 +1,13 @@
+{
+  "id": "popup-cro",
+  "name": "popup-cro",
+  "displayName": "Popup CRO",
+  "category": "Marketing",
+  "description": "Create or optimize popups, modals, overlays, slide-ins, or banners for conversion. Exit intent, lead capture popups, email popups, announcement banners.",
+  "invocation": "/popup-cro",
+  "source": "superpowers",
+  "tags": ["marketing", "cro", "popups", "modals", "lead-capture", "exit-intent"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

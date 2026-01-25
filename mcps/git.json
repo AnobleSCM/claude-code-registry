@@ -1,0 +1,15 @@
+{
+  "id": "git",
+  "name": "Git",
+  "displayName": "Git",
+  "category": "Version Control",
+  "description": "Git repository operations. Diff viewing, log inspection, branch management without modifying repo state.",
+  "npmPackage": "@anthropic/mcp-server-git",
+  "tools": ["git_status", "git_diff_unstaged", "git_diff_staged", "git_diff", "git_commit", "git_add", "git_reset", "git_log", "git_show"],
+  "resources": [],
+  "source": "official",
+  "tags": ["git", "version-control", "diff", "commits"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-git",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-review-toolkit-code-reviewer",
+  "name": "pr-review-toolkit:code-reviewer",
+  "displayName": "PR Code Reviewer",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Reviews code for bugs, logic errors, security vulnerabilities, and adherence to project conventions with confidence-based filtering.",
+  "invocation": "Task tool with pr-review-toolkit:code-reviewer",
+  "source": "pr-review-toolkit",
+  "tags": ["code-review", "quality", "security", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

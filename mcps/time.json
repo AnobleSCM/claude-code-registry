@@ -1,0 +1,15 @@
+{
+  "id": "time",
+  "name": "Time",
+  "displayName": "Time",
+  "category": "Utility",
+  "description": "Time and timezone utilities. Get current time, convert timezones, and perform date calculations.",
+  "npmPackage": "@anthropic/mcp-server-time",
+  "tools": ["get_current_time"],
+  "resources": [],
+  "source": "official",
+  "tags": ["time", "timezone", "date", "utility"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-time",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

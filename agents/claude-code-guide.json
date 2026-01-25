@@ -1,0 +1,14 @@
+{
+  "id": "claude-code-guide",
+  "name": "claude-code-guide",
+  "displayName": "Claude Code Guide",
+  "category": "Built-in",
+  "description": "Use when user asks questions about Claude Code features, hooks, slash commands, MCP servers, settings, IDE integrations, keyboard shortcuts, Claude Agent SDK, or Claude API usage.",
+  "invocation": "Task tool with subagent_type=claude-code-guide",
+  "tools": ["Glob", "Grep", "Read", "WebFetch", "WebSearch"],
+  "source": "built-in",
+  "tags": ["documentation", "help", "guide", "claude-code"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

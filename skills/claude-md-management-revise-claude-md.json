@@ -1,0 +1,13 @@
+{
+  "id": "claude-md-management-revise-claude-md",
+  "name": "claude-md-management:revise-claude-md",
+  "displayName": "Revise CLAUDE.md",
+  "category": "Plugin - claude-md-management",
+  "description": "Update CLAUDE.md with learnings from the current session. Incorporate feedback, preferences, suggestions, or rules provided during tasks.",
+  "invocation": "/revise-claude-md",
+  "source": "claude-md-management",
+  "tags": ["claude-md", "memory", "configuration", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

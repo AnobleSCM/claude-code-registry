@@ -1,0 +1,13 @@
+{
+  "id": "read-mcp-resource",
+  "name": "ReadMcpResourceTool",
+  "displayName": "Read MCP Resource",
+  "category": "MCP",
+  "description": "Read a specific resource from an MCP server by server name and resource URI.",
+  "parameters": ["server", "uri"],
+  "source": "built-in",
+  "tags": ["mcp", "resources", "reading", "servers"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

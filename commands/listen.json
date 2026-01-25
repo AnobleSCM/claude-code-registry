@@ -1,0 +1,13 @@
+{
+  "id": "listen",
+  "name": "/listen",
+  "displayName": "Listen",
+  "category": "Built-in",
+  "description": "Enable voice input mode for dictating commands and messages.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["voice", "audio", "input"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-review-toolkit-code-simplifier",
+  "name": "pr-review-toolkit:code-simplifier",
+  "displayName": "Code Simplifier",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Simplifies complex code for better readability and maintainability. Identifies opportunities for refactoring and cleaner patterns.",
+  "invocation": "Task tool with pr-review-toolkit:code-simplifier",
+  "source": "pr-review-toolkit",
+  "tags": ["refactoring", "simplification", "quality", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

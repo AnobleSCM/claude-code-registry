@@ -1,0 +1,13 @@
+{
+  "id": "signup-flow-cro",
+  "name": "signup-flow-cro",
+  "displayName": "Signup Flow CRO",
+  "category": "Marketing",
+  "description": "Optimize signup, registration, account creation, or trial activation flows. Reduce signup dropoff and friction in account creation flows.",
+  "invocation": "/signup-flow-cro",
+  "source": "superpowers",
+  "tags": ["marketing", "cro", "signup", "registration", "conversion"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "finishing-a-development-branch",
+  "name": "finishing-a-development-branch",
+  "displayName": "Finishing a Development Branch",
+  "category": "Superpowers",
+  "description": "Complete branch work properly with verification, test runs, and clean handoff. Ensures all tests pass, presents options, and executes final steps.",
+  "invocation": "/finishing-a-development-branch",
+  "source": "superpowers",
+  "tags": ["git", "branches", "workflow", "completion", "verification"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

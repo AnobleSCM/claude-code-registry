@@ -1,0 +1,13 @@
+{
+  "id": "ask-questions-if-underspecified",
+  "name": "ask-questions-if-underspecified",
+  "displayName": "Ask Questions If Underspecified",
+  "category": "Development",
+  "description": "Clarify requirements before implementing. Use when serious doubts arise about specifications or requirements.",
+  "invocation": "/ask-questions-if-underspecified",
+  "source": "superpowers",
+  "tags": ["development", "requirements", "clarification", "workflow"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "visual-qa",
+  "name": "visual-qa",
+  "displayName": "Visual QA",
+  "category": "Built-in",
+  "description": "Captures screenshots across all themes for UI verification and visual regression testing.",
+  "invocation": "Task tool with subagent_type=visual-qa",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["visual", "qa", "screenshots", "testing", "themes"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

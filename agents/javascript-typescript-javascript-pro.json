@@ -1,0 +1,14 @@
+{
+  "id": "javascript-typescript-javascript-pro",
+  "name": "javascript-typescript:javascript-pro",
+  "displayName": "JavaScript Pro",
+  "category": "Plugin - javascript-typescript",
+  "description": "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. Use for JavaScript optimization, async debugging, or complex JS patterns.",
+  "invocation": "Task tool with subagent_type=javascript-typescript:javascript-pro",
+  "tools": ["*"],
+  "source": "javascript-typescript",
+  "tags": ["javascript", "es6", "nodejs", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

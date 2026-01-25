@@ -1,0 +1,15 @@
+{
+  "id": "sentry",
+  "name": "Sentry",
+  "displayName": "Sentry",
+  "category": "Monitoring",
+  "description": "Sentry error tracking integration. Query issues, analyze stack traces, and manage error monitoring.",
+  "npmPackage": "@anthropic/mcp-server-sentry",
+  "tools": ["get_sentry_issues", "get_sentry_issue_details"],
+  "resources": [],
+  "source": "official",
+  "tags": ["sentry", "errors", "monitoring", "debugging"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-sentry",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

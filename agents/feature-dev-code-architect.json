@@ -1,0 +1,14 @@
+{
+  "id": "feature-dev-code-architect",
+  "name": "feature-dev:code-architect",
+  "displayName": "Code Architect",
+  "category": "Plugin - feature-dev",
+  "description": "Designs feature architectures by analyzing existing codebase patterns and conventions, then providing comprehensive implementation blueprints with specific files to create/modify, component designs, data flows, and build sequences.",
+  "invocation": "Task tool with subagent_type=feature-dev:code-architect",
+  "tools": ["Glob", "Grep", "LS", "Read", "NotebookRead", "WebFetch", "TodoWrite", "WebSearch", "KillShell", "BashOutput"],
+  "source": "feature-dev",
+  "tags": ["architecture", "design", "planning", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

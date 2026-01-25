@@ -1,0 +1,13 @@
+{
+  "id": "web-artifacts-builder",
+  "name": "web-artifacts-builder",
+  "displayName": "Web Artifacts Builder",
+  "category": "Development",
+  "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). For complex artifacts requiring state management, routing, or shadcn/ui components.",
+  "invocation": "/web-artifacts-builder",
+  "source": "superpowers",
+  "tags": ["artifacts", "react", "tailwind", "shadcn", "html"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

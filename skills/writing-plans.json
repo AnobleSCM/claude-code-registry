@@ -1,0 +1,13 @@
+{
+  "id": "writing-plans",
+  "name": "writing-plans",
+  "displayName": "Writing Plans",
+  "category": "Superpowers",
+  "description": "Create comprehensive implementation plans assuming zero context. Document everything: files to touch, code, testing, docs, bite-sized tasks. DRY, YAGNI, TDD, frequent commits.",
+  "invocation": "/writing-plans",
+  "source": "superpowers",
+  "tags": ["planning", "documentation", "implementation", "workflow"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

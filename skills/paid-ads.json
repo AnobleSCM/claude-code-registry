@@ -1,0 +1,13 @@
+{
+  "id": "paid-ads",
+  "name": "paid-ads",
+  "displayName": "Paid Ads",
+  "category": "Marketing",
+  "description": "Help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Covers PPC, ad copy, creative, ROAS, CPA, retargeting, and audience targeting.",
+  "invocation": "/paid-ads",
+  "source": "superpowers",
+  "tags": ["marketing", "advertising", "ppc", "google-ads", "meta-ads", "linkedin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

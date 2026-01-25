@@ -1,0 +1,13 @@
+{
+  "id": "requesting-code-review",
+  "name": "requesting-code-review",
+  "displayName": "Requesting Code Review",
+  "category": "Superpowers",
+  "description": "Ask for reviews effectively with proper context, clear descriptions, and focused changesets that make review easier.",
+  "invocation": "/requesting-code-review",
+  "source": "superpowers",
+  "tags": ["code-review", "pull-requests", "workflow", "collaboration"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

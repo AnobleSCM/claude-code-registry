@@ -1,0 +1,14 @@
+{
+  "id": "clean-code-reviewer",
+  "name": "clean-code-reviewer",
+  "displayName": "Clean Code Reviewer",
+  "category": "Built-in",
+  "description": "Clean Code principles enforcement specialist. Reviews code for violations of Clean Code theory and best practices. Use proactively after writing code to ensure maintainability.",
+  "invocation": "Task tool with subagent_type=clean-code-reviewer",
+  "tools": ["Read", "Grep", "Glob", "Bash"],
+  "source": "built-in",
+  "tags": ["clean-code", "review", "quality"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

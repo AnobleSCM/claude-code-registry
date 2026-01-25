@@ -1,0 +1,13 @@
+{
+  "id": "multi-platform-apps-ios-developer",
+  "name": "multi-platform-apps:ios-developer",
+  "displayName": "iOS Developer",
+  "category": "Plugin - multi-platform-apps",
+  "description": "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.",
+  "invocation": "Task tool with multi-platform-apps:ios-developer",
+  "source": "multi-platform-apps",
+  "tags": ["ios", "swift", "swiftui", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

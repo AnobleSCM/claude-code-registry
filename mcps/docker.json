@@ -1,0 +1,15 @@
+{
+  "id": "docker",
+  "name": "Docker",
+  "displayName": "Docker",
+  "category": "DevOps",
+  "description": "Docker container management. List, start, stop containers, execute commands, and manage images.",
+  "npmPackage": "@anthropic/mcp-server-docker",
+  "tools": ["docker_list_containers", "docker_start_container", "docker_stop_container", "docker_exec", "docker_logs", "docker_images"],
+  "resources": [],
+  "source": "official",
+  "tags": ["docker", "containers", "devops", "deployment"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-docker",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

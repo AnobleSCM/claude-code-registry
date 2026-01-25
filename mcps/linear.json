@@ -1,0 +1,15 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "displayName": "Linear",
+  "category": "Project Management",
+  "description": "Linear issue tracking integration. Create, update, and query issues, projects, and cycles.",
+  "npmPackage": "@anthropic/mcp-server-linear",
+  "tools": ["linear_create_issue", "linear_list_issues", "linear_update_issue", "linear_search"],
+  "resources": [],
+  "source": "official",
+  "tags": ["linear", "issues", "project-management", "tracking"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-linear",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

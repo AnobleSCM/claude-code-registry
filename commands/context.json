@@ -1,0 +1,13 @@
+{
+  "id": "context",
+  "name": "/context",
+  "displayName": "Context",
+  "category": "Built-in",
+  "description": "View and manage the current context window usage and available context.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["context", "tokens", "memory"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "kill-shell",
+  "name": "KillShell",
+  "displayName": "Kill Shell",
+  "category": "Process Management",
+  "description": "Kills a running background bash shell by its ID. Use to terminate long-running shell processes.",
+  "parameters": ["shell_id"],
+  "source": "built-in",
+  "tags": ["shell", "process", "background", "termination"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

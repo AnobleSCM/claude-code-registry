@@ -1,0 +1,13 @@
+{
+  "id": "internal-comms",
+  "name": "internal-comms",
+  "displayName": "Internal Comms",
+  "category": "Documentation",
+  "description": "Write internal communications including status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, and project updates.",
+  "invocation": "/internal-comms",
+  "source": "document-skills",
+  "tags": ["documentation", "communications", "reports", "updates"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

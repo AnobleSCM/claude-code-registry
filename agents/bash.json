@@ -1,0 +1,14 @@
+{
+  "id": "bash",
+  "name": "Bash",
+  "displayName": "Bash Command Executor",
+  "category": "Built-in",
+  "description": "Command execution specialist for running bash commands. Use this for git operations, command execution, and other terminal tasks.",
+  "invocation": "Task tool with subagent_type=Bash",
+  "tools": ["Bash"],
+  "source": "built-in",
+  "tags": ["bash", "command", "terminal", "git"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

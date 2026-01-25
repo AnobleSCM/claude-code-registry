@@ -1,0 +1,13 @@
+{
+  "id": "multi-platform-apps-backend-architect",
+  "name": "multi-platform-apps:backend-architect",
+  "displayName": "Backend Architect",
+  "category": "Plugin - multi-platform-apps",
+  "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. Masters REST/GraphQL/gRPC APIs.",
+  "invocation": "Task tool with multi-platform-apps:backend-architect",
+  "source": "multi-platform-apps",
+  "tags": ["backend", "api", "microservices", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

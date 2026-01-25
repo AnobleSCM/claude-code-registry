@@ -1,0 +1,15 @@
+{
+  "id": "framelink-figma",
+  "name": "Framelink Figma",
+  "displayName": "Framelink Figma",
+  "category": "Design",
+  "description": "Get comprehensive Figma file data including layout, content, visuals, and component information. Download SVG and PNG images from Figma files.",
+  "npmPackage": "@anthropic/mcp-server-figma",
+  "tools": ["get_figma_data", "download_figma_images"],
+  "resources": [],
+  "source": "official",
+  "tags": ["figma", "design", "images", "ui"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-figma",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

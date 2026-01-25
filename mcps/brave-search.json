@@ -1,0 +1,15 @@
+{
+  "id": "brave-search",
+  "name": "Brave Search",
+  "displayName": "Brave Search",
+  "category": "Search",
+  "description": "Web and local search using Brave Search API. Privacy-focused search with comprehensive results.",
+  "npmPackage": "@anthropic/mcp-server-brave-search",
+  "tools": ["brave_web_search", "brave_local_search"],
+  "resources": [],
+  "source": "official",
+  "tags": ["search", "web", "privacy", "brave"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-brave-search",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

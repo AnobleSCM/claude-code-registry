@@ -1,0 +1,15 @@
+{
+  "id": "memory",
+  "name": "Memory",
+  "displayName": "Memory",
+  "category": "Knowledge",
+  "description": "Knowledge graph-based persistent memory. Create entities, relations, and observations that persist across conversations.",
+  "npmPackage": "@anthropic/mcp-server-memory",
+  "tools": ["create_entities", "create_relations", "add_observations", "delete_entities", "delete_observations", "delete_relations", "read_graph", "search_nodes", "open_nodes"],
+  "resources": [],
+  "source": "official",
+  "tags": ["memory", "knowledge-graph", "persistence", "context"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-memory",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

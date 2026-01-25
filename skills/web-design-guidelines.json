@@ -1,0 +1,13 @@
+{
+  "id": "web-design-guidelines",
+  "name": "web-design-guidelines",
+  "displayName": "Web Design Guidelines",
+  "category": "Development",
+  "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to review UI, check accessibility, audit design, review UX, or check site against best practices.",
+  "invocation": "/web-design-guidelines",
+  "source": "superpowers",
+  "tags": ["ui", "ux", "accessibility", "design", "guidelines"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

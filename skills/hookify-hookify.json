@@ -1,0 +1,13 @@
+{
+  "id": "hookify-hookify",
+  "name": "hookify:hookify",
+  "displayName": "Hookify",
+  "category": "Plugin - hookify",
+  "description": "Create hooks to prevent unwanted behaviors from conversation analysis or explicit instructions. Analyze conversation to find behaviors worth preventing.",
+  "invocation": "/hookify",
+  "source": "hookify",
+  "tags": ["hooks", "automation", "prevention", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

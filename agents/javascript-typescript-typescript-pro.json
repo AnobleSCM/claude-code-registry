@@ -1,0 +1,14 @@
+{
+  "id": "javascript-typescript-typescript-pro",
+  "name": "javascript-typescript:typescript-pro",
+  "displayName": "TypeScript Pro",
+  "category": "Plugin - javascript-typescript",
+  "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns. Use for TypeScript architecture or advanced typing patterns.",
+  "invocation": "Task tool with subagent_type=javascript-typescript:typescript-pro",
+  "tools": ["*"],
+  "source": "javascript-typescript",
+  "tags": ["typescript", "types", "generics", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

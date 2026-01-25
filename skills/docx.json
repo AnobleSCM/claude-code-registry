@@ -1,0 +1,13 @@
+{
+  "id": "docx",
+  "name": "docx",
+  "displayName": "DOCX",
+  "category": "Documentation",
+  "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. Work with professional .docx files.",
+  "invocation": "/docx",
+  "source": "document-skills",
+  "tags": ["documentation", "word", "docx", "documents", "editing"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

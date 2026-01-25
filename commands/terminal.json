@@ -1,0 +1,13 @@
+{
+  "id": "terminal",
+  "name": "/terminal",
+  "displayName": "Terminal",
+  "category": "Built-in",
+  "description": "Open or manage terminal sessions within Claude Code.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["terminal", "shell", "bash"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

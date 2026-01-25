@@ -1,0 +1,14 @@
+{
+  "id": "secure-reviewer",
+  "name": "secure-reviewer",
+  "displayName": "Secure Reviewer",
+  "category": "Built-in",
+  "description": "Security-focused code review specialist with minimal permissions. Read-only access ensures safe security audits.",
+  "invocation": "Task tool with subagent_type=secure-reviewer",
+  "tools": ["Read", "Grep"],
+  "source": "built-in",
+  "tags": ["security", "review", "audit", "read-only"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

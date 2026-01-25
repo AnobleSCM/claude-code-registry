@@ -1,0 +1,13 @@
+{
+  "id": "dispatching-parallel-agents",
+  "name": "dispatching-parallel-agents",
+  "displayName": "Dispatching Parallel Agents",
+  "category": "Superpowers",
+  "description": "Run multiple agents simultaneously for parallel task execution. Maximize efficiency by spawning independent agents that can work concurrently.",
+  "invocation": "/dispatching-parallel-agents",
+  "source": "superpowers",
+  "tags": ["agents", "parallel", "concurrency", "workflow", "efficiency"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

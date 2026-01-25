@@ -1,0 +1,15 @@
+{
+  "id": "slack",
+  "name": "Slack",
+  "displayName": "Slack",
+  "category": "Communication",
+  "description": "Slack workspace integration. Send messages, manage channels, search conversations, and handle reactions.",
+  "npmPackage": "@anthropic/mcp-server-slack",
+  "tools": ["slack_post_message", "slack_reply_to_thread", "slack_add_reaction", "slack_get_channel_history", "slack_get_thread_replies", "slack_search_messages", "slack_list_channels", "slack_get_users"],
+  "resources": [],
+  "source": "official",
+  "tags": ["slack", "messaging", "communication", "teams"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-slack",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

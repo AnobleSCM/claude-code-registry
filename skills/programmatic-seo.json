@@ -1,0 +1,13 @@
+{
+  "id": "programmatic-seo",
+  "name": "programmatic-seo",
+  "displayName": "Programmatic SEO",
+  "category": "Marketing",
+  "description": "Create SEO-driven pages at scale using templates and data. Directory pages, location pages, comparison pages, integration pages, and building many pages for SEO.",
+  "invocation": "/programmatic-seo",
+  "source": "superpowers",
+  "tags": ["marketing", "seo", "programmatic", "templates", "scale"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

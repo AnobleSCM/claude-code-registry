@@ -1,0 +1,13 @@
+{
+  "id": "using-superpowers",
+  "name": "using-superpowers",
+  "displayName": "Using Superpowers",
+  "category": "Superpowers",
+  "description": "Meta-skill for how to use skills effectively. Establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions.",
+  "invocation": "/using-superpowers",
+  "source": "superpowers",
+  "tags": ["meta", "skills", "workflow", "introduction"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

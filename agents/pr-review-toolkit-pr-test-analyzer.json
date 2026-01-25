@@ -1,0 +1,14 @@
+{
+  "id": "pr-review-toolkit-pr-test-analyzer",
+  "name": "pr-review-toolkit:pr-test-analyzer",
+  "displayName": "PR Test Analyzer",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Reviews pull requests for test coverage quality and completeness. Invoke after a PR is created or updated to ensure tests adequately cover new functionality and edge cases.",
+  "invocation": "Task tool with subagent_type=pr-review-toolkit:pr-test-analyzer",
+  "tools": ["*"],
+  "source": "pr-review-toolkit",
+  "tags": ["testing", "coverage", "pr", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

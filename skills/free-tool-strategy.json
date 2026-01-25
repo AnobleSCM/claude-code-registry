@@ -1,0 +1,13 @@
+{
+  "id": "free-tool-strategy",
+  "name": "free-tool-strategy",
+  "displayName": "Free Tool Strategy",
+  "category": "Marketing",
+  "description": "Plan, evaluate, or build free tools for marketing purposes - lead generation, SEO value, or brand awareness. Engineering as marketing approach for founders and technical marketers.",
+  "invocation": "/free-tool-strategy",
+  "source": "superpowers",
+  "tags": ["marketing", "lead-generation", "seo", "engineering-as-marketing"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

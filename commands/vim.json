@@ -1,0 +1,13 @@
+{
+  "id": "vim",
+  "name": "/vim",
+  "displayName": "Vim Mode",
+  "category": "Built-in",
+  "description": "Toggle vim keybindings mode for the input editor.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["vim", "editor", "keybindings"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

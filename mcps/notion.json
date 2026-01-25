@@ -1,0 +1,15 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "displayName": "Notion",
+  "category": "Productivity",
+  "description": "Notion workspace integration. Search, read, create, and update pages, databases, and content.",
+  "npmPackage": "@anthropic/mcp-server-notion",
+  "tools": ["notion_search", "notion_get_page", "notion_create_page", "notion_update_page", "notion_query_database"],
+  "resources": [],
+  "source": "official",
+  "tags": ["notion", "docs", "wiki", "productivity"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-notion",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

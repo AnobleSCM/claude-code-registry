@@ -1,0 +1,13 @@
+{
+  "id": "pr-review-toolkit-comment-analyzer",
+  "name": "pr-review-toolkit:comment-analyzer",
+  "displayName": "Comment Analyzer",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Analyzes code comments for accuracy, completeness, and long-term maintainability. Verifies comments accurately reflect the code they describe.",
+  "invocation": "Task tool with pr-review-toolkit:comment-analyzer",
+  "source": "pr-review-toolkit",
+  "tags": ["comments", "documentation", "quality", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

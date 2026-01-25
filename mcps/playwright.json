@@ -1,0 +1,15 @@
+{
+  "id": "playwright",
+  "name": "Playwright",
+  "displayName": "Playwright",
+  "category": "Browser",
+  "description": "Advanced browser automation with Playwright. Cross-browser testing, screenshots, and web interaction.",
+  "npmPackage": "@anthropic/mcp-server-playwright",
+  "tools": ["playwright_navigate", "playwright_click", "playwright_fill", "playwright_screenshot", "playwright_evaluate"],
+  "resources": [],
+  "source": "official",
+  "tags": ["playwright", "browser", "testing", "automation"],
+  "documentationUrl": "https://github.com/anthropics/mcp-server-playwright",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

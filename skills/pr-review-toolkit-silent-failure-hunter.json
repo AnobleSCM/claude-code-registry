@@ -1,0 +1,13 @@
+{
+  "id": "pr-review-toolkit-silent-failure-hunter",
+  "name": "pr-review-toolkit:silent-failure-hunter",
+  "displayName": "Silent Failure Hunter",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Identifies silent failures, inadequate error handling, and inappropriate fallback behavior in code changes.",
+  "invocation": "Task tool with pr-review-toolkit:silent-failure-hunter",
+  "source": "pr-review-toolkit",
+  "tags": ["error-handling", "debugging", "quality", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

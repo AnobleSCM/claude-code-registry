@@ -1,0 +1,13 @@
+{
+  "id": "accessibility-compliance-ui-visual-validator",
+  "name": "accessibility-compliance:ui-visual-validator",
+  "displayName": "UI Visual Validator",
+  "category": "Plugin - accessibility-compliance",
+  "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification through screenshot analysis.",
+  "invocation": "Task tool with accessibility-compliance:ui-visual-validator",
+  "source": "accessibility-compliance",
+  "tags": ["accessibility", "visual", "testing", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

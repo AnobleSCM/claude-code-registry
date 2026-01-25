@@ -1,0 +1,13 @@
+{
+  "id": "add-dir",
+  "name": "/add-dir",
+  "displayName": "Add Directory",
+  "category": "Built-in",
+  "description": "Add an additional directory to the current working context.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["directory", "context", "workspace"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

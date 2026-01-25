@@ -1,0 +1,14 @@
+{
+  "id": "code-documentation-docs-architect",
+  "name": "code-documentation:docs-architect",
+  "displayName": "Docs Architect",
+  "category": "Plugin - code-documentation",
+  "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
+  "invocation": "Task tool with subagent_type=code-documentation:docs-architect",
+  "tools": ["*"],
+  "source": "code-documentation",
+  "tags": ["documentation", "architecture", "technical-writing", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

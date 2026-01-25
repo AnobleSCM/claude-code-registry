@@ -1,0 +1,14 @@
+{
+  "id": "general-purpose",
+  "name": "general-purpose",
+  "displayName": "General Purpose Agent",
+  "category": "Built-in",
+  "description": "General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks. Use when searching for keywords or files and not confident about finding the right match quickly.",
+  "invocation": "Task tool with subagent_type=general-purpose",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["research", "search", "multi-step", "general"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

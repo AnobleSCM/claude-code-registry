@@ -1,0 +1,13 @@
+{
+  "id": "agent-orchestration-context-manager",
+  "name": "agent-orchestration:context-manager",
+  "displayName": "Context Manager",
+  "category": "Plugin - agent-orchestration",
+  "description": "Elite AI context engineering specialist. Manages dynamic context, vector databases, knowledge graphs, and intelligent memory systems across multi-agent workflows.",
+  "invocation": "Task tool with agent-orchestration:context-manager",
+  "source": "agent-orchestration",
+  "tags": ["context", "memory", "agents", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

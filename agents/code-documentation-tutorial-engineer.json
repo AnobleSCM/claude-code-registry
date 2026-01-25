@@ -1,0 +1,14 @@
+{
+  "id": "code-documentation-tutorial-engineer",
+  "name": "code-documentation:tutorial-engineer",
+  "displayName": "Tutorial Engineer",
+  "category": "Plugin - code-documentation",
+  "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples. Use for onboarding guides, feature tutorials, or concept explanations.",
+  "invocation": "Task tool with subagent_type=code-documentation:tutorial-engineer",
+  "tools": ["*"],
+  "source": "code-documentation",
+  "tags": ["tutorials", "education", "onboarding", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

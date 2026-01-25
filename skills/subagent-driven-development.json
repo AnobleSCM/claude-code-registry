@@ -1,0 +1,13 @@
+{
+  "id": "subagent-driven-development",
+  "name": "subagent-driven-development",
+  "displayName": "Subagent-Driven Development",
+  "category": "Superpowers",
+  "description": "Delegate tasks to specialized agents. Dispatch fresh subagent per task, review between tasks, fast iteration with focused expertise.",
+  "invocation": "/subagent-driven-development",
+  "source": "superpowers",
+  "tags": ["agents", "delegation", "workflow", "specialization"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

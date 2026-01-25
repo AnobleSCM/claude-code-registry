@@ -1,0 +1,15 @@
+{
+  "id": "exa",
+  "name": "Exa",
+  "displayName": "Exa",
+  "category": "Search",
+  "description": "AI-powered search with Exa API. Semantic search, content retrieval, and neural search capabilities.",
+  "npmPackage": "@exa/mcp-server",
+  "tools": ["exa_search", "exa_get_contents", "exa_find_similar"],
+  "resources": [],
+  "source": "community",
+  "tags": ["exa", "search", "ai", "semantic"],
+  "documentationUrl": "https://github.com/exa-labs/mcp-server-exa",
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

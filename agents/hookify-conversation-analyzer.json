@@ -1,0 +1,14 @@
+{
+  "id": "hookify-conversation-analyzer",
+  "name": "hookify:conversation-analyzer",
+  "displayName": "Conversation Analyzer",
+  "category": "Plugin - hookify",
+  "description": "Analyzes conversation transcripts to find behaviors worth preventing with hooks. Use when running /hookify command without arguments or when asked to create hooks from recent frustrations.",
+  "invocation": "Task tool with subagent_type=hookify:conversation-analyzer",
+  "tools": ["Read", "Grep"],
+  "source": "hookify",
+  "tags": ["hooks", "analysis", "prevention", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

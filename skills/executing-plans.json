@@ -1,0 +1,13 @@
+{
+  "id": "executing-plans",
+  "name": "executing-plans",
+  "displayName": "Executing Plans",
+  "category": "Superpowers",
+  "description": "Follow implementation plans step-by-step with batch execution and checkpoints. Load plan, review critically, execute tasks in batches, report for review between batches.",
+  "invocation": "/executing-plans",
+  "source": "superpowers",
+  "tags": ["planning", "execution", "workflow", "implementation"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

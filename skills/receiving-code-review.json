@@ -1,0 +1,13 @@
+{
+  "id": "receiving-code-review",
+  "name": "receiving-code-review",
+  "displayName": "Receiving Code Review",
+  "category": "Superpowers",
+  "description": "Process review feedback effectively. Handle code review comments, address concerns, and iterate on changes based on reviewer input.",
+  "invocation": "/receiving-code-review",
+  "source": "superpowers",
+  "tags": ["code-review", "feedback", "workflow", "collaboration"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

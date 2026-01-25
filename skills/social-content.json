@@ -1,0 +1,13 @@
+{
+  "id": "social-content",
+  "name": "social-content",
+  "displayName": "Social Content",
+  "category": "Marketing",
+  "description": "Create, schedule, or optimize social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook. Content creation, repurposing, and platform-specific strategies.",
+  "invocation": "/social-content",
+  "source": "superpowers",
+  "tags": ["marketing", "social-media", "content", "linkedin", "twitter"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

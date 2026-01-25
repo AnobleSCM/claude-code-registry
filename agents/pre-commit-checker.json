@@ -1,0 +1,14 @@
+{
+  "id": "pre-commit-checker",
+  "name": "pre-commit-checker",
+  "displayName": "Pre-Commit Checker",
+  "category": "Built-in",
+  "description": "Runs full verification before any completion claim. Ensures all tests pass and code is ready for commit.",
+  "invocation": "Task tool with subagent_type=pre-commit-checker",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["verification", "testing", "commit", "quality"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

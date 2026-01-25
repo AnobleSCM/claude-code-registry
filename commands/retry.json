@@ -1,0 +1,13 @@
+{
+  "id": "retry",
+  "name": "/retry",
+  "displayName": "Retry",
+  "category": "Built-in",
+  "description": "Retry the last failed operation or request.",
+  "aliases": [],
+  "source": "built-in",
+  "tags": ["retry", "error", "recovery"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

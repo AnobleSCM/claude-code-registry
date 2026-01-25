@@ -1,0 +1,13 @@
+{
+  "id": "ab-test-setup",
+  "name": "ab-test-setup",
+  "displayName": "A/B Test Setup",
+  "category": "Marketing",
+  "description": "Plan, design, or implement A/B tests and experiments. Use for split tests, multivariate tests, hypothesis-driven experiments, and tracking implementation.",
+  "invocation": "/ab-test-setup",
+  "source": "superpowers",
+  "tags": ["marketing", "testing", "experimentation", "cro", "analytics"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

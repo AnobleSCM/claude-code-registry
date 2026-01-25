@@ -1,0 +1,13 @@
+{
+  "id": "agent-browser",
+  "name": "agent-browser",
+  "displayName": "Agent Browser",
+  "category": "Development",
+  "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Navigate websites, interact with web pages, fill forms, take screenshots, test web applications.",
+  "invocation": "/agent-browser",
+  "source": "superpowers",
+  "tags": ["browser", "automation", "testing", "screenshots", "web"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

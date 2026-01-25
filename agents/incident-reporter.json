@@ -1,0 +1,14 @@
+{
+  "id": "incident-reporter",
+  "name": "incident-reporter",
+  "displayName": "Incident Reporter",
+  "category": "Built-in",
+  "description": "Generates structured Incident Reports after failed attempts to document issues and learnings.",
+  "invocation": "Task tool with subagent_type=incident-reporter",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["incidents", "reports", "debugging", "documentation"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

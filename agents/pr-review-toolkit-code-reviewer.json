@@ -1,0 +1,14 @@
+{
+  "id": "pr-review-toolkit-code-reviewer",
+  "name": "pr-review-toolkit:code-reviewer",
+  "displayName": "PR Code Reviewer",
+  "category": "Plugin - pr-review-toolkit",
+  "description": "Reviews code for adherence to project guidelines, style guides, and best practices. Use proactively after writing or modifying code, especially before committing changes or creating pull requests.",
+  "invocation": "Task tool with subagent_type=pr-review-toolkit:code-reviewer",
+  "tools": ["*"],
+  "source": "pr-review-toolkit",
+  "tags": ["review", "pr", "guidelines", "plugin"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

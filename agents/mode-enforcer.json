@@ -1,0 +1,14 @@
+{
+  "id": "mode-enforcer",
+  "name": "mode-enforcer",
+  "displayName": "Mode Enforcer",
+  "category": "Built-in",
+  "description": "Ensures proper Mode A/B/F workflow is followed during development.",
+  "invocation": "Task tool with subagent_type=mode-enforcer",
+  "tools": ["*"],
+  "source": "built-in",
+  "tags": ["workflow", "modes", "enforcement", "process"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}
