@@ -1,0 +1,16 @@
+{
+  "id": "debugging-toolkit",
+  "name": "debugging-toolkit",
+  "displayName": "Debugging Toolkit",
+  "category": "Debugging",
+  "description": "Debugging specialists for errors, test failures, and unexpected behavior. Includes a debugger agent and DX optimizer for improving developer experience.",
+  "author": "Anthropic",
+  "skills": ["debugging-toolkit-debugger", "debugging-toolkit-dx-optimizer"],
+  "agents": ["debugging-toolkit-debugger", "debugging-toolkit-dx-optimizer"],
+  "installCommand": "claude plugins:add debugging-toolkit",
+  "source": "official",
+  "tags": ["debugging", "errors", "dx", "tooling"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

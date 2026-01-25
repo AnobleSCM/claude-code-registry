@@ -1,0 +1,16 @@
+{
+  "id": "accessibility-compliance",
+  "name": "accessibility-compliance",
+  "displayName": "Accessibility Compliance",
+  "category": "Quality",
+  "description": "Rigorous visual validation and accessibility verification. Specializes in UI testing, design system compliance, screenshot analysis, and WCAG standards verification.",
+  "author": "Anthropic",
+  "skills": ["accessibility-compliance-ui-visual-validator"],
+  "agents": [],
+  "installCommand": "claude plugins:add accessibility-compliance",
+  "source": "official",
+  "tags": ["accessibility", "wcag", "visual", "testing"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

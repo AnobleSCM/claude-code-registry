@@ -1,0 +1,16 @@
+{
+  "id": "superpowers",
+  "name": "superpowers",
+  "displayName": "Superpowers",
+  "category": "Workflow",
+  "description": "Advanced development workflows including planning, TDD, code review, and systematic debugging. Provides structured approaches for brainstorming, writing plans, executing plans, and verification.",
+  "author": "Anthropic",
+  "skills": ["brainstorming", "writing-plans", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "dispatching-parallel-agents", "test-driven-development", "systematic-debugging", "writing-skills"],
+  "agents": ["superpowers-code-reviewer"],
+  "installCommand": "claude plugins:add superpowers",
+  "source": "official",
+  "tags": ["planning", "tdd", "code-review", "workflow", "development"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

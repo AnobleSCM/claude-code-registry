@@ -1,0 +1,16 @@
+{
+  "id": "javascript-typescript",
+  "name": "javascript-typescript",
+  "displayName": "JavaScript & TypeScript",
+  "category": "Languages",
+  "description": "Master JavaScript ES6+ and TypeScript with advanced patterns. Covers async patterns, Node.js APIs, complex type systems, generics, and enterprise-grade patterns.",
+  "author": "Anthropic",
+  "skills": ["javascript-typescript-javascript-pro", "javascript-typescript-typescript-pro"],
+  "agents": ["javascript-typescript-javascript-pro", "javascript-typescript-typescript-pro"],
+  "installCommand": "claude plugins:add javascript-typescript",
+  "source": "official",
+  "tags": ["javascript", "typescript", "nodejs", "es6"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

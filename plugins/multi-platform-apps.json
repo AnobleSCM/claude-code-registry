@@ -1,0 +1,16 @@
+{
+  "id": "multi-platform-apps",
+  "name": "multi-platform-apps",
+  "displayName": "Multi-Platform Apps",
+  "category": "Development",
+  "description": "Build applications across web, mobile, and desktop platforms. Includes specialists for Flutter, React, iOS, and cross-platform development with UI/UX design expertise.",
+  "author": "Anthropic",
+  "skills": ["multi-platform-apps-backend-architect", "multi-platform-apps-flutter-expert", "multi-platform-apps-frontend-developer", "multi-platform-apps-ios-developer", "multi-platform-apps-mobile-developer", "multi-platform-apps-ui-ux-designer"],
+  "agents": ["multi-platform-apps-flutter-expert"],
+  "installCommand": "claude plugins:add multi-platform-apps",
+  "source": "official",
+  "tags": ["mobile", "flutter", "react", "ios", "cross-platform"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

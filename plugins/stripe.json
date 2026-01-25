@@ -1,0 +1,16 @@
+{
+  "id": "stripe",
+  "name": "stripe",
+  "displayName": "Stripe",
+  "category": "Payments",
+  "description": "Stripe integration helpers including error code explanations and test card numbers. Provides quick access to Stripe testing resources and debugging assistance.",
+  "author": "Anthropic",
+  "skills": ["stripe-explain-error", "stripe-test-cards"],
+  "agents": [],
+  "installCommand": "claude plugins:add stripe",
+  "source": "official",
+  "tags": ["stripe", "payments", "testing", "debugging"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-01-24",
+  "count": 12,
+  "items": [
+    "accessibility-compliance",
+    "agent-orchestration",
+    "claude-md-management",
+    "code-documentation",
+    "debugging-toolkit",
+    "feature-dev",
+    "hookify",
+    "javascript-typescript",
+    "multi-platform-apps",
+    "pr-review-toolkit",
+    "stripe",
+    "superpowers"
+  ]
+}

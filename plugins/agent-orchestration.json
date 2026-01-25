@@ -1,0 +1,16 @@
+{
+  "id": "agent-orchestration",
+  "name": "agent-orchestration",
+  "displayName": "Agent Orchestration",
+  "category": "AI",
+  "description": "Elite AI context engineering for dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. Orchestrates context across multi-agent workflows.",
+  "author": "Anthropic",
+  "skills": ["agent-orchestration-context-manager"],
+  "agents": ["agent-orchestration-context-manager"],
+  "installCommand": "claude plugins:add agent-orchestration",
+  "source": "official",
+  "tags": ["ai", "context", "orchestration", "memory"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

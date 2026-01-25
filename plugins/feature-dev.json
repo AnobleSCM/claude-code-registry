@@ -1,0 +1,16 @@
+{
+  "id": "feature-dev",
+  "name": "feature-dev",
+  "displayName": "Feature Dev",
+  "category": "Development",
+  "description": "Guided feature development with codebase understanding and architecture focus. Includes specialized agents for designing architectures, exploring codebases, and reviewing code quality.",
+  "author": "Anthropic",
+  "skills": ["feature-dev"],
+  "agents": ["feature-dev-code-architect", "feature-dev-code-explorer", "feature-dev-code-reviewer"],
+  "installCommand": "claude plugins:add feature-dev",
+  "source": "official",
+  "tags": ["features", "development", "architecture", "planning"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

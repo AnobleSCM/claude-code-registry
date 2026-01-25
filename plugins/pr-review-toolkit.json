@@ -1,0 +1,16 @@
+{
+  "id": "pr-review-toolkit",
+  "name": "pr-review-toolkit",
+  "displayName": "PR Review Toolkit",
+  "category": "Code Review",
+  "description": "Comprehensive PR review using specialized agents. Includes code review, code simplification, comment analysis, test coverage analysis, silent failure detection, and type design analysis.",
+  "author": "Anthropic",
+  "skills": ["pr-review-toolkit-review-pr"],
+  "agents": ["pr-review-toolkit-code-reviewer", "pr-review-toolkit-code-simplifier", "pr-review-toolkit-comment-analyzer", "pr-review-toolkit-pr-test-analyzer", "pr-review-toolkit-silent-failure-hunter", "pr-review-toolkit-type-design-analyzer"],
+  "installCommand": "claude plugins:add pr-review-toolkit",
+  "source": "official",
+  "tags": ["pr", "review", "testing", "code-quality"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}

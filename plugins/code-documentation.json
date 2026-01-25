@@ -1,0 +1,16 @@
+{
+  "id": "code-documentation",
+  "name": "code-documentation",
+  "displayName": "Code Documentation",
+  "category": "Documentation",
+  "description": "Create comprehensive technical documentation from codebases. Includes code review, docs architecture, and tutorial engineering for generating manuals, guides, and educational content.",
+  "author": "Anthropic",
+  "skills": ["code-documentation-code-reviewer", "code-documentation-docs-architect", "code-documentation-tutorial-engineer"],
+  "agents": ["code-documentation-code-reviewer", "code-documentation-docs-architect", "code-documentation-tutorial-engineer"],
+  "installCommand": "claude plugins:add code-documentation",
+  "source": "official",
+  "tags": ["documentation", "tutorials", "technical-writing"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-24",
+  "updatedAt": "2026-01-24"
+}
