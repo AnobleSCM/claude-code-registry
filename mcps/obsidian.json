@@ -1,0 +1,26 @@
+{
+  "id": "obsidian",
+  "name": "Obsidian",
+  "description": "Interact with Obsidian vaults. Read, create, and search notes, manage links, and navigate your knowledge graph through natural language.",
+  "category": "productivity",
+  "tags": ["notes", "knowledge-management", "markdown", "community"],
+  "verified": false,
+  "installCommand": "npx -y mcp-obsidian",
+  "configExample": {
+    "mcpServers": {
+      "obsidian": {
+        "command": "npx",
+        "args": ["-y", "mcp-obsidian"],
+        "env": {
+          "OBSIDIAN_VAULT_PATH": "/path/to/your/vault"
+        }
+      }
+    }
+  },
+  "documentationUrl": "https://github.com/smithery-ai/mcp-obsidian",
+  "repositoryUrl": "https://github.com/smithery-ai/mcp-obsidian",
+  "author": "Community",
+  "toolCount": 6,
+  "tools": ["read_note", "create_note", "search_notes", "list_notes", "update_note", "get_backlinks"],
+  "addedAt": "2026-01-26"
+}

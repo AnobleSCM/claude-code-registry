@@ -1,0 +1,26 @@
+{
+  "id": "redis",
+  "name": "Redis",
+  "description": "Connect to Redis for caching and key-value operations. Get, set, delete keys, manage lists, sets, and hashes through natural language.",
+  "category": "database",
+  "tags": ["database", "cache", "key-value", "community"],
+  "verified": false,
+  "installCommand": "npx -y @modelcontextprotocol/server-redis",
+  "configExample": {
+    "mcpServers": {
+      "redis": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-redis"],
+        "env": {
+          "REDIS_URL": "redis://localhost:6379"
+        }
+      }
+    }
+  },
+  "documentationUrl": "https://github.com/modelcontextprotocol/servers",
+  "repositoryUrl": "https://github.com/modelcontextprotocol/servers",
+  "author": "Community",
+  "toolCount": 6,
+  "tools": ["get", "set", "delete", "list_keys", "expire", "ttl"],
+  "addedAt": "2026-01-26"
+}
