@@ -1,0 +1,26 @@
+{
+  "id": "mongodb",
+  "name": "MongoDB",
+  "description": "Connect to MongoDB databases. Query collections, insert documents, update records, and manage indexes through natural language.",
+  "category": "database",
+  "tags": ["database", "nosql", "document-db", "community"],
+  "verified": false,
+  "installCommand": "npx -y @modelcontextprotocol/server-mongodb",
+  "configExample": {
+    "mcpServers": {
+      "mongodb": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-mongodb"],
+        "env": {
+          "MONGODB_URI": "mongodb://localhost:27017/mydb"
+        }
+      }
+    }
+  },
+  "documentationUrl": "https://github.com/modelcontextprotocol/servers",
+  "repositoryUrl": "https://github.com/modelcontextprotocol/servers",
+  "author": "Community",
+  "toolCount": 5,
+  "tools": ["query", "insert", "update", "delete", "aggregate"],
+  "addedAt": "2026-01-26"
+}

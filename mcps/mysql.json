@@ -1,0 +1,29 @@
+{
+  "id": "mysql",
+  "name": "MySQL",
+  "description": "Connect to MySQL databases. Execute queries, manage tables, and perform database operations through natural language commands.",
+  "category": "database",
+  "tags": ["database", "sql", "relational", "community"],
+  "verified": false,
+  "installCommand": "npx -y @modelcontextprotocol/server-mysql",
+  "configExample": {
+    "mcpServers": {
+      "mysql": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-mysql"],
+        "env": {
+          "MYSQL_HOST": "localhost",
+          "MYSQL_USER": "root",
+          "MYSQL_PASSWORD": "password",
+          "MYSQL_DATABASE": "mydb"
+        }
+      }
+    }
+  },
+  "documentationUrl": "https://github.com/modelcontextprotocol/servers",
+  "repositoryUrl": "https://github.com/modelcontextprotocol/servers",
+  "author": "Community",
+  "toolCount": 4,
+  "tools": ["query", "execute", "describe_table", "list_tables"],
+  "addedAt": "2026-01-26"
+}

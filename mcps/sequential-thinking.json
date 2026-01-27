@@ -1,0 +1,23 @@
+{
+  "id": "sequential-thinking",
+  "name": "Sequential Thinking",
+  "description": "Dynamic and reflective problem-solving through thought sequences. Enables LLMs to break down complex problems into sequential steps with reflection and revision capabilities.",
+  "category": "ai",
+  "tags": ["reasoning", "problem-solving", "official", "reference"],
+  "verified": true,
+  "installCommand": "npx -y @modelcontextprotocol/server-sequentialthinking",
+  "configExample": {
+    "mcpServers": {
+      "sequential-thinking": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-sequentialthinking"]
+      }
+    }
+  },
+  "documentationUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+  "repositoryUrl": "https://github.com/modelcontextprotocol/servers",
+  "author": "Anthropic",
+  "toolCount": 1,
+  "tools": ["create_thought_sequence"],
+  "addedAt": "2026-01-26"
+}
