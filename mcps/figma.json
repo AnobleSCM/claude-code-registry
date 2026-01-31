@@ -1,0 +1,16 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "displayName": "Figma",
+  "category": "Developer Tools",
+  "description": "Direct access to Figma design data for one-shot design-to-code implementation. 13K+ GitHub stars.",
+  "provider": "Figma",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["get_file", "get_node", "get_images", "get_comments", "get_styles"],
+  "tags": ["figma", "design", "ui", "design-to-code", "prototyping"],
+  "configUrl": "https://github.com/nicholasgriffintn/figma-mcp",
+  "documentationUrl": "https://www.figma.com/developers/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

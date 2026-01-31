@@ -1,0 +1,16 @@
+{
+  "id": "new-relic",
+  "name": "New Relic",
+  "displayName": "New Relic",
+  "category": "Monitoring",
+  "description": "Observability platform with NRQL queries, APM, alerts, and synthetics monitoring.",
+  "provider": "New Relic",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["run_nrql", "list_entities", "get_alerts", "manage_dashboards", "get_apm_data"],
+  "tags": ["new-relic", "apm", "monitoring", "observability", "nrql"],
+  "configUrl": "https://github.com/newrelic/newrelic-mcp-server",
+  "documentationUrl": "https://docs.newrelic.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

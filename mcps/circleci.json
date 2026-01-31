@@ -1,0 +1,16 @@
+{
+  "id": "circleci",
+  "name": "CircleCI",
+  "displayName": "CircleCI",
+  "category": "Developer Tools",
+  "description": "Fix build failures from CircleCI. AI agent CI/CD pipeline integration and diagnostics.",
+  "provider": "CircleCI",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["get_pipeline", "get_workflow", "get_job_details", "get_tests", "trigger_pipeline"],
+  "tags": ["circleci", "cicd", "builds", "pipelines", "continuous-integration"],
+  "configUrl": "https://github.com/CircleCI-Public/mcp-server-circleci",
+  "documentationUrl": "https://circleci.com/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

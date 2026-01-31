@@ -1,0 +1,16 @@
+{
+  "id": "splunk",
+  "name": "Splunk",
+  "displayName": "Splunk",
+  "category": "Monitoring",
+  "description": "Search Splunk data, manage indexes and knowledge objects. Enterprise and Cloud support.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["search", "list_indexes", "get_saved_searches", "manage_knowledge_objects", "get_alerts"],
+  "tags": ["splunk", "siem", "logging", "security", "analytics"],
+  "configUrl": "https://github.com/livehybrid/splunk-mcp-server",
+  "documentationUrl": "https://docs.splunk.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

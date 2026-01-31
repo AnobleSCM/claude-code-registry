@@ -1,0 +1,16 @@
+{
+  "id": "pagerduty",
+  "name": "PagerDuty",
+  "displayName": "PagerDuty",
+  "category": "Monitoring",
+  "description": "Incident management, service status, on-call schedules, and event orchestration.",
+  "provider": "PagerDuty",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_incidents", "create_incident", "get_on_call", "manage_services", "trigger_event"],
+  "tags": ["pagerduty", "incidents", "on-call", "alerting", "operations"],
+  "configUrl": "https://github.com/PagerDuty/mcp-server-pagerduty",
+  "documentationUrl": "https://developer.pagerduty.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

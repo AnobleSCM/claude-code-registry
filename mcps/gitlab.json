@@ -1,0 +1,16 @@
+{
+  "id": "gitlab",
+  "name": "GitLab",
+  "displayName": "GitLab",
+  "category": "Developer Tools",
+  "description": "GitLab platform integration for projects, merge requests, issues, and CI/CD pipelines.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 15,
+  "tools": ["list_projects", "create_merge_request", "get_pipeline", "manage_issues", "get_repository_tree"],
+  "tags": ["gitlab", "git", "cicd", "merge-requests", "devops"],
+  "configUrl": "https://github.com/theodo/gitlab-mcp",
+  "documentationUrl": "https://docs.gitlab.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

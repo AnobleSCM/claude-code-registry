@@ -1,0 +1,16 @@
+{
+  "id": "bitbucket",
+  "name": "Bitbucket",
+  "displayName": "Bitbucket",
+  "category": "Developer Tools",
+  "description": "Bitbucket Cloud and Server API integration for repositories, pull requests, and pipelines.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_repositories", "create_pull_request", "get_pipelines", "manage_branches", "code_search"],
+  "tags": ["bitbucket", "git", "atlassian", "pull-requests", "cicd"],
+  "configUrl": "https://github.com/aashari/mcp-server-bitbucket",
+  "documentationUrl": "https://developer.atlassian.com/cloud/bitbucket/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

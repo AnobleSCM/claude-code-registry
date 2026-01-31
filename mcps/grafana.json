@@ -1,0 +1,16 @@
+{
+  "id": "grafana",
+  "name": "Grafana",
+  "displayName": "Grafana",
+  "category": "Monitoring",
+  "description": "Access Grafana dashboards, data sources, incidents, and alerting for observability workflows.",
+  "provider": "Grafana Labs",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["search_dashboards", "query_datasource", "list_alerts", "manage_incidents", "get_annotations"],
+  "tags": ["grafana", "dashboards", "monitoring", "observability", "alerting"],
+  "configUrl": "https://github.com/grafana/mcp-grafana",
+  "documentationUrl": "https://grafana.com/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

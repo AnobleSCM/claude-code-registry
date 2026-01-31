@@ -1,0 +1,16 @@
+{
+  "id": "postman",
+  "name": "Postman",
+  "displayName": "Postman",
+  "category": "Developer Tools",
+  "description": "API development and testing platform integration. Manage collections, environments, and API tests.",
+  "provider": "Postman",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_collections", "run_collection", "manage_environments", "get_api_spec", "manage_monitors"],
+  "tags": ["postman", "api-testing", "rest", "collections", "api-development"],
+  "configUrl": "https://github.com/nicholasgriffintn/postman-mcp",
+  "documentationUrl": "https://learning.postman.com/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

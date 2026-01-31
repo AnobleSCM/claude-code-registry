@@ -1,0 +1,16 @@
+{
+  "id": "datadog",
+  "name": "Datadog",
+  "displayName": "Datadog",
+  "category": "Monitoring",
+  "description": "Full-stack observability. Query metrics, logs, and traces for application diagnostics and monitoring.",
+  "provider": "Datadog",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["query_metrics", "search_logs", "list_monitors", "get_dashboard", "create_monitor"],
+  "tags": ["datadog", "monitoring", "observability", "metrics", "logging"],
+  "configUrl": "https://github.com/DataDog/datadog-mcp-server",
+  "documentationUrl": "https://docs.datadoghq.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
