@@ -1,0 +1,10 @@
+{
+  "id": "enter-plan-mode",
+  "name": "EnterPlanMode",
+  "description": "Transitions into plan mode for exploring the codebase and designing implementation approaches before writing code. Requires user approval.",
+  "category": "Planning",
+  "source": "built-in",
+  "parameters": [],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

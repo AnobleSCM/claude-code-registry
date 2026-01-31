@@ -1,0 +1,15 @@
+{
+  "id": "edit",
+  "name": "Edit",
+  "description": "Performs exact string replacements in files. Requires reading the file first. Preserves indentation and formatting.",
+  "category": "File System",
+  "source": "built-in",
+  "parameters": [
+    { "name": "file_path", "type": "string", "required": true, "description": "The absolute path to the file to modify" },
+    { "name": "old_string", "type": "string", "required": true, "description": "The text to replace" },
+    { "name": "new_string", "type": "string", "required": true, "description": "The text to replace it with" },
+    { "name": "replace_all", "type": "boolean", "required": false, "description": "Replace all occurrences (default false)" }
+  ],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

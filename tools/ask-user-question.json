@@ -1,0 +1,12 @@
+{
+  "id": "ask-user-question",
+  "name": "AskUserQuestion",
+  "description": "Asks the user questions during execution. Supports multiple questions with multiple-choice options. Users can always select 'Other' for custom input.",
+  "category": "Planning",
+  "source": "built-in",
+  "parameters": [
+    { "name": "questions", "type": "array", "required": true, "description": "1-4 questions with options to present to the user" }
+  ],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

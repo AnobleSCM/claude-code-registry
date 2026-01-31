@@ -1,0 +1,14 @@
+{
+  "id": "bash",
+  "name": "Bash",
+  "description": "Executes bash commands with optional timeout. Working directory persists between commands. Use for git, npm, docker, and other terminal operations.",
+  "category": "Execution",
+  "source": "built-in",
+  "parameters": [
+    { "name": "command", "type": "string", "required": true, "description": "The command to execute" },
+    { "name": "description", "type": "string", "required": false, "description": "Description of what the command does" },
+    { "name": "timeout", "type": "number", "required": false, "description": "Optional timeout in milliseconds (max 600000)" }
+  ],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

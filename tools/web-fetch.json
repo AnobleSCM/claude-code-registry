@@ -1,0 +1,13 @@
+{
+  "id": "web-fetch",
+  "name": "WebFetch",
+  "description": "Fetches content from a URL, converts HTML to markdown, and processes it with an AI model. Includes 15-minute caching.",
+  "category": "Web",
+  "source": "built-in",
+  "parameters": [
+    { "name": "url", "type": "string", "required": true, "description": "The URL to fetch content from" },
+    { "name": "prompt", "type": "string", "required": true, "description": "The prompt to run on the fetched content" }
+  ],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

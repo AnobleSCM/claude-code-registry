@@ -1,0 +1,15 @@
+{
+  "id": "lsp",
+  "name": "LSP",
+  "description": "Language Server Protocol tool for code intelligence. Supports goToDefinition, findReferences, hover, documentSymbol, workspaceSymbol, and more.",
+  "category": "Code Intelligence",
+  "source": "built-in",
+  "parameters": [
+    { "name": "operation", "type": "string", "required": true, "description": "LSP operation: goToDefinition, findReferences, hover, documentSymbol, etc." },
+    { "name": "filePath", "type": "string", "required": true, "description": "The file to operate on" },
+    { "name": "line", "type": "number", "required": true, "description": "Line number (1-based)" },
+    { "name": "character", "type": "number", "required": true, "description": "Character offset (1-based)" }
+  ],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
