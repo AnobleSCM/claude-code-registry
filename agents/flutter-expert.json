@@ -1,0 +1,12 @@
+{
+  "id": "flutter-expert",
+  "name": "Flutter Expert",
+  "displayName": "Flutter Expert",
+  "category": "Architecture",
+  "description": "Flutter development with Dart 3, advanced widgets, multi-platform deployment, state management, animations, and performance optimization.",
+  "invocation": "Task tool with subagent_type=\"flutter-expert\"",
+  "capabilities": ["Dart 3 and Flutter framework", "Multi-platform deployment", "State management patterns", "Widget testing and optimization", "Animation and UI polish"],
+  "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

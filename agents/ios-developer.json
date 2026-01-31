@@ -1,0 +1,12 @@
+{
+  "id": "ios-developer",
+  "name": "iOS Developer",
+  "displayName": "iOS Developer",
+  "category": "Architecture",
+  "description": "Native iOS development with Swift/SwiftUI, iOS 18, UIKit integration, Core Data, networking, and App Store optimization.",
+  "invocation": "Task tool with subagent_type=\"ios-developer\"",
+  "capabilities": ["Swift/SwiftUI development", "UIKit integration", "Core Data management", "Networking and API integration", "App Store optimization"],
+  "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

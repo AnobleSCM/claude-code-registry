@@ -1,0 +1,12 @@
+{
+  "id": "ui-visual-validator",
+  "name": "UI Visual Validator",
+  "displayName": "UI Visual Validator",
+  "category": "Testing",
+  "description": "Rigorous visual validation for UI testing, design system compliance, and accessibility verification through screenshot analysis.",
+  "invocation": "Task tool with subagent_type=\"ui-visual-validator\"",
+  "capabilities": ["Screenshot analysis", "Visual regression testing", "Design system compliance", "Accessibility verification", "Component validation"],
+  "tools": ["Read", "Bash", "Glob", "Grep", "WebFetch"],
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

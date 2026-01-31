@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-01-24",
-  "count": 47,
+  "updatedAt": "2026-01-31",
+  "count": 50,
   "items": [
     "accessibility-checker",
     "agent-orchestration-context-manager",
@@ -23,11 +23,13 @@
     "feature-dev-code-architect",
     "feature-dev-code-explorer",
     "feature-dev-code-reviewer",
+    "flutter-expert",
     "frontend-developer",
     "general-purpose",
     "handoff-updater",
     "hookify-conversation-analyzer",
     "incident-reporter",
+    "ios-developer",
     "javascript-typescript-javascript-pro",
     "javascript-typescript-typescript-pro",
     "mobile-developer",
@@ -49,6 +51,7 @@
     "test-engineer",
     "theme-checker",
     "ui-ux-designer",
+    "ui-visual-validator",
     "visual-qa"
   ]
 }
