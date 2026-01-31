@@ -1,0 +1,16 @@
+{
+  "id": "sendgrid",
+  "name": "SendGrid",
+  "displayName": "SendGrid",
+  "category": "Communication",
+  "description": "Manage contact lists, templates, and send emails via SendGrid v3 API.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["send_email", "manage_contacts", "manage_templates", "list_campaigns", "get_stats"],
+  "tags": ["sendgrid", "email", "marketing", "transactional", "twilio"],
+  "configUrl": "https://github.com/nicholasgriffintn/sendgrid-mcp",
+  "documentationUrl": "https://docs.sendgrid.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

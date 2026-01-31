@@ -1,0 +1,16 @@
+{
+  "id": "confluence",
+  "name": "Confluence",
+  "displayName": "Confluence",
+  "category": "APIs & Services",
+  "description": "Atlassian Confluence documentation management, page access, and content operations.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["get_page", "create_page", "update_page", "search_content", "list_spaces", "get_attachments"],
+  "tags": ["confluence", "atlassian", "documentation", "wiki", "collaboration"],
+  "configUrl": "https://github.com/aashari/mcp-server-atlassian",
+  "documentationUrl": "https://developer.atlassian.com/cloud/confluence/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

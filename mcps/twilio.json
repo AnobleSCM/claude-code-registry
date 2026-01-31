@@ -1,0 +1,16 @@
+{
+  "id": "twilio",
+  "name": "Twilio",
+  "displayName": "Twilio",
+  "category": "Communication",
+  "description": "Send SMS messages and manage communications via Twilio Alpha MCP server.",
+  "provider": "Twilio",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["send_sms", "list_messages", "get_account", "manage_phone_numbers", "send_whatsapp"],
+  "tags": ["twilio", "sms", "messaging", "communications", "whatsapp"],
+  "configUrl": "https://github.com/twilio/mcp-server-twilio",
+  "documentationUrl": "https://www.twilio.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

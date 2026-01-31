@@ -1,0 +1,16 @@
+{
+  "id": "microsoft-365",
+  "name": "Microsoft 365",
+  "displayName": "Microsoft 365",
+  "category": "APIs & Services",
+  "description": "MS Office, Outlook, mail, files, Excel, and calendar via Microsoft Graph API.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 15,
+  "tools": ["send_mail", "list_events", "manage_files", "read_excel", "manage_calendar", "search_users"],
+  "tags": ["microsoft", "office365", "outlook", "excel", "graph-api"],
+  "configUrl": "https://github.com/softeria/mcp-microsoft365",
+  "documentationUrl": "https://learn.microsoft.com/graph/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

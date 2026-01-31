@@ -1,0 +1,16 @@
+{
+  "id": "telegram",
+  "name": "Telegram",
+  "displayName": "Telegram",
+  "category": "Communication",
+  "description": "Telegram bot API integration for messaging, notifications, and bot management.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["send_message", "get_updates", "manage_webhook", "send_photo", "get_chat"],
+  "tags": ["telegram", "bot", "messaging", "notifications", "chat"],
+  "configUrl": "https://github.com/nicholasgriffintn/telegram-mcp",
+  "documentationUrl": "https://core.telegram.org/bots/api",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

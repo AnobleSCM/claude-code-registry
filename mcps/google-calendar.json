@@ -1,0 +1,16 @@
+{
+  "id": "google-calendar",
+  "name": "Google Calendar",
+  "displayName": "Google Calendar",
+  "category": "APIs & Services",
+  "description": "Google Calendar event management, scheduling, and calendar operations.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["list_events", "create_event", "update_event", "delete_event", "list_calendars"],
+  "tags": ["google", "calendar", "scheduling", "events", "productivity"],
+  "configUrl": "https://github.com/nicholasgriffintn/google-calendar-mcp",
+  "documentationUrl": "https://developers.google.com/calendar",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

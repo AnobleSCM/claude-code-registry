@@ -1,0 +1,16 @@
+{
+  "id": "todoist",
+  "name": "Todoist",
+  "displayName": "Todoist",
+  "category": "APIs & Services",
+  "description": "Task management integration for creating, managing, and organizing Todoist tasks and projects.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["create_task", "list_tasks", "complete_task", "manage_projects", "manage_labels"],
+  "tags": ["todoist", "tasks", "productivity", "project-management", "organization"],
+  "configUrl": "https://github.com/abhiz123/todoist-mcp-server",
+  "documentationUrl": "https://developer.todoist.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

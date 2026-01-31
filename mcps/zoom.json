@@ -1,0 +1,16 @@
+{
+  "id": "zoom",
+  "name": "Zoom",
+  "displayName": "Zoom",
+  "category": "Communication",
+  "description": "Zoom meeting management, scheduling, and video conferencing integration.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["create_meeting", "list_meetings", "get_meeting", "update_meeting", "list_recordings"],
+  "tags": ["zoom", "meetings", "video", "conferencing", "collaboration"],
+  "configUrl": "https://github.com/nicholasgriffintn/zoom-mcp",
+  "documentationUrl": "https://developers.zoom.us/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "resend",
+  "name": "Resend",
+  "displayName": "Resend",
+  "category": "Communication",
+  "description": "Send emails directly from your development environment. Modern developer-first email API.",
+  "provider": "Resend",
+  "status": "available",
+  "toolCount": 4,
+  "tools": ["send_email", "list_emails", "get_email", "manage_domains"],
+  "tags": ["resend", "email", "transactional", "api", "developer"],
+  "configUrl": "https://github.com/resend/mcp-server-resend",
+  "documentationUrl": "https://resend.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
