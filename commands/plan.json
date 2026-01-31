@@ -1,0 +1,1 @@
+{ "id": "plan", "name": "/plan", "description": "Enter plan mode from the prompt. Explore codebase and design implementation approach before writing code.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

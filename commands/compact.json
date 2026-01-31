@@ -1,0 +1,1 @@
+{ "id": "compact", "name": "/compact", "description": "Compresses conversation history while preserving important details. Accepts optional instructions to keep specific topics intact.", "shortcut": null, "arguments": [{ "name": "instructions", "required": false, "description": "Optional focus instructions" }], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

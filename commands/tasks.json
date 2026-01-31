@@ -1,0 +1,1 @@
+{ "id": "tasks", "name": "/tasks", "description": "View background tasks, running agents, and bash processes.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

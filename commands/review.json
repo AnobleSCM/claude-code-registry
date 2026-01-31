@@ -1,0 +1,1 @@
+{ "id": "review", "name": "/review", "description": "Triggers a code review of your current changes.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

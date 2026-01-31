@@ -1,0 +1,1 @@
+{ "id": "theme", "name": "/theme", "description": "Theme picker for Claude Code interface. Ctrl+T toggles syntax highlighting.", "shortcut": "Ctrl+T", "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

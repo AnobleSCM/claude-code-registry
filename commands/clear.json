@@ -1,0 +1,1 @@
+{ "id": "clear", "name": "/clear", "description": "Wipes the conversation history clean. Starts a fresh chat session without deleting old chats.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

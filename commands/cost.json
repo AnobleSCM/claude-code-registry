@@ -1,0 +1,1 @@
+{ "id": "cost", "name": "/cost", "description": "Show token usage and cost statistics for the current session.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

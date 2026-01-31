@@ -1,0 +1,1 @@
+{ "id": "sandbox", "name": "/sandbox", "description": "Enable sandboxed bash with filesystem and network isolation for secure command execution.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

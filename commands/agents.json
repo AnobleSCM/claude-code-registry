@@ -1,0 +1,1 @@
+{ "id": "agents", "name": "/agents", "description": "Manage custom AI subagents. View, configure, and control built-in and custom agents.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

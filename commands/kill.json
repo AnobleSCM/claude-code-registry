@@ -1,0 +1,1 @@
+{ "id": "kill", "name": "/kill", "description": "Stop a background process by its ID.", "shortcut": null, "arguments": [{ "name": "id", "required": true, "description": "The task/process ID to kill" }], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

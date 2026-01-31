@@ -1,0 +1,1 @@
+{ "id": "exit", "name": "/exit", "description": "Gracefully exits the REPL session. Can also use Ctrl+D.", "shortcut": "Ctrl+D", "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

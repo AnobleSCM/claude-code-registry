@@ -1,0 +1,1 @@
+{ "id": "rewind", "name": "/rewind", "description": "Undo mistakes by rolling back to a previous message in the session. Shows a list of messages to choose from.", "shortcut": "Esc+Esc", "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

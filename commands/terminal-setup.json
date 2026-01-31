@@ -1,0 +1,1 @@
+{ "id": "terminal-setup", "name": "/terminal-setup", "description": "Configure terminal settings for Kitty, Alacritty, Zed, Warp, and other terminal emulators.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

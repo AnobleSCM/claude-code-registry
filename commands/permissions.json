@@ -1,0 +1,1 @@
+{ "id": "permissions", "name": "/permissions", "description": "Manage tool permissions with search. Control which tools and skills Claude can use.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

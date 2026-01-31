@@ -1,0 +1,1 @@
+{ "id": "todos", "name": "/todos", "description": "Check remaining tasks in the current todo list.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

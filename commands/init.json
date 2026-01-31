@@ -1,0 +1,1 @@
+{ "id": "init", "name": "/init", "description": "Initialize a project with CLAUDE.md. Sets up project memory and configuration.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

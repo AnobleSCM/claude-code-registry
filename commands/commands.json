@@ -1,0 +1,1 @@
+{ "id": "commands", "name": "/commands", "description": "List all available slash commands including built-in, project, and personal commands.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

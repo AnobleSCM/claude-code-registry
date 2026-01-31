@@ -1,0 +1,1 @@
+{ "id": "doctor", "name": "/doctor", "description": "Run diagnostics to check for issues. Shows updates section with auto-update channel.", "shortcut": null, "arguments": [], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

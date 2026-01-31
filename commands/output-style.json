@@ -1,0 +1,1 @@
+{ "id": "output-style", "name": "/output-style", "description": "Set output style directly or from selection menu. Controls how Claude formats responses.", "shortcut": null, "arguments": [{ "name": "style", "required": false, "description": "Style name or leave empty for menu" }], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }

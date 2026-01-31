@@ -1,0 +1,1 @@
+{ "id": "rename", "name": "/rename", "description": "Give your current session a memorable name for easy identification and resuming.", "shortcut": null, "arguments": [{ "name": "name", "required": true, "description": "The name for the session" }], "addedAt": "2026-01-31", "updatedAt": "2026-01-31" }
