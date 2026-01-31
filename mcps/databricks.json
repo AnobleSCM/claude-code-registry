@@ -1,0 +1,16 @@
+{
+  "id": "databricks",
+  "name": "Databricks",
+  "displayName": "Databricks",
+  "category": "Databases",
+  "description": "Databricks Unity Catalog, Vector Search, Genie spaces, and custom functions for data engineering.",
+  "provider": "Databricks",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["list_catalogs", "run_query", "vector_search", "manage_jobs", "access_genie"],
+  "tags": ["databricks", "spark", "data-engineering", "unity-catalog", "lakehouse"],
+  "configUrl": "https://github.com/databricks/databricks-mcp",
+  "documentationUrl": "https://docs.databricks.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

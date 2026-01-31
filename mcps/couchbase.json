@@ -1,0 +1,16 @@
+{
+  "id": "couchbase",
+  "name": "Couchbase",
+  "displayName": "Couchbase",
+  "category": "Databases",
+  "description": "Natural language querying of Couchbase cluster data with N1QL and full-text search.",
+  "provider": "Couchbase",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["run_query", "list_buckets", "get_document", "upsert_document", "full_text_search"],
+  "tags": ["couchbase", "nosql", "document-db", "n1ql", "distributed"],
+  "configUrl": "https://github.com/couchbaselabs/couchbase-mcp-server",
+  "documentationUrl": "https://docs.couchbase.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bigquery",
+  "name": "BigQuery",
+  "displayName": "BigQuery",
+  "category": "Databases",
+  "description": "Google BigQuery schema inspection and SQL query capabilities for data warehousing.",
+  "provider": "Google",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["run_query", "list_datasets", "list_tables", "describe_table", "get_job_results"],
+  "tags": ["bigquery", "google", "data-warehouse", "sql", "analytics"],
+  "configUrl": "https://github.com/ergut/mcp-bigquery-server",
+  "documentationUrl": "https://cloud.google.com/bigquery/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

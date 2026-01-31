@@ -1,0 +1,16 @@
+{
+  "id": "airtable-mcp",
+  "name": "Airtable",
+  "displayName": "Airtable",
+  "category": "Databases",
+  "description": "Read/write access to Airtable bases with schema inspection and record management.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_bases", "list_tables", "get_records", "create_record", "update_record", "get_schema"],
+  "tags": ["airtable", "spreadsheet", "database", "no-code", "collaboration"],
+  "configUrl": "https://github.com/felores/airtable-mcp",
+  "documentationUrl": "https://airtable.com/developers/web/api",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "weaviate",
+  "name": "Weaviate",
+  "displayName": "Weaviate",
+  "category": "Databases",
+  "description": "Weaviate vector database for knowledge base connections and semantic search with AI models.",
+  "provider": "Weaviate",
+  "status": "available",
+  "toolCount": 7,
+  "tools": ["create_collection", "add_objects", "search", "list_collections", "manage_schema"],
+  "tags": ["weaviate", "vector-db", "semantic-search", "knowledge-base", "ai"],
+  "configUrl": "https://github.com/weaviate/mcp-server-weaviate",
+  "documentationUrl": "https://weaviate.io/developers/weaviate",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

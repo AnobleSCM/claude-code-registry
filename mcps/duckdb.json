@@ -1,0 +1,16 @@
+{
+  "id": "duckdb",
+  "name": "DuckDB",
+  "displayName": "DuckDB",
+  "category": "Databases",
+  "description": "In-process analytical SQL database. Schema inspection and OLAP queries for data analysis.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["run_query", "list_tables", "describe_table", "read_parquet", "export_data"],
+  "tags": ["duckdb", "analytics", "sql", "olap", "data"],
+  "configUrl": "https://github.com/ktanaka101/mcp-server-duckdb",
+  "documentationUrl": "https://duckdb.org/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

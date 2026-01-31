@@ -1,0 +1,16 @@
+{
+  "id": "chroma",
+  "name": "Chroma",
+  "displayName": "Chroma",
+  "category": "Databases",
+  "description": "Open-source vector database for embeddings, document storage, and full-text search.",
+  "provider": "Chroma",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["create_collection", "add_documents", "query_collection", "list_collections", "delete_collection"],
+  "tags": ["chroma", "vector-db", "embeddings", "full-text-search", "open-source"],
+  "configUrl": "https://github.com/chroma-core/chroma-mcp",
+  "documentationUrl": "https://docs.trychroma.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

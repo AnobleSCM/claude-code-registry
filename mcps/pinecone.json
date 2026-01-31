@@ -1,0 +1,16 @@
+{
+  "id": "pinecone",
+  "name": "Pinecone",
+  "displayName": "Pinecone",
+  "category": "Databases",
+  "description": "Pinecone vector database for knowledgeable AI with vector search and retrieval capabilities.",
+  "provider": "Pinecone",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["upsert_vectors", "query_vectors", "create_index", "list_indexes", "describe_index"],
+  "tags": ["pinecone", "vector-db", "embeddings", "rag", "ai"],
+  "configUrl": "https://github.com/pinecone-io/pinecone-mcp",
+  "documentationUrl": "https://docs.pinecone.io/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

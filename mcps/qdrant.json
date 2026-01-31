@@ -1,0 +1,16 @@
+{
+  "id": "qdrant",
+  "name": "Qdrant",
+  "displayName": "Qdrant",
+  "category": "Databases",
+  "description": "Vector search engine for semantic memory retrieval and similarity search in AI applications.",
+  "provider": "Qdrant",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["store_memory", "find_similar", "create_collection", "list_collections", "delete_points"],
+  "tags": ["qdrant", "vector-db", "embeddings", "similarity-search", "ai"],
+  "configUrl": "https://github.com/qdrant/mcp-server-qdrant",
+  "documentationUrl": "https://qdrant.tech/documentation/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

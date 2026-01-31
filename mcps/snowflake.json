@@ -1,0 +1,16 @@
+{
+  "id": "snowflake",
+  "name": "Snowflake",
+  "displayName": "Snowflake",
+  "category": "Databases",
+  "description": "Snowflake data warehouse with Cortex AI tools and managed MCP server for data analytics.",
+  "provider": "Snowflake",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["run_query", "list_databases", "list_schemas", "describe_table", "cortex_search"],
+  "tags": ["snowflake", "data-warehouse", "sql", "analytics", "cortex"],
+  "configUrl": "https://docs.snowflake.com/en/developer-guide/snowflake-mcp",
+  "documentationUrl": "https://docs.snowflake.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

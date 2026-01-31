@@ -1,0 +1,16 @@
+{
+  "id": "upstash",
+  "name": "Upstash",
+  "displayName": "Upstash",
+  "category": "Databases",
+  "description": "Serverless Redis and Kafka. Data management via natural language for edge computing.",
+  "provider": "Upstash",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["redis_get", "redis_set", "redis_list", "kafka_produce", "kafka_consume", "manage_databases"],
+  "tags": ["upstash", "redis", "kafka", "serverless", "edge"],
+  "configUrl": "https://github.com/upstash/mcp-server",
+  "documentationUrl": "https://upstash.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
