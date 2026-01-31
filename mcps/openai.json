@@ -1,0 +1,16 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "displayName": "OpenAI",
+  "category": "AI & ML",
+  "description": "Interact with OpenAI APIs for completions, embeddings, image generation, and assistants.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["create_completion", "create_embedding", "generate_image", "manage_assistants", "create_transcription"],
+  "tags": ["openai", "gpt", "ai", "embeddings", "dalle"],
+  "configUrl": "https://github.com/nicholasgriffintn/openai-mcp",
+  "documentationUrl": "https://platform.openai.com/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

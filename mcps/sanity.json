@@ -1,0 +1,16 @@
+{
+  "id": "sanity",
+  "name": "Sanity",
+  "displayName": "Sanity",
+  "category": "APIs & Services",
+  "description": "Sanity CMS content platform integration for structured content and real-time collaboration.",
+  "provider": "Sanity",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["query_content", "create_document", "update_document", "manage_datasets", "get_schema"],
+  "tags": ["sanity", "cms", "headless", "structured-content", "groq"],
+  "configUrl": "https://github.com/sanity-io/sanity-mcp-server",
+  "documentationUrl": "https://www.sanity.io/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

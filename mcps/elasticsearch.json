@@ -1,0 +1,16 @@
+{
+  "id": "elasticsearch",
+  "name": "Elasticsearch",
+  "displayName": "Elasticsearch",
+  "category": "Search",
+  "description": "Elasticsearch interaction for search, analytics workloads, and index management.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["search", "create_index", "manage_documents", "get_mappings", "cluster_health"],
+  "tags": ["elasticsearch", "search", "analytics", "full-text", "elk"],
+  "configUrl": "https://github.com/elastic/mcp-server-elasticsearch",
+  "documentationUrl": "https://www.elastic.co/guide/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

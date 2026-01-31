@@ -1,0 +1,16 @@
+{
+  "id": "meilisearch",
+  "name": "Meilisearch",
+  "displayName": "Meilisearch",
+  "category": "Search",
+  "description": "Lightning-fast open source search engine integration with typo tolerance and faceted search.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["search", "add_documents", "create_index", "manage_settings", "list_indexes"],
+  "tags": ["meilisearch", "search", "open-source", "instant-search", "typo-tolerance"],
+  "configUrl": "https://github.com/meilisearch/mcp-server-meilisearch",
+  "documentationUrl": "https://www.meilisearch.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

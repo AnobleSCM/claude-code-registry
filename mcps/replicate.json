@@ -1,0 +1,16 @@
+{
+  "id": "replicate",
+  "name": "Replicate",
+  "displayName": "Replicate",
+  "category": "AI & ML",
+  "description": "Image generation and ML model inference via Replicate's cloud platform.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["run_prediction", "list_models", "get_prediction", "create_model", "list_predictions"],
+  "tags": ["replicate", "ml", "image-generation", "inference", "models"],
+  "configUrl": "https://github.com/nicholasgriffintn/replicate-mcp",
+  "documentationUrl": "https://replicate.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

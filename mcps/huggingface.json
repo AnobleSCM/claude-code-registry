@@ -1,0 +1,16 @@
+{
+  "id": "huggingface",
+  "name": "HuggingFace",
+  "displayName": "HuggingFace",
+  "category": "AI & ML",
+  "description": "HuggingFace Spaces for open source image, audio, and text models with inference API.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["run_inference", "list_models", "search_models", "get_model_info", "list_spaces"],
+  "tags": ["huggingface", "ml", "open-source", "transformers", "inference"],
+  "configUrl": "https://github.com/nicholasgriffintn/huggingface-mcp",
+  "documentationUrl": "https://huggingface.co/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

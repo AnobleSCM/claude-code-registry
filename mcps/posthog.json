@@ -1,0 +1,16 @@
+{
+  "id": "posthog",
+  "name": "PostHog",
+  "displayName": "PostHog",
+  "category": "Analytics",
+  "description": "Product analytics, feature flags, error tracking, and session replay via official PostHog MCP.",
+  "provider": "PostHog",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["query_events", "manage_feature_flags", "get_insights", "list_persons", "manage_experiments"],
+  "tags": ["posthog", "analytics", "feature-flags", "product-analytics", "open-source"],
+  "configUrl": "https://github.com/PostHog/posthog-mcp",
+  "documentationUrl": "https://posthog.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

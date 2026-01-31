@@ -1,0 +1,16 @@
+{
+  "id": "algolia",
+  "name": "Algolia",
+  "displayName": "Algolia",
+  "category": "Search",
+  "description": "Provision, configure, and query Algolia search indices for fast application search.",
+  "provider": "Algolia",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["search_index", "create_index", "manage_records", "configure_settings", "list_indices"],
+  "tags": ["algolia", "search", "indexing", "full-text", "relevance"],
+  "configUrl": "https://github.com/algolia/mcp-server-algolia",
+  "documentationUrl": "https://www.algolia.com/doc/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

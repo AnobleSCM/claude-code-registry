@@ -1,0 +1,16 @@
+{
+  "id": "shopify",
+  "name": "Shopify",
+  "displayName": "Shopify",
+  "category": "E-commerce",
+  "description": "Shopify API integration for store management, product data, orders, and inventory.",
+  "provider": "Shopify",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_products", "manage_orders", "manage_inventory", "manage_customers", "manage_collections"],
+  "tags": ["shopify", "ecommerce", "store", "products", "orders"],
+  "configUrl": "https://github.com/Shopify/dev-mcp",
+  "documentationUrl": "https://shopify.dev/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

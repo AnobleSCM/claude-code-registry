@@ -1,0 +1,16 @@
+{
+  "id": "contentful",
+  "name": "Contentful",
+  "displayName": "Contentful",
+  "category": "APIs & Services",
+  "description": "Contentful CMS management API for content operations with 40+ tools for headless content.",
+  "provider": "Contentful",
+  "status": "available",
+  "toolCount": 40,
+  "tools": ["get_entries", "create_entry", "manage_content_types", "manage_assets", "publish_entry"],
+  "tags": ["contentful", "cms", "headless", "content-management", "api-first"],
+  "configUrl": "https://github.com/contentful/mcp-server",
+  "documentationUrl": "https://www.contentful.com/developers/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
