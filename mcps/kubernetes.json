@@ -1,0 +1,16 @@
+{
+  "id": "kubernetes",
+  "name": "Kubernetes",
+  "displayName": "Kubernetes",
+  "category": "Cloud Services",
+  "description": "Multi-cluster Kubernetes management, pod operations, and resource management via kubectl.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 15,
+  "tools": ["get_pods", "get_services", "apply_manifest", "get_logs", "manage_deployments", "manage_namespaces"],
+  "tags": ["kubernetes", "k8s", "containers", "orchestration", "devops"],
+  "configUrl": "https://github.com/strowk/mcp-k8s-go",
+  "documentationUrl": "https://kubernetes.io/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

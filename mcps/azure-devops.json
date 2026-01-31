@@ -1,0 +1,16 @@
+{
+  "id": "azure-devops",
+  "name": "Azure DevOps",
+  "displayName": "Azure DevOps",
+  "category": "Cloud Services",
+  "description": "Interact with Azure DevOps repositories, work items, builds, and CI/CD pipelines. Official Microsoft TypeScript-based MCP server.",
+  "provider": "Microsoft",
+  "status": "available",
+  "toolCount": 20,
+  "tools": ["get_work_items", "create_work_item", "list_repositories", "get_build_status", "manage_wiki"],
+  "tags": ["azure", "devops", "cicd", "microsoft", "pipelines"],
+  "configUrl": "https://github.com/microsoft/azure-devops-mcp",
+  "documentationUrl": "https://github.com/microsoft/azure-devops-mcp",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cloudflare",
+  "name": "Cloudflare",
+  "displayName": "Cloudflare",
+  "category": "Cloud Services",
+  "description": "Manage Cloudflare Workers, KV, R2, D1 and edge infrastructure directly from Claude Code.",
+  "provider": "Cloudflare",
+  "status": "available",
+  "toolCount": 15,
+  "tools": ["manage_workers", "manage_kv", "manage_r2", "manage_d1", "manage_dns"],
+  "tags": ["cloudflare", "edge", "workers", "cdn", "dns"],
+  "configUrl": "https://github.com/cloudflare/mcp-server-cloudflare",
+  "documentationUrl": "https://github.com/cloudflare/mcp-server-cloudflare",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

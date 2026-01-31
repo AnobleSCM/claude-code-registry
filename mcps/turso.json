@@ -1,0 +1,16 @@
+{
+  "id": "turso",
+  "name": "Turso",
+  "displayName": "Turso",
+  "category": "Databases",
+  "description": "Turso SQLite databases with schema exploration and vector similarity search at the edge.",
+  "provider": "Turso",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["run_query", "list_databases", "create_database", "inspect_schema", "vector_search"],
+  "tags": ["turso", "sqlite", "edge", "database", "libsql"],
+  "configUrl": "https://docs.turso.tech/",
+  "documentationUrl": "https://docs.turso.tech/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

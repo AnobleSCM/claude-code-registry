@@ -1,0 +1,16 @@
+{
+  "id": "terraform",
+  "name": "Terraform",
+  "displayName": "Terraform",
+  "category": "Cloud Services",
+  "description": "HashiCorp Terraform infrastructure-as-code. Read configs, manage workspaces, and access provider docs.",
+  "provider": "HashiCorp",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["read_config", "manage_workspace", "plan", "apply", "get_provider_docs"],
+  "tags": ["terraform", "iac", "hashicorp", "infrastructure", "devops"],
+  "configUrl": "https://github.com/hashicorp/terraform-mcp-server",
+  "documentationUrl": "https://developer.hashicorp.com/terraform",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

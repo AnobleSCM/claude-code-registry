@@ -1,0 +1,16 @@
+{
+  "id": "planetscale",
+  "name": "PlanetScale",
+  "displayName": "PlanetScale",
+  "category": "Databases",
+  "description": "PlanetScale serverless MySQL. Read-only database interactions and schema inspection.",
+  "provider": "PlanetScale",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["run_query", "list_databases", "inspect_schema", "list_branches", "get_deploy_requests"],
+  "tags": ["planetscale", "mysql", "serverless", "database", "vitess"],
+  "configUrl": "https://planetscale.com/docs",
+  "documentationUrl": "https://planetscale.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pulumi",
+  "name": "Pulumi",
+  "displayName": "Pulumi",
+  "category": "Cloud Services",
+  "description": "Infrastructure-as-code using Pulumi Automation API and Cloud API for multi-cloud deployments.",
+  "provider": "Pulumi",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["preview_stack", "update_stack", "list_resources", "get_outputs", "manage_config"],
+  "tags": ["pulumi", "iac", "infrastructure", "multi-cloud", "devops"],
+  "configUrl": "https://github.com/pulumi/pulumi-mcp",
+  "documentationUrl": "https://www.pulumi.com/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

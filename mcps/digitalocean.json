@@ -1,0 +1,16 @@
+{
+  "id": "digitalocean",
+  "name": "DigitalOcean",
+  "displayName": "DigitalOcean",
+  "category": "Cloud Services",
+  "description": "Manage DigitalOcean cloud resources, apps, and infrastructure via natural language.",
+  "provider": "DigitalOcean",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["manage_droplets", "manage_apps", "manage_databases", "manage_domains", "manage_storage"],
+  "tags": ["digitalocean", "cloud", "droplets", "hosting", "infrastructure"],
+  "configUrl": "https://github.com/digitalocean/do-mcp",
+  "documentationUrl": "https://docs.digitalocean.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "displayName": "Neon",
+  "category": "Databases",
+  "description": "Serverless PostgreSQL. Create and manage Neon Postgres databases with natural language.",
+  "provider": "Neon",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["create_project", "create_branch", "run_sql", "list_databases", "manage_endpoints"],
+  "tags": ["neon", "postgres", "serverless", "database", "sql"],
+  "configUrl": "https://neon.tech/docs/ai/neon-mcp-server",
+  "documentationUrl": "https://neon.tech/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

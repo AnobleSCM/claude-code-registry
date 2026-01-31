@@ -1,0 +1,16 @@
+{
+  "id": "gcp",
+  "name": "Google Cloud",
+  "displayName": "Google Cloud",
+  "category": "Cloud Services",
+  "description": "Google Cloud Platform integration via gcloud CLI. Manage compute, storage, IAM, logging, and billing.",
+  "provider": "Google",
+  "status": "available",
+  "toolCount": 18,
+  "tools": ["manage_compute", "manage_storage", "manage_iam", "query_logs", "manage_billing"],
+  "tags": ["gcp", "google-cloud", "compute", "storage", "iam"],
+  "configUrl": "https://github.com/nicholasgriffintn/gcp-mcp",
+  "documentationUrl": "https://cloud.google.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
