@@ -1,0 +1,13 @@
+{
+  "id": "mcp-builder",
+  "name": "mcp-builder",
+  "displayName": "MCP Builder",
+  "category": "Development",
+  "description": "Guide for creating high-quality MCP servers using FastMCP (Python) or MCP SDK (Node/TypeScript). Covers tool design and service integration.",
+  "invocation": "/mcp-builder",
+  "source": "built-in",
+  "tags": ["mcp", "server-development", "fastmcp", "typescript", "python"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

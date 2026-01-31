@@ -1,0 +1,13 @@
+{
+  "id": "algorithmic-art",
+  "name": "algorithmic-art",
+  "displayName": "Algorithmic Art",
+  "category": "Design",
+  "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Generative art, flow fields, and particle systems.",
+  "invocation": "/algorithmic-art",
+  "source": "built-in",
+  "tags": ["art", "generative", "p5js", "creative-coding", "design"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

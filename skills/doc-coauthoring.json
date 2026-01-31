@@ -1,0 +1,13 @@
+{
+  "id": "doc-coauthoring",
+  "name": "doc-coauthoring",
+  "displayName": "Doc Co-Authoring",
+  "category": "Documentation",
+  "description": "Structured workflow for co-authoring documentation, proposals, and technical specs. Helps transfer context and iterate through review cycles.",
+  "invocation": "/doc-coauthoring",
+  "source": "built-in",
+  "tags": ["documentation", "writing", "collaboration", "proposals", "specs"],
+  "documentationUrl": null,
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
