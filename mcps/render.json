@@ -1,0 +1,16 @@
+{
+  "id": "render",
+  "name": "Render",
+  "displayName": "Render",
+  "category": "Cloud Services",
+  "description": "Render cloud platform deployment, service management, and infrastructure operations.",
+  "provider": "Render",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_services", "deploy_service", "manage_env_groups", "get_logs", "manage_databases"],
+  "tags": ["render", "deployment", "hosting", "paas", "cloud"],
+  "configUrl": "https://github.com/nicholasgriffintn/render-mcp",
+  "documentationUrl": "https://docs.render.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

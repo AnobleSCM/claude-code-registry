@@ -1,0 +1,16 @@
+{
+  "id": "raycast",
+  "name": "Raycast",
+  "displayName": "Raycast",
+  "category": "Developer Tools",
+  "description": "Raycast productivity tool integration for launching extensions and managing shortcuts.",
+  "provider": "Raycast",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["search_extensions", "run_command", "manage_snippets", "manage_quicklinks", "list_extensions"],
+  "tags": ["raycast", "productivity", "launcher", "shortcuts", "macos"],
+  "configUrl": "https://github.com/nicholasgriffintn/raycast-mcp",
+  "documentationUrl": "https://developers.raycast.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

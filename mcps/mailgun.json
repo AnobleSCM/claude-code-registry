@@ -1,0 +1,16 @@
+{
+  "id": "mailgun",
+  "name": "Mailgun",
+  "displayName": "Mailgun",
+  "category": "Communication",
+  "description": "Email sending, tracking, and management via Mailgun transactional email API.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["send_email", "list_events", "manage_domains", "manage_routes", "get_stats"],
+  "tags": ["mailgun", "email", "transactional", "deliverability", "api"],
+  "configUrl": "https://github.com/nicholasgriffintn/mailgun-mcp",
+  "documentationUrl": "https://documentation.mailgun.com/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

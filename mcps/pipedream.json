@@ -1,0 +1,16 @@
+{
+  "id": "pipedream",
+  "name": "Pipedream",
+  "displayName": "Pipedream",
+  "category": "Automation",
+  "description": "Connect 2,500+ APIs with 8,000+ prebuilt tools via Pipedream serverless workflows.",
+  "provider": "Pipedream",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_workflows", "deploy_workflow", "manage_sources", "get_events", "manage_accounts"],
+  "tags": ["pipedream", "automation", "serverless", "api-integrations", "workflows"],
+  "configUrl": "https://github.com/PipedreamHQ/pipedream-mcp",
+  "documentationUrl": "https://pipedream.com/docs/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

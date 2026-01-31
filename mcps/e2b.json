@@ -1,0 +1,16 @@
+{
+  "id": "e2b",
+  "name": "E2B",
+  "displayName": "E2B",
+  "category": "Developer Tools",
+  "description": "Secure cloud sandboxed code execution environments for AI agents and code interpreting.",
+  "provider": "E2B",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["create_sandbox", "run_code", "upload_file", "download_file", "list_sandboxes"],
+  "tags": ["e2b", "sandbox", "code-execution", "ai-agents", "cloud"],
+  "configUrl": "https://github.com/e2b-dev/mcp-server",
+  "documentationUrl": "https://e2b.dev/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

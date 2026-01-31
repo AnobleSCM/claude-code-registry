@@ -1,0 +1,16 @@
+{
+  "id": "n8n",
+  "name": "n8n",
+  "displayName": "n8n",
+  "category": "Automation",
+  "description": "Low-code workflow automation. Trigger and orchestrate logic flows with 400+ integrations.",
+  "provider": "n8n",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["list_workflows", "execute_workflow", "manage_credentials", "get_executions", "manage_nodes"],
+  "tags": ["n8n", "automation", "workflow", "low-code", "self-hosted"],
+  "configUrl": "https://github.com/nicholasgriffintn/n8n-mcp",
+  "documentationUrl": "https://docs.n8n.io/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

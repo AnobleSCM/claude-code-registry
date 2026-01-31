@@ -1,0 +1,16 @@
+{
+  "id": "perplexity",
+  "name": "Perplexity",
+  "displayName": "Perplexity",
+  "category": "AI & ML",
+  "description": "Perplexity AI search and research API integration for real-time information retrieval.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 3,
+  "tools": ["search", "ask", "get_citations"],
+  "tags": ["perplexity", "ai-search", "research", "real-time", "citations"],
+  "configUrl": "https://github.com/nicholasgriffintn/perplexity-mcp",
+  "documentationUrl": "https://docs.perplexity.ai/",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

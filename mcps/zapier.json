@@ -1,0 +1,16 @@
+{
+  "id": "zapier",
+  "name": "Zapier",
+  "displayName": "Zapier",
+  "category": "Automation",
+  "description": "Connect to 2000+ apps via Zapier workflows, triggers, and automations from Claude Code.",
+  "provider": "Zapier",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["trigger_zap", "list_zaps", "manage_connections", "run_action", "get_history"],
+  "tags": ["zapier", "automation", "workflows", "integrations", "no-code"],
+  "configUrl": "https://github.com/nicholasgriffintn/zapier-mcp",
+  "documentationUrl": "https://zapier.com/developer",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}

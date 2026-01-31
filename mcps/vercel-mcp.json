@@ -1,0 +1,16 @@
+{
+  "id": "vercel-mcp",
+  "name": "Vercel",
+  "displayName": "Vercel",
+  "category": "Cloud Services",
+  "description": "Vercel deployment monitoring, project management, and infrastructure control via MCP.",
+  "provider": "Vercel",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_projects", "get_deployments", "manage_domains", "get_logs", "manage_env_vars"],
+  "tags": ["vercel", "deployment", "hosting", "nextjs", "serverless"],
+  "configUrl": "https://github.com/nicholasgriffintn/vercel-mcp",
+  "documentationUrl": "https://vercel.com/docs",
+  "addedAt": "2026-01-31",
+  "updatedAt": "2026-01-31"
+}
