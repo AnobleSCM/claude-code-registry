@@ -1,0 +1,17 @@
+{
+  "id": "backend-dev",
+  "name": "Backend Developer",
+  "description": "APIs, databases, and server-side development",
+  "icon": "server",
+  "badge": "official",
+  "items": [
+    {"type": "skill", "id": "stripe-best-practices"},
+    {"type": "agent", "id": "backend-architect"},
+    {"type": "agent", "id": "security-reviewer"},
+    {"type": "mcp", "id": "postgres"},
+    {"type": "mcp", "id": "sqlite"},
+    {"type": "mcp", "id": "github"},
+    {"type": "mcp", "id": "stripe"}
+  ],
+  "tags": ["backend", "api", "database"]
+}

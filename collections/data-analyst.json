@@ -1,0 +1,14 @@
+{
+  "id": "data-analyst",
+  "name": "Data Analyst",
+  "description": "Data exploration, analysis, and visualization",
+  "icon": "bar-chart-3",
+  "badge": "official",
+  "items": [
+    {"type": "agent", "id": "explore"},
+    {"type": "mcp", "id": "postgres"},
+    {"type": "mcp", "id": "sqlite"},
+    {"type": "mcp", "id": "filesystem"}
+  ],
+  "tags": ["data", "analytics", "visualization"]
+}

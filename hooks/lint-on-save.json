@@ -1,0 +1,19 @@
+{
+  "id": "lint-on-save",
+  "name": "Lint on Save",
+  "description": "Automatically runs ESLint on files after Claude edits them",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit|Write",
+  "handlerType": "command",
+  "tags": ["lint", "eslint", "code-quality"],
+  "content": "#!/bin/bash\n# Run ESLint on the edited file\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  npx eslint --fix \"$FILE\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit|Write", "hooks": [{"type": "command", "command": "~/.claude/hooks/lint-on-save.sh"}]}]
+    }
+  },
+  "addedAt": "2026-01-31T00:00:00Z",
+  "updatedAt": "2026-01-31T00:00:00Z",
+  "verified": true
+}

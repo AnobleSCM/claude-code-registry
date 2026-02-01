@@ -1,0 +1,18 @@
+{
+  "id": "frontend-dev",
+  "name": "Frontend Developer",
+  "description": "Essential tools for React, Vue, and modern web development",
+  "icon": "palette",
+  "badge": "official",
+  "items": [
+    {"type": "skill", "id": "frontend-design"},
+    {"type": "skill", "id": "webapp-testing"},
+    {"type": "agent", "id": "code-reviewer"},
+    {"type": "agent", "id": "debugger"},
+    {"type": "agent", "id": "frontend-developer"},
+    {"type": "mcp", "id": "chrome-devtools"},
+    {"type": "mcp", "id": "context7"},
+    {"type": "mcp", "id": "puppeteer"}
+  ],
+  "tags": ["frontend", "react", "web"]
+}

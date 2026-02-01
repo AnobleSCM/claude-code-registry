@@ -1,0 +1,16 @@
+{
+  "id": "devops-engineer",
+  "name": "DevOps Engineer",
+  "description": "Infrastructure, deployment, and automation",
+  "icon": "wrench",
+  "badge": "official",
+  "items": [
+    {"type": "skill", "id": "commit"},
+    {"type": "agent", "id": "bash"},
+    {"type": "agent", "id": "pre-commit-checker"},
+    {"type": "mcp", "id": "github"},
+    {"type": "mcp", "id": "firebase"},
+    {"type": "mcp", "id": "sentry"}
+  ],
+  "tags": ["devops", "deployment", "automation"]
+}

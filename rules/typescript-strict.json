@@ -1,0 +1,16 @@
+{
+  "id": "typescript-strict",
+  "name": "TypeScript Strict Mode",
+  "description": "Enforces strict TypeScript patterns — no any, explicit return types, null checks",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.ts", "**/*.tsx"]
+  },
+  "content": "# TypeScript Strict Mode Rules\n\n- Never use `any` type — use `unknown` and narrow with type guards\n- Always provide explicit return types for exported functions\n- Use strict null checks — no implicit null/undefined\n- Prefer `interface` over `type` for object shapes\n- Use `readonly` for properties that shouldn't be mutated\n- Avoid type assertions (`as`) — use type guards instead",
+  "tags": ["typescript", "strict", "code-quality"],
+  "addedAt": "2026-01-31T00:00:00Z",
+  "updatedAt": "2026-01-31T00:00:00Z",
+  "verified": true
+}

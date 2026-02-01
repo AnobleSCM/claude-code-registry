@@ -1,0 +1,19 @@
+{
+  "id": "block-dangerous-commands",
+  "name": "Block Dangerous Commands",
+  "description": "Prevents rm -rf, git push --force, and other destructive operations from being executed",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "bash", "protection"],
+  "content": "#!/bin/bash\nDANGEROUS_PATTERNS=('rm -rf /' 'git push --force' 'git reset --hard' 'DROP TABLE' 'DROP DATABASE')\nfor pattern in \"${DANGEROUS_PATTERNS[@]}\"; do\n  if echo \"$1\" | grep -q \"$pattern\"; then\n    echo \"BLOCKED: Dangerous command detected: $pattern\"\n    exit 2\n  fi\ndone\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-dangerous-commands.sh"}]}]
+    }
+  },
+  "addedAt": "2026-01-31T00:00:00Z",
+  "updatedAt": "2026-01-31T00:00:00Z",
+  "verified": true
+}

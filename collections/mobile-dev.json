@@ -1,0 +1,14 @@
+{
+  "id": "mobile-dev",
+  "name": "Mobile Developer",
+  "description": "iOS, Android, and cross-platform development",
+  "icon": "smartphone",
+  "badge": "official",
+  "items": [
+    {"type": "agent", "id": "mobile-developer"},
+    {"type": "agent", "id": "flutter-expert"},
+    {"type": "mcp", "id": "ios-simulator"},
+    {"type": "mcp", "id": "firebase"}
+  ],
+  "tags": ["mobile", "ios", "android", "flutter"]
+}
