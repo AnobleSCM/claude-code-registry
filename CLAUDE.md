@@ -5,33 +5,33 @@ Community-maintained catalog of Claude Code capabilities. **Data-only repo** —
 ## Purpose
 
 Provides JSON data for [Claude Code Playbook](https://claudecodeplaybook.ai):
-- Skills (80+)
-- Agents (48+)
-- MCPs (8+)
-- Tools (15+)
-- Commands (20+)
+- Skills (83)
+- Agents (51)
+- MCPs (101)
+- Tools (20)
+- Commands (47)
+- Collections (6)
+- Plugins (13)
+- Rules (3)
+- Hooks (3)
 
 ---
 
 ## Structure
 
 ```
-skills/
-├── index.json       # List of all skill IDs
-├── frontend-design.json
-├── commit.json
-└── ...
-
-agents/
-├── index.json
-└── ...
-
-mcps/
-├── index.json
-└── ...
+skills/        # 83 skill definitions
+agents/        # 51 agent definitions
+mcps/          # 101 MCP server definitions
+tools/         # 20 tool definitions
+commands/      # 47 command definitions
+collections/   # 6 curated skill collections
+plugins/       # 13 plugin definitions
+rules/         # 3 rule definitions
+hooks/         # 3 hook definitions
 ```
 
-Each `index.json` lists item IDs. Individual JSON files contain full metadata.
+Each directory has an `index.json` listing item IDs. Individual JSON files contain full metadata.
 
 ---
 
@@ -63,6 +63,15 @@ Each `index.json` lists item IDs. Individual JSON files contain full metadata.
 
 ---
 
+## Validation
+
+```bash
+# Check all JSON files are valid
+find . -name "*.json" -exec python3 -m json.tool {} > /dev/null \;
+```
+
+---
+
 ## No Services
 
 This repo uses **NO backend services**:
@@ -79,3 +88,10 @@ It's static JSON served via GitHub raw URLs.
 
 - **Playbook App**: `~/claude-code-playbook` (consumes this data)
 - **GitHub**: `github.com/AnobleSCM/claude-code-registry`
+
+## Raw URLs
+
+Playbook fetches from:
+```
+https://raw.githubusercontent.com/AnobleSCM/claude-code-registry/main/<category>/<id>.json
+```
