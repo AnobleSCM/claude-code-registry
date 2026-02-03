@@ -1,0 +1,20 @@
+{
+  "id": "british-english-convert",
+  "name": "British English Convert",
+  "description": "Converts American English spellings to British English in code comments and strings",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "i18n", "english", "formatting"],
+  "sourceUrl": "https://github.com/AshDevFr/britfix",
+  "content": "#!/bin/bash\n# Convert American English to British English in edited files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -f \"$FILE\" ]]; then\n  sed -i '' 's/color/colour/g; s/Color/Colour/g' \"$FILE\" 2>/dev/null\n  sed -i '' 's/organize/organise/g; s/Organize/Organise/g' \"$FILE\" 2>/dev/null\n  sed -i '' 's/initialize/initialise/g; s/Initialize/Initialise/g' \"$FILE\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/british-english-convert.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

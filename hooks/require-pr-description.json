@@ -1,0 +1,20 @@
+{
+  "id": "require-pr-description",
+  "name": "Require PR Description",
+  "description": "Blocks gh pr create commands when no --body flag is provided to ensure PRs have descriptions",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "git", "github", "pr"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Require --body flag on gh pr create\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'gh\\s+pr\\s+create'; then\n  if ! echo \"$COMMAND\" | grep -qE '--body'; then\n    echo \"BLOCKED: PR must include a description. Add --body flag to gh pr create.\"\n    exit 2\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/require-pr-description.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tdd-practitioner",
+  "name": "TDD Practitioner",
+  "description": "Enforces test-driven development with red-green-refactor cycle and descriptive test design.",
+  "category": "testing",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*"]
+  },
+  "content": "# TDD Practitioner Rules\n\n- Always write a failing test first before writing implementation code (Red-Green-Refactor)\n- Each test should have exactly one reason to fail — one logical assertion per test\n- Use descriptive test names that read like specifications: `should return empty array when no items match filter`\n- Follow the Arrange-Act-Assert (AAA) pattern in every test\n- Test behavior, not implementation — tests should survive refactoring\n- Mock external dependencies (APIs, databases, file system) but never mock the unit under test\n- Maintain fast test suites — unit tests should run in under 10 seconds total\n- Write tests at the right level: many unit tests, fewer integration tests, minimal E2E tests\n- Keep test code as clean as production code — extract test helpers and fixtures\n- Run the full test suite before committing — no broken tests in the repository",
+  "tags": ["testing", "tdd", "best-practices"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

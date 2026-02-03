@@ -1,0 +1,14 @@
+{
+  "id": "project-architecture-guide",
+  "name": "Project Architecture Guide",
+  "description": "Template rule for documenting project architecture including folder structure, data flow, and key patterns.",
+  "category": "documentation",
+  "subtype": "knowledge",
+  "scope": "project",
+  "sourceUrl": "",
+  "content": "# Project Architecture Guide\n\nUse this template to document your project's architecture for Claude.\n\n## Folder Structure\n- Describe the top-level directory layout and the purpose of each directory\n- Note any conventions: co-location, barrel exports, feature-based vs layer-based organization\n\n## Data Flow\n- Describe how data moves through the system: user action -> API call -> service -> database -> response\n- Document state management patterns: where state lives, how it's updated, how components subscribe\n\n## Key Patterns\n- List architectural patterns in use: MVC, MVVM, Clean Architecture, hexagonal, event-driven, etc.\n- Document dependency injection, repository patterns, or service layer conventions\n\n## External Dependencies\n- List third-party services (databases, APIs, message queues) and how they're integrated\n- Note which dependencies are critical vs optional, and what happens when they're unavailable\n\n## Configuration\n- Document environment variables, feature flags, and configuration files\n- Note which settings differ between development, staging, and production\n\n## Conventions\n- Naming conventions for files, functions, components, and database entities\n- Code organization rules the team follows",
+  "tags": ["documentation", "architecture", "knowledge", "template"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "typescript-quality-check",
+  "name": "TypeScript Quality Check",
+  "description": "Runs TypeScript compilation, ESLint, and Prettier checks after code edits",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit|MultiEdit",
+  "handlerType": "command",
+  "tags": ["typescript", "eslint", "prettier", "code-quality"],
+  "sourceUrl": "https://github.com/bartolli/claude-code-typescript-hooks",
+  "content": "#!/bin/bash\n# Run TypeScript + ESLint + Prettier on edited file\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.(ts|tsx)$ ]]; then\n  npx tsc --noEmit 2>/dev/null\n  npx eslint --fix \"$FILE\" 2>/dev/null\n  npx prettier --write \"$FILE\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit|MultiEdit", "hooks": [{"type": "command", "command": "~/.claude/hooks/typescript-quality-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

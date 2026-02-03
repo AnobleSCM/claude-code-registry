@@ -1,0 +1,20 @@
+{
+  "id": "run-tests-before-commit",
+  "name": "Run Tests Before Commit",
+  "description": "Intercepts git commit commands and runs the test suite first, blocking if tests fail",
+  "category": "testing",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["testing", "git", "ci"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run tests before allowing git commit\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'git\\s+commit'; then\n  echo \"Running tests before commit...\"\n  npm test 2>&1\n  if [ $? -ne 0 ]; then\n    echo \"BLOCKED: Tests failed. Fix tests before committing.\"\n    exit 2\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/run-tests-before-commit.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

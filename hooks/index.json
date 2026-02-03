@@ -1,6 +1,29 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-01-31T00:00:00Z",
-  "count": 2,
-  "items": ["block-dangerous-commands", "lint-on-save"]
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "count": 22,
+  "items": [
+    "block-dangerous-commands",
+    "lint-on-save",
+    "block-force-push",
+    "auto-format-on-save",
+    "typescript-quality-check",
+    "run-tests-before-commit",
+    "tdd-guard",
+    "desktop-notify",
+    "sound-effects",
+    "prevent-secret-commits",
+    "log-all-tool-calls",
+    "require-pr-description",
+    "conventional-commits",
+    "dependency-audit",
+    "british-english-convert",
+    "inter-agent-comms",
+    "python-hooks-sdk",
+    "php-hooks-sdk",
+    "block-env-file-read",
+    "auto-git-add",
+    "session-timer",
+    "docker-build-check"
+  ]
 }

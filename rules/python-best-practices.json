@@ -1,0 +1,17 @@
+{
+  "id": "python-best-practices",
+  "name": "Python Best Practices",
+  "description": "Enforces PEP 8 compliance, type hints, and modern Python idioms.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.py"]
+  },
+  "content": "# Python Best Practices\n\n- Follow PEP 8 style guidelines — use a formatter like `black` or `ruff format`\n- Add type hints to all function signatures and return types\n- Write docstrings for all public modules, classes, and functions (Google or NumPy style)\n- Use `pathlib.Path` instead of `os.path` for file system operations\n- Prefer f-strings over `.format()` or `%` string formatting\n- Use list/dict/set comprehensions over manual loops when readable\n- Prefer `dataclasses` or `pydantic` models over plain dicts for structured data\n- Use context managers (`with` statements) for resource management\n- Import only what you need — avoid wildcard `from module import *`\n- Handle exceptions specifically — never use bare `except:`",
+  "tags": ["python", "code-quality", "pep8"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

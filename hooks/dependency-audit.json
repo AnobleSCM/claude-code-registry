@@ -1,0 +1,20 @@
+{
+  "id": "dependency-audit",
+  "name": "Dependency Audit",
+  "description": "Runs npm audit or equivalent security check after package install commands",
+  "category": "devops",
+  "event": "PostToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "security", "npm", "dependencies"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run dependency audit after package installs\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE '(npm install|npm i |yarn add|pnpm add)'; then\n  echo \"Running dependency audit...\"\n  if command -v npm &>/dev/null; then\n    npm audit --audit-level=high 2>&1\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/dependency-audit.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

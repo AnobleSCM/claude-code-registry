@@ -1,0 +1,20 @@
+{
+  "id": "desktop-notify",
+  "name": "Desktop Notifications",
+  "description": "Sends desktop notifications when Claude completes tasks or encounters errors",
+  "category": "notifications",
+  "event": "Notification",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "desktop", "macos", "linux"],
+  "sourceUrl": "https://github.com/nicobailon/cc-notify",
+  "content": "#!/bin/bash\n# Send desktop notification on task events\nTITLE=\"Claude Code\"\nMESSAGE=\"$NOTIFICATION_MESSAGE\"\nif command -v osascript &>/dev/null; then\n  osascript -e \"display notification \\\"$MESSAGE\\\" with title \\\"$TITLE\\\"\"\nelif command -v notify-send &>/dev/null; then\n  notify-send \"$TITLE\" \"$MESSAGE\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Notification": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/desktop-notify.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

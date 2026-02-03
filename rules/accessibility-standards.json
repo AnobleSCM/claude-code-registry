@@ -1,0 +1,17 @@
+{
+  "id": "accessibility-standards",
+  "name": "Accessibility Standards",
+  "description": "Enforces WCAG 2.1 AA compliance with semantic HTML, ARIA labels, and keyboard navigation.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.tsx", "**/*.jsx", "**/*.html"]
+  },
+  "content": "# Accessibility Standards (WCAG 2.1 AA)\n\n- Use semantic HTML elements (`<nav>`, `<main>`, `<article>`, `<button>`) — not `<div>` with click handlers\n- Add `aria-label` or `aria-labelledby` to interactive elements that lack visible text labels\n- Ensure all functionality is accessible via keyboard — test with Tab, Enter, Escape, and arrow keys\n- Maintain color contrast ratio of at least 4.5:1 for normal text and 3:1 for large text\n- Add `alt` text to all images — use `alt=\"\"` for purely decorative images\n- Never use color alone to convey information — pair with icons, text, or patterns\n- Ensure focus indicators are visible — never use `outline: none` without a replacement\n- Use `role` attributes only when no semantic HTML element exists for the purpose\n- Implement skip navigation links for keyboard users to bypass repetitive content\n- Test with a screen reader (VoiceOver, NVDA) at least once per feature\n- Ensure forms have associated `<label>` elements — use `htmlFor` to link labels to inputs",
+  "tags": ["accessibility", "a11y", "wcag", "frontend"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

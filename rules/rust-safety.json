@@ -1,0 +1,17 @@
+{
+  "id": "rust-safety",
+  "name": "Rust Safety",
+  "description": "Enforces safe Rust patterns with proper error handling and minimal unsafe usage.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.rs"]
+  },
+  "content": "# Rust Safety Rules\n\n- Never use `unsafe` blocks without a `// SAFETY:` comment explaining the invariant\n- Use `Result<T, E>` for recoverable errors — avoid `unwrap()` and `expect()` in production code\n- Prefer `Option<T>` over sentinel values for optional data\n- Derive `Debug` on all public types for better error messages\n- Use `thiserror` for library error types and `anyhow` for application error types\n- Prefer `&str` over `String` in function parameters when ownership isn't needed\n- Use `clippy` lints at warn level minimum — `#![warn(clippy::all)]`\n- Prefer iterators and combinators over manual index-based loops\n- Use `Arc<Mutex<T>>` for shared mutable state — document the locking strategy\n- Keep `pub` visibility minimal — expose only what's part of the API",
+  "tags": ["rust", "security", "safety"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

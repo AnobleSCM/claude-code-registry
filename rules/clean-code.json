@@ -1,0 +1,14 @@
+{
+  "id": "clean-code",
+  "name": "Clean Code",
+  "description": "Enforces clean code principles including single responsibility, meaningful naming, and DRY.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "sourceUrl": "",
+  "content": "# Clean Code Rules\n\n- Follow the Single Responsibility Principle — each function and class should do one thing well\n- Use meaningful, descriptive names — variable names should reveal intent without comments\n- Keep functions small — under 20 lines is a good target, extract when longer\n- DRY (Don't Repeat Yourself) but don't abstract prematurely — wait for 3 repetitions before extracting\n- Avoid deep nesting — use early returns and guard clauses to reduce indentation\n- Write code that reads like prose — prefer clarity over cleverness\n- Delete dead code — don't comment it out, that's what version control is for\n- Keep function arguments to 3 or fewer — use an options object for more\n- Separate commands from queries — functions should either do something or return something, not both\n- Write comments only for \"why\", never for \"what\" — the code itself should explain what it does",
+  "tags": ["clean-code", "code-quality", "best-practices"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

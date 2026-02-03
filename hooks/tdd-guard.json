@@ -1,0 +1,20 @@
+{
+  "id": "tdd-guard",
+  "name": "TDD Guard",
+  "description": "Enforces test-driven development by requiring test file changes before implementation changes",
+  "category": "testing",
+  "event": "PreToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["testing", "tdd", "discipline"],
+  "sourceUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+  "content": "#!/bin/bash\n# Enforce TDD: block implementation edits if no test was edited first\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nTDD_FLAG=\"/tmp/claude-tdd-test-written\"\nif [[ \"$FILE\" =~ \\.(test|spec)\\. ]]; then\n  touch \"$TDD_FLAG\"\n  exit 0\nfi\nif [[ ! -f \"$TDD_FLAG\" ]] && [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  echo \"BLOCKED: Write a test first (TDD). Edit a .test. or .spec. file before implementation.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/tdd-guard.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

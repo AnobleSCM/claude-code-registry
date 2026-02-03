@@ -1,0 +1,20 @@
+{
+  "id": "php-hooks-sdk",
+  "name": "PHP Hooks SDK",
+  "description": "Laravel and PHP SDK for building Claude Code hooks with Artisan commands and service providers",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "php", "laravel", "sdk", "framework"],
+  "sourceUrl": "https://github.com/beyondcode/claude-code-hooks-sdk",
+  "content": "#!/bin/bash\n# PHP/Laravel hooks SDK runner\n# Install: composer require beyondcode/claude-code-hooks-sdk\nHOOKS_DIR=\"$HOME/.claude/phphooks\"\nif [[ -d \"$HOOKS_DIR\" ]] && command -v php &>/dev/null; then\n  php \"$HOOKS_DIR/run.php\" --event \"$HOOK_EVENT\" --tool \"$TOOL_NAME\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/php-hooks-sdk.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sound-effects",
+  "name": "Sound Effects",
+  "description": "Plays sound effects when Claude finishes tasks to provide audible feedback",
+  "category": "notifications",
+  "event": "Stop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "sound", "audio", "macos"],
+  "sourceUrl": "https://github.com/nicobailon/claudio",
+  "content": "#!/bin/bash\n# Play a sound when Claude stops\nSOUND_DIR=\"$HOME/.claude/sounds\"\nif [[ \"$STOP_REASON\" == \"error\" ]]; then\n  afplay \"$SOUND_DIR/error.mp3\" 2>/dev/null || printf '\\a'\nelse\n  afplay \"$SOUND_DIR/success.mp3\" 2>/dev/null || printf '\\a'\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Stop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/sound-effects.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

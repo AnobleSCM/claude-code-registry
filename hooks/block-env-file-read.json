@@ -1,0 +1,20 @@
+{
+  "id": "block-env-file-read",
+  "name": "Block .env File Read",
+  "description": "Prevents Claude from reading .env files and other sensitive configuration files",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Read",
+  "handlerType": "command",
+  "tags": ["safety", "secrets", "env", "security"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Block reading of sensitive config files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nBLOCKED_PATTERNS=('.env' '.env.local' '.env.production' 'credentials.json' 'secrets.yaml' '.npmrc')\nfor pattern in \"${BLOCKED_PATTERNS[@]}\"; do\n  if [[ \"$(basename \"$FILE\")\" == \"$pattern\" ]]; then\n    echo \"BLOCKED: Reading sensitive file '$pattern' is not allowed.\"\n    exit 2\n  fi\ndone\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Read", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-env-file-read.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

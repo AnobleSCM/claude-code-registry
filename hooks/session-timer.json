@@ -1,0 +1,20 @@
+{
+  "id": "session-timer",
+  "name": "Session Timer",
+  "description": "Tracks and displays the total session duration when Claude stops working",
+  "category": "notifications",
+  "event": "Stop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "time-tracking", "productivity"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Track and display session duration\nTIMER_FILE=\"/tmp/claude-session-start\"\nif [[ -f \"$TIMER_FILE\" ]]; then\n  START=$(cat \"$TIMER_FILE\")\n  NOW=$(date +%s)\n  ELAPSED=$((NOW - START))\n  MINS=$((ELAPSED / 60))\n  SECS=$((ELAPSED % 60))\n  echo \"Session duration: ${MINS}m ${SECS}s\"\n  rm -f \"$TIMER_FILE\"\nelse\n  date +%s > \"$TIMER_FILE\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Stop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/session-timer.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

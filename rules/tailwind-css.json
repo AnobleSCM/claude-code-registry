@@ -1,0 +1,17 @@
+{
+  "id": "tailwind-css",
+  "name": "Tailwind CSS",
+  "description": "Enforces utility-first Tailwind patterns with design tokens and consistent styling.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.tsx", "**/*.jsx", "**/*.html"]
+  },
+  "content": "# Tailwind CSS Rules\n\n- Use utility classes exclusively — no inline `style` attributes\n- Use `@apply` sparingly — only for highly repeated patterns that can't be extracted as components\n- Define design tokens as CSS custom properties and reference them in `tailwind.config`\n- Use Tailwind's responsive prefixes (`sm:`, `md:`, `lg:`) — never write custom media queries\n- Use `dark:` variant for dark mode styles — don't duplicate color definitions\n- Group related utilities logically: layout, spacing, typography, colors, effects\n- Use `clsx` or `cn()` utility for conditional class merging — avoid string concatenation\n- Prefer Tailwind spacing scale (`p-4`, `gap-6`) over arbitrary values (`p-[17px]`)\n- Extract repeated class patterns into reusable components, not CSS classes\n- Never use raw hex or rgb color values — always use the theme palette",
+  "tags": ["tailwind", "css", "frontend", "styling"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

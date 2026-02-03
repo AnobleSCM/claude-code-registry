@@ -1,0 +1,17 @@
+{
+  "id": "express-node",
+  "name": "Express + Node.js",
+  "description": "Enforces Express.js patterns with async error handling, validation, and proper HTTP conventions.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.ts", "**/*.js"]
+  },
+  "content": "# Express + Node.js Rules\n\n- Use async error handling middleware — wrap route handlers with `asyncHandler` or `express-async-errors`\n- Validate all request input (body, params, query) using `zod` schemas at the route level\n- Use proper HTTP status codes — 201 for created, 204 for no content, 422 for validation errors\n- Structure routes by domain — `routes/users.ts`, `routes/orders.ts`, not one giant router\n- Use middleware layers: auth -> validation -> handler -> error handling\n- Never expose stack traces in production — use a centralized error handler\n- Use environment variables for all configuration — never hardcode ports, URLs, or secrets\n- Prefer `node:` protocol for built-in modules — `import fs from 'node:fs'`\n- Use connection pooling for databases — never create connections per request\n- Implement health check endpoint at `GET /health` for monitoring\n- Log structured JSON with correlation IDs for traceability",
+  "tags": ["express", "node", "backend", "api"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

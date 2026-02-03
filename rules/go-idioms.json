@@ -1,0 +1,17 @@
+{
+  "id": "go-idioms",
+  "name": "Go Idioms",
+  "description": "Enforces idiomatic Go patterns including gofmt, error handling, and interface design.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "https://github.com/strowk/mcp-k8s-go",
+  "frontmatter": {
+    "paths": ["**/*.go"]
+  },
+  "content": "# Go Idioms\n\n- Always run `gofmt` — non-negotiable formatting standard\n- Wrap errors with context using `fmt.Errorf(\"doing X: %w\", err)`\n- Check errors immediately — never use `_` to discard errors silently\n- Keep interfaces small — prefer single-method interfaces and compose them\n- Use table-driven tests with `t.Run()` subtests for comprehensive coverage\n- Accept interfaces, return structs — depend on behavior, not implementation\n- Use `context.Context` as the first parameter for functions that do I/O\n- Prefer goroutines with `errgroup` for concurrent work with error propagation\n- Name return values only when it improves documentation — avoid naked returns\n- Use `sync.Once` for lazy initialization, not `init()` functions",
+  "tags": ["go", "golang", "code-quality"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

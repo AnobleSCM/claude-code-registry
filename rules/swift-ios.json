@@ -1,0 +1,17 @@
+{
+  "id": "swift-ios",
+  "name": "Swift iOS Development",
+  "description": "Enforces modern SwiftUI patterns with MVVM architecture and async/await.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.swift"]
+  },
+  "content": "# Swift iOS Development Rules\n\n- Use SwiftUI as the default UI framework — only use UIKit when SwiftUI lacks capability\n- Follow MVVM architecture — Views observe ViewModels via `@Published` properties\n- Use `async/await` for asynchronous work — avoid completion handler callbacks\n- Mark view models with `@MainActor` to ensure UI updates happen on the main thread\n- Use `@StateObject` for owned objects, `@ObservedObject` for injected ones\n- Prefer `struct` over `class` unless you need reference semantics or inheritance\n- Use Swift's `Codable` protocol for JSON serialization\n- Handle errors with `do/try/catch` — show user-facing alerts for recoverable errors\n- Use `Task` and `TaskGroup` for structured concurrency\n- Follow Apple's Human Interface Guidelines for navigation and layout patterns",
+  "tags": ["swift", "ios", "swiftui", "mobile"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

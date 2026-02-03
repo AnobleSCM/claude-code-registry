@@ -1,0 +1,20 @@
+{
+  "id": "docker-build-check",
+  "name": "Docker Build Check",
+  "description": "Validates Dockerfile syntax and best practices before docker build commands are executed",
+  "category": "devops",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "docker", "validation", "ci"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Validate Dockerfile before docker build\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'docker\\s+build'; then\n  DOCKERFILE=\"Dockerfile\"\n  if echo \"$COMMAND\" | grep -qE -- '-f\\s+\\S+'; then\n    DOCKERFILE=$(echo \"$COMMAND\" | sed -n 's/.*-f\\s\\+\\(\\S\\+\\).*/\\1/p')\n  fi\n  if [[ ! -f \"$DOCKERFILE\" ]]; then\n    echo \"BLOCKED: Dockerfile not found: $DOCKERFILE\"\n    exit 2\n  fi\n  if command -v hadolint &>/dev/null; then\n    hadolint \"$DOCKERFILE\" 2>&1\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/docker-build-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "python-hooks-sdk",
+  "name": "Python Hooks SDK",
+  "description": "Python SDK for building Claude Code hooks with decorators, type safety, and a clean API",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "python", "sdk", "framework"],
+  "sourceUrl": "https://github.com/jackmpcollins/cchooks",
+  "content": "#!/bin/bash\n# Python hooks SDK runner\n# Install: pip install cchooks\n# Usage: Create hooks with @cchook decorator in ~/.claude/pyhooks/\nHOOKS_DIR=\"$HOME/.claude/pyhooks\"\nif [[ -d \"$HOOKS_DIR\" ]] && command -v python3 &>/dev/null; then\n  python3 -m cchooks run --event \"$HOOK_EVENT\" --tool \"$TOOL_NAME\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/python-hooks-sdk.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

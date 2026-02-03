@@ -1,0 +1,17 @@
+{
+  "id": "react-nextjs",
+  "name": "React + Next.js",
+  "description": "Enforces modern React patterns with Next.js App Router and Server Components.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.tsx", "**/*.jsx"]
+  },
+  "content": "# React + Next.js Rules\n\n- Use Server Components by default — only add `'use client'` when you need interactivity or browser APIs\n- Follow Next.js App Router conventions — `page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`\n- No class components — functional components with hooks only\n- Follow the Rules of Hooks — never call hooks conditionally or in loops\n- Co-locate related files — component, styles, tests, and types in the same directory\n- Use `next/image` for images, `next/link` for navigation, `next/font` for fonts\n- Fetch data in Server Components using `async` functions — avoid `useEffect` for data fetching\n- Use React Server Actions for form mutations instead of API routes\n- Implement proper error boundaries with `error.tsx` at each route segment\n- Prefer `Suspense` boundaries with fallbacks over manual loading state management",
+  "tags": ["react", "nextjs", "frontend", "server-components"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

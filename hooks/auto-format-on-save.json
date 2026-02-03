@@ -1,0 +1,20 @@
+{
+  "id": "auto-format-on-save",
+  "name": "Auto Format on Save",
+  "description": "Runs Prettier or Biome to auto-format files after Claude edits them",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit|Write",
+  "handlerType": "command",
+  "tags": ["formatting", "prettier", "biome", "code-quality"],
+  "sourceUrl": "https://github.com/ryanlewis/claude-format-hook",
+  "content": "#!/bin/bash\n# Auto-format file after edit using Prettier or Biome\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif command -v prettier &>/dev/null; then\n  prettier --write \"$FILE\" 2>/dev/null\nelif command -v biome &>/dev/null; then\n  biome format --write \"$FILE\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit|Write", "hooks": [{"type": "command", "command": "~/.claude/hooks/auto-format-on-save.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

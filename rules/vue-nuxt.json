@@ -1,0 +1,17 @@
+{
+  "id": "vue-nuxt",
+  "name": "Vue + Nuxt",
+  "description": "Enforces Vue 3 Composition API patterns with Nuxt conventions.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*.vue", "**/*.ts"]
+  },
+  "content": "# Vue + Nuxt Rules\n\n- Use `<script setup>` syntax exclusively — no Options API\n- Use Composition API with `ref()`, `computed()`, and `watch()` for reactivity\n- Define props with `defineProps<T>()` and events with `defineEmits<T>()` for type safety\n- Use Nuxt auto-imports — don't manually import `ref`, `computed`, `useRoute`, etc.\n- Follow Nuxt directory conventions — `pages/`, `components/`, `composables/`, `server/`\n- Use `useFetch()` or `useAsyncData()` for data fetching — never raw `fetch` in components\n- Extract reusable logic into composables in the `composables/` directory\n- Use `definePageMeta()` for route middleware, layouts, and page-level configuration\n- Keep templates clean — move complex logic into computed properties or composables\n- Use `v-model` with `defineModel()` for two-way binding in custom components",
+  "tags": ["vue", "nuxt", "frontend", "composition-api"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

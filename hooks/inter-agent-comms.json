@@ -1,0 +1,20 @@
+{
+  "id": "inter-agent-comms",
+  "name": "Inter-Agent Communication",
+  "description": "Enables communication between Claude Code agents via the HCOM protocol for multi-agent workflows",
+  "category": "workflow",
+  "event": "PostToolUse",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "agents", "multi-agent", "hcom"],
+  "sourceUrl": "https://github.com/jmagar/hcom",
+  "content": "#!/bin/bash\n# HCOM inter-agent communication hook\nHCOM_DIR=\"$HOME/.claude/hcom\"\nmkdir -p \"$HCOM_DIR\"\nAGENT_ID=${CLAUDE_AGENT_ID:-default}\nTIMESTAMP=$(date +%s)\necho \"{\\\"agent\\\": \\\"$AGENT_ID\\\", \\\"tool\\\": \\\"$TOOL_NAME\\\", \\\"ts\\\": $TIMESTAMP}\" >> \"$HCOM_DIR/messages.jsonl\"\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/inter-agent-comms.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

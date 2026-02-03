@@ -1,0 +1,14 @@
+{
+  "id": "security-first",
+  "name": "Security First",
+  "description": "Enforces OWASP security practices including input validation, parameterized queries, and HTTPS.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "global",
+  "sourceUrl": "",
+  "content": "# Security First Rules\n\n- Always use parameterized queries or ORM methods — never concatenate user input into SQL\n- Sanitize and validate all user input on the server side — client validation is not enough\n- Enforce HTTPS everywhere — redirect HTTP to HTTPS, set HSTS headers\n- Use `Content-Security-Policy` headers to prevent XSS attacks\n- Never store passwords in plain text — use bcrypt, scrypt, or argon2 with proper salt rounds\n- Implement rate limiting on authentication and API endpoints\n- Use CSRF tokens for all state-changing requests in server-rendered apps\n- Set secure cookie flags: `HttpOnly`, `Secure`, `SameSite=Strict`\n- Never expose sensitive data in error messages, logs, or API responses\n- Keep dependencies updated — run `npm audit` or equivalent regularly\n- Use environment variables for secrets — never commit API keys, tokens, or credentials\n- Validate file uploads: check MIME type, limit size, and store outside the web root",
+  "tags": ["security", "owasp", "best-practices"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

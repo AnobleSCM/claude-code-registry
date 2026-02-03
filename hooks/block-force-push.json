@@ -1,0 +1,20 @@
+{
+  "id": "block-force-push",
+  "name": "Block Force Push",
+  "description": "Blocks git push --force and git push -f commands to protect remote branch history",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "git", "protection"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Block force push commands\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'git\\s+push\\s+.*(-f|--force)'; then\n  echo \"BLOCKED: Force push is not allowed. Use --force-with-lease if you must.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-force-push.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

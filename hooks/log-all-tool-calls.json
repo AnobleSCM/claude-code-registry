@@ -1,0 +1,20 @@
+{
+  "id": "log-all-tool-calls",
+  "name": "Log All Tool Calls",
+  "description": "Logs every Claude tool invocation to a file for auditing and debugging purposes",
+  "category": "workflow",
+  "event": "PostToolUse",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "logging", "audit", "debug"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Log all tool calls to a file\nLOG_DIR=\"$HOME/.claude/logs\"\nmkdir -p \"$LOG_DIR\"\nLOG_FILE=\"$LOG_DIR/tool-calls-$(date +%Y-%m-%d).log\"\nTIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')\necho \"[$TIMESTAMP] Tool: $TOOL_NAME | Input: $TOOL_INPUT\" >> \"$LOG_FILE\"\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/log-all-tool-calls.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "database-best-practices",
+  "name": "Database Best Practices",
+  "description": "Enforces database design patterns including indexing, migrations, and query optimization.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "sourceUrl": "",
+  "frontmatter": {
+    "paths": ["**/*"]
+  },
+  "content": "# Database Best Practices\n\n- Add indexes on columns used in WHERE, JOIN, and ORDER BY clauses — profile slow queries first\n- Use database migrations for every schema change — never modify production databases manually\n- Prevent N+1 query problems — use eager loading, joins, or batch queries\n- Normalize data to 3NF by default — denormalize intentionally for read-heavy access patterns\n- Wrap related writes in transactions — ensure atomicity for multi-step operations\n- Use foreign key constraints to enforce referential integrity at the database level\n- Add `created_at` and `updated_at` timestamps to every table\n- Use UUIDs or ULIDs for public-facing IDs — never expose auto-incrementing integers\n- Implement soft deletes (`deleted_at` column) for data that may need recovery\n- Write seed scripts for development data — never rely on production database copies\n- Set connection pool sizes appropriate to your workload — monitor for pool exhaustion",
+  "tags": ["database", "sql", "backend", "performance"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": false
+}
