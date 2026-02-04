@@ -1,0 +1,16 @@
+{
+  "id": "wise",
+  "name": "Wise",
+  "displayName": "Wise",
+  "category": "Payments",
+  "description": "Wise (formerly TransferWise) international money transfer API. Create transfers, get exchange rates, manage multi-currency accounts, and track payment status.",
+  "provider": "Wise",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["create_quote", "create_transfer", "fund_transfer", "get_transfer_status", "list_transfers", "get_exchange_rate", "list_balances", "create_recipient", "list_recipients", "get_account_statement"],
+  "tags": ["wise", "money-transfer", "international-payments", "exchange-rates", "fintech"],
+  "configUrl": "https://github.com/transferwise/mcp-server-wise",
+  "documentationUrl": "https://docs.wise.com/api-docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

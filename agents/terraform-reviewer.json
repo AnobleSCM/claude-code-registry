@@ -1,0 +1,17 @@
+{
+  "id": "terraform-reviewer",
+  "name": "Terraform Reviewer",
+  "displayName": "Terraform Reviewer",
+  "category": "Domain Specific",
+  "description": "Reviews Terraform configurations for security best practices, cost optimization, and infrastructure reliability patterns",
+  "invocation": "Task tool with subagent_type=\"terraform-reviewer\"",
+  "capabilities": [
+    "Audit Terraform plans for security misconfigurations",
+    "Identify cost optimization opportunities in resource definitions",
+    "Check for missing tags, encryption, and access controls",
+    "Validate module structure and state management practices"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

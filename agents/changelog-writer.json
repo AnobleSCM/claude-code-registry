@@ -1,0 +1,17 @@
+{
+  "id": "changelog-writer",
+  "name": "Changelog Writer",
+  "displayName": "Changelog Writer",
+  "category": "Documentation",
+  "description": "Generates changelogs from git history by analyzing commits, grouping changes by category, and formatting them in conventional changelog style",
+  "invocation": "Task tool with subagent_type=\"changelog-writer\"",
+  "capabilities": [
+    "Parse git log for conventional commit messages",
+    "Group changes by type (features, fixes, breaking changes)",
+    "Generate Keep a Changelog or conventional format output",
+    "Detect version bumps and suggest semantic versioning"
+  ],
+  "tools": ["Bash", "Read", "Grep", "Write"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

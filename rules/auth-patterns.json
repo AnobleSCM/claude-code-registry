@@ -1,0 +1,14 @@
+{
+  "id": "auth-patterns",
+  "name": "Authentication & Authorization Patterns",
+  "description": "Enforces secure authentication and authorization best practices including JWT handling, session management, and RBAC.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Authentication & Authorization Patterns Rules\n\n- Use established auth libraries (Passport.js, NextAuth, Supabase Auth, Firebase Auth) — never build auth from scratch\n- Hash passwords with bcrypt, scrypt, or Argon2id — never use MD5, SHA-1, or unsalted hashes\n- Store JWT tokens in HttpOnly, Secure, SameSite=Strict cookies — never in localStorage or sessionStorage\n- Set short JWT expiration (15 minutes for access tokens) with longer-lived refresh tokens stored server-side\n- Implement refresh token rotation — issue a new refresh token on each use and invalidate the old one\n- Use RBAC (Role-Based Access Control) or ABAC (Attribute-Based Access Control) — check permissions on every protected endpoint\n- Apply authorization checks at the API layer, not just the UI — hiding a button is not access control\n- Implement account lockout after 5-10 failed login attempts — with exponential backoff or CAPTCHA\n- Require MFA for admin accounts and sensitive operations — TOTP, WebAuthn, or SMS as fallback\n- Use CSRF tokens for cookie-based auth — not needed for Bearer token auth\n- Log all authentication events — successful logins, failed attempts, password resets, permission changes\n- Implement session invalidation on password change — force re-authentication across all devices",
+  "tags": ["security", "authentication", "authorization", "jwt", "rbac"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

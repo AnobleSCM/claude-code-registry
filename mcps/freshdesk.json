@@ -1,0 +1,16 @@
+{
+  "id": "freshdesk",
+  "name": "Freshdesk",
+  "displayName": "Freshdesk",
+  "category": "CRM",
+  "description": "Freshdesk customer support platform. Create and manage tickets, automate workflows, manage contacts, and track SLA compliance across support channels.",
+  "provider": "Freshworks",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["create_ticket", "update_ticket", "list_tickets", "get_ticket", "reply_to_ticket", "add_note", "list_contacts", "create_contact", "list_agents", "list_groups", "get_ticket_fields", "search_tickets"],
+  "tags": ["freshdesk", "freshworks", "support", "ticketing", "help-desk"],
+  "configUrl": "https://github.com/freshworks/mcp-server-freshdesk",
+  "documentationUrl": "https://developers.freshdesk.com/api/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

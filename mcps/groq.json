@@ -1,0 +1,16 @@
+{
+  "id": "groq",
+  "name": "Groq",
+  "displayName": "Groq",
+  "category": "AI & ML",
+  "description": "Groq LPU inference engine integration. Run ultra-fast inference on open-source models with industry-leading speed for chat completions and text generation.",
+  "provider": "Groq",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["chat_completion", "create_transcription", "create_translation", "list_models", "moderate_content"],
+  "tags": ["groq", "fast-inference", "lpu", "llm", "low-latency"],
+  "configUrl": "https://github.com/groq/mcp-server-groq",
+  "documentationUrl": "https://console.groq.com/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

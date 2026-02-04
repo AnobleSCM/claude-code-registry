@@ -1,0 +1,14 @@
+{
+  "id": "monitoring-alerting",
+  "name": "Monitoring & Alerting",
+  "description": "Enforces monitoring and alerting best practices for production systems including SLOs, dashboards, and on-call.",
+  "category": "devops",
+  "subtype": "knowledge",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Monitoring & Alerting Rules\n\n- Define SLOs (Service Level Objectives) before building alerts — alert on SLO burn rate, not individual metrics\n- Monitor the four golden signals — latency, traffic, errors, and saturation for every service\n- Use structured logging (JSON) — include request ID, user ID, service name, and timestamp in every log entry\n- Set up distributed tracing — use OpenTelemetry to trace requests across service boundaries\n- Create dashboards for each service — show health at a glance with the four golden signals and business metrics\n- Alert on symptoms (user impact), not causes (CPU usage) — high CPU is only a problem if it affects latency or errors\n- Set meaningful alert thresholds — use historical baselines, not arbitrary numbers. Tune to reduce false positives\n- Include runbooks in alert notifications — link to documentation that explains what the alert means and how to respond\n- Use severity levels — P1 (pages on-call immediately), P2 (respond within hours), P3 (review next business day)\n- Implement health check endpoints (`/health`, `/ready`) — separate liveness from readiness probes\n- Monitor error budgets — track how much of your SLO budget is consumed and slow down releases when budget is low\n- Review and prune alerts quarterly — remove noisy alerts that are ignored, fix flappy alerts that erode trust",
+  "tags": ["devops", "monitoring", "alerting", "observability", "slo"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

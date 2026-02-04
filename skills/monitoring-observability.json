@@ -1,0 +1,13 @@
+{
+  "id": "monitoring-observability",
+  "name": "monitoring-observability",
+  "displayName": "Monitoring & Observability",
+  "category": "DevOps",
+  "description": "Set up monitoring, logging, and alerting with tools like Grafana, Prometheus, Datadog, or CloudWatch. Define SLIs/SLOs, create dashboards, and configure alert thresholds.",
+  "invocation": "/monitoring-observability",
+  "source": "community",
+  "tags": ["monitoring", "observability", "grafana", "prometheus", "alerting"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

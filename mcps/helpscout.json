@@ -1,0 +1,16 @@
+{
+  "id": "helpscout",
+  "name": "Help Scout",
+  "displayName": "Help Scout",
+  "category": "Communication",
+  "description": "Help Scout customer support platform. Manage mailboxes, conversations, and customers. Create replies, add notes, and search the knowledge base.",
+  "provider": "Help Scout",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_conversations", "get_conversation", "create_conversation", "reply_to_conversation", "add_note", "list_customers", "search_customers", "list_mailboxes", "search_articles", "update_conversation"],
+  "tags": ["helpscout", "help-desk", "support", "email-support", "knowledge-base"],
+  "configUrl": "https://github.com/helpscout/mcp-server-helpscout",
+  "documentationUrl": "https://developer.helpscout.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

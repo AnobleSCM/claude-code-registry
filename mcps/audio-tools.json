@@ -1,0 +1,16 @@
+{
+  "id": "audio-tools",
+  "name": "Audio Tools",
+  "displayName": "Audio Tools",
+  "category": "Developer Tools",
+  "description": "Audio file processing tools. Transcribe speech, convert formats, trim and merge audio clips, extract metadata, adjust volume, and analyze audio properties.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["transcribe_audio", "convert_format", "trim_audio", "merge_audio", "get_metadata", "adjust_volume", "split_audio", "get_duration", "extract_segment", "analyze_audio"],
+  "tags": ["audio", "transcription", "audio-processing", "conversion", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-audio",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-audio#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

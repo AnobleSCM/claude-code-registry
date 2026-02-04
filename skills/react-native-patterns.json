@@ -1,0 +1,13 @@
+{
+  "id": "react-native-patterns",
+  "name": "react-native-patterns",
+  "displayName": "React Native Patterns",
+  "category": "Mobile",
+  "description": "Cross-platform mobile development patterns for React Native and Expo, including navigation, native modules, performance optimization, and platform-specific code.",
+  "invocation": "/react-native-patterns",
+  "source": "community",
+  "tags": ["react-native", "expo", "cross-platform", "mobile", "javascript"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

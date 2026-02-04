@@ -1,0 +1,17 @@
+{
+  "id": "jupyter-assistant",
+  "name": "Jupyter Assistant",
+  "displayName": "Jupyter Assistant",
+  "category": "Data & ML",
+  "description": "Helps write, debug, and optimize Jupyter notebook cells, including data visualization, statistical analysis, and machine learning workflows",
+  "invocation": "Task tool with subagent_type=\"jupyter-assistant\"",
+  "capabilities": [
+    "Write and debug Python code cells for data analysis",
+    "Create data visualizations with matplotlib, seaborn, or plotly",
+    "Help structure notebooks with markdown explanations",
+    "Optimize pandas operations and memory usage"
+  ],
+  "tools": ["Read", "NotebookEdit", "Bash", "Write"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "raindrop",
+  "name": "Raindrop.io",
+  "displayName": "Raindrop.io",
+  "category": "Productivity",
+  "description": "Raindrop.io bookmark manager integration. Save, organize, search, and tag bookmarks across collections for easy reference and knowledge management.",
+  "provider": "Raindrop.io",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["create_bookmark", "list_bookmarks", "search_bookmarks", "update_bookmark", "delete_bookmark", "list_collections", "create_collection", "add_tags"],
+  "tags": ["raindrop", "bookmarks", "collections", "knowledge-management"],
+  "configUrl": "https://github.com/raindropio/mcp-server-raindrop",
+  "documentationUrl": "https://developer.raindrop.io/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

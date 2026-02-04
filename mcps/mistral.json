@@ -1,0 +1,16 @@
+{
+  "id": "mistral",
+  "name": "Mistral AI",
+  "displayName": "Mistral AI",
+  "category": "AI & ML",
+  "description": "Mistral AI platform integration. Generate completions, create embeddings, and run chat conversations using Mistral models including Mixtral and Mistral Large.",
+  "provider": "Mistral AI",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["chat_completion", "create_embedding", "list_models", "fim_completion", "create_agent", "moderate_content"],
+  "tags": ["mistral", "llm", "ai-api", "open-source", "inference"],
+  "configUrl": "https://github.com/mistralai/mcp-server-mistral",
+  "documentationUrl": "https://docs.mistral.ai/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

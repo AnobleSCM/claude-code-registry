@@ -1,0 +1,13 @@
+{
+  "id": "team-claude-md-template",
+  "name": "team-claude-md-template",
+  "displayName": "Team CLAUDE.md Template",
+  "category": "Enterprise",
+  "description": "Generate a team-wide CLAUDE.md with shared coding standards, naming conventions, architecture decisions, and workflow rules that every team member's Claude agent will follow.",
+  "invocation": "/team-claude-md-template",
+  "source": "community",
+  "tags": ["team", "claude-md", "standards", "conventions", "enterprise"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

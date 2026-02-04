@@ -1,0 +1,16 @@
+{
+  "id": "adr-architecture-decisions",
+  "name": "Architecture Decision Records",
+  "description": "Record architecture decisions in ADR format to preserve context for future developers and your future self.",
+  "category": "documentation",
+  "subtype": "knowledge",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["docs/decisions/**", "docs/adr/**"]
+  },
+  "content": "# Architecture Decision Records Rules\n\n- Create an ADR for every significant architecture decision — framework choices, database selection, API design patterns, deployment strategies\n- Use a numbered filename format — `001-use-postgresql.md`, `002-adopt-event-sourcing.md` for chronological ordering\n- Follow the standard ADR structure — Title, Status (proposed/accepted/deprecated/superseded), Context, Decision, Consequences\n- Write the Context section to explain the problem — what forces or constraints led to needing this decision\n- Write the Decision section in active voice — \"We will use PostgreSQL\" not \"PostgreSQL was chosen\"\n- List both positive and negative Consequences — every decision has tradeoffs, document them honestly\n- Keep ADRs immutable once accepted — if a decision changes, create a new ADR that supersedes the old one\n- Link superseding ADRs — \"Supersedes ADR-003\" and update the old ADR's status to \"Superseded by ADR-007\"\n- Store ADRs in the repository — `docs/decisions/` or `docs/adr/` so they travel with the code\n- Don't create ADRs for trivial decisions — focus on choices that affect the system's structure, cost, or development approach\n- Review ADRs during onboarding — they are the fastest way for new developers to understand why things are the way they are\n- Include the date and participants — future readers need to know when the decision was made and who was involved",
+  "tags": ["documentation", "adr", "architecture", "decisions", "knowledge-management"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fly-io",
+  "name": "Fly.io",
+  "displayName": "Fly.io",
+  "category": "Cloud Services",
+  "description": "Fly.io application platform. Deploy, scale, and manage applications globally. Create machines, manage volumes, configure networking, and monitor app health.",
+  "provider": "Fly.io",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["list_apps", "create_app", "deploy_app", "list_machines", "create_machine", "stop_machine", "start_machine", "list_volumes", "create_volume", "list_secrets", "set_secret", "get_app_status"],
+  "tags": ["fly-io", "edge-computing", "deployment", "global", "containers"],
+  "configUrl": "https://github.com/superfly/mcp-server-fly",
+  "documentationUrl": "https://fly.io/docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

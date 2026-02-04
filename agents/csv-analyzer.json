@@ -1,0 +1,17 @@
+{
+  "id": "csv-analyzer",
+  "name": "CSV Analyzer",
+  "displayName": "CSV Analyzer",
+  "category": "Data & ML",
+  "description": "Analyzes CSV and tabular data files, generating summary statistics, detecting data quality issues, and producing insights about distributions and patterns",
+  "invocation": "Task tool with subagent_type=\"csv-analyzer\"",
+  "capabilities": [
+    "Generate summary statistics for numeric and categorical columns",
+    "Detect missing values, duplicates, and data type inconsistencies",
+    "Identify outliers and distribution patterns",
+    "Suggest data cleaning and normalization steps"
+  ],
+  "tools": ["Read", "Bash", "Write", "Grep"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

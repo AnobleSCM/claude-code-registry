@@ -1,0 +1,20 @@
+{
+  "id": "changelog-update",
+  "name": "Changelog Auto-Update",
+  "description": "Automatically appends feature and fix entries to CHANGELOG.md after git commits with conventional commit messages",
+  "category": "workflow",
+  "event": "PostToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "changelog", "documentation"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Append to CHANGELOG.md after feature/fix commits\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'git\\s+commit'; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  CHANGELOG=\"$ROOT/CHANGELOG.md\"\n  # Get the last commit message\n  MSG=$(cd \"$ROOT\" && git log -1 --pretty=%s 2>/dev/null)\n  if [[ -z \"$MSG\" ]]; then exit 0; fi\n  # Only add entries for features and fixes\n  if echo \"$MSG\" | grep -qE '^(feat|fix)'; then\n    DATE=$(date +%Y-%m-%d)\n    TYPE=$(echo \"$MSG\" | grep -oE '^(feat|fix)')\n    if [[ \"$TYPE\" == \"feat\" ]]; then\n      SECTION=\"### Added\"\n    else\n      SECTION=\"### Fixed\"\n    fi\n    if [[ -f \"$CHANGELOG\" ]]; then\n      echo \"Consider adding to CHANGELOG.md under $SECTION:\"\n      echo \"- $MSG ($DATE)\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/changelog-update.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

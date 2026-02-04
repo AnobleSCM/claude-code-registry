@@ -1,0 +1,13 @@
+{
+  "id": "android-development",
+  "name": "android-development",
+  "displayName": "Android Development",
+  "category": "Mobile",
+  "description": "Build Android apps with Kotlin and Jetpack Compose following Material Design guidelines. Covers MVVM architecture, coroutines, and Play Store publication workflows.",
+  "invocation": "/android-development",
+  "source": "community",
+  "tags": ["android", "kotlin", "jetpack-compose", "material-design", "mobile"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

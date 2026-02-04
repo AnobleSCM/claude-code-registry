@@ -1,0 +1,16 @@
+{
+  "id": "segment",
+  "name": "Segment",
+  "displayName": "Segment",
+  "category": "Data & Analytics",
+  "description": "Twilio Segment customer data platform. Manage sources, destinations, and tracking plans. Send events, configure data pipelines, and unify customer data.",
+  "provider": "Twilio",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_sources", "create_source", "list_destinations", "create_destination", "track_event", "identify_user", "list_tracking_plans", "create_tracking_plan", "get_source_schema", "list_warehouses"],
+  "tags": ["segment", "cdp", "customer-data", "data-pipeline", "event-tracking"],
+  "configUrl": "https://github.com/segmentio/mcp-server-segment",
+  "documentationUrl": "https://segment.com/docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

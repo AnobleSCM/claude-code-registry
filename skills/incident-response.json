@@ -1,0 +1,13 @@
+{
+  "id": "incident-response",
+  "name": "incident-response",
+  "displayName": "Incident Response",
+  "category": "Enterprise",
+  "description": "Structured incident response workflow with severity classification, root cause analysis, mitigation steps, and blameless postmortem documentation generation.",
+  "invocation": "/incident-response",
+  "source": "community",
+  "tags": ["incident", "postmortem", "debugging", "operations", "on-call"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

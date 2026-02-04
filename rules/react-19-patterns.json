@@ -1,0 +1,16 @@
+{
+  "id": "react-19-patterns",
+  "name": "React 19 Patterns",
+  "description": "Enforces React 19 best practices including the use() hook, Actions, and optimistic updates.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.tsx", "**/*.jsx"]
+  },
+  "content": "# React 19 Patterns Rules\n\n- Use the `use()` hook to read promises and context — replaces `useEffect` for data fetching and `useContext` for reading context\n- Use Actions (`useActionState`) for form submissions — handles pending states, errors, and optimistic updates automatically\n- Use `useOptimistic()` for instant UI feedback — update the UI before the server responds, revert on failure\n- Use `useFormStatus()` inside form components to show loading states — no more manual `isSubmitting` state\n- Use `<form action={serverAction}>` for progressive enhancement — forms work without JavaScript\n- Prefer `ref` as a prop instead of `forwardRef` — React 19 supports ref as a regular prop on function components\n- Use `<Suspense>` to wrap async components — show fallback UI while promises resolve\n- Use the `use()` hook to conditionally read context — unlike `useContext`, it can be called inside conditionals and loops\n- Preload resources with `preload()`, `preFetchDNS()`, `preconnect()` from `react-dom` for faster page loads\n- Use document metadata components (`<title>`, `<meta>`, `<link>`) directly in components — React 19 hoists them to `<head>`\n- Avoid `useEffect` for data fetching — use `use()` with Suspense or a data fetching library instead\n- Use `useTransition()` to mark state updates as non-urgent — keeps the UI responsive during heavy renders",
+  "tags": ["react", "react-19", "hooks", "actions", "frontend"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

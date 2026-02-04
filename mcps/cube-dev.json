@@ -1,0 +1,16 @@
+{
+  "id": "cube-dev",
+  "name": "Cube",
+  "displayName": "Cube",
+  "category": "Data & Analytics",
+  "description": "Cube semantic layer for data applications. Query data models, manage pre-aggregations, inspect schemas, and build consistent metrics across your data stack.",
+  "provider": "Cube Dev",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["load_query", "sql_query", "list_cubes", "get_cube_schema", "list_pre_aggregations", "refresh_pre_aggregation", "meta", "dry_run"],
+  "tags": ["cube", "semantic-layer", "metrics", "data-modeling", "api"],
+  "configUrl": "https://github.com/cube-js/mcp-server-cube",
+  "documentationUrl": "https://cube.dev/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

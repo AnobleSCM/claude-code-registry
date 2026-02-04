@@ -1,0 +1,16 @@
+{
+  "id": "drift",
+  "name": "Drift",
+  "displayName": "Drift",
+  "category": "Communication",
+  "description": "Drift conversational marketing platform. Manage conversations, playbooks, contacts, and meetings. Engage website visitors and qualify leads through chat.",
+  "provider": "Salesloft",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_conversations", "send_message", "get_conversation", "list_contacts", "create_contact", "list_meetings", "schedule_meeting", "get_playbook"],
+  "tags": ["drift", "conversational-marketing", "live-chat", "lead-generation", "sales"],
+  "configUrl": "https://github.com/salesloft/mcp-server-drift",
+  "documentationUrl": "https://devdocs.drift.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

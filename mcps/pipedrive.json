@@ -1,0 +1,16 @@
+{
+  "id": "pipedrive",
+  "name": "Pipedrive",
+  "displayName": "Pipedrive",
+  "category": "CRM",
+  "description": "Pipedrive sales CRM. Manage deals, persons, organizations, and activities. Track pipelines, log calls, send emails, and monitor sales performance.",
+  "provider": "Pipedrive",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["list_deals", "create_deal", "update_deal", "list_persons", "create_person", "list_organizations", "create_organization", "list_activities", "create_activity", "list_pipelines", "get_pipeline_stats", "search_items"],
+  "tags": ["pipedrive", "crm", "sales-pipeline", "deals", "sales"],
+  "configUrl": "https://github.com/pipedrive/mcp-server-pipedrive",
+  "documentationUrl": "https://developers.pipedrive.com/docs/api/v1",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "analytics-interpreter",
+  "name": "Analytics Interpreter",
+  "displayName": "Analytics Interpreter",
+  "category": "Business",
+  "description": "Interprets analytics data from tools like PostHog, Google Analytics, or Mixpanel, identifying trends, anomalies, and actionable insights",
+  "invocation": "Task tool with subagent_type=\"analytics-interpreter\"",
+  "capabilities": [
+    "Analyze user behavior funnels and conversion rates",
+    "Identify traffic trends, drop-off points, and anomalies",
+    "Interpret A/B test results with statistical significance checks",
+    "Generate actionable recommendations from analytics data"
+  ],
+  "tools": ["Read", "Bash", "WebFetch", "Write"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

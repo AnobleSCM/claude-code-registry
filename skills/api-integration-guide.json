@@ -1,0 +1,13 @@
+{
+  "id": "api-integration-guide",
+  "name": "api-integration-guide",
+  "displayName": "API Integration Guide",
+  "category": "Data",
+  "description": "Create step-by-step guides for integrating third-party APIs, including authentication setup, endpoint mapping, error handling, and rate limit management.",
+  "invocation": "/api-integration-guide",
+  "source": "community",
+  "tags": ["api", "integration", "third-party", "guide", "rest"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

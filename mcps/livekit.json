@@ -1,0 +1,16 @@
+{
+  "id": "livekit",
+  "name": "LiveKit",
+  "displayName": "LiveKit",
+  "category": "Communication",
+  "description": "LiveKit real-time communication platform. Manage rooms, participants, and tracks for video, audio, and data streaming. Create tokens and control media sessions.",
+  "provider": "LiveKit",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["create_room", "list_rooms", "delete_room", "list_participants", "remove_participant", "mute_track", "create_token", "start_recording", "stop_recording", "get_room_stats"],
+  "tags": ["livekit", "webrtc", "video", "audio", "real-time", "streaming"],
+  "configUrl": "https://github.com/livekit/mcp-server-livekit",
+  "documentationUrl": "https://docs.livekit.io/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

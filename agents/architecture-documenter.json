@@ -1,0 +1,17 @@
+{
+  "id": "architecture-documenter",
+  "name": "Architecture Documenter",
+  "displayName": "Architecture Documenter",
+  "category": "Documentation",
+  "description": "Generates architecture decision records (ADRs) and system architecture documentation by analyzing code structure, dependencies, and design patterns",
+  "invocation": "Task tool with subagent_type=\"architecture-documenter\"",
+  "capabilities": [
+    "Map system architecture from code and dependency analysis",
+    "Generate Architecture Decision Records (ADRs)",
+    "Document component boundaries and data flow patterns",
+    "Create dependency diagrams and module relationship maps"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Write", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

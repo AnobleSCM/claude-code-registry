@@ -1,0 +1,13 @@
+{
+  "id": "database-modeling",
+  "name": "database-modeling",
+  "displayName": "Database Modeling",
+  "category": "Data",
+  "description": "Design database schemas with entity-relationship diagrams, normalization analysis, index strategies, and migration file generation for SQL and NoSQL databases.",
+  "invocation": "/database-modeling",
+  "source": "community",
+  "tags": ["database", "schema", "modeling", "er-diagram", "sql"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

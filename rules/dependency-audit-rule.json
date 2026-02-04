@@ -1,0 +1,14 @@
+{
+  "id": "dependency-audit-rule",
+  "name": "Dependency Audit",
+  "description": "Enforces checking dependencies for known vulnerabilities before adding and during CI builds.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": null,
+  "content": "# Dependency Audit Rules\n\n- Run `npm audit`, `pip audit`, `bundle audit`, or equivalent before adding any new dependency\n- Block merges with critical or high severity vulnerabilities — configure `npm audit --audit-level=high` in CI\n- Use Dependabot, Renovate, or Snyk to automatically create PRs for vulnerable dependency updates\n- Pin dependency versions in lockfiles (`package-lock.json`, `Pipfile.lock`, `Gemfile.lock`) — never rely on floating ranges in production\n- Evaluate new dependencies before adding — check download count, maintenance activity, open issues, and known CVEs\n- Prefer well-maintained dependencies with small dependency trees — fewer transitive dependencies means less attack surface\n- Review dependency licenses — ensure compatibility with your project's license, block copyleft licenses if needed\n- Use socket.dev or npm-audit-resolver to detect supply chain attacks — typosquatting, malicious postinstall scripts\n- Set up automated alerts for new CVEs affecting your dependency tree — don't wait for scheduled scans\n- Keep the dependency count minimal — evaluate whether you truly need a package or can implement the functionality in a few lines\n- Run `npm ls --all` or equivalent to audit the full transitive dependency tree periodically\n- Document approved dependencies in an allowlist for security-sensitive projects — new dependencies require security review",
+  "tags": ["security", "dependencies", "audit", "supply-chain", "vulnerabilities"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

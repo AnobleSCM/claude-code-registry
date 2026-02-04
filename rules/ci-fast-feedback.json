@@ -1,0 +1,16 @@
+{
+  "id": "ci-fast-feedback",
+  "name": "CI Fast Feedback",
+  "description": "Structure CI pipelines to run fastest checks first and fail early to minimize developer wait time.",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/.github/workflows/**", "**/Jenkinsfile", "**/.gitlab-ci.yml", "**/azure-pipelines.yml"]
+  },
+  "content": "# CI Fast Feedback Rules\n\n- Order checks from fastest to slowest — lint (seconds) before unit tests (minutes) before E2E tests (minutes+)\n- Fail fast — if linting fails, don't waste time running the full test suite\n- Use parallelism — split test suites across multiple runners to reduce wall-clock time\n- Cache dependencies aggressively — `node_modules`, Python virtualenvs, Go modules, Docker layers\n- Use incremental builds — only rebuild and retest what changed when possible\n- Keep the total CI time under 10 minutes for the critical path — developers context-switch when CI takes longer\n- Run expensive checks (E2E, security scans, performance tests) only on PRs to main, not every push\n- Use matrix builds for cross-platform testing — run OS and version combinations in parallel\n- Set timeouts on CI jobs — prevent hung processes from blocking the pipeline indefinitely\n- Report test results with JUnit XML or similar — show failures inline in the PR, not buried in logs\n- Use CI status checks as merge gates — don't allow merging with failing required checks\n- Monitor CI pipeline duration over time — alert when builds consistently exceed your target time",
+  "tags": ["devops", "ci", "pipeline", "speed", "feedback"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

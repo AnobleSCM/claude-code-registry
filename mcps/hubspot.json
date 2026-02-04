@@ -1,0 +1,16 @@
+{
+  "id": "hubspot",
+  "name": "HubSpot",
+  "displayName": "HubSpot",
+  "category": "CRM",
+  "description": "HubSpot CRM and marketing platform. Manage contacts, companies, deals, and tickets. Create email campaigns, track engagement, and automate marketing workflows.",
+  "provider": "HubSpot",
+  "status": "available",
+  "toolCount": 14,
+  "tools": ["list_contacts", "create_contact", "update_contact", "search_contacts", "list_companies", "create_company", "list_deals", "create_deal", "update_deal", "list_tickets", "create_ticket", "send_email", "list_campaigns", "get_engagement_metrics"],
+  "tags": ["hubspot", "crm", "marketing", "sales", "email-campaigns"],
+  "configUrl": "https://github.com/HubSpot/mcp-server-hubspot",
+  "documentationUrl": "https://developers.hubspot.com/docs/api/overview",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

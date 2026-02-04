@@ -1,0 +1,16 @@
+{
+  "id": "trello",
+  "name": "Trello",
+  "displayName": "Trello",
+  "category": "Productivity",
+  "description": "Trello board and card management. Create boards, lists, and cards, move items between lists, add labels, assign members, and manage checklists.",
+  "provider": "Atlassian",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["create_board", "list_boards", "create_list", "create_card", "update_card", "move_card", "add_label", "assign_member", "add_checklist", "add_comment", "archive_card", "search_cards"],
+  "tags": ["trello", "kanban", "boards", "project-management", "atlassian"],
+  "configUrl": "https://github.com/anthropics/mcp-server-trello",
+  "documentationUrl": "https://developer.atlassian.com/cloud/trello/rest/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

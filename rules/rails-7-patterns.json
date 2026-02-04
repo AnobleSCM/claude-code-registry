@@ -1,0 +1,16 @@
+{
+  "id": "rails-7-patterns",
+  "name": "Rails 7+ Patterns",
+  "description": "Enforces Rails 7+ conventions including Hotwire, Turbo, Stimulus, and modern Rails architecture.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.rb", "**/*.erb", "**/*.html.erb"]
+  },
+  "content": "# Rails 7+ Patterns Rules\n\n- Use Hotwire (Turbo + Stimulus) for interactivity — avoid adding React/Vue/Angular unless you have a specific SPA requirement\n- Use Turbo Frames to update parts of the page — wrap dynamic sections in `<turbo-frame>` tags\n- Use Turbo Streams for real-time updates — `turbo_stream.append`, `turbo_stream.replace` for server-pushed changes\n- Use Stimulus controllers for JavaScript behavior — small, focused controllers that connect to DOM elements\n- Use `has_many :through` over `has_and_belongs_to_many` — join models give you a place for extra attributes and validations\n- Use Active Record scopes for common queries — `scope :active, -> { where(active: true) }` instead of class methods\n- Use `strict_loading` to prevent N+1 queries — enable globally in development to catch missing eager loads\n- Use Action Cable for WebSocket features — integrate with Turbo Streams for real-time broadcasting\n- Use Active Job with Solid Queue (Rails 8) or Sidekiq for background processing — never do slow work in request cycle\n- Use `credentials.yml.enc` for secrets — never store secrets in `ENV` without Rails credentials as the primary source\n- Use database-level constraints (`null: false`, `index: { unique: true }`) — don't rely solely on model validations\n- Use importmap-rails for JavaScript dependencies — avoid Node.js/Webpack/esbuild unless you need a build step",
+  "tags": ["rails", "ruby", "hotwire", "turbo", "stimulus"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

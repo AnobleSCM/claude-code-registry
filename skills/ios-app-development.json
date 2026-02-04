@@ -1,0 +1,13 @@
+{
+  "id": "ios-app-development",
+  "name": "ios-app-development",
+  "displayName": "iOS App Development",
+  "category": "Mobile",
+  "description": "Build iOS apps with Swift and SwiftUI following Apple's Human Interface Guidelines. Covers architecture patterns, state management, and App Store submission best practices.",
+  "invocation": "/ios-app-development",
+  "source": "community",
+  "tags": ["ios", "swift", "swiftui", "apple", "mobile"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

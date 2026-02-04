@@ -1,0 +1,13 @@
+{
+  "id": "fine-tuning-guide",
+  "name": "fine-tuning-guide",
+  "displayName": "Fine-Tuning Guide",
+  "category": "AI/ML",
+  "description": "Guide for fine-tuning language models on custom datasets, covering data preparation, training configuration, evaluation benchmarks, and deployment of fine-tuned models.",
+  "invocation": "/fine-tuning-guide",
+  "source": "community",
+  "tags": ["fine-tuning", "training", "datasets", "llm", "ml"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

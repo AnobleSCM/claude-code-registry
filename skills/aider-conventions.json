@@ -1,0 +1,13 @@
+{
+  "id": "aider-conventions",
+  "name": "aider-conventions",
+  "displayName": "Aider Conventions",
+  "category": "Cross-Tool",
+  "description": "Generate Aider-compatible coding conventions and .aider.conf.yml files. Translates CLAUDE.md patterns into Aider's workflow format for teams using both tools.",
+  "invocation": "/aider-conventions",
+  "source": "community",
+  "tags": ["aider", "conventions", "cross-tool", "compatibility", "workflow"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

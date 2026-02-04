@@ -1,0 +1,14 @@
+{
+  "id": "no-hallucinated-files",
+  "name": "No Hallucinated Files",
+  "description": "Never reference, import, or modify files without reading them first to confirm they exist and contain what you expect.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# No Hallucinated Files Rules\n\n- Never reference a file path without first reading or listing it — confirm it exists before mentioning it\n- Never import from a module you haven't verified exists — check the file or package is real before adding imports\n- Never describe what a file \"should contain\" or \"probably contains\" — read it and quote the actual content\n- Before editing a file, read it first — you need to see the current content to make correct changes\n- Before suggesting a file structure, list the actual directory to see what exists — don't assume standard layouts\n- Never claim a function, class, or variable exists in a file without reading that file first\n- When referencing documentation, verify the doc file exists and contains the information you're citing\n- If you need to create a new file, first check that the parent directory exists and the filename doesn't conflict\n- Never assume a dependency is installed — check `package.json`, `requirements.txt`, or equivalent first\n- When describing error messages, read the actual log or error output — don't reconstruct from memory\n- If you're unsure whether a file exists, say so and check — guessing leads to wasted time\n- After creating or moving files, verify the result with a directory listing or file read",
+  "tags": ["ai-behavior", "accuracy", "files", "verification"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

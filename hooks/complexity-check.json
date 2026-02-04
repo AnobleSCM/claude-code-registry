@@ -1,0 +1,20 @@
+{
+  "id": "complexity-check",
+  "name": "Complexity Check",
+  "description": "Warns if cyclomatic complexity of functions exceeds a configurable threshold after file edits, encouraging simpler code",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "complexity", "maintainability"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Check cyclomatic complexity after file changes\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\nTHRESHOLD=${CLAUDE_COMPLEXITY_THRESHOLD:-10}\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if command -v npx &>/dev/null; then\n    OUTPUT=$(cd \"$ROOT\" && npx eslint --rule \"complexity: [warn, $THRESHOLD]\" --no-eslintrc \"$FILE\" 2>/dev/null | grep complexity | head -5)\n    if [[ -n \"$OUTPUT\" ]]; then\n      echo \"High complexity detected in $FILE (threshold: $THRESHOLD):\"\n      echo \"$OUTPUT\"\n      echo \"Consider breaking complex functions into smaller ones.\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/complexity-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "port-conflict-check",
+  "name": "Port Conflict Check",
+  "description": "Checks for port conflicts on common development ports at session start, warning if ports are already in use",
+  "category": "devops",
+  "event": "SessionStart",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["devops", "ports", "development"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Check for port conflicts on common dev ports\nPORTS=${CLAUDE_CHECK_PORTS:-\"3000 3001 4000 5173 5174 8000 8080 8888 9000\"}\nCONFLICTS=0\nfor PORT in $PORTS; do\n  if lsof -i :$PORT -sTCP:LISTEN >/dev/null 2>&1; then\n    PROC=$(lsof -i :$PORT -sTCP:LISTEN -t 2>/dev/null | head -1)\n    PNAME=$(ps -p \"$PROC\" -o comm= 2>/dev/null)\n    echo \"Port $PORT is in use by $PNAME (PID: $PROC)\"\n    CONFLICTS=$((CONFLICTS + 1))\n  fi\ndone\nif [[ $CONFLICTS -gt 0 ]]; then\n  echo \"$CONFLICTS port(s) already in use. You may need to stop existing servers.\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "SessionStart": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/port-conflict-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

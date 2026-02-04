@@ -1,0 +1,13 @@
+{
+  "id": "literature-review",
+  "name": "literature-review",
+  "displayName": "Literature Review",
+  "category": "Data",
+  "description": "Summarize academic papers, technical documents, and RFCs. Extracts key findings, methodologies, and conclusions into structured literature review format.",
+  "invocation": "/literature-review",
+  "source": "community",
+  "tags": ["research", "papers", "academic", "summary", "review"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

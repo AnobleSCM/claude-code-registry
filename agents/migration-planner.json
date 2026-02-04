@@ -1,0 +1,17 @@
+{
+  "id": "migration-planner",
+  "name": "Migration Planner",
+  "displayName": "Migration Planner",
+  "category": "Orchestration",
+  "description": "Plans and executes large-scale code migrations step by step, tracking progress, managing rollback points, and validating each phase",
+  "invocation": "Task tool with subagent_type=\"migration-planner\"",
+  "capabilities": [
+    "Analyze codebase to build migration dependency graph",
+    "Generate phased migration plan with rollback checkpoints",
+    "Track migration progress across files and modules",
+    "Validate each migration step with builds and tests"
+  ],
+  "tools": ["Task", "Read", "Bash", "Grep", "Glob", "Write", "Edit"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bundle-analyzer",
+  "name": "Bundle Analyzer",
+  "displayName": "Bundle Analyzer",
+  "category": "Quality",
+  "description": "Analyzes webpack or Vite bundle output to identify large dependencies, suggest code splitting opportunities, and reduce overall bundle size",
+  "invocation": "Task tool with subagent_type=\"bundle-analyzer\"",
+  "capabilities": [
+    "Analyze bundle composition and identify largest modules",
+    "Suggest code splitting and lazy loading opportunities",
+    "Detect duplicate dependencies across chunks",
+    "Recommend lighter alternatives for heavy packages"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

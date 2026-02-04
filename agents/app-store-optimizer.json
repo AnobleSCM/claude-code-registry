@@ -1,0 +1,17 @@
+{
+  "id": "app-store-optimizer",
+  "name": "App Store Optimizer",
+  "displayName": "App Store Optimizer",
+  "category": "Mobile",
+  "description": "Optimizes App Store and Google Play Store listings for better discoverability, including keyword research, screenshot guidance, and description writing",
+  "invocation": "Task tool with subagent_type=\"app-store-optimizer\"",
+  "capabilities": [
+    "Research and suggest high-impact keywords for app listings",
+    "Write compelling app titles, subtitles, and descriptions",
+    "Advise on screenshot composition and preview video strategy",
+    "Analyze competitor listings and suggest differentiation points"
+  ],
+  "tools": ["Read", "Write", "WebSearch", "WebFetch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

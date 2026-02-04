@@ -1,0 +1,17 @@
+{
+  "id": "readme-generator",
+  "name": "README Generator",
+  "displayName": "README Generator",
+  "category": "Documentation",
+  "description": "Generates comprehensive README files from codebase analysis, including project overview, setup instructions, usage examples, and contribution guidelines",
+  "invocation": "Task tool with subagent_type=\"readme-generator\"",
+  "capabilities": [
+    "Analyze project structure to determine tech stack and features",
+    "Generate installation and setup instructions from package configs",
+    "Create usage examples from existing tests and documentation",
+    "Include badges, license info, and contribution guidelines"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Write", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

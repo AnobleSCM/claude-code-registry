@@ -1,0 +1,20 @@
+{
+  "id": "block-rm-rf",
+  "name": "Block Recursive Delete",
+  "description": "Blocks recursive delete commands (rm -rf) on important directories like /, /home, /etc, and project roots",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "protection", "filesystem"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Block dangerous recursive delete commands\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'rm\\s+(-[a-zA-Z]*r[a-zA-Z]*f|--recursive)\\s+(~|/|/home|/etc|/usr|/var|/opt|\\.)\\s*$'; then\n  echo \"BLOCKED: Recursive delete on a critical directory is not allowed.\"\n  exit 2\nfi\nif echo \"$COMMAND\" | grep -qE 'rm\\s+-rf\\s+/\\s*$'; then\n  echo \"BLOCKED: rm -rf / is never allowed.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-rm-rf.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

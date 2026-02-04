@@ -1,0 +1,13 @@
+{
+  "id": "llm-evaluation",
+  "name": "llm-evaluation",
+  "displayName": "LLM Evaluation",
+  "category": "AI/ML",
+  "description": "Evaluate LLM outputs by designing eval suites, defining quality rubrics, running automated scoring, and tracking metrics over time to catch regressions.",
+  "invocation": "/llm-evaluation",
+  "source": "community",
+  "tags": ["llm", "evaluation", "evals", "quality", "metrics"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

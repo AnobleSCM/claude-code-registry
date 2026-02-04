@@ -1,0 +1,17 @@
+{
+  "id": "content-strategist",
+  "name": "Content Strategist",
+  "displayName": "Content Strategist",
+  "category": "Business",
+  "description": "Plans content calendars, defines topic clusters, and develops distribution strategies across channels to drive engagement and growth",
+  "invocation": "Task tool with subagent_type=\"content-strategist\"",
+  "capabilities": [
+    "Build content calendars with publishing cadence and themes",
+    "Define topic clusters and pillar content strategy",
+    "Plan distribution across social, email, blog, and community channels",
+    "Suggest content formats (blog, video, thread) for each topic"
+  ],
+  "tools": ["Read", "Write", "WebSearch", "WebFetch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

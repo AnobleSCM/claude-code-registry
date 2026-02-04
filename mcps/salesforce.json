@@ -1,0 +1,16 @@
+{
+  "id": "salesforce",
+  "name": "Salesforce",
+  "displayName": "Salesforce",
+  "category": "CRM",
+  "description": "Salesforce CRM platform. Manage leads, contacts, accounts, and opportunities. Run SOQL queries, create records, and automate sales workflows.",
+  "provider": "Salesforce",
+  "status": "available",
+  "toolCount": 14,
+  "tools": ["query_soql", "create_record", "update_record", "delete_record", "get_record", "search_records", "list_objects", "describe_object", "list_leads", "convert_lead", "list_opportunities", "create_task", "list_reports", "run_report"],
+  "tags": ["salesforce", "crm", "sales", "leads", "enterprise"],
+  "configUrl": "https://github.com/salesforce/mcp-server-salesforce",
+  "documentationUrl": "https://developer.salesforce.com/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

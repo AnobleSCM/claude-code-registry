@@ -1,0 +1,13 @@
+{
+  "id": "kubernetes-operations",
+  "name": "kubernetes-operations",
+  "displayName": "Kubernetes Operations",
+  "category": "DevOps",
+  "description": "Manage Kubernetes deployments, scaling, and troubleshooting. Generate Helm charts, write manifests, debug pod issues, and implement rolling update strategies.",
+  "invocation": "/kubernetes-operations",
+  "source": "community",
+  "tags": ["kubernetes", "k8s", "helm", "containers", "orchestration"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

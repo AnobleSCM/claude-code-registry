@@ -1,0 +1,17 @@
+{
+  "id": "user-researcher",
+  "name": "User Researcher",
+  "displayName": "User Researcher",
+  "category": "Business",
+  "description": "Designs user interview scripts, analyzes qualitative feedback, creates user personas, and maps customer journey touchpoints",
+  "invocation": "Task tool with subagent_type=\"user-researcher\"",
+  "capabilities": [
+    "Design user interview scripts and survey questionnaires",
+    "Analyze qualitative feedback and extract themes",
+    "Create data-driven user personas from research findings",
+    "Map customer journey touchpoints and pain points"
+  ],
+  "tools": ["Read", "Write", "WebSearch", "WebFetch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

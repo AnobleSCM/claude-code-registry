@@ -1,0 +1,13 @@
+{
+  "id": "onboarding-guide-generator",
+  "name": "onboarding-guide-generator",
+  "displayName": "Onboarding Guide Generator",
+  "category": "Enterprise",
+  "description": "Create comprehensive project onboarding documentation for new team members, covering architecture, setup steps, key patterns, and common gotchas extracted from the codebase.",
+  "invocation": "/onboarding-guide-generator",
+  "source": "community",
+  "tags": ["onboarding", "documentation", "team", "enterprise", "setup"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

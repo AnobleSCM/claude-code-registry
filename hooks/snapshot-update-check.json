@@ -1,0 +1,20 @@
+{
+  "id": "snapshot-update-check",
+  "name": "Snapshot Update Check",
+  "description": "Flags unexpected snapshot test changes after test runs, ensuring snapshot updates are intentional rather than accidental",
+  "category": "testing",
+  "event": "PostToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["testing", "snapshots", "review"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Flag unexpected snapshot changes after test runs\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE '(vitest|jest).*(-u|--update)'; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  CHANGED=$(cd \"$ROOT\" && git diff --name-only 2>/dev/null | grep -c '__snapshots__')\n  if [[ $CHANGED -gt 0 ]]; then\n    echo \"WARNING: $CHANGED snapshot file(s) were updated. Review changes:\"\n    cd \"$ROOT\" && git diff --stat -- '*/__snapshots__/*' 2>/dev/null | head -10\n    echo \"Ensure these snapshot changes are intentional.\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/snapshot-update-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

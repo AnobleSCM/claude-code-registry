@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock",
+  "name": "AWS Bedrock",
+  "displayName": "AWS Bedrock",
+  "category": "AI & ML",
+  "description": "Amazon Bedrock managed AI service. Invoke foundation models, manage model access, create knowledge bases, and run inference with AWS-hosted AI models.",
+  "provider": "Amazon Web Services",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["invoke_model", "list_foundation_models", "create_knowledge_base", "query_knowledge_base", "create_agent", "invoke_agent", "list_custom_models", "create_model_customization"],
+  "tags": ["aws", "bedrock", "foundation-models", "managed-ai", "knowledge-base"],
+  "configUrl": "https://github.com/aws/mcp-server-bedrock",
+  "documentationUrl": "https://docs.aws.amazon.com/bedrock/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

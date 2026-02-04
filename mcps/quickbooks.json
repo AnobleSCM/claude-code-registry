@@ -1,0 +1,16 @@
+{
+  "id": "quickbooks",
+  "name": "QuickBooks",
+  "displayName": "QuickBooks",
+  "category": "Payments",
+  "description": "QuickBooks Online accounting platform. Manage invoices, expenses, customers, and vendors. Track payments, run financial reports, and reconcile accounts.",
+  "provider": "Intuit",
+  "status": "available",
+  "toolCount": 14,
+  "tools": ["create_invoice", "list_invoices", "send_invoice", "create_expense", "list_expenses", "list_customers", "create_customer", "list_vendors", "create_payment", "list_payments", "get_profit_loss", "get_balance_sheet", "list_accounts", "create_bill"],
+  "tags": ["quickbooks", "accounting", "invoicing", "bookkeeping", "finance"],
+  "configUrl": "https://github.com/intuit/mcp-server-quickbooks",
+  "documentationUrl": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

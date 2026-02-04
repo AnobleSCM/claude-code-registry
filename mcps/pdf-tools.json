@@ -1,0 +1,16 @@
+{
+  "id": "pdf-tools",
+  "name": "PDF Tools",
+  "displayName": "PDF Tools",
+  "category": "Developer Tools",
+  "description": "PDF document processing tools. Extract text and images, merge and split PDFs, add watermarks, convert pages to images, and read document metadata.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["extract_text", "extract_images", "merge_pdfs", "split_pdf", "add_watermark", "get_metadata", "convert_page_to_image", "get_page_count"],
+  "tags": ["pdf", "document-processing", "text-extraction", "conversion", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-pdf",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-pdf#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

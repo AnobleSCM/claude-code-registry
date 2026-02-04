@@ -1,0 +1,13 @@
+{
+  "id": "data-analysis",
+  "name": "data-analysis",
+  "displayName": "Data Analysis",
+  "category": "Data",
+  "description": "Analyze datasets by generating statistics, identifying trends, creating visualizations, and producing summary reports. Works with CSV, JSON, and database query results.",
+  "invocation": "/data-analysis",
+  "source": "community",
+  "tags": ["data", "analysis", "statistics", "visualization", "reporting"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "preserve-on-compaction",
+  "name": "Preserve on Compaction",
+  "description": "During context compaction, preserve critical information like file lists, test commands, and current task state.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Preserve on Compaction Rules\n\n- Always preserve the list of files you've modified in this session — losing track means missing files in commits\n- Preserve exact test commands and their expected output — you'll need to re-verify after compaction\n- Preserve the current task description and acceptance criteria — don't lose sight of what you're trying to accomplish\n- Preserve any error messages or stack traces you're actively debugging — re-reading files to find them again wastes time\n- Preserve the branch name and git state (staged/unstaged changes) — this context is critical for commits\n- Preserve environment-specific details — ports, URLs, database names, config file locations\n- Preserve decisions already made and their reasoning — don't re-debate settled questions\n- Preserve the user's preferences and constraints they've stated — these are non-negotiable requirements\n- If you reference a handoff document, re-read it after compaction to refresh your context\n- Keep a mental model of the project structure — which directories matter, what the architecture looks like\n- Preserve any pending TODOs or follow-up tasks the user has requested\n- When context is getting long, proactively summarize progress before compaction forces it on you",
+  "tags": ["ai-behavior", "context", "compaction", "memory"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

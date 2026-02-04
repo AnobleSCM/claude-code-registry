@@ -1,0 +1,16 @@
+{
+  "id": "intercom",
+  "name": "Intercom",
+  "displayName": "Intercom",
+  "category": "Communication",
+  "description": "Intercom customer messaging platform. Manage conversations, contacts, companies, articles, and help center content. Send messages and track customer interactions.",
+  "provider": "Intercom",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["list_conversations", "reply_to_conversation", "create_contact", "search_contacts", "list_companies", "create_article", "search_articles", "send_message", "assign_conversation", "tag_conversation", "close_conversation", "list_admins"],
+  "tags": ["intercom", "customer-messaging", "support", "live-chat", "help-center"],
+  "configUrl": "https://github.com/intercom/mcp-server-intercom",
+  "documentationUrl": "https://developers.intercom.com/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

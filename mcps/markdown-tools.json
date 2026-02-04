@@ -1,0 +1,16 @@
+{
+  "id": "markdown-tools",
+  "name": "Markdown Tools",
+  "displayName": "Markdown Tools",
+  "category": "Developer Tools",
+  "description": "Markdown processing and transformation tools. Parse, render, convert between formats, extract headings and links, validate syntax, and generate table of contents.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["parse_markdown", "render_html", "extract_headings", "extract_links", "generate_toc", "convert_to_format", "validate_syntax", "merge_documents"],
+  "tags": ["markdown", "documentation", "formatting", "conversion", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-markdown",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-markdown#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

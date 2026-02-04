@@ -1,0 +1,16 @@
+{
+  "id": "dokku",
+  "name": "Dokku",
+  "displayName": "Dokku",
+  "category": "Cloud Services",
+  "description": "Dokku mini-PaaS powered by Docker. Create and manage apps, configure domains, manage SSL certificates, and deploy via git push on your own server.",
+  "provider": "Dokku",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["create_app", "list_apps", "deploy_app", "destroy_app", "set_config", "list_domains", "add_domain", "enable_ssl", "list_plugins", "scale_process"],
+  "tags": ["dokku", "self-hosted", "docker", "paas", "git-deploy"],
+  "configUrl": "https://github.com/dokku/mcp-server-dokku",
+  "documentationUrl": "https://dokku.com/docs/getting-started/installation/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

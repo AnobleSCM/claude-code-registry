@@ -1,0 +1,16 @@
+{
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "displayName": "DeepSeek",
+  "category": "AI & ML",
+  "description": "DeepSeek AI platform integration. Generate code, run chat completions, and create embeddings using DeepSeek models optimized for coding and reasoning tasks.",
+  "provider": "DeepSeek",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["chat_completion", "code_completion", "create_embedding", "list_models", "fim_completion"],
+  "tags": ["deepseek", "code-generation", "reasoning", "llm", "ai-api"],
+  "configUrl": "https://github.com/deepseek-ai/mcp-server-deepseek",
+  "documentationUrl": "https://platform.deepseek.com/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

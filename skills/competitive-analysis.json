@@ -1,0 +1,13 @@
+{
+  "id": "competitive-analysis",
+  "name": "competitive-analysis",
+  "displayName": "Competitive Analysis",
+  "category": "Data",
+  "description": "Research competitors by analyzing features, pricing, positioning, and technical architecture. Generates comparison matrices and strategic recommendations.",
+  "invocation": "/competitive-analysis",
+  "source": "community",
+  "tags": ["competitive", "research", "strategy", "comparison", "market"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

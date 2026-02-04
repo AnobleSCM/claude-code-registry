@@ -1,0 +1,20 @@
+{
+  "id": "email-notify",
+  "name": "Email Notification",
+  "description": "Sends an email notification when Claude completes a task, using a configurable SMTP relay or local sendmail",
+  "category": "notifications",
+  "event": "Notification",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "email", "smtp"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Send email notification on task completion\nEMAIL_TO=\"${CLAUDE_NOTIFY_EMAIL:-}\"\nif [[ -z \"$EMAIL_TO\" ]]; then\n  exit 0\nfi\nPROJECT=$(basename \"$(pwd)\")\nSUBJECT=\"Claude Code: Task completed in $PROJECT\"\nMESSAGE=\"${NOTIFICATION_MESSAGE:-Claude Code has completed a task in $PROJECT.}\"\n# Try sendmail first, then curl with mailgun/sendgrid\nif command -v sendmail &>/dev/null; then\n  echo -e \"Subject: $SUBJECT\\n\\n$MESSAGE\" | sendmail \"$EMAIL_TO\" 2>/dev/null\nelif [[ -n \"$SENDGRID_API_KEY\" ]]; then\n  curl -s -X POST \"https://api.sendgrid.com/v3/mail/send\" \\\n    -H \"Authorization: Bearer $SENDGRID_API_KEY\" \\\n    -H \"Content-Type: application/json\" \\\n    -d \"{\\\"personalizations\\\":[{\\\"to\\\":[{\\\"email\\\":\\\"$EMAIL_TO\\\"}]}],\\\"from\\\":{\\\"email\\\":\\\"claude@localhost\\\"},\\\"subject\\\":\\\"$SUBJECT\\\",\\\"content\\\":[{\\\"type\\\":\\\"text/plain\\\",\\\"value\\\":\\\"$MESSAGE\\\"}]}\" >/dev/null 2>&1\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Notification": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/email-notify.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

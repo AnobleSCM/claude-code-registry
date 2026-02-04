@@ -1,0 +1,16 @@
+{
+  "id": "tableau",
+  "name": "Tableau",
+  "displayName": "Tableau",
+  "category": "Data & Analytics",
+  "description": "Tableau data visualization and analytics platform. Manage workbooks, views, and data sources. Query data, refresh extracts, and publish dashboards.",
+  "provider": "Salesforce",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_workbooks", "get_workbook", "list_views", "query_view_data", "list_datasources", "refresh_datasource", "publish_workbook", "download_view_image", "list_projects", "list_users"],
+  "tags": ["tableau", "data-visualization", "dashboards", "business-intelligence", "analytics"],
+  "configUrl": "https://github.com/tableau/mcp-server-tableau",
+  "documentationUrl": "https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

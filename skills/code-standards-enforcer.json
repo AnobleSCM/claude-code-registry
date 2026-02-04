@@ -1,0 +1,13 @@
+{
+  "id": "code-standards-enforcer",
+  "name": "code-standards-enforcer",
+  "displayName": "Code Standards Enforcer",
+  "category": "Enterprise",
+  "description": "Define and enforce team coding standards by generating CLAUDE.md rules, ESLint configs, and pre-commit hooks that keep code consistent across contributors.",
+  "invocation": "/code-standards-enforcer",
+  "source": "community",
+  "tags": ["standards", "linting", "enforcement", "team", "consistency"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

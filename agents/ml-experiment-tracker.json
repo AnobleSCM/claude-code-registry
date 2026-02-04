@@ -1,0 +1,17 @@
+{
+  "id": "ml-experiment-tracker",
+  "name": "ML Experiment Tracker",
+  "displayName": "ML Experiment Tracker",
+  "category": "Data & ML",
+  "description": "Tracks machine learning experiments by logging hyperparameters, metrics, model configurations, and results for comparison and reproducibility",
+  "invocation": "Task tool with subagent_type=\"ml-experiment-tracker\"",
+  "capabilities": [
+    "Log experiment hyperparameters, metrics, and configurations",
+    "Compare results across multiple experiment runs",
+    "Generate experiment summary reports with best performers",
+    "Suggest hyperparameter tuning strategies based on results"
+  ],
+  "tools": ["Read", "Write", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

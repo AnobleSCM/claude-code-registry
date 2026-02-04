@@ -1,0 +1,16 @@
+{
+  "id": "express-middleware",
+  "name": "Express.js Middleware Patterns",
+  "description": "Enforces Express.js middleware composition, error handling, and request processing patterns.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.ts", "**/*.js"]
+  },
+  "content": "# Express.js Middleware Patterns Rules\n\n- Always call `next()` in middleware unless you are ending the response — forgetting `next()` hangs the request\n- Use the 4-argument signature `(err, req, res, next)` for error-handling middleware — register it after all routes\n- Apply middleware in the correct order: logging first, then auth, then validation, then route handlers\n- Use `express.json()` and `express.urlencoded()` only on routes that need them — not globally for all routes\n- Create reusable middleware factories — `const requireRole = (role) => (req, res, next) => { ... }` for parameterized middleware\n- Use `async/await` with a wrapper to catch errors — `const asyncHandler = (fn) => (req, res, next) => fn(req, res, next).catch(next)`\n- Never modify `req` or `res` objects with arbitrary properties — use `res.locals` for passing data between middleware\n- Use `helmet()` middleware for security headers — it sets CSP, HSTS, X-Frame-Options, and more\n- Use `cors()` middleware with explicit origin configuration — never use `cors()` with no options in production\n- Implement request validation middleware using `zod` or `joi` — validate body, params, and query before handlers\n- Use `express-rate-limit` to protect endpoints from abuse — apply stricter limits to auth and API routes\n- Use `compression()` middleware for response compression — but let your reverse proxy handle it in production",
+  "tags": ["express", "middleware", "nodejs", "backend", "api"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

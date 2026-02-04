@@ -1,0 +1,16 @@
+{
+  "id": "brevo",
+  "name": "Brevo",
+  "displayName": "Brevo",
+  "category": "CRM",
+  "description": "Brevo (formerly Sendinblue) all-in-one marketing platform. Send transactional and marketing emails, manage contacts, run SMS campaigns, and track engagement.",
+  "provider": "Brevo",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["send_email", "send_transactional_email", "list_contacts", "create_contact", "update_contact", "list_campaigns", "create_campaign", "send_sms", "list_lists", "get_email_stats"],
+  "tags": ["brevo", "email-marketing", "sms", "transactional-email", "marketing-automation"],
+  "configUrl": "https://github.com/brevo/mcp-server-brevo",
+  "documentationUrl": "https://developers.brevo.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

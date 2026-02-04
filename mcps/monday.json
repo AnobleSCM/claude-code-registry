@@ -1,0 +1,16 @@
+{
+  "id": "monday",
+  "name": "Monday.com",
+  "displayName": "Monday.com",
+  "category": "Productivity",
+  "description": "Monday.com work management integration. Create boards, manage items, update columns, and automate workflows in your Monday workspace.",
+  "provider": "Monday.com",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["create_board", "list_boards", "create_item", "update_item", "list_items", "add_update", "change_column_value", "create_group", "list_workspaces", "archive_item"],
+  "tags": ["monday", "project-management", "work-management", "productivity"],
+  "configUrl": "https://github.com/mondaycom/mcp-server-monday",
+  "documentationUrl": "https://developer.monday.com/api-reference",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mixpanel",
+  "name": "Mixpanel",
+  "displayName": "Mixpanel",
+  "category": "Data & Analytics",
+  "description": "Mixpanel product analytics platform. Query events, analyze funnels, track user retention, manage cohorts, and export behavioral analytics data.",
+  "provider": "Mixpanel",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["query_events", "get_funnel", "get_retention", "list_cohorts", "create_cohort", "get_insights", "export_events", "list_event_names", "get_user_profile", "track_event"],
+  "tags": ["mixpanel", "product-analytics", "funnels", "retention", "behavioral-analytics"],
+  "configUrl": "https://github.com/mixpanel/mcp-server-mixpanel",
+  "documentationUrl": "https://developer.mixpanel.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

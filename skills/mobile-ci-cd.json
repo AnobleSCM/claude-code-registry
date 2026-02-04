@@ -1,0 +1,13 @@
+{
+  "id": "mobile-ci-cd",
+  "name": "mobile-ci-cd",
+  "displayName": "Mobile CI/CD",
+  "category": "Mobile",
+  "description": "Set up mobile CI/CD pipelines with Fastlane, App Store Connect, and Google Play Console. Automates builds, code signing, beta distribution, and store submissions.",
+  "invocation": "/mobile-ci-cd",
+  "source": "community",
+  "tags": ["mobile", "ci-cd", "fastlane", "app-store", "play-store"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

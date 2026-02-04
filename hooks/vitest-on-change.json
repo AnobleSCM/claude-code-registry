@@ -1,0 +1,20 @@
+{
+  "id": "vitest-on-change",
+  "name": "Vitest on File Change",
+  "description": "Automatically runs related Vitest tests after a source file is modified, providing immediate test feedback",
+  "category": "testing",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["testing", "vitest", "auto-test"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run related Vitest tests after file change\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\n# Skip test files themselves\nif [[ \"$FILE\" =~ \\.(test|spec)\\. ]]; then exit 0; fi\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if [[ -f \"$ROOT/vitest.config.ts\" || -f \"$ROOT/vitest.config.js\" || -f \"$ROOT/vite.config.ts\" ]]; then\n    BASENAME=$(basename \"$FILE\" | sed 's/\\.[^.]*$//')\n    TEST_FILE=$(find \"$ROOT/src\" -name \"${BASENAME}.test.*\" -o -name \"${BASENAME}.spec.*\" 2>/dev/null | head -1)\n    if [[ -n \"$TEST_FILE\" ]]; then\n      echo \"Running tests for $BASENAME...\"\n      cd \"$ROOT\" && npx vitest run \"$TEST_FILE\" --reporter=verbose 2>/dev/null | tail -5\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/vitest-on-change.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

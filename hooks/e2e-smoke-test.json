@@ -1,0 +1,20 @@
+{
+  "id": "e2e-smoke-test",
+  "name": "E2E Smoke Test Before Deploy",
+  "description": "Runs end-to-end smoke tests before deployment commands to catch critical issues before they reach production",
+  "category": "testing",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["testing", "e2e", "deployment"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run smoke tests before deployment commands\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE '(npm run deploy|vercel deploy|firebase deploy|fly deploy|railway up)'; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  SMOKE_SCRIPT=\"\"\n  if [[ -f \"$ROOT/package.json\" ]]; then\n    SMOKE_SCRIPT=$(cd \"$ROOT\" && node -e \"const p=require('./package.json'); console.log(p.scripts?.['test:smoke'] || p.scripts?.['test:e2e'] || '')\" 2>/dev/null)\n  fi\n  if [[ -n \"$SMOKE_SCRIPT\" ]]; then\n    echo \"Running smoke tests before deploy...\"\n    cd \"$ROOT\" && npm run test:smoke 2>/dev/null || npm run test:e2e 2>/dev/null\n    if [[ $? -ne 0 ]]; then\n      echo \"BLOCKED: Smoke tests failed. Fix failures before deploying.\"\n      exit 2\n    fi\n    echo \"Smoke tests passed. Proceeding with deploy.\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/e2e-smoke-test.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

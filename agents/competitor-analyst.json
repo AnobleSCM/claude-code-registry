@@ -1,0 +1,17 @@
+{
+  "id": "competitor-analyst",
+  "name": "Competitor Analyst",
+  "displayName": "Competitor Analyst",
+  "category": "Business",
+  "description": "Researches competitors by analyzing their features, pricing, positioning, and public presence to identify opportunities and differentiation strategies",
+  "invocation": "Task tool with subagent_type=\"competitor-analyst\"",
+  "capabilities": [
+    "Research competitor products, features, and pricing models",
+    "Compare feature sets and identify gaps or advantages",
+    "Analyze competitor positioning and messaging strategies",
+    "Generate competitive landscape reports with recommendations"
+  ],
+  "tools": ["WebSearch", "WebFetch", "Read", "Write"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

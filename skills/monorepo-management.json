@@ -1,0 +1,13 @@
+{
+  "id": "monorepo-management",
+  "name": "monorepo-management",
+  "displayName": "Monorepo Management",
+  "category": "Enterprise",
+  "description": "Manage monorepo workspaces with tools like Turborepo, Nx, or pnpm workspaces. Handles shared dependencies, cross-package changes, and coordinated releases.",
+  "invocation": "/monorepo-management",
+  "source": "community",
+  "tags": ["monorepo", "turborepo", "nx", "workspaces", "packages"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "license-checker",
+  "name": "License Checker",
+  "displayName": "License Checker",
+  "category": "Security",
+  "description": "Verifies that all dependency licenses are compatible with your project's license, flagging copyleft, restrictive, or unknown licenses",
+  "invocation": "Task tool with subagent_type=\"license-checker\"",
+  "capabilities": [
+    "Audit all dependency licenses from package manifests",
+    "Flag copyleft licenses (GPL, AGPL) that may conflict",
+    "Identify dependencies with unknown or missing licenses",
+    "Generate license compliance report for legal review"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

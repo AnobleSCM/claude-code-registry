@@ -1,0 +1,20 @@
+{
+  "id": "compaction-preserve",
+  "name": "Compaction Context Preserve",
+  "description": "Preserves critical context like current task, modified files, and decisions during conversation compaction to prevent context loss",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "compaction", "context"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Preserve critical context during compaction\nCONTEXT_FILE=\"/tmp/claude-session-context\"\nROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n# Save current working state\nif [[ ! -f \"$CONTEXT_FILE\" ]] || [[ $(find \"$CONTEXT_FILE\" -mmin +5 2>/dev/null) ]]; then\n  {\n    echo \"=== Session Context ($(date)) ===\"\n    echo \"Project: $ROOT\"\n    echo \"Branch: $(git -C \"$ROOT\" branch --show-current 2>/dev/null)\"\n    echo \"Modified files:\"\n    git -C \"$ROOT\" diff --name-only 2>/dev/null | head -10\n    echo \"Recent commits:\"\n    git -C \"$ROOT\" log --oneline -3 2>/dev/null\n  } > \"$CONTEXT_FILE\" 2>/dev/null\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/compaction-preserve.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

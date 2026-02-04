@@ -1,0 +1,16 @@
+{
+  "id": "caprover",
+  "name": "CapRover",
+  "displayName": "CapRover",
+  "category": "Cloud Services",
+  "description": "CapRover self-hosted PaaS. Deploy apps with one-click templates, manage Docker containers, configure custom domains, and handle SSL certificates on your own infrastructure.",
+  "provider": "CapRover",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_apps", "create_app", "deploy_app", "delete_app", "list_one_click_apps", "deploy_one_click", "configure_domain", "enable_ssl"],
+  "tags": ["caprover", "self-hosted", "docker", "paas", "one-click-deploy"],
+  "configUrl": "https://github.com/caprover/mcp-server-caprover",
+  "documentationUrl": "https://caprover.com/docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

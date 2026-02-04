@@ -1,0 +1,16 @@
+{
+  "id": "clickup",
+  "name": "ClickUp",
+  "displayName": "ClickUp",
+  "category": "Productivity",
+  "description": "ClickUp project management integration. Create and manage tasks, spaces, folders, lists, and track time across your workspace.",
+  "provider": "ClickUp",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["create_task", "update_task", "get_task", "list_tasks", "delete_task", "create_list", "list_spaces", "list_folders", "add_comment", "set_priority", "assign_task", "track_time"],
+  "tags": ["clickup", "project-management", "tasks", "productivity"],
+  "configUrl": "https://github.com/clickup/mcp-server-clickup",
+  "documentationUrl": "https://clickup.com/api",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

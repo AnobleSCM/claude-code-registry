@@ -1,0 +1,16 @@
+{
+  "id": "filesystem-advanced",
+  "name": "Filesystem Advanced",
+  "displayName": "Filesystem Advanced",
+  "category": "Developer Tools",
+  "description": "Advanced filesystem operations beyond basic read/write. Watch files for changes, search with glob patterns, compute checksums, manage permissions, and handle symbolic links.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["watch_files", "glob_search", "compute_checksum", "get_permissions", "set_permissions", "create_symlink", "get_file_metadata", "compare_files", "find_duplicates", "disk_usage"],
+  "tags": ["filesystem", "file-management", "advanced", "monitoring", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-filesystem-advanced",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-filesystem-advanced#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

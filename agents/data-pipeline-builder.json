@@ -1,0 +1,17 @@
+{
+  "id": "data-pipeline-builder",
+  "name": "Data Pipeline Builder",
+  "displayName": "Data Pipeline Builder",
+  "category": "Data & ML",
+  "description": "Designs and implements ETL/ELT data pipelines, including data extraction, transformation logic, loading strategies, and error handling",
+  "invocation": "Task tool with subagent_type=\"data-pipeline-builder\"",
+  "capabilities": [
+    "Design ETL/ELT pipeline architecture for various data sources",
+    "Implement data transformation and validation logic",
+    "Set up incremental loading and deduplication strategies",
+    "Add error handling, retry logic, and pipeline monitoring"
+  ],
+  "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

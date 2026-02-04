@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-api",
+  "name": "Anthropic API",
+  "displayName": "Anthropic API",
+  "category": "AI & ML",
+  "description": "Direct access to the Anthropic Messages API. Send prompts to Claude models, manage conversations, stream responses, and configure model parameters.",
+  "provider": "Anthropic",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["create_message", "stream_message", "count_tokens", "list_models", "create_batch", "get_batch_results"],
+  "tags": ["anthropic", "claude", "ai-api", "llm", "messages"],
+  "configUrl": "https://github.com/anthropics/mcp-server-anthropic",
+  "documentationUrl": "https://docs.anthropic.com/en/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

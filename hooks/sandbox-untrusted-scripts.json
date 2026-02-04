@@ -1,0 +1,20 @@
+{
+  "id": "sandbox-untrusted-scripts",
+  "name": "Sandbox Untrusted Scripts",
+  "description": "Detects and warns when executing scripts downloaded from the internet or piped from curl/wget to prevent supply chain attacks",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "sandbox", "supply-chain"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Detect piped script execution patterns\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\n# Block curl | sh patterns\nif echo \"$COMMAND\" | grep -qE '(curl|wget)\\s+.*\\|\\s*(bash|sh|zsh|source)'; then\n  echo \"BLOCKED: Piping remote scripts directly to shell is dangerous. Download first, review, then execute.\"\n  exit 2\nfi\n# Warn on executing recently downloaded scripts\nif echo \"$COMMAND\" | grep -qE '(bash|sh|zsh|source)\\s+/tmp/'; then\n  echo \"WARNING: Executing script from /tmp directory. Ensure this script has been reviewed.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/sandbox-untrusted-scripts.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

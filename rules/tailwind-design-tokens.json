@@ -1,0 +1,16 @@
+{
+  "id": "tailwind-design-tokens",
+  "name": "Tailwind CSS Design Tokens",
+  "description": "Enforces CSS variable-based design tokens with Tailwind for consistent, themeable UI systems.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.css", "**/*.tsx", "**/*.jsx", "**/*.vue", "**/*.svelte"]
+  },
+  "content": "# Tailwind CSS Design Tokens Rules\n\n- Define all design tokens as CSS custom properties — colors, spacing, typography, shadows, borders\n- Use `:root` for light theme tokens and `.dark` or `[data-theme='dark']` for dark theme overrides\n- Reference tokens in Tailwind config — `colors: { primary: 'var(--color-primary)' }` instead of hardcoded hex values\n- Never use raw color values (`#3B82F6`, `blue-500`) in components — always use semantic token names (`primary`, `surface`, `muted`)\n- Create a semantic color scale — `--color-surface-primary`, `--color-surface-secondary`, `--color-text-primary`, `--color-text-muted`\n- Use token-based spacing for layout consistency — extend Tailwind's spacing scale with your design system values\n- Define typography tokens — `--font-size-heading`, `--font-weight-heading`, `--line-height-body` for consistent text styles\n- Use CSS variables for shadow tokens — `--shadow-sm`, `--shadow-md`, `--shadow-lg` that adapt to light/dark themes\n- Keep token names semantic, not descriptive — `--color-danger` not `--color-red`, `--spacing-page` not `--spacing-32`\n- Store tokens in a single CSS file (`tokens.css` or `variables.css`) — import before Tailwind layers\n- Support theme switching at runtime — toggling a class on `<html>` should change all colors via CSS variables\n- Document your token system — maintain a living style guide showing all available tokens and their values",
+  "tags": ["tailwind", "design-tokens", "css", "theming", "design-system"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

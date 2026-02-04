@@ -1,0 +1,16 @@
+{
+  "id": "front-app",
+  "name": "Front",
+  "displayName": "Front",
+  "category": "Communication",
+  "description": "Front shared inbox platform. Manage conversations across email, SMS, and chat. Assign, tag, comment on, and reply to messages from a unified inbox.",
+  "provider": "Front",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_conversations", "get_conversation", "reply_to_conversation", "create_draft", "assign_conversation", "tag_conversation", "add_comment", "list_inboxes", "list_teammates", "search_conversations"],
+  "tags": ["front", "shared-inbox", "email", "team-communication", "customer-ops"],
+  "configUrl": "https://github.com/frontapp/mcp-server-front",
+  "documentationUrl": "https://dev.frontapp.com/reference",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

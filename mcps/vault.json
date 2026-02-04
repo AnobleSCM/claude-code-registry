@@ -1,0 +1,16 @@
+{
+  "id": "vault",
+  "name": "HashiCorp Vault",
+  "displayName": "HashiCorp Vault",
+  "category": "DevOps",
+  "description": "HashiCorp Vault secrets management. Read and write secrets, manage encryption keys, handle dynamic credentials, and configure authentication methods securely.",
+  "provider": "HashiCorp",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["read_secret", "write_secret", "list_secrets", "delete_secret", "encrypt_data", "decrypt_data", "generate_credentials", "list_auth_methods", "get_token_info", "renew_lease"],
+  "tags": ["vault", "secrets-management", "encryption", "hashicorp", "security"],
+  "configUrl": "https://github.com/hashicorp/mcp-server-vault",
+  "documentationUrl": "https://developer.hashicorp.com/vault/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

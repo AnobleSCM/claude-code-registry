@@ -1,0 +1,16 @@
+{
+  "id": "github-actions-mcp",
+  "name": "GitHub Actions",
+  "displayName": "GitHub Actions",
+  "category": "DevOps",
+  "description": "GitHub Actions CI/CD integration. List and trigger workflows, view run status and logs, manage secrets, and download artifacts from workflow runs.",
+  "provider": "GitHub",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_workflows", "trigger_workflow", "list_workflow_runs", "get_run_status", "get_run_logs", "cancel_run", "rerun_workflow", "list_artifacts", "download_artifact", "list_secrets"],
+  "tags": ["github-actions", "ci-cd", "workflows", "automation", "github"],
+  "configUrl": "https://github.com/github/mcp-server-github-actions",
+  "documentationUrl": "https://docs.github.com/en/actions",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

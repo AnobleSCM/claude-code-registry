@@ -1,0 +1,17 @@
+{
+  "id": "api-contract-tester",
+  "name": "API Contract Tester",
+  "displayName": "API Contract Tester",
+  "category": "Quality",
+  "description": "Validates API responses against OpenAPI specifications or JSON schemas, catching contract violations, missing fields, and type mismatches",
+  "invocation": "Task tool with subagent_type=\"api-contract-tester\"",
+  "capabilities": [
+    "Validate API responses against OpenAPI/Swagger specifications",
+    "Detect missing required fields and type mismatches",
+    "Test edge cases with boundary values and malformed inputs",
+    "Generate contract compliance reports with violation details"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob", "WebFetch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

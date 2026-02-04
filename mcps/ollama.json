@@ -1,0 +1,16 @@
+{
+  "id": "ollama",
+  "name": "Ollama",
+  "displayName": "Ollama",
+  "category": "AI & ML",
+  "description": "Ollama local LLM integration. Run, manage, and interact with local language models. Pull models, generate completions, create embeddings, and manage model lifecycle.",
+  "provider": "Ollama",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["generate_completion", "chat_completion", "create_embedding", "list_models", "pull_model", "delete_model", "show_model_info", "copy_model"],
+  "tags": ["ollama", "local-llm", "self-hosted", "inference", "open-source"],
+  "configUrl": "https://github.com/ollama/mcp-server-ollama",
+  "documentationUrl": "https://ollama.com/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

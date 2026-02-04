@@ -1,0 +1,13 @@
+{
+  "id": "terraform-infrastructure",
+  "name": "terraform-infrastructure",
+  "displayName": "Terraform Infrastructure",
+  "category": "DevOps",
+  "description": "Write Terraform modules with proper state management, variable organization, and provider configuration. Follows HashiCorp best practices for infrastructure as code.",
+  "invocation": "/terraform-infrastructure",
+  "source": "community",
+  "tags": ["terraform", "infrastructure", "iac", "cloud", "devops"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

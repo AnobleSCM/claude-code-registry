@@ -1,0 +1,17 @@
+{
+  "id": "seo-auditor",
+  "name": "SEO Auditor",
+  "displayName": "SEO Auditor",
+  "category": "Business",
+  "description": "Analyzes website SEO health by checking meta tags, heading structure, page speed indicators, sitemap, and structured data markup",
+  "invocation": "Task tool with subagent_type=\"seo-auditor\"",
+  "capabilities": [
+    "Audit meta titles, descriptions, and Open Graph tags",
+    "Check heading hierarchy and content structure for SEO",
+    "Verify sitemap.xml and robots.txt configuration",
+    "Analyze structured data markup and suggest Schema.org improvements"
+  ],
+  "tools": ["Read", "Grep", "Glob", "WebFetch", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

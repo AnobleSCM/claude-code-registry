@@ -1,0 +1,16 @@
+{
+  "id": "activecamp",
+  "name": "ActiveCampaign",
+  "displayName": "ActiveCampaign",
+  "category": "CRM",
+  "description": "ActiveCampaign marketing automation and CRM. Manage contacts, create automations, send email campaigns, track deals, and score leads based on engagement.",
+  "provider": "ActiveCampaign",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["list_contacts", "create_contact", "update_contact", "search_contacts", "list_automations", "add_contact_to_automation", "list_campaigns", "create_campaign", "list_deals", "create_deal", "list_tags", "add_tag_to_contact"],
+  "tags": ["activecampaign", "marketing-automation", "crm", "email", "lead-scoring"],
+  "configUrl": "https://github.com/ActiveCampaign/mcp-server-activecampaign",
+  "documentationUrl": "https://developers.activecampaign.com/reference",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

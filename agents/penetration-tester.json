@@ -1,0 +1,17 @@
+{
+  "id": "penetration-tester",
+  "name": "Penetration Tester",
+  "displayName": "Penetration Tester",
+  "category": "Security",
+  "description": "Guides security testing for web applications by identifying attack surfaces, suggesting test payloads, and analyzing responses for vulnerabilities",
+  "invocation": "Task tool with subagent_type=\"penetration-tester\"",
+  "capabilities": [
+    "Map application attack surface from routes and endpoints",
+    "Suggest test payloads for common vulnerability classes",
+    "Analyze HTTP responses for security header issues",
+    "Generate penetration test reports with remediation steps"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob", "WebFetch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

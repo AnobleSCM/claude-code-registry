@@ -1,0 +1,16 @@
+{
+  "id": "amplitude",
+  "name": "Amplitude",
+  "displayName": "Amplitude",
+  "category": "Data & Analytics",
+  "description": "Amplitude digital analytics platform. Query user behavior, analyze funnels, segment audiences, track events, and build cohorts for product optimization.",
+  "provider": "Amplitude",
+  "status": "available",
+  "toolCount": 9,
+  "tools": ["query_events", "get_funnel_analysis", "get_retention_analysis", "list_cohorts", "create_cohort", "get_user_activity", "export_events", "get_revenue_analysis", "search_users"],
+  "tags": ["amplitude", "product-analytics", "user-behavior", "funnels", "cohorts"],
+  "configUrl": "https://github.com/amplitude/mcp-server-amplitude",
+  "documentationUrl": "https://www.docs.developers.amplitude.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "coda",
+  "name": "Coda",
+  "displayName": "Coda",
+  "category": "Productivity",
+  "description": "Coda document and table management. Create docs, read and write tables, manage rows and columns, and trigger automations in Coda workspaces.",
+  "provider": "Coda",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_docs", "create_doc", "get_table", "list_rows", "insert_rows", "update_row", "delete_row", "list_columns", "get_formula", "trigger_automation"],
+  "tags": ["coda", "documents", "tables", "productivity", "no-code"],
+  "configUrl": "https://github.com/coda/mcp-server-coda",
+  "documentationUrl": "https://coda.io/developers/apis/v1",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

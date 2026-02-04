@@ -1,0 +1,16 @@
+{
+  "id": "zendesk",
+  "name": "Zendesk",
+  "displayName": "Zendesk",
+  "category": "Communication",
+  "description": "Zendesk customer service platform. Create and manage tickets, search knowledge base articles, manage users, and automate support workflows.",
+  "provider": "Zendesk",
+  "status": "available",
+  "toolCount": 14,
+  "tools": ["create_ticket", "update_ticket", "list_tickets", "search_tickets", "add_ticket_comment", "assign_ticket", "list_users", "create_user", "search_articles", "create_article", "list_groups", "get_ticket_metrics", "list_macros", "apply_macro"],
+  "tags": ["zendesk", "support", "ticketing", "help-desk", "customer-service"],
+  "configUrl": "https://github.com/zendesk/mcp-server-zendesk",
+  "documentationUrl": "https://developer.zendesk.com/api-reference",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

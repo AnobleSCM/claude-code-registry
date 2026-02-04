@@ -1,0 +1,20 @@
+{
+  "id": "deploy-dry-run",
+  "name": "Deploy Dry Run",
+  "description": "Runs a deployment dry-run before actual deploy commands to catch configuration errors and preview what would be deployed",
+  "category": "devops",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "deployment", "dry-run"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run deploy dry-run before actual deployment\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\n# Detect deploy commands (skip if already a dry-run)\nif echo \"$COMMAND\" | grep -qE '(deploy|publish)' && ! echo \"$COMMAND\" | grep -qiE '(dry-run|--dry|preview)'; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  # Vercel\n  if echo \"$COMMAND\" | grep -q 'vercel deploy'; then\n    echo \"Running Vercel deploy preview first...\"\n    cd \"$ROOT\" && vercel --dry-run 2>/dev/null | tail -5\n  fi\n  # Firebase\n  if echo \"$COMMAND\" | grep -q 'firebase deploy'; then\n    echo \"Running Firebase deploy dry-run...\"\n    cd \"$ROOT\" && firebase deploy --only hosting --dry-run 2>/dev/null | tail -5\n  fi\n  # npm publish\n  if echo \"$COMMAND\" | grep -q 'npm publish'; then\n    echo \"Running npm publish dry-run...\"\n    cd \"$ROOT\" && npm publish --dry-run 2>/dev/null | tail -10\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/deploy-dry-run.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "test-before-shipping",
+  "name": "Test Before Shipping",
+  "description": "Run the full test suite before claiming work is done — no shipping untested code.",
+  "category": "testing",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Test Before Shipping Rules\n\n- Run the full test suite before every commit — `npm test`, `pytest`, `go test ./...`, or your project's test command\n- Don't skip tests to save time — a 2-minute test run is cheaper than a production bug\n- If tests fail, fix them before committing — never commit with known test failures\n- Run both unit tests and integration tests when available — unit tests alone don't catch integration issues\n- If E2E tests exist, run them before marking a feature complete — they catch real user-facing bugs\n- Check test coverage for new code — new features should have tests, not just pass existing ones\n- Run the linter alongside tests — type errors and lint violations are bugs waiting to happen\n- If a test is flaky, fix it or mark it as known-flaky — don't just re-run until it passes\n- Run tests in the same environment as CI — local-only passes that fail in CI waste everyone's time\n- When fixing a bug, write a test that reproduces it first — then fix the bug and verify the test passes\n- If you change a test to make it pass, make sure the change is correct — weakening assertions hides bugs\n- After merging, verify CI passes on the merged result — merge conflicts can break tests that passed individually",
+  "tags": ["testing", "ci", "quality", "verification"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

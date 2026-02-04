@@ -1,0 +1,13 @@
+{
+  "id": "cursor-rules-generator",
+  "name": "cursor-rules-generator",
+  "displayName": "Cursor Rules Generator",
+  "category": "Cross-Tool",
+  "description": "Generate .cursorrules files from existing CLAUDE.md conventions, enabling consistent AI behavior across Cursor and Claude Code in the same project.",
+  "invocation": "/cursor-rules-generator",
+  "source": "community",
+  "tags": ["cursor", "cursorrules", "cross-tool", "conventions", "editor"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

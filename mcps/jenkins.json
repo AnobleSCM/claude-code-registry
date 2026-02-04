@@ -1,0 +1,16 @@
+{
+  "id": "jenkins",
+  "name": "Jenkins",
+  "displayName": "Jenkins",
+  "category": "DevOps",
+  "description": "Jenkins CI/CD automation server. Trigger builds, manage jobs, view build logs, configure pipelines, and monitor build status across your projects.",
+  "provider": "Jenkins",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_jobs", "get_job", "trigger_build", "get_build_status", "get_build_log", "stop_build", "create_job", "list_builds", "get_queue", "get_node_status"],
+  "tags": ["jenkins", "ci-cd", "automation", "builds", "pipelines"],
+  "configUrl": "https://github.com/jenkinsci/mcp-server-jenkins",
+  "documentationUrl": "https://www.jenkins.io/doc/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

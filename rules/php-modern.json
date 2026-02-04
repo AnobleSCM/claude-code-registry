@@ -1,0 +1,16 @@
+{
+  "id": "php-modern",
+  "name": "Modern PHP (8.3+)",
+  "description": "Enforces PHP 8.3 patterns including strict types, named arguments, enums, and readonly properties.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.php"]
+  },
+  "content": "# Modern PHP (8.3+) Rules\n\n- Always declare `declare(strict_types=1)` at the top of every PHP file — no implicit type coercion\n- Use typed properties and constructor promotion — `public function __construct(private readonly string $name)`\n- Use native enums (`enum Status: string`) instead of class constants for fixed value sets\n- Use named arguments for functions with many parameters — `array_slice(array: $data, offset: 2, length: 5)`\n- Use `match` expressions instead of `switch` — they are strict, return values, and don't fall through\n- Use union types (`string|int`) and intersection types (`Countable&Iterator`) in function signatures\n- Use `readonly` classes and properties for immutable value objects — prevents accidental mutation\n- Use fibers for cooperative multitasking in async workloads instead of callbacks\n- Use `#[Attribute]` syntax for metadata instead of docblock annotations\n- Prefer first-class callable syntax `strlen(...)` when passing functions as arguments\n- Use `json_validate()` to check JSON before decoding — avoid silent failures from `json_decode`\n- Run PHPStan at level 9 or Psalm at errorLevel 1 in CI — catch type errors before production",
+  "tags": ["php", "php-8", "strict-types", "modern"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

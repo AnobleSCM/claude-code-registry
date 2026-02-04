@@ -1,0 +1,17 @@
+{
+  "id": "android-kotlin-developer",
+  "name": "Android Kotlin Developer",
+  "displayName": "Android Kotlin Developer",
+  "category": "Mobile",
+  "description": "Specializes in Android development with Kotlin and Jetpack Compose, including architecture patterns, UI components, and Android-specific APIs",
+  "invocation": "Task tool with subagent_type=\"android-kotlin-developer\"",
+  "capabilities": [
+    "Build UI with Jetpack Compose and Material Design 3",
+    "Implement MVVM/MVI architecture with ViewModels and StateFlow",
+    "Integrate Android APIs (Room, Retrofit, Navigation, WorkManager)",
+    "Handle Android lifecycle, permissions, and configuration changes"
+  ],
+  "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

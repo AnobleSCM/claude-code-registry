@@ -1,0 +1,14 @@
+{
+  "id": "sql-injection-prevention",
+  "name": "SQL Injection Prevention",
+  "description": "Enforces parameterized queries and safe database access patterns to prevent SQL injection attacks.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# SQL Injection Prevention Rules\n\n- Always use parameterized queries or prepared statements — never concatenate user input into SQL strings\n- Use your ORM's query builder — ActiveRecord, Prisma, SQLAlchemy, Eloquent all generate safe parameterized queries\n- When writing raw SQL, use placeholders — `WHERE id = ?` or `WHERE id = $1`, never `WHERE id = '${id}'`\n- Validate and type-cast input before it reaches the database layer — an integer ID should be parsed as an integer\n- Use stored procedures with parameterized inputs for complex queries — but don't build dynamic SQL inside procedures\n- Apply the principle of least privilege — database users should only have SELECT, INSERT, UPDATE, DELETE on tables they need\n- Never use database admin credentials in application connection strings — create a dedicated app user with minimal permissions\n- Escape identifiers (table/column names) separately from values when dynamic SQL is unavoidable — use your driver's identifier quoting function\n- Enable WAF (Web Application Firewall) rules for SQL injection patterns as an additional defense layer\n- Log and alert on SQL syntax errors from user-facing endpoints — they may indicate injection attempts\n- Use allowlists for dynamic ORDER BY or column selection — never pass user input directly as column or table names\n- Test for SQL injection in CI — use SQLMap or similar tools in your security test suite",
+  "tags": ["security", "sql-injection", "database", "parameterized-queries"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

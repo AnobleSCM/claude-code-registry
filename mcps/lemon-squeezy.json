@@ -1,0 +1,16 @@
+{
+  "id": "lemon-squeezy",
+  "name": "Lemon Squeezy",
+  "displayName": "Lemon Squeezy",
+  "category": "Payments",
+  "description": "Lemon Squeezy merchant of record platform. Manage products, variants, subscriptions, orders, and customers. Handle digital product sales with built-in tax compliance.",
+  "provider": "Lemon Squeezy",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_products", "create_product", "list_variants", "list_orders", "get_order", "list_subscriptions", "update_subscription", "list_customers", "create_checkout", "list_license_keys"],
+  "tags": ["lemon-squeezy", "payments", "digital-products", "subscriptions", "merchant-of-record"],
+  "configUrl": "https://github.com/lmsqueezy/mcp-server-lemonsqueezy",
+  "documentationUrl": "https://docs.lemonsqueezy.com/api",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

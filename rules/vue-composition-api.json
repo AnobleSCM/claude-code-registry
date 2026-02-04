@@ -1,0 +1,16 @@
+{
+  "id": "vue-composition-api",
+  "name": "Vue 3 Composition API",
+  "description": "Enforces Vue 3 Composition API patterns including composables, reactivity, and script setup.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.vue", "**/*.ts"]
+  },
+  "content": "# Vue 3 Composition API Rules\n\n- Use `<script setup>` syntax — it is more concise, has better TypeScript support, and better runtime performance\n- Use `ref()` for primitives and `reactive()` for objects — prefer `ref()` when in doubt for consistency\n- Extract reusable logic into composables (`use*` functions) — return reactive refs and methods from plain `.ts` files\n- Use `computed()` for derived state — never recompute values in templates or watchers when computed works\n- Use `watchEffect()` for automatic dependency tracking and `watch()` when you need the old value or specific sources\n- Use `defineProps<T>()` with TypeScript generics for type-safe props — avoid runtime props validation\n- Use `defineEmits<T>()` with TypeScript for type-safe custom events\n- Use `provide`/`inject` with `InjectionKey<T>` for type-safe dependency injection across component trees\n- Use `toRefs()` when destructuring reactive objects to maintain reactivity — `const { name } = toRefs(props)`\n- Prefer `shallowRef()` and `shallowReactive()` for large objects that don't need deep reactivity tracking\n- Use Suspense with async `setup()` for data fetching — show loading states declaratively\n- Use `defineModel()` for two-way binding with `v-model` — replaces the `modelValue` prop + `update:modelValue` emit pattern",
+  "tags": ["vue", "vue-3", "composition-api", "composables", "frontend"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

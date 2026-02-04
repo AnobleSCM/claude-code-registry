@@ -1,0 +1,14 @@
+{
+  "id": "incident-response-process",
+  "name": "Incident Response Process",
+  "description": "Enforces incident response runbook patterns for identifying, responding to, and learning from production incidents.",
+  "category": "devops",
+  "subtype": "knowledge",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Incident Response Process Rules\n\n- Define severity levels with clear criteria — S1 (complete outage), S2 (degraded service), S3 (minor impact), S4 (no user impact)\n- Establish an on-call rotation — every production service needs a responsible person reachable 24/7\n- When an incident is detected, open an incident channel immediately — centralize communication in one place\n- Assign clear roles — Incident Commander (coordinates), Technical Lead (debugs), Communications Lead (updates stakeholders)\n- Prioritize mitigation over root cause — restore service first (rollback, failover, scale up), investigate later\n- Communicate status updates every 15-30 minutes during active incidents — even if the update is \"still investigating\"\n- Maintain a public status page — users should be able to check service status without contacting support\n- Document timeline of events during the incident — when it started, what was tried, when it was resolved\n- Conduct blameless postmortems for S1 and S2 incidents — focus on systemic improvements, not individual blame\n- Postmortems must include — summary, impact, timeline, root cause, what went well, what went poorly, action items\n- Track action items from postmortems to completion — assign owners and deadlines, review in team meetings\n- Practice incident response — run game days or chaos engineering exercises to test your processes before real incidents",
+  "tags": ["devops", "incidents", "on-call", "postmortem", "operations"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

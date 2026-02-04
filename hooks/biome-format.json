@@ -1,0 +1,20 @@
+{
+  "id": "biome-format",
+  "name": "Biome Format on Save",
+  "description": "Automatically formats files with Biome after Claude writes or edits them, supporting JavaScript, TypeScript, JSON, and CSS",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "formatting", "biome"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Format with Biome after file write/edit\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\n# Only format supported file types\nif [[ \"$FILE\" =~ \\.(js|jsx|ts|tsx|json|css)$ ]]; then\n  if command -v npx &>/dev/null && [[ -f \"$(git rev-parse --show-toplevel 2>/dev/null)/biome.json\" || -f \"$(git rev-parse --show-toplevel 2>/dev/null)/biome.jsonc\" ]]; then\n    npx biome format --write \"$FILE\" 2>/dev/null\n    echo \"Formatted with Biome: $FILE\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/biome-format.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

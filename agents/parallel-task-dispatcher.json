@@ -1,0 +1,17 @@
+{
+  "id": "parallel-task-dispatcher",
+  "name": "Parallel Task Dispatcher",
+  "displayName": "Parallel Task Dispatcher",
+  "category": "Orchestration",
+  "description": "Spawns multiple subagents in parallel for independent tasks, collects results, and merges outputs into a unified response",
+  "invocation": "Task tool with subagent_type=\"parallel-task-dispatcher\"",
+  "capabilities": [
+    "Identify independent tasks that can run concurrently",
+    "Spawn and manage parallel subagent execution",
+    "Collect and merge results from multiple agents",
+    "Handle partial failures gracefully"
+  ],
+  "tools": ["Task", "Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

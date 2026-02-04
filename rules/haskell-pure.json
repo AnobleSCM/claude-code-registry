@@ -1,0 +1,16 @@
+{
+  "id": "haskell-pure",
+  "name": "Haskell Type Safety & Purity",
+  "description": "Enforces Haskell best practices for type safety, purity, and principled use of effects.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.hs"]
+  },
+  "content": "# Haskell Type Safety & Purity Rules\n\n- Add explicit type signatures to all top-level definitions — type inference is for local bindings, not your API\n- Keep functions pure by default — only use `IO` when interacting with the outside world\n- Use `newtype` for domain-specific wrappers — zero runtime cost, prevents mixing up arguments of the same base type\n- Prefer `Text` over `String` for text data — `String` is a linked list of characters and performs poorly\n- Use `Maybe` for optional values and `Either` for computations that can fail with an error message\n- Enable `-Wall` and `-Werror` in CI — treat warnings as errors to catch partial functions and missing patterns\n- Avoid partial functions (`head`, `tail`, `fromJust`, `read`) — use total alternatives or pattern match explicitly\n- Use `do` notation for monadic sequencing — keep each line focused on one operation\n- Prefer `Data.Map.Strict` and `Data.Set` over lists for lookups — lists are O(n) for membership checks\n- Use `deriving` strategies (`stock`, `newtype`, `via`) to reduce boilerplate while staying explicit\n- Handle errors with `ExceptT` or `MonadError` in your monad stack — don't throw exceptions in pure code\n- Use `-XOverloadedStrings` and `-XDerivingStrategies` as project-wide default extensions",
+  "tags": ["haskell", "functional", "type-safety", "purity"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

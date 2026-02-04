@@ -1,0 +1,16 @@
+{
+  "id": "svelte-5-runes",
+  "name": "Svelte 5 Runes",
+  "description": "Enforces Svelte 5 runes-based reactivity, snippets, and fine-grained state management.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.svelte", "**/*.svelte.ts", "**/*.svelte.js"]
+  },
+  "content": "# Svelte 5 Runes Rules\n\n- Use `$state()` for reactive state instead of `let` declarations — runes make reactivity explicit and portable\n- Use `$derived()` for computed values instead of `$:` reactive statements — derived values recalculate automatically\n- Use `$effect()` for side effects instead of `$:` blocks — effects run after the DOM updates and clean up automatically\n- Use `$props()` to declare component props — replaces `export let` and supports destructuring with defaults\n- Use `$bindable()` for two-way bindable props — makes bind intent explicit in the component API\n- Use Snippets (`{#snippet name()}...{/snippet}`) instead of slots — snippets are typed, composable, and can be passed as props\n- Use `$state.raw()` for large objects that don't need deep reactivity — avoids proxy overhead\n- Use `$effect.pre()` when you need to run logic before DOM updates — useful for scroll position preservation\n- Use `$inspect()` during development to debug reactive values — it logs when values change\n- Prefer `$derived.by()` for complex derivations that need multi-line logic or intermediate variables\n- Extract shared reactive logic into `.svelte.ts` files — runes work outside components for reusable stores\n- Use event attributes (`onclick`) instead of `on:click` directive — Svelte 5 uses standard DOM event naming",
+  "tags": ["svelte", "svelte-5", "runes", "reactivity", "frontend"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

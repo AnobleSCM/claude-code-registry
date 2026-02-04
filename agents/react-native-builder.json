@@ -1,0 +1,17 @@
+{
+  "id": "react-native-builder",
+  "name": "React Native Builder",
+  "displayName": "React Native Builder",
+  "category": "Mobile",
+  "description": "Builds cross-platform mobile apps with React Native, handling navigation, native modules, platform-specific code, and Expo integration",
+  "invocation": "Task tool with subagent_type=\"react-native-builder\"",
+  "capabilities": [
+    "Build screens and components with React Native and Expo",
+    "Implement navigation with React Navigation or Expo Router",
+    "Bridge native modules and handle platform-specific behavior",
+    "Optimize performance with FlatList, memoization, and Hermes"
+  ],
+  "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

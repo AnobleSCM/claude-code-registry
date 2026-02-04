@@ -1,0 +1,16 @@
+{
+  "id": "metabase",
+  "name": "Metabase",
+  "displayName": "Metabase",
+  "category": "Data & Analytics",
+  "description": "Metabase open-source BI tool. Run questions, manage dashboards, query databases, create saved questions, and explore data without writing SQL.",
+  "provider": "Metabase",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["run_question", "list_questions", "create_question", "list_dashboards", "get_dashboard", "run_native_query", "list_databases", "list_tables", "get_table_metadata", "create_dashboard"],
+  "tags": ["metabase", "business-intelligence", "open-source", "dashboards", "sql"],
+  "configUrl": "https://github.com/metabase/mcp-server-metabase",
+  "documentationUrl": "https://www.metabase.com/docs/latest/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

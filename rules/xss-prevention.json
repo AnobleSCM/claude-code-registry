@@ -1,0 +1,14 @@
+{
+  "id": "xss-prevention",
+  "name": "XSS Prevention",
+  "description": "Enforces output sanitization, Content Security Policy, and safe rendering patterns to prevent cross-site scripting.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# XSS Prevention Rules\n\n- Always encode output for the correct context — HTML entities for HTML, JavaScript encoding for inline scripts, URL encoding for URLs\n- Use framework auto-escaping — React JSX, Angular template binding, and Vue mustache syntax all escape by default\n- Never use unsafe innerHTML APIs with user-provided content — always sanitize with DOMPurify or similar libraries first\n- Set a strict Content-Security-Policy header — at minimum `default-src 'self'`, avoid `unsafe-inline` and `unsafe-eval`\n- Use CSP nonces or hashes for inline scripts — `script-src 'nonce-{random}'` instead of `'unsafe-inline'`\n- Sanitize HTML when rich text is required — use DOMPurify, sanitize-html, or Bleach with an explicit allowlist of tags and attributes\n- Set `X-Content-Type-Options: nosniff` to prevent MIME type sniffing attacks\n- Set `HttpOnly` flag on session cookies — prevents JavaScript from reading authentication cookies\n- Validate URLs before rendering in `href` or `src` attributes — block `javascript:` and `data:` protocols\n- Use Trusted Types API in modern browsers to enforce safe DOM manipulation — prevents DOM-based XSS\n- Escape user input in JSON embedded in HTML — use JSON.stringify and HTML-encode the result\n- Review third-party scripts for XSS risks — load external scripts with `integrity` (SRI) and `crossorigin` attributes",
+  "tags": ["security", "xss", "csp", "sanitization", "web-security"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

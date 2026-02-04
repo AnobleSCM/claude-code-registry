@@ -1,0 +1,13 @@
+{
+  "id": "release-management",
+  "name": "release-management",
+  "displayName": "Release Management",
+  "category": "Enterprise",
+  "description": "Manage semantic versioning, generate release notes from commit history, automate changelog updates, and coordinate release workflows across environments.",
+  "invocation": "/release-management",
+  "source": "community",
+  "tags": ["release", "versioning", "semver", "changelog", "deployment"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

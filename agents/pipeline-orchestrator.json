@@ -1,0 +1,17 @@
+{
+  "id": "pipeline-orchestrator",
+  "name": "Pipeline Orchestrator",
+  "displayName": "Pipeline Orchestrator",
+  "category": "Orchestration",
+  "description": "Chains agents in a sequential pipeline with dependency resolution, passing outputs from one stage as inputs to the next",
+  "invocation": "Task tool with subagent_type=\"pipeline-orchestrator\"",
+  "capabilities": [
+    "Define multi-stage agent pipelines",
+    "Resolve dependencies between pipeline stages",
+    "Pass context and artifacts between agents",
+    "Retry failed stages with exponential backoff"
+  ],
+  "tools": ["Task", "Read", "Bash", "Write"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

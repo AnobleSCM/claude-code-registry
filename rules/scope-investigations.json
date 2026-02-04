@@ -1,0 +1,14 @@
+{
+  "id": "scope-investigations",
+  "name": "Scope Investigations",
+  "description": "Limit exploration to relevant directories, use subagents for broad searches, and avoid rabbit holes.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Scope Investigations Rules\n\n- Start with the most specific location — search the file or directory most likely to contain the answer before broadening\n- Use targeted searches (grep for a symbol, glob for a filename) instead of reading entire directory trees\n- Set a depth limit for exploration — if you haven't found what you need in 5-6 searches, reassess your approach\n- Delegate broad exploration tasks to subagents — let them search while you focus on the main task\n- Don't read every file in a directory — read the one or two files most relevant to your current question\n- When investigating a bug, start from the error message and trace backward — don't scan the entire codebase\n- Use file names and directory structure as clues — `src/auth/` is more relevant to an auth bug than `src/utils/`\n- Stop exploring when you have enough information to act — perfectionism in investigation delays progress\n- Avoid reading node_modules, build output, or generated files unless the problem is specifically there\n- Before starting a search, state what you're looking for and why — this prevents aimless exploration\n- If a search returns too many results, narrow it with file type filters, path filters, or more specific patterns\n- Summarize what you learned after each investigation round — don't repeat searches you've already done",
+  "tags": ["ai-behavior", "efficiency", "investigation", "focus"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

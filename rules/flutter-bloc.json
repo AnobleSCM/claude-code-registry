@@ -1,0 +1,16 @@
+{
+  "id": "flutter-bloc",
+  "name": "Flutter BLoC Pattern",
+  "description": "Enforces Flutter BLoC pattern for state management with clear separation of UI and business logic.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.dart"]
+  },
+  "content": "# Flutter BLoC Pattern Rules\n\n- Separate UI from business logic — widgets dispatch events, BLoCs emit states, widgets rebuild on state changes\n- Use `Bloc` for complex state with multiple events and `Cubit` for simple state with direct method calls\n- Define events as sealed classes — `sealed class CounterEvent` with `final class Increment extends CounterEvent`\n- Define states as immutable classes — use `Equatable` or `freezed` to enable state comparison and prevent unnecessary rebuilds\n- Use `BlocProvider` to inject BLoCs into the widget tree — never create BLoCs directly in widgets\n- Use `BlocBuilder` for rebuilding UI on state changes — use `buildWhen` to filter which state changes trigger rebuilds\n- Use `BlocListener` for one-time side effects (navigation, snackbars) — use `listenWhen` to filter\n- Use `BlocConsumer` when you need both `BlocBuilder` and `BlocListener` on the same BLoC\n- Use `MultiBlocProvider` and `MultiBlocListener` to avoid deeply nested provider trees\n- Use `on<Event>` with `EventTransformer` for debouncing, throttling, or sequential event processing\n- Keep BLoC tests simple — given events, expect states using `blocTest()` from `bloc_test` package\n- Use `RepositoryProvider` for data layer dependencies — BLoCs depend on repositories, not data sources directly",
+  "tags": ["flutter", "bloc", "dart", "state-management", "mobile"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

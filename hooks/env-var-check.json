@@ -1,0 +1,20 @@
+{
+  "id": "env-var-check",
+  "name": "Environment Variable Check",
+  "description": "Verifies required environment variables are set at session start by checking .env.example or a custom required-vars list",
+  "category": "devops",
+  "event": "SessionStart",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["devops", "environment", "validation"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Verify required environment variables at session start\nROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\nMISSING=0\n# Check from .env.example if it exists\nif [[ -f \"$ROOT/.env.example\" ]]; then\n  while IFS= read -r line; do\n    # Skip comments and empty lines\n    [[ \"$line\" =~ ^#.*$ || -z \"$line\" ]] && continue\n    VAR_NAME=$(echo \"$line\" | cut -d'=' -f1 | tr -d ' ')\n    if [[ -z \"${!VAR_NAME}\" ]] && ! grep -q \"^${VAR_NAME}=\" \"$ROOT/.env.local\" 2>/dev/null && ! grep -q \"^${VAR_NAME}=\" \"$ROOT/.env\" 2>/dev/null; then\n      echo \"WARNING: Required env var $VAR_NAME is not set\"\n      MISSING=$((MISSING + 1))\n    fi\n  done < \"$ROOT/.env.example\"\n  if [[ $MISSING -gt 0 ]]; then\n    echo \"$MISSING required environment variable(s) missing. Check .env.local\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "SessionStart": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/env-var-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

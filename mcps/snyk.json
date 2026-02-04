@@ -1,0 +1,16 @@
+{
+  "id": "snyk",
+  "name": "Snyk",
+  "displayName": "Snyk",
+  "category": "DevOps",
+  "description": "Snyk developer security platform. Scan for vulnerabilities in code, dependencies, containers, and infrastructure as code. Monitor and fix security issues.",
+  "provider": "Snyk",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_projects", "get_project_issues", "test_package", "test_sca", "list_organizations", "get_issue_details", "ignore_issue", "list_ignores", "monitor_project", "get_dependency_graph"],
+  "tags": ["snyk", "security", "vulnerability-scanning", "dependencies", "devsecops"],
+  "configUrl": "https://github.com/snyk/mcp-server-snyk",
+  "documentationUrl": "https://docs.snyk.io/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

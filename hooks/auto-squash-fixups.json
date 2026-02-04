@@ -1,0 +1,20 @@
+{
+  "id": "auto-squash-fixups",
+  "name": "Auto Squash Fixup Commits",
+  "description": "Automatically squashes fixup commits (fixup! and squash! prefixed) before pushing to keep the git history clean",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "git", "squash"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Auto-squash fixup commits before push\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'git\\s+push'; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  # Check for fixup commits\n  FIXUPS=$(cd \"$ROOT\" && git log --oneline @{u}..HEAD 2>/dev/null | grep -cE '^\\S+\\s+(fixup!|squash!)')\n  if [[ $FIXUPS -gt 0 ]]; then\n    echo \"Found $FIXUPS fixup/squash commit(s). Consider running:\"\n    echo \"  git rebase --autosquash $(git merge-base HEAD @{u})\"\n    echo \"to squash them before pushing.\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/auto-squash-fixups.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

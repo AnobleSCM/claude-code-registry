@@ -1,0 +1,16 @@
+{
+  "id": "dockerfile-security",
+  "name": "Dockerfile Security",
+  "description": "Enforces Dockerfile security patterns including non-root users, minimal base images, and multi-stage builds.",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/Dockerfile", "**/Dockerfile.*", "**/*.dockerfile"]
+  },
+  "content": "# Dockerfile Security Rules\n\n- Never run containers as root — add `USER nonroot` or `USER 1001` after installing dependencies\n- Use minimal base images — `alpine`, `distroless`, or `-slim` variants to reduce attack surface\n- Use multi-stage builds — build in a full image, copy only artifacts to a minimal runtime image\n- Pin base image versions with SHA digests — `FROM node:20-alpine@sha256:abc123` not just `FROM node:latest`\n- Don't store secrets in images — use build-time secrets (`--mount=type=secret`) or runtime environment variables\n- Combine RUN commands with `&&` to reduce layers — fewer layers means smaller images and less cached state\n- Use `.dockerignore` to exclude `node_modules`, `.git`, `.env`, and test files from the build context\n- Set `HEALTHCHECK` instructions — let orchestrators know when your container is actually ready\n- Don't install unnecessary packages — no `curl`, `wget`, or `vim` in production images unless required\n- Use `COPY` instead of `ADD` — `ADD` has implicit behaviors (URL fetching, tar extraction) that can be surprising\n- Scan images for vulnerabilities with Trivy, Snyk, or Docker Scout before deploying\n- Set filesystem to read-only where possible — `--read-only` flag prevents runtime file modifications",
+  "tags": ["devops", "docker", "security", "containers", "dockerfile"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

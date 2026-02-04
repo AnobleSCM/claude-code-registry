@@ -1,0 +1,17 @@
+{
+  "id": "docker-optimizer",
+  "name": "Docker Optimizer",
+  "displayName": "Docker Optimizer",
+  "category": "Domain Specific",
+  "description": "Optimizes Dockerfiles and Docker Compose configurations for smaller image sizes, faster builds, better layer caching, and security hardening",
+  "invocation": "Task tool with subagent_type=\"docker-optimizer\"",
+  "capabilities": [
+    "Reduce image size with multi-stage builds and slim base images",
+    "Optimize layer ordering for better build cache utilization",
+    "Apply security hardening (non-root user, minimal packages)",
+    "Improve Docker Compose configuration for local development"
+  ],
+  "tools": ["Read", "Edit", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

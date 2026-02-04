@@ -1,0 +1,13 @@
+{
+  "id": "prompt-engineering",
+  "name": "prompt-engineering",
+  "displayName": "Prompt Engineering",
+  "category": "AI/ML",
+  "description": "Systematic prompt development with structured testing, evaluation criteria, and iterative refinement. Covers techniques like chain-of-thought, few-shot, and system prompt design.",
+  "invocation": "/prompt-engineering",
+  "source": "community",
+  "tags": ["prompts", "llm", "ai", "evaluation", "engineering"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

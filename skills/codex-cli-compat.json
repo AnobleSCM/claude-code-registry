@@ -1,0 +1,13 @@
+{
+  "id": "codex-cli-compat",
+  "name": "codex-cli-compat",
+  "displayName": "Codex CLI Compatibility",
+  "category": "Cross-Tool",
+  "description": "Create skills compatible with OpenAI Codex CLI's SKILL.md format. Converts Claude Code skills to work seamlessly in Codex CLI environments and vice versa.",
+  "invocation": "/codex-cli-compat",
+  "source": "community",
+  "tags": ["codex", "openai", "compatibility", "skill-format", "cross-tool"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

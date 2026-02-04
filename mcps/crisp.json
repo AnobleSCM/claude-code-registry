@@ -1,0 +1,16 @@
+{
+  "id": "crisp",
+  "name": "Crisp",
+  "displayName": "Crisp",
+  "category": "Communication",
+  "description": "Crisp customer messaging platform. Manage live chat conversations, send messages, search contacts, and handle support inbox across multiple channels.",
+  "provider": "Crisp",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_conversations", "send_message", "search_conversations", "get_conversation", "update_conversation_state", "list_contacts", "search_contacts", "get_analytics"],
+  "tags": ["crisp", "live-chat", "customer-messaging", "support", "multichannel"],
+  "configUrl": "https://github.com/crisp-im/mcp-server-crisp",
+  "documentationUrl": "https://docs.crisp.chat/api/v1/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

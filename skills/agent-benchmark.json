@@ -1,0 +1,13 @@
+{
+  "id": "agent-benchmark",
+  "name": "agent-benchmark",
+  "displayName": "Agent Benchmark",
+  "category": "Cross-Tool",
+  "description": "Benchmark and compare AI coding agent performance across tasks. Define test scenarios, measure completion accuracy, token usage, and time-to-solution for different agents.",
+  "invocation": "/agent-benchmark",
+  "source": "community",
+  "tags": ["benchmark", "evaluation", "comparison", "agents", "performance"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

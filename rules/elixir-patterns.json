@@ -1,0 +1,16 @@
+{
+  "id": "elixir-patterns",
+  "name": "Elixir & Phoenix Patterns",
+  "description": "Enforces Elixir/Phoenix conventions including OTP patterns, pattern matching, and fault tolerance.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.ex", "**/*.exs"]
+  },
+  "content": "# Elixir & Phoenix Patterns Rules\n\n- Use pattern matching in function heads instead of conditional logic — let the VM dispatch to the right clause\n- Use the pipe operator `|>` to chain transformations — each step should be a clear, single-purpose function\n- Name modules with clear context boundaries — `MyApp.Accounts.User` not `MyApp.UserModel`\n- Use `with` expressions for multi-step operations that may fail — pattern match each step\n- Design processes around OTP — use GenServer for stateful processes, Task for one-off async work, Agent for simple state\n- Let it crash — use supervisors to restart failed processes instead of defensive try/catch everywhere\n- Use Ecto changesets for all data validation — never trust raw input, even from internal services\n- Use contexts (bounded contexts) to organize Phoenix business logic — controllers call contexts, not schemas directly\n- Prefer `Enum` over `for` comprehensions for simple transformations — use comprehensions for filters + transforms\n- Use `@moduledoc` and `@doc` with doctests — documentation is tested documentation\n- Use `@spec` type specifications on public functions — run Dialyzer in CI to catch type mismatches\n- Use `Stream` for lazy evaluation of large datasets — avoid loading entire collections into memory",
+  "tags": ["elixir", "phoenix", "otp", "functional", "erlang"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

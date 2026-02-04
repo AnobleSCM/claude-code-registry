@@ -1,0 +1,20 @@
+{
+  "id": "spell-check",
+  "name": "Spell Check on Save",
+  "description": "Checks spelling in comments and strings after file modification using cspell, reporting any misspellings found",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "spelling", "documentation"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Check spelling after file write/edit\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\n# Only check text-like files\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx|py|md|txt|html|css)$ ]]; then\n  if command -v npx &>/dev/null; then\n    OUTPUT=$(npx cspell --no-progress --no-summary \"$FILE\" 2>/dev/null)\n    if [[ -n \"$OUTPUT\" ]]; then\n      COUNT=$(echo \"$OUTPUT\" | wc -l | tr -d ' ')\n      echo \"Spelling: $COUNT issue(s) found in $FILE\"\n      echo \"$OUTPUT\" | head -5\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/spell-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "import-sort",
+  "name": "Import Sort on Save",
+  "description": "Automatically sorts and organizes imports after file modification using the project's import sorting configuration",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "imports", "organization"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Sort imports after file write/edit\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  # Try eslint with import sort plugin\n  if [[ -f \"$ROOT/.eslintrc\" || -f \"$ROOT/.eslintrc.js\" || -f \"$ROOT/.eslintrc.json\" || -f \"$ROOT/eslint.config.js\" ]]; then\n    npx eslint --fix --rule 'sort-imports: warn' \"$FILE\" 2>/dev/null\n    echo \"Sorted imports: $FILE\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/import-sort.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

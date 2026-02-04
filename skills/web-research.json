@@ -1,0 +1,13 @@
+{
+  "id": "web-research",
+  "name": "web-research",
+  "displayName": "Web Research",
+  "category": "Data",
+  "description": "Conduct structured web research with source verification, cross-referencing, and properly cited summaries. Organizes findings into actionable reports.",
+  "invocation": "/web-research",
+  "source": "community",
+  "tags": ["research", "web", "citations", "sources", "analysis"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "together-ai",
+  "name": "Together AI",
+  "displayName": "Together AI",
+  "category": "AI & ML",
+  "description": "Together AI inference platform. Run open-source models for chat, completion, embeddings, and image generation with fast inference at scale.",
+  "provider": "Together AI",
+  "status": "available",
+  "toolCount": 7,
+  "tools": ["chat_completion", "text_completion", "create_embedding", "generate_image", "list_models", "fine_tune_model", "get_fine_tune_status"],
+  "tags": ["together-ai", "inference", "open-source-models", "fine-tuning", "gpu-cloud"],
+  "configUrl": "https://github.com/togethercomputer/mcp-server-together",
+  "documentationUrl": "https://docs.together.ai/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

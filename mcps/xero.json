@@ -1,0 +1,16 @@
+{
+  "id": "xero",
+  "name": "Xero",
+  "displayName": "Xero",
+  "category": "Payments",
+  "description": "Xero cloud accounting platform. Create invoices, manage contacts, track expenses, reconcile bank transactions, and generate financial reports.",
+  "provider": "Xero",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["create_invoice", "list_invoices", "create_contact", "list_contacts", "create_payment", "list_payments", "list_bank_transactions", "create_expense_claim", "get_profit_and_loss", "get_balance_sheet", "list_accounts", "reconcile_transaction"],
+  "tags": ["xero", "accounting", "invoicing", "bookkeeping", "finance"],
+  "configUrl": "https://github.com/XeroAPI/mcp-server-xero",
+  "documentationUrl": "https://developer.xero.com/documentation/api/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

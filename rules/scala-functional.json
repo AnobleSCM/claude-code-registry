@@ -1,0 +1,16 @@
+{
+  "id": "scala-functional",
+  "name": "Scala Functional Patterns",
+  "description": "Enforces functional programming patterns in Scala including immutability, ADTs, and effect management.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.scala", "**/*.sc"]
+  },
+  "content": "# Scala Functional Patterns Rules\n\n- Prefer `val` over `var` — immutable bindings by default, mutable only when performance-critical and localized\n- Use `case class` for data and `sealed trait` (or `enum` in Scala 3) for algebraic data types — enable exhaustive pattern matching\n- Avoid `null` entirely — use `Option[T]` for optional values, `Either[E, A]` for operations that can fail\n- Use `for` comprehensions to compose monadic operations — `Future`, `Option`, `Either`, `IO`\n- Prefer pure functions — same input always produces same output, no side effects\n- Push side effects to the edges — keep business logic pure, handle IO at the boundary\n- Use type classes (`given`/`using` in Scala 3, `implicit` in Scala 2) for ad-hoc polymorphism\n- Prefer `map`, `flatMap`, `filter`, `fold` over imperative loops — transform data, don't mutate it\n- Use opaque types (Scala 3) or value classes to create zero-cost type-safe wrappers\n- Use pattern matching with guards instead of if-else chains for complex branching\n- Use `cats`, `zio`, or `fs2` for effect management — don't scatter raw `Future`s through business logic\n- Avoid `Any`, `asInstanceOf`, and `isInstanceOf` — they bypass the type system and hide bugs",
+  "tags": ["scala", "functional", "immutability", "type-safety"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

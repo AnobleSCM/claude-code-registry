@@ -1,0 +1,17 @@
+{
+  "id": "owasp-scanner",
+  "name": "OWASP Scanner",
+  "displayName": "OWASP Scanner",
+  "category": "Security",
+  "description": "Scans code against the OWASP Top 10 vulnerability patterns, identifying injection flaws, broken authentication, sensitive data exposure, and other common security risks",
+  "invocation": "Task tool with subagent_type=\"owasp-scanner\"",
+  "capabilities": [
+    "Check for SQL injection, XSS, and command injection patterns",
+    "Detect broken authentication and session management issues",
+    "Identify sensitive data exposure and insecure storage",
+    "Flag security misconfigurations and missing access controls"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

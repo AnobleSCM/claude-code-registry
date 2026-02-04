@@ -1,0 +1,16 @@
+{
+  "id": "gcp-vertex",
+  "name": "GCP Vertex AI",
+  "displayName": "GCP Vertex AI",
+  "category": "AI & ML",
+  "description": "Google Cloud Vertex AI platform. Deploy models, run predictions, manage endpoints, create training pipelines, and use Google foundation models.",
+  "provider": "Google Cloud",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["predict", "deploy_model", "list_models", "create_endpoint", "list_endpoints", "create_training_pipeline", "list_datasets", "upload_dataset", "batch_predict", "get_model_evaluation"],
+  "tags": ["gcp", "vertex-ai", "ml-platform", "google-cloud", "model-deployment"],
+  "configUrl": "https://github.com/googleapis/mcp-server-vertex",
+  "documentationUrl": "https://cloud.google.com/vertex-ai/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

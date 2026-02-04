@@ -1,0 +1,16 @@
+{
+  "id": "nextjs-app-router",
+  "name": "Next.js App Router Patterns",
+  "description": "Enforces Next.js 14+ App Router patterns including server components, route handlers, and streaming.",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.tsx", "**/*.ts", "**/app/**"]
+  },
+  "content": "# Next.js App Router Patterns Rules\n\n- Default to Server Components — only add `'use client'` when you need useState, useEffect, event handlers, or browser APIs\n- Use the `app/` directory structure — `page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`, `not-found.tsx` per route segment\n- Use `generateMetadata()` or `metadata` export for SEO — never use `<Head>` from `next/head` in App Router\n- Fetch data directly in Server Components with `async/await` — no `getServerSideProps` or `getStaticProps`\n- Use Route Handlers (`route.ts`) for API endpoints — export `GET`, `POST`, `PUT`, `DELETE` functions\n- Use Server Actions for mutations — define with `'use server'` directive, call from client forms or `useTransition`\n- Use `<Suspense>` with `loading.tsx` for streaming — show instant loading states while data fetches\n- Use `revalidatePath()` or `revalidateTag()` for on-demand revalidation instead of full page rebuilds\n- Use Parallel Routes (`@slot`) and Intercepting Routes (`(.)`) for modals and complex layouts\n- Never import server-only code in Client Components — use `server-only` package to enforce boundaries\n- Use `next/image` with proper `width`, `height`, or `fill` — never use raw `<img>` tags\n- Configure `next.config.js` with `output: 'standalone'` for containerized deployments",
+  "tags": ["nextjs", "app-router", "server-components", "react", "frontend"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

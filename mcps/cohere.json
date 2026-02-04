@@ -1,0 +1,16 @@
+{
+  "id": "cohere",
+  "name": "Cohere",
+  "displayName": "Cohere",
+  "category": "AI & ML",
+  "description": "Cohere AI platform integration. Generate text, create embeddings, rerank search results, classify text, and summarize documents using Cohere models.",
+  "provider": "Cohere",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["generate_text", "chat", "create_embedding", "rerank_results", "classify_text", "summarize_text", "tokenize", "detokenize"],
+  "tags": ["cohere", "nlp", "embeddings", "reranking", "text-generation"],
+  "configUrl": "https://github.com/cohere-ai/mcp-server-cohere",
+  "documentationUrl": "https://docs.cohere.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "branch-name-check",
+  "name": "Branch Name Convention Check",
+  "description": "Validates that branch names follow naming conventions (feature/, fix/, hotfix/, chore/) when creating or switching branches",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "git", "naming-convention"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Validate branch naming conventions\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nPATTERN=${CLAUDE_BRANCH_PATTERN:-'^(feature|fix|hotfix|chore|release|docs|test)/[a-z0-9._-]+$'}\nif echo \"$COMMAND\" | grep -qE 'git\\s+(checkout\\s+-b|switch\\s+-c|branch)\\s'; then\n  BRANCH=$(echo \"$COMMAND\" | grep -oE '(checkout\\s+-b|switch\\s+-c|branch)\\s+\\S+' | awk '{print $NF}')\n  if [[ -n \"$BRANCH\" ]] && [[ \"$BRANCH\" != \"main\" ]] && [[ \"$BRANCH\" != \"master\" ]] && [[ \"$BRANCH\" != \"develop\" ]]; then\n    if ! echo \"$BRANCH\" | grep -qE \"$PATTERN\"; then\n      echo \"WARNING: Branch name '$BRANCH' does not follow naming conventions.\"\n      echo \"Expected pattern: feature/*, fix/*, hotfix/*, chore/*, release/*, docs/*, test/*\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/branch-name-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

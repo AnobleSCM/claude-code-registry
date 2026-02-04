@@ -1,0 +1,16 @@
+{
+  "id": "coolify",
+  "name": "Coolify",
+  "displayName": "Coolify",
+  "category": "Cloud Services",
+  "description": "Coolify self-hosted PaaS. Deploy applications, databases, and services to your own servers. Manage projects, environments, and automated deployments.",
+  "provider": "Coolify",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_projects", "create_project", "deploy_application", "list_applications", "list_databases", "create_database", "list_servers", "get_server_status", "list_environments", "restart_application"],
+  "tags": ["coolify", "self-hosted", "paas", "deployment", "open-source"],
+  "configUrl": "https://github.com/coollabsio/mcp-server-coolify",
+  "documentationUrl": "https://coolify.io/docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "multi-editor-setup",
+  "name": "multi-editor-setup",
+  "displayName": "Multi-Editor Setup",
+  "category": "Cross-Tool",
+  "description": "Configure AI coding skills to work consistently across VS Code, JetBrains IDEs, Neovim, and terminal. Generates editor-specific config files from a single source of truth.",
+  "invocation": "/multi-editor-setup",
+  "source": "community",
+  "tags": ["editor", "vscode", "jetbrains", "neovim", "configuration"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "type-check-on-save",
+  "name": "TypeScript Type Check on Save",
+  "description": "Runs tsc --noEmit after TypeScript file changes to catch type errors immediately without waiting for build",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "typescript", "type-checking"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run TypeScript type check after file changes\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\nif [[ \"$FILE\" =~ \\.(ts|tsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if [[ -f \"$ROOT/tsconfig.json\" ]]; then\n    OUTPUT=$(cd \"$ROOT\" && npx tsc --noEmit 2>&1)\n    EXIT_CODE=$?\n    if [[ $EXIT_CODE -ne 0 ]]; then\n      # Only show errors related to the changed file\n      ERRORS=$(echo \"$OUTPUT\" | grep -i \"$(basename \"$FILE\")\" | head -5)\n      if [[ -n \"$ERRORS\" ]]; then\n        echo \"Type errors in $FILE:\"\n        echo \"$ERRORS\"\n      fi\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/type-check-on-save.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

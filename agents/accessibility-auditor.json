@@ -1,0 +1,17 @@
+{
+  "id": "accessibility-auditor",
+  "name": "Accessibility Auditor",
+  "displayName": "Accessibility Auditor",
+  "category": "Quality",
+  "description": "Runs comprehensive WCAG 2.2 audits across an application, reporting violations by conformance level with fix priority and remediation guidance",
+  "invocation": "Task tool with subagent_type=\"accessibility-auditor\"",
+  "capabilities": [
+    "Audit against WCAG 2.2 Level A, AA, and AAA criteria",
+    "Check color contrast ratios for all text and UI elements",
+    "Verify ARIA attributes, roles, and keyboard navigation patterns",
+    "Generate prioritized violation report with remediation steps"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Bash", "WebFetch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

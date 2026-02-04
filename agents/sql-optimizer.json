@@ -1,0 +1,17 @@
+{
+  "id": "sql-optimizer",
+  "name": "SQL Optimizer",
+  "displayName": "SQL Optimizer",
+  "category": "Data & ML",
+  "description": "Analyzes SQL queries for performance issues, suggests index strategies, rewrites inefficient queries, and explains execution plans",
+  "invocation": "Task tool with subagent_type=\"sql-optimizer\"",
+  "capabilities": [
+    "Analyze query execution plans and identify bottlenecks",
+    "Suggest optimal index strategies for common query patterns",
+    "Rewrite N+1 queries, subqueries, and inefficient joins",
+    "Detect missing indexes and redundant table scans"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

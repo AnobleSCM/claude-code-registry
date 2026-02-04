@@ -1,0 +1,20 @@
+{
+  "id": "handoff-reminder",
+  "name": "Handoff Document Reminder",
+  "description": "Reminds you to update HANDOFF_CURRENT.md when a Claude session ends, ensuring session-to-session context is preserved",
+  "category": "workflow",
+  "event": "Stop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "handoff", "documentation"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Remind to update HANDOFF_CURRENT.md on session end\nROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\nHANDOFF=\"$ROOT/HANDOFF_CURRENT.md\"\nif [[ -f \"$HANDOFF\" ]]; then\n  # Check if HANDOFF was modified this session\n  LAST_MOD=$(stat -f %m \"$HANDOFF\" 2>/dev/null || stat -c %Y \"$HANDOFF\" 2>/dev/null)\n  NOW=$(date +%s)\n  DIFF=$((NOW - LAST_MOD))\n  # If not modified in last 30 minutes, remind\n  if [[ $DIFF -gt 1800 ]]; then\n    echo \"REMINDER: HANDOFF_CURRENT.md has not been updated this session.\"\n    echo \"Update it with current status, completed work, and next steps.\"\n  fi\nelse\n  echo \"NOTE: No HANDOFF_CURRENT.md found. Consider creating one for session continuity.\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Stop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/handoff-reminder.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fireworks-ai",
+  "name": "Fireworks AI",
+  "displayName": "Fireworks AI",
+  "category": "AI & ML",
+  "description": "Fireworks AI inference platform. Deploy and run open-source models with blazing-fast inference, function calling, and structured output support.",
+  "provider": "Fireworks AI",
+  "status": "available",
+  "toolCount": 7,
+  "tools": ["chat_completion", "text_completion", "create_embedding", "list_models", "deploy_model", "create_fine_tune", "generate_structured_output"],
+  "tags": ["fireworks", "inference", "fast-inference", "function-calling", "deployment"],
+  "configUrl": "https://github.com/fireworks-ai/mcp-server-fireworks",
+  "documentationUrl": "https://docs.fireworks.ai/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "image-tools",
+  "name": "Image Tools",
+  "displayName": "Image Tools",
+  "category": "Developer Tools",
+  "description": "Image processing and manipulation tools. Resize, crop, rotate, convert formats, adjust quality, extract metadata, and generate thumbnails for common image formats.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["resize_image", "crop_image", "rotate_image", "convert_format", "compress_image", "get_metadata", "generate_thumbnail", "add_watermark", "extract_colors", "get_dimensions"],
+  "tags": ["images", "image-processing", "conversion", "thumbnails", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-image",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-image#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

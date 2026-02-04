@@ -1,0 +1,16 @@
+{
+  "id": "c-sharp-modern",
+  "name": "Modern C# (12+)",
+  "description": "Enforces C# 12 patterns including nullable references, primary constructors, collection expressions, and LINQ.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.cs"]
+  },
+  "content": "# Modern C# (12+) Rules\n\n- Enable nullable reference types (`<Nullable>enable</Nullable>`) — annotate all reference types as nullable or non-nullable\n- Use primary constructors for dependency injection — `class MyService(ILogger logger)` instead of field + constructor\n- Use collection expressions `[1, 2, 3]` instead of `new List<int> { 1, 2, 3 }` or array initializers\n- Use `record` types for immutable value objects — get equality, deconstruction, and `with` expressions for free\n- Prefer pattern matching (`is`, `switch` expressions, property patterns) over chains of if-else\n- Use `required` modifier on properties that must be set during initialization\n- Use `file`-scoped types for implementation details that should not leak outside the file\n- Prefer LINQ method syntax for simple queries and query syntax for joins and complex grouping\n- Use `readonly record struct` for small immutable value types to avoid heap allocation\n- Use `global using` directives in a single file for common namespaces like `System.Linq`\n- Prefer `string.IsNullOrEmpty()` checks or the null-coalescing operator `??` over manual null checks\n- Use `IAsyncEnumerable<T>` for streaming data instead of loading entire collections into memory",
+  "tags": ["csharp", "dotnet", "modern", "nullable", "linq"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

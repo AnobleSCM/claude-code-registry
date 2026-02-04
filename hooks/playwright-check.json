@@ -1,0 +1,20 @@
+{
+  "id": "playwright-check",
+  "name": "Playwright Test on Page Change",
+  "description": "Runs Playwright E2E tests matching changed page components to catch UI regressions immediately after edits",
+  "category": "testing",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["testing", "playwright", "e2e"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run Playwright tests for changed pages\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\nif [[ \"$FILE\" =~ (pages?|views?|routes?)/ ]] && [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if [[ -f \"$ROOT/playwright.config.ts\" || -f \"$ROOT/playwright.config.js\" ]]; then\n    BASENAME=$(basename \"$FILE\" | sed 's/\\.[^.]*$//' | tr '[:upper:]' '[:lower:]')\n    TEST_FILE=$(find \"$ROOT/e2e\" \"$ROOT/tests\" -iname \"*${BASENAME}*\" -name \"*.spec.*\" 2>/dev/null | head -1)\n    if [[ -n \"$TEST_FILE\" ]]; then\n      echo \"Running Playwright tests for $BASENAME...\"\n      cd \"$ROOT\" && npx playwright test \"$TEST_FILE\" --reporter=line 2>/dev/null | tail -5\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/playwright-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

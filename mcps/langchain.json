@@ -1,0 +1,16 @@
+{
+  "id": "langchain",
+  "name": "LangChain",
+  "displayName": "LangChain",
+  "category": "AI & ML",
+  "description": "LangChain framework integration. Build and run chains, manage prompt templates, interact with vector stores, and orchestrate multi-step LLM workflows.",
+  "provider": "LangChain",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["run_chain", "create_prompt_template", "query_vectorstore", "load_document", "split_text", "create_retriever", "run_agent", "list_tools", "manage_memory", "evaluate_chain"],
+  "tags": ["langchain", "llm", "chains", "ai-framework", "orchestration"],
+  "configUrl": "https://github.com/langchain-ai/mcp-server-langchain",
+  "documentationUrl": "https://python.langchain.com/docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

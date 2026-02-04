@@ -1,0 +1,20 @@
+{
+  "id": "pre-commit-backup",
+  "name": "Pre-Edit Backup Commit",
+  "description": "Creates a temporary WIP commit before large file changes, providing a safe rollback point in case edits go wrong",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["workflow", "git", "backup"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Create a WIP backup commit before large changes\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\nBACKUP_FLAG=\"/tmp/claude-backup-created\"\n# Only create backup once per session\nif [[ -f \"$BACKUP_FLAG\" ]]; then exit 0; fi\n# Check if there are significant uncommitted changes\nROOT=$(git rev-parse --show-toplevel 2>/dev/null)\nif [[ -n \"$ROOT\" ]]; then\n  CHANGED=$(cd \"$ROOT\" && git diff --stat 2>/dev/null | tail -1 | grep -oE '[0-9]+ files? changed' | grep -oE '[0-9]+')\n  if [[ -n \"$CHANGED\" ]] && [[ $CHANGED -ge 3 ]]; then\n    cd \"$ROOT\" && git stash push -m \"claude-backup-$(date +%s)\" 2>/dev/null\n    git stash pop 2>/dev/null\n    echo \"Backup stash created for $CHANGED changed files.\"\n    touch \"$BACKUP_FLAG\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/pre-commit-backup.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

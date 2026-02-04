@@ -1,0 +1,16 @@
+{
+  "id": "looker",
+  "name": "Looker",
+  "displayName": "Looker",
+  "category": "Data & Analytics",
+  "description": "Google Looker business intelligence platform. Run queries, manage looks and dashboards, explore data models, and schedule reports for data-driven insights.",
+  "provider": "Google Cloud",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["run_query", "list_looks", "get_look", "create_look", "list_dashboards", "get_dashboard", "list_explores", "run_inline_query", "search_content", "schedule_plan"],
+  "tags": ["looker", "business-intelligence", "dashboards", "data-modeling", "google-cloud"],
+  "configUrl": "https://github.com/looker-open-source/mcp-server-looker",
+  "documentationUrl": "https://cloud.google.com/looker/docs",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

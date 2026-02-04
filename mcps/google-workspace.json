@@ -1,0 +1,16 @@
+{
+  "id": "google-workspace",
+  "name": "Google Workspace",
+  "displayName": "Google Workspace",
+  "category": "Productivity",
+  "description": "Unified access to Google Workspace apps including Sheets, Docs, Gmail, Calendar, and Drive. Read and write spreadsheets, compose emails, manage calendar events, and organize files.",
+  "provider": "Google",
+  "status": "available",
+  "toolCount": 18,
+  "tools": ["sheets_read_range", "sheets_write_range", "sheets_create_spreadsheet", "docs_read_document", "docs_create_document", "docs_insert_text", "gmail_send_email", "gmail_search_messages", "gmail_read_message", "calendar_list_events", "calendar_create_event", "calendar_update_event", "drive_list_files", "drive_upload_file", "drive_download_file", "drive_create_folder", "drive_share_file", "drive_search_files"],
+  "tags": ["google", "workspace", "sheets", "docs", "gmail", "calendar", "drive", "productivity"],
+  "configUrl": "https://github.com/anthropics/mcp-server-google-workspace",
+  "documentationUrl": "https://developers.google.com/workspace",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

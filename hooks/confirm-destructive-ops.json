@@ -1,0 +1,20 @@
+{
+  "id": "confirm-destructive-ops",
+  "name": "Confirm Destructive Operations",
+  "description": "Requires confirmation for destructive operations like DROP TABLE, TRUNCATE, database migrations, and mass file deletions",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "confirmation", "destructive"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Flag destructive operations for user confirmation\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\n# Check for destructive SQL\nif echo \"$COMMAND\" | grep -qiE '(DROP\\s+(TABLE|DATABASE|INDEX|SCHEMA)|TRUNCATE|DELETE\\s+FROM\\s+\\w+\\s*$)'; then\n  echo \"WARNING: Destructive SQL operation detected: $COMMAND\"\n  echo \"Please confirm this is intentional before proceeding.\"\n  exit 2\nfi\n# Check for destructive file operations\nif echo \"$COMMAND\" | grep -qE 'find\\s+.*-delete'; then\n  echo \"WARNING: Mass file deletion detected. Please confirm.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/confirm-destructive-ops.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

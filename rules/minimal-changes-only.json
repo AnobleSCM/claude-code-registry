@@ -1,0 +1,14 @@
+{
+  "id": "minimal-changes-only",
+  "name": "Minimal Changes Only",
+  "description": "Only change what was requested — no bonus refactoring, style changes, or scope creep.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Minimal Changes Only Rules\n\n- Only modify code that is directly related to the requested task — don't touch unrelated files\n- Don't rename variables, reformat code, or reorganize imports unless specifically asked to\n- Don't add logging, comments, or error handling beyond what the task requires\n- Don't upgrade dependencies, change configurations, or modify build settings as a side effect\n- If you notice something that should be improved but isn't part of the task, mention it but don't change it\n- Don't convert code style (e.g., arrow functions to named functions) unless that's the request\n- Don't add TypeScript types to existing JavaScript files unless asked to migrate to TypeScript\n- Keep the diff as small as possible — reviewers and future debuggers will thank you\n- Don't move code between files unless the task specifically requires restructuring\n- Don't add new abstractions (interfaces, base classes, utilities) unless the task creates the need\n- If fixing a bug, fix that specific bug — don't preemptively fix other potential bugs you notice\n- When in doubt about whether a change is in scope, ask before making it",
+  "tags": ["ai-behavior", "discipline", "scope", "minimal"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

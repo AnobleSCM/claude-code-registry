@@ -1,0 +1,14 @@
+{
+  "id": "ask-dont-assume",
+  "name": "Ask, Don't Assume",
+  "description": "Ask clarifying questions when requirements are ambiguous instead of making assumptions that may be wrong.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Ask, Don't Assume Rules\n\n- When a requirement can be interpreted multiple ways, ask which interpretation the user intends before proceeding\n- Don't assume the technology stack — ask what framework, language version, or tools the project uses\n- Don't assume file locations or project structure — ask or explore before making changes\n- When fixing a bug, ask if the user wants a quick fix or a proper refactor — the answer affects the approach\n- Don't assume the user wants related changes — if they ask to fix X, don't also refactor Y unless asked\n- When instructions say \"improve\" or \"clean up\", ask for specific criteria — vague goals lead to unwanted changes\n- Don't assume error handling preferences — ask if they want exceptions, error codes, Result types, or something else\n- Ask about testing expectations — unit tests, integration tests, both, or none for this change\n- When adding a dependency, ask if the user has a preference for which library to use\n- Don't assume naming conventions — check existing code patterns or ask the user directly\n- If a task seems too large for one session, ask if the user wants to break it into phases\n- When multiple valid approaches exist, briefly present options and let the user choose — don't pick silently",
+  "tags": ["ai-behavior", "communication", "requirements", "clarity"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

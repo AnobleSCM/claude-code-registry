@@ -1,0 +1,20 @@
+{
+  "id": "terminal-bell",
+  "name": "Terminal Bell Notification",
+  "description": "Sends a terminal bell character on task completion, triggering your terminal's audible or visual bell notification",
+  "category": "notifications",
+  "event": "Notification",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "terminal", "bell"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Send terminal bell on notification\nprintf '\\a'\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Notification": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/terminal-bell.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

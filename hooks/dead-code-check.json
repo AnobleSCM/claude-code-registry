@@ -1,0 +1,20 @@
+{
+  "id": "dead-code-check",
+  "name": "Dead Code Detection",
+  "description": "Detects unused exports and dead code after file modifications using knip or ts-prune to keep the codebase clean",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "dead-code", "cleanup"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Check for dead code after file changes\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  # Try knip for unused export detection\n  if [[ -f \"$ROOT/knip.json\" || -f \"$ROOT/knip.ts\" ]]; then\n    OUTPUT=$(cd \"$ROOT\" && npx knip --include exports 2>/dev/null | grep \"$(basename \"$FILE\")\" | head -5)\n    if [[ -n \"$OUTPUT\" ]]; then\n      echo \"Potential dead code in $FILE:\"\n      echo \"$OUTPUT\"\n    fi\n  # Fallback to ts-prune\n  elif command -v npx &>/dev/null; then\n    OUTPUT=$(cd \"$ROOT\" && npx ts-prune 2>/dev/null | grep \"$(basename \"$FILE\")\" | head -5)\n    if [[ -n \"$OUTPUT\" ]]; then\n      echo \"Potentially unused exports in $FILE:\"\n      echo \"$OUTPUT\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/dead-code-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

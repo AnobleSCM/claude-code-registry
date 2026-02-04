@@ -1,0 +1,16 @@
+{
+  "id": "heroku",
+  "name": "Heroku",
+  "displayName": "Heroku",
+  "category": "Cloud Services",
+  "description": "Heroku cloud platform. Create and manage apps, configure dynos, manage add-ons, set environment variables, and deploy applications.",
+  "provider": "Salesforce",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["list_apps", "create_app", "deploy_app", "scale_dynos", "list_dynos", "set_config_var", "list_config_vars", "list_addons", "create_addon", "view_logs", "restart_dyno", "get_app_info"],
+  "tags": ["heroku", "paas", "deployment", "cloud", "dynos"],
+  "configUrl": "https://github.com/heroku/mcp-server-heroku",
+  "documentationUrl": "https://devcenter.heroku.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

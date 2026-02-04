@@ -1,0 +1,17 @@
+{
+  "id": "research-coordinator",
+  "name": "Research Coordinator",
+  "displayName": "Research Coordinator",
+  "category": "Orchestration",
+  "description": "Coordinates multiple explore agents to perform broad codebase investigation, synthesizing findings into a comprehensive research report",
+  "invocation": "Task tool with subagent_type=\"research-coordinator\"",
+  "capabilities": [
+    "Decompose research questions into parallel exploration tasks",
+    "Coordinate multiple explore agents across different code areas",
+    "Synthesize findings from multiple sources into unified reports",
+    "Identify conflicting or contradictory patterns across the codebase"
+  ],
+  "tools": ["Task", "Read", "Grep", "Glob", "WebSearch"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "java-modern",
+  "name": "Modern Java (21+)",
+  "description": "Enforces Java 21+ features including records, sealed classes, pattern matching, and virtual threads.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.java"]
+  },
+  "content": "# Modern Java (21+) Rules\n\n- Use `record` for immutable data carriers — no boilerplate getters, equals, hashCode, toString\n- Use `sealed` classes and interfaces to restrict inheritance hierarchies and enable exhaustive pattern matching\n- Use pattern matching with `instanceof` — replace manual casting with `if (obj instanceof String s)`\n- Use switch expressions with pattern matching and `when` guards for cleaner branching logic\n- Prefer virtual threads (`Thread.ofVirtual()`) for I/O-bound tasks instead of platform thread pools\n- Use text blocks (`\"\"\"`) for multi-line strings — SQL queries, JSON templates, HTML fragments\n- Use `var` for local variables when the type is obvious from context — keep readability paramount\n- Prefer `Optional` over null returns — never call `.get()` without `.isPresent()` or use `.orElse()`\n- Use `Stream.toList()` instead of `.collect(Collectors.toList())` for unmodifiable lists\n- Prefer `SequencedCollection` interface methods (`getFirst()`, `getLast()`) over index-based access\n- Use `String.formatted()` or `STR` template processor instead of `String.format()` for interpolation\n- Avoid `synchronized` blocks — use `ReentrantLock` or structured concurrency with `StructuredTaskScope`",
+  "tags": ["java", "java-21", "modern", "records", "pattern-matching"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

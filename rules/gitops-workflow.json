@@ -1,0 +1,16 @@
+{
+  "id": "gitops-workflow",
+  "name": "GitOps Workflow",
+  "description": "Enforces GitOps patterns where Git is the single source of truth for infrastructure and deployments.",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/k8s/**", "**/manifests/**", "**/helm/**", "**/kustomize/**"]
+  },
+  "content": "# GitOps Workflow Rules\n\n- Git is the single source of truth — the desired state of all environments is defined in Git repositories\n- Use declarative configuration — describe WHAT the system should look like, not HOW to get there\n- Automate deployments from Git — use Argo CD, Flux, or similar operators to sync cluster state to Git\n- Separate application code from deployment config — app repo for code, config repo for manifests\n- Use pull-based deployment — the cluster pulls desired state from Git, don't push changes to clusters\n- All changes go through pull requests — even emergency fixes must be committed to Git and synced\n- Use environment branches or directory-based promotion — `environments/staging/`, `environments/production/`\n- Implement automated rollback — if health checks fail after sync, revert to the previous Git commit automatically\n- Use sealed secrets or external secrets operators — never store plain secrets in Git, even in private repos\n- Monitor sync status — alert when the actual state drifts from the desired state in Git\n- Use image tag automation — update manifests automatically when new container images are built\n- Audit deployments through Git history — `git log` shows who changed what, when, and why for every deployment",
+  "tags": ["devops", "gitops", "kubernetes", "deployment", "automation"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

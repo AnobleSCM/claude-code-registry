@@ -1,0 +1,16 @@
+{
+  "id": "sonarqube",
+  "name": "SonarQube",
+  "displayName": "SonarQube",
+  "category": "DevOps",
+  "description": "SonarQube code quality and security analysis. View issues, manage quality gates, analyze projects, track code coverage, and monitor technical debt.",
+  "provider": "SonarSource",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_projects", "get_project_status", "list_issues", "get_issue", "search_issues", "get_quality_gate", "get_measures", "list_rules", "get_coverage", "get_duplications"],
+  "tags": ["sonarqube", "code-quality", "static-analysis", "security", "technical-debt"],
+  "configUrl": "https://github.com/SonarSource/mcp-server-sonarqube",
+  "documentationUrl": "https://docs.sonarsource.com/sonarqube/latest/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

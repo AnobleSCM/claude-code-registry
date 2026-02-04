@@ -1,0 +1,16 @@
+{
+  "id": "csv-tools",
+  "name": "CSV Tools",
+  "displayName": "CSV Tools",
+  "category": "Developer Tools",
+  "description": "CSV file processing tools. Read, write, parse, filter, sort, and transform CSV data. Convert between CSV and JSON, merge files, and compute column statistics.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["read_csv", "write_csv", "filter_rows", "sort_rows", "select_columns", "convert_to_json", "merge_csvs", "deduplicate", "compute_stats", "validate_csv"],
+  "tags": ["csv", "data-processing", "tabular-data", "conversion", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-csv",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-csv#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

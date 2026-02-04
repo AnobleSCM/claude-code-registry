@@ -1,0 +1,17 @@
+{
+  "id": "visual-regression-tester",
+  "name": "Visual Regression Tester",
+  "displayName": "Visual Regression Tester",
+  "category": "Quality",
+  "description": "Compares screenshots before and after changes to detect unintended visual regressions, pixel differences, and layout shifts across breakpoints",
+  "invocation": "Task tool with subagent_type=\"visual-regression-tester\"",
+  "capabilities": [
+    "Capture screenshots of pages at multiple viewport sizes",
+    "Compare baseline and current screenshots for pixel differences",
+    "Detect layout shifts, font changes, and color discrepancies",
+    "Generate visual diff reports with highlighted change regions"
+  ],
+  "tools": ["Bash", "Read", "Write", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

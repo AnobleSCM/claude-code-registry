@@ -1,0 +1,16 @@
+{
+  "id": "ruby-style",
+  "name": "Ruby Community Style Guide",
+  "description": "Enforces Ruby community style conventions for readable, idiomatic Ruby code.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.rb"]
+  },
+  "content": "# Ruby Community Style Guide Rules\n\n- Use 2-space indentation, no tabs — this is the universal Ruby convention\n- Prefer `snake_case` for methods and variables, `CamelCase` for classes and modules, `SCREAMING_SNAKE_CASE` for constants\n- Use `do...end` for multi-line blocks and `{ }` for single-line blocks\n- Prefer `unless` over `if !condition` for simple negations — but never use `unless` with `else`\n- Use guard clauses (`return early`) to reduce nesting instead of deeply nested if-else\n- Prefer string interpolation `\"Hello #{name}\"` over concatenation `\"Hello \" + name`\n- Use `freeze` on string constants to prevent mutation — `MY_CONST = 'value'.freeze`\n- Prefer `each` over `for` — `for` leaks variables into the surrounding scope\n- Use `Symbol#to_proc` shorthand — `array.map(&:to_s)` instead of `array.map { |x| x.to_s }`\n- Use `attr_reader`, `attr_writer`, `attr_accessor` instead of manually writing getters/setters\n- Prefer `raise` over `fail` for exceptions — use `fail` only in rescue blocks for re-raising\n- Run RuboCop in CI with a project `.rubocop.yml` — enforce style consistently across the team",
+  "tags": ["ruby", "style", "rubocop", "conventions"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

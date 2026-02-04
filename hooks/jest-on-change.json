@@ -1,0 +1,20 @@
+{
+  "id": "jest-on-change",
+  "name": "Jest on File Change",
+  "description": "Automatically runs related Jest tests after a source file is modified, providing immediate feedback on test results",
+  "category": "testing",
+  "event": "PostToolUse",
+  "matcher": "Write|Edit",
+  "handlerType": "command",
+  "tags": ["testing", "jest", "auto-test"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run related Jest tests after file change\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ -z \"$FILE\" ]]; then exit 0; fi\n# Skip test files themselves\nif [[ \"$FILE\" =~ \\.(test|spec)\\. ]]; then exit 0; fi\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if [[ -f \"$ROOT/jest.config.js\" || -f \"$ROOT/jest.config.ts\" || -f \"$ROOT/jest.config.json\" ]]; then\n    BASENAME=$(basename \"$FILE\" | sed 's/\\.[^.]*$//')\n    echo \"Running Jest tests related to $BASENAME...\"\n    cd \"$ROOT\" && npx jest --findRelatedTests \"$FILE\" --passWithNoTests 2>/dev/null | tail -5\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Write|Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/jest-on-change.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

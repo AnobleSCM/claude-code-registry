@@ -1,0 +1,20 @@
+{
+  "id": "lighthouse-check",
+  "name": "Lighthouse Performance Check",
+  "description": "Runs Google Lighthouse audits after frontend build or deploy commands to catch performance, accessibility, and SEO regressions",
+  "category": "devops",
+  "event": "PostToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "performance", "lighthouse"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Run Lighthouse after frontend builds/deploys\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE '(npm run build|vite build|next build)'; then\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if command -v npx &>/dev/null; then\n    # Check if a local dev server is running\n    URL=\"${LIGHTHOUSE_URL:-http://localhost:3000}\"\n    if curl -s --max-time 2 \"$URL\" >/dev/null 2>&1; then\n      echo \"Running Lighthouse audit on $URL...\"\n      npx lighthouse \"$URL\" --output=json --chrome-flags='--headless --no-sandbox' 2>/dev/null | \\\n        node -e \"const r=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')); \\\n        const c=r.categories; \\\n        Object.keys(c).forEach(k=>console.log(k+': '+Math.round(c[k].score*100)))\" 2>/dev/null\n    else\n      echo \"Lighthouse: No server running at $URL. Start a preview server to run audits.\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/lighthouse-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

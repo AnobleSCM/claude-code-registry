@@ -1,0 +1,16 @@
+{
+  "id": "azure-openai",
+  "name": "Azure OpenAI",
+  "displayName": "Azure OpenAI",
+  "category": "AI & ML",
+  "description": "Azure OpenAI Service integration. Access GPT and DALL-E models through Azure with enterprise security, regional deployment, and content filtering.",
+  "provider": "Microsoft",
+  "status": "available",
+  "toolCount": 7,
+  "tools": ["chat_completion", "create_embedding", "generate_image", "list_deployments", "create_deployment", "get_deployment", "moderate_content"],
+  "tags": ["azure", "openai", "enterprise-ai", "microsoft", "gpt"],
+  "configUrl": "https://github.com/microsoft/mcp-server-azure-openai",
+  "documentationUrl": "https://learn.microsoft.com/en-us/azure/ai-services/openai/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

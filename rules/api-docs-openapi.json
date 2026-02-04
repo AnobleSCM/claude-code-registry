@@ -1,0 +1,16 @@
+{
+  "id": "api-docs-openapi",
+  "name": "OpenAPI Documentation",
+  "description": "Document REST APIs with OpenAPI (Swagger) specifications for consistency, testing, and client generation.",
+  "category": "documentation",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.yaml", "**/*.yml", "**/*.json"]
+  },
+  "content": "# OpenAPI Documentation Rules\n\n- Define an OpenAPI 3.1 spec for every REST API — it is the contract between frontend and backend\n- Document every endpoint with path, method, summary, description, and operationId\n- Define request bodies with JSON Schema — include required fields, types, formats, and examples\n- Document all response codes — 200, 201, 400, 401, 403, 404, 422, 500 with schema and example for each\n- Use `$ref` for reusable schemas — define models in `components/schemas` and reference them in endpoints\n- Include authentication requirements — define security schemes (Bearer, API Key, OAuth2) and apply them per endpoint\n- Add `example` values to every property — examples make the spec usable without reading descriptions\n- Use `tags` to group related endpoints — `Users`, `Products`, `Orders` for logical organization\n- Keep the spec in sync with the implementation — generate it from code annotations or validate code against the spec in CI\n- Use Swagger UI or Redoc to serve interactive documentation — developers should be able to try endpoints from the docs\n- Generate client SDKs from the spec — `openapi-generator` produces typed clients for TypeScript, Python, Go, and more\n- Version your API in the spec — `info.version` should match your API version, update it with breaking changes",
+  "tags": ["documentation", "openapi", "swagger", "api", "rest"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

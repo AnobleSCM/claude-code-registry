@@ -1,0 +1,20 @@
+{
+  "id": "conventional-commit-lint",
+  "name": "Conventional Commit Lint",
+  "description": "Validates that commit messages follow the Conventional Commits specification format (type(scope): description) before committing",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "git", "conventional-commits"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Validate conventional commit message format\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nif echo \"$COMMAND\" | grep -qE 'git\\s+commit'; then\n  # Extract commit message from -m flag\n  MSG=$(echo \"$COMMAND\" | grep -oP '(?<=-m\\s[\"'\\''\"'\\'']).*?(?=[\"'\\''\"'\\''])' | head -1)\n  if [[ -z \"$MSG\" ]]; then\n    MSG=$(echo \"$COMMAND\" | grep -oP '(?<=-m\\s)\\S+' | head -1)\n  fi\n  if [[ -n \"$MSG\" ]]; then\n    # Check conventional commit pattern: type(scope): description\n    if ! echo \"$MSG\" | grep -qE '^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\\([a-zA-Z0-9_-]+\\))?!?:\\s.+'; then\n      echo \"WARNING: Commit message does not follow Conventional Commits format.\"\n      echo \"Expected: type(scope): description\"\n      echo \"Types: feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert\"\n      echo \"Got: $MSG\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/conventional-commit-lint.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

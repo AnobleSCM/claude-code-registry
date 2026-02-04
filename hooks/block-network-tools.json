@@ -1,0 +1,20 @@
+{
+  "id": "block-network-tools",
+  "name": "Block Network Scanning Tools",
+  "description": "Blocks network scanning tools like nmap, masscan, and netcat to prevent unauthorized network reconnaissance",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "network", "security"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Block network scanning and reconnaissance tools\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nBLOCKED_TOOLS=\"nmap|masscan|netcat|nc\\s+-|zmap|nikto|sqlmap|hydra|aircrack\"\nif echo \"$COMMAND\" | grep -qE \"(^|&&|;|\\|)\\s*($BLOCKED_TOOLS)\"; then\n  echo \"BLOCKED: Network scanning tools are not allowed in this environment.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-network-tools.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

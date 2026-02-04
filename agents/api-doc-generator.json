@@ -1,0 +1,17 @@
+{
+  "id": "api-doc-generator",
+  "name": "API Doc Generator",
+  "displayName": "API Doc Generator",
+  "category": "Documentation",
+  "description": "Generates OpenAPI/Swagger documentation from existing code by analyzing route handlers, request/response types, and middleware",
+  "invocation": "Task tool with subagent_type=\"api-doc-generator\"",
+  "capabilities": [
+    "Extract API endpoints from route definitions and controllers",
+    "Infer request/response schemas from TypeScript types or validation",
+    "Generate OpenAPI 3.0 specification files",
+    "Document authentication requirements and error responses"
+  ],
+  "tools": ["Read", "Grep", "Glob", "Write", "Bash"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

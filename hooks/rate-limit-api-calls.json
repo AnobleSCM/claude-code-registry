@@ -1,0 +1,20 @@
+{
+  "id": "rate-limit-api-calls",
+  "name": "Rate Limit API Calls",
+  "description": "Rate limits external API calls by tracking call frequency and blocking if threshold is exceeded within a time window",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "rate-limit", "api"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Rate limit external API calls\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nRATE_FILE=\"/tmp/claude-api-rate-limit\"\nMAX_CALLS=${CLAUDE_API_RATE_LIMIT:-30}\nWINDOW=60\nif echo \"$COMMAND\" | grep -qE '(curl|wget|http|fetch)\\s'; then\n  NOW=$(date +%s)\n  # Clean old entries\n  if [[ -f \"$RATE_FILE\" ]]; then\n    CUTOFF=$((NOW - WINDOW))\n    awk -v cutoff=\"$CUTOFF\" '$1 > cutoff' \"$RATE_FILE\" > \"${RATE_FILE}.tmp\"\n    mv \"${RATE_FILE}.tmp\" \"$RATE_FILE\"\n    COUNT=$(wc -l < \"$RATE_FILE\")\n    if [[ $COUNT -ge $MAX_CALLS ]]; then\n      echo \"BLOCKED: API rate limit exceeded ($MAX_CALLS calls per ${WINDOW}s). Wait before making more requests.\"\n      exit 2\n    fi\n  fi\n  echo \"$NOW\" >> \"$RATE_FILE\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/rate-limit-api-calls.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

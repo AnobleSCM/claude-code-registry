@@ -1,0 +1,17 @@
+{
+  "id": "load-tester",
+  "name": "Load Tester",
+  "displayName": "Load Tester",
+  "category": "Quality",
+  "description": "Designs and runs load tests to measure application performance under stress, analyzing response times, throughput, and failure thresholds",
+  "invocation": "Task tool with subagent_type=\"load-tester\"",
+  "capabilities": [
+    "Design load test scenarios with realistic traffic patterns",
+    "Run tests using k6, Artillery, or custom scripts",
+    "Analyze response times, throughput, and error rates under load",
+    "Identify performance bottlenecks and capacity limits"
+  ],
+  "tools": ["Bash", "Read", "Write", "Grep"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

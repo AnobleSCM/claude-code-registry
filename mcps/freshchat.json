@@ -1,0 +1,16 @@
+{
+  "id": "freshchat",
+  "name": "Freshchat",
+  "displayName": "Freshchat",
+  "category": "Communication",
+  "description": "Freshchat modern messaging platform. Manage conversations, send messages, handle bot flows, and engage customers across web, mobile, and social channels.",
+  "provider": "Freshworks",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["list_conversations", "send_message", "get_conversation", "resolve_conversation", "assign_conversation", "list_agents", "create_contact", "search_contacts"],
+  "tags": ["freshchat", "freshworks", "live-chat", "messaging", "customer-engagement"],
+  "configUrl": "https://github.com/freshworks/mcp-server-freshchat",
+  "documentationUrl": "https://developers.freshchat.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

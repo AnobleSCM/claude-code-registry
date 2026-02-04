@@ -1,0 +1,16 @@
+{
+  "id": "plaid",
+  "name": "Plaid",
+  "displayName": "Plaid",
+  "category": "Payments",
+  "description": "Plaid financial data platform. Connect bank accounts, retrieve transactions, verify identity, check balances, and access investment holdings through a unified API.",
+  "provider": "Plaid",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["get_accounts", "get_transactions", "get_balance", "get_identity", "get_investments", "create_link_token", "exchange_public_token", "list_institutions", "search_institutions", "get_liabilities"],
+  "tags": ["plaid", "banking", "financial-data", "transactions", "fintech"],
+  "configUrl": "https://github.com/plaid/mcp-server-plaid",
+  "documentationUrl": "https://plaid.com/docs/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

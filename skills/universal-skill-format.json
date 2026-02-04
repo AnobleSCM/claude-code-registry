@@ -1,0 +1,13 @@
+{
+  "id": "universal-skill-format",
+  "name": "universal-skill-format",
+  "displayName": "Universal Skill Format",
+  "category": "Cross-Tool",
+  "description": "Create SKILL.md files in a universal format that works across Claude Code, Codex CLI, Cursor, and Aider. One skill definition, multiple tool compatibility.",
+  "invocation": "/universal-skill-format",
+  "source": "community",
+  "tags": ["universal", "skill-format", "cross-tool", "interoperability", "standard"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

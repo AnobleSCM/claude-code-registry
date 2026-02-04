@@ -1,0 +1,17 @@
+{
+  "id": "review-pipeline",
+  "name": "Review Pipeline",
+  "displayName": "Review Pipeline",
+  "category": "Orchestration",
+  "description": "Runs a complete review pipeline: code review, test analysis, and security review in sequence, producing a consolidated quality report",
+  "invocation": "Task tool with subagent_type=\"review-pipeline\"",
+  "capabilities": [
+    "Run code review, test analysis, and security review sequentially",
+    "Aggregate findings across review stages into a single report",
+    "Prioritize issues by severity and category",
+    "Generate actionable fix suggestions for each finding"
+  ],
+  "tools": ["Task", "Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "readme-keep-updated",
+  "name": "Keep README Updated",
+  "description": "Update README when adding features, changing setup, or modifying environment requirements.",
+  "category": "documentation",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["README.md", "readme.md"]
+  },
+  "content": "# Keep README Updated Rules\n\n- Update the README whenever you add a new feature that users or developers need to know about\n- Keep setup instructions current — if you add a new environment variable, dependency, or build step, update the README\n- Include a \"Getting Started\" section with copy-paste-ready commands — `git clone`, `npm install`, `npm run dev`\n- Document all environment variables with descriptions and example values — use `.env.example` and reference it\n- List prerequisites (Node.js version, Python version, Docker, etc.) at the top of the setup section\n- Keep the project description accurate — update it when the project's scope or purpose changes\n- Document available scripts/commands — `npm run test`, `npm run build`, `npm run lint` with descriptions\n- Include a project structure overview for repositories with non-obvious organization\n- Remove outdated information — deprecated features, old API endpoints, removed environment variables\n- Use badges for build status, test coverage, and version — but only if they're maintained and accurate\n- Add a \"Contributing\" section if the project accepts contributions — link to contribution guidelines\n- Review the README during each release — treat it as part of the release checklist",
+  "tags": ["documentation", "readme", "onboarding", "developer-experience"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

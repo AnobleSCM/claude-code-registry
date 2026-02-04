@@ -1,0 +1,16 @@
+{
+  "id": "python-type-hints",
+  "name": "Python Type Hints",
+  "description": "Require type hints on all function signatures, variables where ambiguous, and use modern typing patterns.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.py"]
+  },
+  "content": "# Python Type Hints Rules\n\n- Add type hints to all function parameters and return types — no untyped function signatures\n- Use `-> None` explicitly for functions that return nothing — don't leave return type implicit\n- Prefer modern union syntax `X | Y` over `Union[X, Y]` (Python 3.10+)\n- Use `list[str]` instead of `List[str]` — lowercase generics are preferred since Python 3.9\n- Annotate class attributes and instance variables — use `ClassVar` for class-level attributes\n- Use `TypeAlias` for complex type definitions to keep signatures readable\n- Prefer `Sequence` over `list` and `Mapping` over `dict` in function parameters for flexibility\n- Use `@overload` to express functions that return different types based on input\n- Run `mypy --strict` or `pyright` in CI — type hints without a checker are just comments\n- Use `TypedDict` for dictionary shapes instead of plain `dict[str, Any]`\n- Avoid `Any` — use `object` or `Unknown` when the type is truly unknown and narrow with isinstance\n- Use `Protocol` for structural subtyping instead of ABC when you only need method signatures",
+  "tags": ["python", "type-hints", "mypy", "code-quality"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "k8s-context-check",
+  "name": "Kubernetes Context Check",
+  "description": "Verifies the correct Kubernetes context is active before kubectl commands to prevent accidentally running commands against the wrong cluster",
+  "category": "devops",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "kubernetes", "safety"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Verify Kubernetes context before kubectl commands\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nBLOCKED_CONTEXTS=${CLAUDE_K8S_BLOCKED_CONTEXTS:-\"production|prod-cluster\"}\nif echo \"$COMMAND\" | grep -qE '(kubectl|helm)\\s'; then\n  CURRENT_CTX=$(kubectl config current-context 2>/dev/null)\n  if [[ -z \"$CURRENT_CTX\" ]]; then\n    echo \"WARNING: No Kubernetes context is set. Run 'kubectl config use-context <name>' first.\"\n    exit 2\n  fi\n  # Block production contexts for destructive commands\n  if echo \"$CURRENT_CTX\" | grep -qiE \"$BLOCKED_CONTEXTS\"; then\n    if echo \"$COMMAND\" | grep -qiE '(delete|scale|drain|cordon|apply|rollout)'; then\n      echo \"BLOCKED: Destructive kubectl command against production context '$CURRENT_CTX'.\"\n      echo \"Switch to a staging context first.\"\n      exit 2\n    fi\n    echo \"WARNING: Running against production context '$CURRENT_CTX'.\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/k8s-context-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "verify-before-claiming-done",
+  "name": "Verify Before Claiming Done",
+  "description": "Always run commands and check actual output before claiming work is complete or tests pass.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Verify Before Claiming Done Rules\n\n- Never say \"done\", \"fixed\", \"implemented\", or \"tests pass\" without actual command output in the same message\n- Run the build command (`npm run build`, `cargo build`, `go build`) and verify exit code 0 before claiming success\n- Run the full test suite and check the actual pass/fail counts — don't rely on previous run results\n- Run the linter and verify 0 errors — don't assume clean output from memory\n- If you say \"should work\", \"probably fixed\", or \"seems correct\" — stop and run the actual verification command\n- Check that new files actually exist on disk after creating them — `ls` the path to confirm\n- After fixing a bug, reproduce the original error first, apply the fix, then verify the error is gone\n- After a git commit, run `git status` to confirm the working tree is clean\n- After deploying, verify the deployment is live — check the URL, run a health check, or tail the logs\n- When running multiple verification steps, complete all of them before declaring done — partial verification is not verification\n- If a command fails, do not claim you will fix it later — fix it now and re-verify\n- Show the evidence — paste the actual command output, exit code, or test results in your response",
+  "tags": ["ai-behavior", "verification", "quality", "discipline"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

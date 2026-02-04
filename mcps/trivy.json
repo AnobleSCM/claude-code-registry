@@ -1,0 +1,16 @@
+{
+  "id": "trivy",
+  "name": "Trivy",
+  "displayName": "Trivy",
+  "category": "DevOps",
+  "description": "Trivy comprehensive security scanner. Scan container images, filesystems, git repositories, and Kubernetes clusters for vulnerabilities, misconfigurations, and secrets.",
+  "provider": "Aqua Security",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["scan_image", "scan_filesystem", "scan_repository", "scan_kubernetes", "list_vulnerabilities", "get_vulnerability", "scan_config", "scan_secrets"],
+  "tags": ["trivy", "security-scanner", "containers", "vulnerability", "open-source"],
+  "configUrl": "https://github.com/aquasecurity/mcp-server-trivy",
+  "documentationUrl": "https://aquasecurity.github.io/trivy/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

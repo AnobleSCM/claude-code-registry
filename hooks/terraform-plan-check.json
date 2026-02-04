@@ -1,0 +1,20 @@
+{
+  "id": "terraform-plan-check",
+  "name": "Terraform Plan Before Apply",
+  "description": "Requires terraform plan to be run and reviewed before terraform apply, preventing unreviewed infrastructure changes",
+  "category": "devops",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "terraform", "infrastructure"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Require terraform plan before apply\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nPLAN_FLAG=\"/tmp/claude-terraform-planned\"\nif echo \"$COMMAND\" | grep -qE 'terraform\\s+apply'; then\n  # Check if plan was run recently\n  if [[ -f \"$PLAN_FLAG\" ]]; then\n    PLAN_AGE=$(( $(date +%s) - $(stat -f %m \"$PLAN_FLAG\" 2>/dev/null || stat -c %Y \"$PLAN_FLAG\" 2>/dev/null) ))\n    if [[ $PLAN_AGE -gt 300 ]]; then\n      echo \"BLOCKED: Terraform plan is stale (>5 min old). Run 'terraform plan' again before apply.\"\n      rm -f \"$PLAN_FLAG\"\n      exit 2\n    fi\n  else\n    echo \"BLOCKED: Run 'terraform plan' first to review changes before apply.\"\n    exit 2\n  fi\nfi\n# Track when plan runs\nif echo \"$COMMAND\" | grep -qE 'terraform\\s+plan'; then\n  touch \"$PLAN_FLAG\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/terraform-plan-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "commit-message-quality",
+  "name": "Commit Message Quality",
+  "description": "Write descriptive commit messages that explain why a change was made, not just what changed.",
+  "category": "code-quality",
+  "subtype": "constraint",
+  "scope": "global",
+  "frontmatter": null,
+  "content": "# Commit Message Quality Rules\n\n- Write commit messages that explain WHY the change was made — the diff already shows WHAT changed\n- Use a conventional prefix — `feat:`, `fix:`, `refactor:`, `docs:`, `test:`, `chore:`, `perf:`, `ci:`\n- Keep the subject line under 72 characters — wrap the body at 72 characters\n- Use imperative mood in the subject — \"Add user validation\" not \"Added user validation\" or \"Adds user validation\"\n- Separate subject from body with a blank line — the subject is for quick scanning, the body is for details\n- Reference issue numbers when applicable — `fix: prevent crash on empty input (fixes #42)`\n- Don't use generic messages — \"fix bug\", \"update code\", \"WIP\", \"misc changes\" are useless to future readers\n- Each commit should represent one logical change — don't mix a feature addition with an unrelated refactor\n- If a commit reverts a previous change, explain why — `revert: undo user cache (caused memory leak in #78)`\n- Don't commit generated files, build artifacts, or temporary debugging code\n- Squash fixup commits before merging — the main branch history should be clean and meaningful\n- Include relevant context in the body — what alternatives were considered, what tradeoffs were made",
+  "tags": ["git", "commits", "quality", "conventions"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

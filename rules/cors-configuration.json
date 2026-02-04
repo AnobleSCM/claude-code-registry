@@ -1,0 +1,14 @@
+{
+  "id": "cors-configuration",
+  "name": "CORS Configuration",
+  "description": "Enforces proper CORS setup for APIs with explicit origins, methods, and credential handling.",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": null,
+  "content": "# CORS Configuration Rules\n\n- Never use `Access-Control-Allow-Origin: *` with credentials — browsers reject it and it signals a misconfiguration\n- Explicitly list allowed origins — `['https://app.example.com', 'https://staging.example.com']` not wildcard\n- Validate the `Origin` header against your allowlist on every request — don't reflect arbitrary origins\n- Restrict `Access-Control-Allow-Methods` to only the HTTP methods your API actually uses — `GET, POST, PUT, DELETE`\n- Limit `Access-Control-Allow-Headers` to headers your API expects — `Content-Type, Authorization` not wildcard\n- Set `Access-Control-Max-Age` to cache preflight responses — `86400` (24 hours) reduces OPTIONS request overhead\n- Use `Access-Control-Allow-Credentials: true` only when your API needs cookies or auth headers from the browser\n- Never expose sensitive headers — configure `Access-Control-Expose-Headers` to only include headers the frontend needs\n- Handle preflight OPTIONS requests explicitly — return 204 with CORS headers, no body\n- Use different CORS configs per environment — development can be permissive, production must be strict\n- Log rejected CORS requests — they may indicate misconfigured frontends or attack attempts\n- Test CORS configuration with `curl -H 'Origin: https://evil.com'` — verify your server rejects unauthorized origins",
+  "tags": ["security", "cors", "api", "web-security", "headers"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

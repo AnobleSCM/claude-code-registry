@@ -1,0 +1,17 @@
+{
+  "id": "monitoring-setup",
+  "name": "Monitoring Setup",
+  "displayName": "Monitoring Setup",
+  "category": "Domain Specific",
+  "description": "Sets up application monitoring, structured logging, and alerting using tools like Prometheus, Grafana, Datadog, or Sentry",
+  "invocation": "Task tool with subagent_type=\"monitoring-setup\"",
+  "capabilities": [
+    "Configure structured logging with appropriate log levels",
+    "Set up application metrics and health check endpoints",
+    "Define alerting rules for error rates, latency, and availability",
+    "Integrate error tracking with Sentry or similar services"
+  ],
+  "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

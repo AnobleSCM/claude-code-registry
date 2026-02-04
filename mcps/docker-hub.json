@@ -1,0 +1,16 @@
+{
+  "id": "docker-hub",
+  "name": "Docker Hub",
+  "displayName": "Docker Hub",
+  "category": "DevOps",
+  "description": "Docker Hub container registry. Search images, manage repositories, list tags, view image details, and manage automated builds on Docker Hub.",
+  "provider": "Docker",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["search_images", "list_repositories", "list_tags", "get_image_details", "get_dockerfile", "list_builds", "trigger_build", "get_vulnerability_scan"],
+  "tags": ["docker-hub", "container-registry", "images", "docker", "ci-cd"],
+  "configUrl": "https://github.com/docker/mcp-server-docker-hub",
+  "documentationUrl": "https://docs.docker.com/docker-hub/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

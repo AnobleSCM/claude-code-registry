@@ -1,0 +1,20 @@
+{
+  "id": "macos-notification",
+  "name": "macOS Notification Center",
+  "description": "Sends native macOS Notification Center alerts when Claude completes tasks, using osascript for reliable delivery",
+  "category": "notifications",
+  "event": "Notification",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "macos", "native"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Send macOS notification center alert\nif ! command -v osascript &>/dev/null; then\n  exit 0\nfi\nTITLE=\"Claude Code\"\nMESSAGE=\"${NOTIFICATION_MESSAGE:-Task completed}\"\nPROJECT=$(basename \"$(pwd)\")\nosascript -e \"display notification \\\"$MESSAGE\\\" with title \\\"$TITLE\\\" subtitle \\\"$PROJECT\\\"\" 2>/dev/null\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Notification": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/macos-notification.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

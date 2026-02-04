@@ -1,0 +1,13 @@
+{
+  "id": "rag-pipeline-design",
+  "name": "rag-pipeline-design",
+  "displayName": "RAG Pipeline Design",
+  "category": "AI/ML",
+  "description": "Design retrieval-augmented generation pipelines including document chunking strategies, embedding model selection, vector store setup, and retrieval quality optimization.",
+  "invocation": "/rag-pipeline-design",
+  "source": "community",
+  "tags": ["rag", "embeddings", "vector-db", "retrieval", "llm"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

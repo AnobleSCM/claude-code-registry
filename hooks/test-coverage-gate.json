@@ -1,0 +1,20 @@
+{
+  "id": "test-coverage-gate",
+  "name": "Test Coverage Gate",
+  "description": "Warns if test coverage drops below a configurable threshold after running tests, helping maintain code quality standards",
+  "category": "testing",
+  "event": "PostToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["testing", "coverage", "quality-gate"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Check test coverage after test runs\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nTHRESHOLD=${CLAUDE_COVERAGE_THRESHOLD:-80}\nif echo \"$COMMAND\" | grep -qE '(vitest|jest|pytest|coverage)'; then\n  # Look for coverage output\n  COVERAGE_FILE=\"coverage/coverage-summary.json\"\n  ROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n  if [[ -f \"$ROOT/$COVERAGE_FILE\" ]]; then\n    TOTAL=$(cat \"$ROOT/$COVERAGE_FILE\" | grep -o '\"lines\":{\"total\":[0-9]*,\"covered\":[0-9]*' | head -1)\n    if [[ -n \"$TOTAL\" ]]; then\n      LINES_TOTAL=$(echo \"$TOTAL\" | grep -o 'total\":[0-9]*' | grep -o '[0-9]*')\n      LINES_COVERED=$(echo \"$TOTAL\" | grep -o 'covered\":[0-9]*' | grep -o '[0-9]*')\n      if [[ $LINES_TOTAL -gt 0 ]]; then\n        PCT=$((LINES_COVERED * 100 / LINES_TOTAL))\n        if [[ $PCT -lt $THRESHOLD ]]; then\n          echo \"WARNING: Test coverage is ${PCT}% (threshold: ${THRESHOLD}%). Add more tests.\"\n        fi\n      fi\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/test-coverage-gate.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

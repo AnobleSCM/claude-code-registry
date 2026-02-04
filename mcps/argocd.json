@@ -1,0 +1,16 @@
+{
+  "id": "argocd",
+  "name": "Argo CD",
+  "displayName": "Argo CD",
+  "category": "DevOps",
+  "description": "Argo CD GitOps continuous delivery tool for Kubernetes. Manage applications, sync deployments, monitor health, and handle rollbacks declaratively.",
+  "provider": "Argo Project",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["list_applications", "get_application", "sync_application", "rollback_application", "delete_application", "create_application", "get_application_health", "list_repositories", "get_sync_status", "get_resource_tree"],
+  "tags": ["argocd", "gitops", "kubernetes", "continuous-delivery", "deployment"],
+  "configUrl": "https://github.com/argoproj/mcp-server-argocd",
+  "documentationUrl": "https://argo-cd.readthedocs.io/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

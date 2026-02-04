@@ -1,0 +1,16 @@
+{
+  "id": "llamaindex",
+  "name": "LlamaIndex",
+  "displayName": "LlamaIndex",
+  "category": "AI & ML",
+  "description": "LlamaIndex data framework integration. Index documents, query knowledge bases, build RAG pipelines, and manage data connectors for LLM applications.",
+  "provider": "LlamaIndex",
+  "status": "available",
+  "toolCount": 9,
+  "tools": ["create_index", "query_index", "load_documents", "list_indices", "add_documents", "delete_documents", "create_query_engine", "configure_retriever", "manage_storage"],
+  "tags": ["llamaindex", "rag", "indexing", "llm", "knowledge-base"],
+  "configUrl": "https://github.com/run-llama/mcp-server-llamaindex",
+  "documentationUrl": "https://docs.llamaindex.ai/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

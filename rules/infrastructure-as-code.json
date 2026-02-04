@@ -1,0 +1,16 @@
+{
+  "id": "infrastructure-as-code",
+  "name": "Infrastructure as Code",
+  "description": "All infrastructure changes must be made through code (Terraform, Pulumi, CDK) — no manual console changes.",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.tf", "**/*.tfvars", "**/cdk/**", "**/pulumi/**"]
+  },
+  "content": "# Infrastructure as Code Rules\n\n- All infrastructure must be defined in code — Terraform, Pulumi, AWS CDK, or equivalent IaC tool\n- Never make manual changes in cloud consoles — if it's not in code, it doesn't exist and will be overwritten\n- Use remote state storage (S3, GCS, Azure Blob) with state locking — prevent concurrent modifications\n- Use modules for reusable infrastructure patterns — VPC, database, load balancer modules shared across environments\n- Parameterize environment differences — use variables for region, instance size, and scaling, not separate codebases\n- Run `terraform plan` (or equivalent) in CI — review the diff before applying changes to production\n- Require approval gates for production infrastructure changes — automated apply for staging, manual approval for production\n- Tag all resources with environment, team, cost center, and project — enable cost tracking and ownership\n- Use drift detection — alert when actual infrastructure diverges from the defined state\n- Store secrets in a secrets manager (AWS Secrets Manager, Vault) — reference them in IaC, never hardcode\n- Version your IaC modules — pin module versions and upgrade deliberately\n- Document infrastructure architecture — maintain diagrams that reflect the current IaC state",
+  "tags": ["devops", "iac", "terraform", "infrastructure", "cloud"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

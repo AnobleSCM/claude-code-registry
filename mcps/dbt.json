@@ -1,0 +1,16 @@
+{
+  "id": "dbt",
+  "name": "dbt",
+  "displayName": "dbt",
+  "category": "Data & Analytics",
+  "description": "dbt data transformation tool. Run models, test data quality, generate documentation, manage seeds, and orchestrate SQL-based data transformations in your warehouse.",
+  "provider": "dbt Labs",
+  "status": "available",
+  "toolCount": 10,
+  "tools": ["run_model", "test_model", "list_models", "get_model_info", "run_seed", "generate_docs", "list_sources", "compile_sql", "snapshot", "get_run_results"],
+  "tags": ["dbt", "data-transformation", "sql", "analytics-engineering", "elt"],
+  "configUrl": "https://github.com/dbt-labs/mcp-server-dbt",
+  "documentationUrl": "https://docs.getdbt.com/",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

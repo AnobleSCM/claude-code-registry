@@ -1,0 +1,17 @@
+{
+  "id": "migration-guide-writer",
+  "name": "Migration Guide Writer",
+  "displayName": "Migration Guide Writer",
+  "category": "Documentation",
+  "description": "Creates detailed upgrade and migration guides between versions by analyzing breaking changes, deprecated APIs, and new patterns",
+  "invocation": "Task tool with subagent_type=\"migration-guide-writer\"",
+  "capabilities": [
+    "Identify breaking changes between versions from git diffs",
+    "Document deprecated APIs and their replacements",
+    "Generate step-by-step migration instructions",
+    "Include before/after code examples for each change"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob", "Write"],
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

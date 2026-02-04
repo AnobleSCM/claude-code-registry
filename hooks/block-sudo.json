@@ -1,0 +1,20 @@
+{
+  "id": "block-sudo",
+  "name": "Block Sudo Commands",
+  "description": "Blocks sudo commands unless explicitly allowed, preventing unintended privilege escalation",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "sudo", "privileges"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Block sudo commands\nCOMMAND=\"$TOOL_INPUT_COMMAND\"\nALLOW_FILE=\"$HOME/.claude/sudo-allowlist.txt\"\nif echo \"$COMMAND\" | grep -qE '(^|&&|;|\\|)\\s*sudo\\s'; then\n  # Check allowlist\n  if [[ -f \"$ALLOW_FILE\" ]]; then\n    SUDO_CMD=$(echo \"$COMMAND\" | grep -oE 'sudo\\s+\\S+')\n    if grep -qF \"$SUDO_CMD\" \"$ALLOW_FILE\" 2>/dev/null; then\n      exit 0\n    fi\n  fi\n  echo \"BLOCKED: sudo commands are not allowed. Add to ~/.claude/sudo-allowlist.txt to permit specific commands.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-sudo.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}

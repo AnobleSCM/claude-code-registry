@@ -1,0 +1,16 @@
+{
+  "id": "jsdoc-public-api",
+  "name": "JSDoc for Public APIs",
+  "description": "Require JSDoc comments on all exported functions, classes, and interfaces for discoverability and IDE support.",
+  "category": "documentation",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+  },
+  "content": "# JSDoc for Public APIs Rules\n\n- Add JSDoc comments to every exported function, class, interface, and type alias — these are your public API\n- Include a one-sentence description of what the function does — start with a verb (\"Returns\", \"Validates\", \"Creates\")\n- Document all parameters with `@param` — include the type (if not using TypeScript), name, and description\n- Document the return value with `@returns` — describe what is returned and under what conditions\n- Use `@throws` to document exceptions — list error types and the conditions that cause them\n- Use `@example` to show usage — a code example is worth more than a paragraph of description\n- Use `@deprecated` with a migration path — \"Use `newFunction()` instead\" not just \"Deprecated\"\n- Document complex types inline — `@param {Object} options` with nested `@param {string} options.name`\n- Don't document obvious things — `@param name The name` adds no value, describe what it's used for\n- Keep JSDoc in sync with the code — outdated documentation is worse than no documentation\n- Use `@see` to link related functions, classes, or external documentation\n- Configure ESLint with `eslint-plugin-jsdoc` to enforce JSDoc on exports — make it a CI check",
+  "tags": ["documentation", "jsdoc", "api", "typescript", "javascript"],
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "yaml-tools",
+  "name": "YAML Tools",
+  "displayName": "YAML Tools",
+  "category": "Developer Tools",
+  "description": "YAML processing and validation tools. Parse, validate, merge, and transform YAML files. Convert between YAML and JSON, lint against schemas, and handle multi-document streams.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["parse_yaml", "validate_yaml", "convert_to_json", "convert_from_json", "merge_yaml", "lint_yaml", "query_yaml", "format_yaml"],
+  "tags": ["yaml", "configuration", "validation", "conversion", "developer-tools"],
+  "configUrl": "https://github.com/anthropics/mcp-server-yaml",
+  "documentationUrl": "https://github.com/anthropics/mcp-server-yaml#readme",
+  "addedAt": "2026-02-04",
+  "updatedAt": "2026-02-04"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "session-context-inject",
+  "name": "Session Context Inject",
+  "description": "Loads project context files (HANDOFF_CURRENT.md, .claude/context.md) at session start to give Claude immediate awareness of project state",
+  "category": "workflow",
+  "event": "SessionStart",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "context", "session"],
+  "sourceUrl": "",
+  "content": "#!/bin/bash\n# Load project context at session start\nROOT=$(git rev-parse --show-toplevel 2>/dev/null || echo \".\")\n# Display handoff status\nif [[ -f \"$ROOT/HANDOFF_CURRENT.md\" ]]; then\n  echo \"=== Project Handoff ===\"\n  head -20 \"$ROOT/HANDOFF_CURRENT.md\"\n  echo \"===\"\nfi\n# Display project context\nif [[ -f \"$ROOT/.claude/context.md\" ]]; then\n  echo \"=== Project Context ===\"\n  cat \"$ROOT/.claude/context.md\"\n  echo \"===\"\nfi\n# Show recent git activity\necho \"=== Recent Activity ===\"\ngit -C \"$ROOT\" log --oneline -5 2>/dev/null || echo \"No git history\"\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "SessionStart": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/session-context-inject.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-04T00:00:00Z",
+  "updatedAt": "2026-02-04T00:00:00Z",
+  "verified": false
+}
