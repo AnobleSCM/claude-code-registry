@@ -1,0 +1,19 @@
+{
+  "id": "no-console-log",
+  "name": "No Console Log",
+  "description": "Warns if edited JavaScript or TypeScript files contain console.log statements",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "javascript", "cleanup"],
+  "content": "#!/bin/bash\n# Warn if edited file contains console.log\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  COUNT=$(grep -c 'console\\.log' \"$FILE\" 2>/dev/null || echo 0)\n  if [ \"$COUNT\" -gt 0 ]; then\n    echo \"WARNING: $FILE contains $COUNT console.log statement(s). Consider removing before commit.\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/no-console-log.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

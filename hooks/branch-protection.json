@@ -1,0 +1,19 @@
+{
+  "id": "branch-protection",
+  "name": "Branch Protection",
+  "description": "Blocks git checkout or switch commands targeting main or master branches",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["safety", "git", "branch-protection"],
+  "content": "#!/bin/bash\n# Block checkout/switch to main or master\nCMD=\"$1\"\nif echo \"$CMD\" | grep -qE 'git\\s+(checkout|switch)\\s+(main|master)(\\s|$)'; then\n  echo \"BLOCKED: Direct checkout to main/master is not allowed. Use a feature branch.\"\n  exit 2\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/branch-protection.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

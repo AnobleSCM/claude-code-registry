@@ -1,0 +1,19 @@
+{
+  "id": "auto-tag-release",
+  "name": "Auto Tag Release",
+  "description": "Automatically creates a git tag from package.json version when npm publish is run",
+  "category": "devops",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "release", "tagging"],
+  "content": "#!/bin/bash\n# Auto-create git tag from package.json version on npm publish\nCMD=\"$1\"\nif echo \"$CMD\" | grep -qE 'npm\\s+publish'; then\n  if [ -f \"package.json\" ]; then\n    VERSION=$(grep -o '\"version\": *\"[^\"]*\"' package.json | head -1 | grep -o '[0-9][^\"]*')\n    if [ -n \"$VERSION\" ]; then\n      TAG=\"v${VERSION}\"\n      if git rev-parse \"$TAG\" >/dev/null 2>&1; then\n        echo \"Tag $TAG already exists, skipping.\"\n      else\n        git tag \"$TAG\"\n        echo \"Created git tag: $TAG\"\n      fi\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/auto-tag-release.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-02-03T00:00:00Z",
-  "count": 22,
+  "count": 40,
   "items": [
     "block-dangerous-commands",
     "lint-on-save",
@@ -24,6 +24,24 @@
     "block-env-file-read",
     "auto-git-add",
     "session-timer",
-    "docker-build-check"
+    "docker-build-check",
+    "max-file-size-check",
+    "no-console-log",
+    "branch-protection",
+    "slack-notify-complete",
+    "auto-changelog",
+    "eslint-on-save",
+    "python-black-format",
+    "go-fmt-on-save",
+    "rust-clippy-check",
+    "subagent-cost-tracker",
+    "subagent-quality-gate",
+    "require-test-coverage",
+    "block-hardcoded-urls",
+    "auto-tag-release",
+    "ci-status-check",
+    "webhook-notify",
+    "diff-size-limit",
+    "file-backup-before-edit"
   ]
 }

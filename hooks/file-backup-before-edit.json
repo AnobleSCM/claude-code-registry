@@ -1,0 +1,19 @@
+{
+  "id": "file-backup-before-edit",
+  "name": "File Backup Before Edit",
+  "description": "Creates a .bak backup copy of files before Claude edits them",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["safety", "backup", "files"],
+  "content": "#!/bin/bash\n# Create backup of file before editing\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [ -f \"$FILE\" ]; then\n  BACKUP_DIR=\"${HOME}/.claude/backups\"\n  mkdir -p \"$BACKUP_DIR\"\n  TIMESTAMP=$(date +\"%Y%m%d_%H%M%S\")\n  BASENAME=$(basename \"$FILE\")\n  cp \"$FILE\" \"${BACKUP_DIR}/${BASENAME}.${TIMESTAMP}.bak\"\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/file-backup-before-edit.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

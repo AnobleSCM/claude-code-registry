@@ -1,0 +1,19 @@
+{
+  "id": "slack-notify-complete",
+  "name": "Slack Notify on Complete",
+  "description": "Sends a Slack notification via webhook when Claude completes a session",
+  "category": "notifications",
+  "event": "Stop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "slack", "webhook"],
+  "content": "#!/bin/bash\n# Send Slack notification when session completes\nSLACK_WEBHOOK_URL=\"${SLACK_WEBHOOK_URL:-}\"\nif [ -z \"$SLACK_WEBHOOK_URL\" ]; then\n  echo \"SLACK_WEBHOOK_URL not set, skipping notification\"\n  exit 0\nfi\nPROJECT=$(basename \"$(pwd)\")\nMESSAGE=\"Claude Code session completed in *${PROJECT}*\"\ncurl -s -X POST \"$SLACK_WEBHOOK_URL\" \\\n  -H 'Content-Type: application/json' \\\n  -d \"{\\\"text\\\": \\\"$MESSAGE\\\"}\" >/dev/null 2>&1\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Stop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/slack-notify-complete.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

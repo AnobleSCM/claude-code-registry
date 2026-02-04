@@ -1,0 +1,19 @@
+{
+  "id": "eslint-on-save",
+  "name": "ESLint on Save",
+  "description": "Runs eslint --fix on JavaScript and TypeScript files after Claude edits them",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "eslint", "javascript"],
+  "content": "#!/bin/bash\n# Run eslint --fix on edited JS/TS files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.(ts|tsx|js|jsx)$ ]]; then\n  if command -v npx &>/dev/null; then\n    npx eslint --fix \"$FILE\" 2>/dev/null\n    if [ $? -ne 0 ]; then\n      echo \"ESLint found issues in $FILE\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/eslint-on-save.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

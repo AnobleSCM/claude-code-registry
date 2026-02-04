@@ -1,0 +1,19 @@
+{
+  "id": "diff-size-limit",
+  "name": "Diff Size Limit",
+  "description": "Blocks git commits with more than 500 lines changed to encourage smaller commits",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "git", "review"],
+  "content": "#!/bin/bash\n# Block commits with too many changed lines\nCMD=\"$1\"\nMAX_LINES=${DIFF_SIZE_LIMIT:-500}\nif echo \"$CMD\" | grep -qE 'git\\s+commit'; then\n  DIFF_LINES=$(git diff --cached --stat | tail -1 | grep -oE '[0-9]+ insertion|[0-9]+ deletion' | grep -oE '[0-9]+' | paste -sd+ - | bc 2>/dev/null || echo 0)\n  if [ \"$DIFF_LINES\" -gt \"$MAX_LINES\" ]; then\n    echo \"BLOCKED: Commit has $DIFF_LINES lines changed (limit: $MAX_LINES). Break into smaller commits.\"\n    exit 2\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/diff-size-limit.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

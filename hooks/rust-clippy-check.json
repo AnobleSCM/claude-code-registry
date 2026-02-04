@@ -1,0 +1,19 @@
+{
+  "id": "rust-clippy-check",
+  "name": "Rust Clippy Check",
+  "description": "Runs cargo clippy on Rust files after Claude edits them to catch common mistakes",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "rust", "linting"],
+  "content": "#!/bin/bash\n# Run cargo clippy after editing Rust files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.rs$ ]]; then\n  if command -v cargo &>/dev/null; then\n    cargo clippy --quiet 2>/dev/null\n    if [ $? -ne 0 ]; then\n      echo \"Clippy found issues. Review warnings above.\"\n    fi\n  else\n    echo \"cargo not found, skipping clippy check\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/rust-clippy-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

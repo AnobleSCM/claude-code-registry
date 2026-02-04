@@ -1,0 +1,19 @@
+{
+  "id": "max-file-size-check",
+  "name": "Max File Size Check",
+  "description": "Checks if a file being written exceeds 500 lines and blocks the write if so",
+  "category": "safety",
+  "event": "PreToolUse",
+  "matcher": "Write",
+  "handlerType": "command",
+  "tags": ["safety", "file-size", "limits"],
+  "content": "#!/bin/bash\n# Block writes that would create files exceeding 500 lines\nCONTENT=\"$TOOL_INPUT_CONTENT\"\nif [ -n \"$CONTENT\" ]; then\n  LINE_COUNT=$(echo \"$CONTENT\" | wc -l)\n  if [ \"$LINE_COUNT\" -gt 500 ]; then\n    echo \"BLOCKED: File would be $LINE_COUNT lines (limit: 500). Break into smaller files.\"\n    exit 2\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Write", "hooks": [{"type": "command", "command": "~/.claude/hooks/max-file-size-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

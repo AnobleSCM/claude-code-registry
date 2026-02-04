@@ -1,0 +1,19 @@
+{
+  "id": "python-black-format",
+  "name": "Python Black Format",
+  "description": "Runs the Black formatter on Python files after Claude edits them",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "python", "formatting"],
+  "content": "#!/bin/bash\n# Run black formatter on edited Python files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.py$ ]]; then\n  if command -v black &>/dev/null; then\n    black --quiet \"$FILE\" 2>/dev/null\n    echo \"Formatted $FILE with black\"\n  else\n    echo \"black not found, skipping format\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/python-black-format.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

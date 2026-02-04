@@ -1,0 +1,19 @@
+{
+  "id": "subagent-cost-tracker",
+  "name": "Subagent Cost Tracker",
+  "description": "Logs subagent usage to a cost tracking file for monitoring resource consumption",
+  "category": "workflow",
+  "event": "SubagentStop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["workflow", "cost", "subagent"],
+  "content": "#!/bin/bash\n# Log subagent usage to cost tracking file\nLOG_FILE=\"${HOME}/.claude/subagent-costs.log\"\nTIMESTAMP=$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\nPROJECT=$(basename \"$(pwd)\")\necho \"${TIMESTAMP} | project=${PROJECT} | subagent_completed\" >> \"$LOG_FILE\"\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "SubagentStop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/subagent-cost-tracker.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

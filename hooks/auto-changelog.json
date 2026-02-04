@@ -1,0 +1,19 @@
+{
+  "id": "auto-changelog",
+  "name": "Auto Changelog Check",
+  "description": "Checks if CHANGELOG.md was updated before allowing a git commit",
+  "category": "workflow",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["workflow", "changelog", "documentation"],
+  "content": "#!/bin/bash\n# Check if CHANGELOG.md was updated before git commit\nCMD=\"$1\"\nif echo \"$CMD\" | grep -qE 'git\\s+commit'; then\n  if ! git diff --cached --name-only | grep -q 'CHANGELOG.md'; then\n    echo \"WARNING: CHANGELOG.md not included in this commit. Consider updating it.\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/auto-changelog.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

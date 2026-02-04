@@ -1,0 +1,19 @@
+{
+  "id": "webhook-notify",
+  "name": "Webhook Notify",
+  "description": "Sends a generic webhook POST notification when a Claude session completes",
+  "category": "notifications",
+  "event": "Stop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["notifications", "webhook", "integration"],
+  "content": "#!/bin/bash\n# Send generic webhook notification on session complete\nWEBHOOK_URL=\"${CLAUDE_WEBHOOK_URL:-}\"\nif [ -z \"$WEBHOOK_URL\" ]; then\n  exit 0\nfi\nPROJECT=$(basename \"$(pwd)\")\nTIMESTAMP=$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\nPAYLOAD=\"{\\\"event\\\": \\\"session_complete\\\", \\\"project\\\": \\\"${PROJECT}\\\", \\\"timestamp\\\": \\\"${TIMESTAMP}\\\"}\"\ncurl -s -X POST \"$WEBHOOK_URL\" \\\n  -H 'Content-Type: application/json' \\\n  -d \"$PAYLOAD\" >/dev/null 2>&1\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "Stop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/webhook-notify.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

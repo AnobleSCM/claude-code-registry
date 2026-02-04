@@ -1,0 +1,19 @@
+{
+  "id": "go-fmt-on-save",
+  "name": "Go Fmt on Save",
+  "description": "Runs gofmt on Go files after Claude edits them to ensure standard formatting",
+  "category": "code-quality",
+  "event": "PostToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["code-quality", "go", "formatting"],
+  "content": "#!/bin/bash\n# Run gofmt on edited Go files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [[ \"$FILE\" =~ \\.go$ ]]; then\n  if command -v gofmt &>/dev/null; then\n    gofmt -w \"$FILE\" 2>/dev/null\n    echo \"Formatted $FILE with gofmt\"\n  else\n    echo \"gofmt not found, skipping format\"\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/go-fmt-on-save.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

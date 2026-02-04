@@ -1,0 +1,19 @@
+{
+  "id": "ci-status-check",
+  "name": "CI Status Check",
+  "description": "Checks GitHub Actions CI status before allowing git push",
+  "category": "devops",
+  "event": "PreToolUse",
+  "matcher": "Bash",
+  "handlerType": "command",
+  "tags": ["devops", "ci", "github-actions"],
+  "content": "#!/bin/bash\n# Check CI status before git push\nCMD=\"$1\"\nif echo \"$CMD\" | grep -qE 'git\\s+push'; then\n  if command -v gh &>/dev/null; then\n    BRANCH=$(git branch --show-current 2>/dev/null)\n    STATUS=$(gh run list --branch \"$BRANCH\" --limit 1 --json status --jq '.[0].status' 2>/dev/null)\n    CONCLUSION=$(gh run list --branch \"$BRANCH\" --limit 1 --json conclusion --jq '.[0].conclusion' 2>/dev/null)\n    if [ \"$STATUS\" = \"completed\" ] && [ \"$CONCLUSION\" != \"success\" ]; then\n      echo \"WARNING: Last CI run on $BRANCH did not succeed (conclusion: $CONCLUSION).\"\n      echo \"Consider fixing CI before pushing.\"\n    fi\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PreToolUse": [{"matcher": "Bash", "hooks": [{"type": "command", "command": "~/.claude/hooks/ci-status-check.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

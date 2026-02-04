@@ -1,0 +1,19 @@
+{
+  "id": "subagent-quality-gate",
+  "name": "Subagent Quality Gate",
+  "description": "Checks subagent output for error patterns before accepting results",
+  "category": "testing",
+  "event": "SubagentStop",
+  "matcher": "",
+  "handlerType": "command",
+  "tags": ["testing", "quality", "subagent"],
+  "content": "#!/bin/bash\n# Check subagent output for error patterns\nOUTPUT=\"$SUBAGENT_OUTPUT\"\nERROR_PATTERNS=('FAIL' 'Error:' 'Exception' 'fatal:' 'BLOCKED')\nfor pattern in \"${ERROR_PATTERNS[@]}\"; do\n  if echo \"$OUTPUT\" | grep -qi \"$pattern\"; then\n    echo \"WARNING: Subagent output contains error pattern: $pattern\"\n    echo \"Review subagent results before proceeding.\"\n    exit 0\n  fi\ndone\necho \"Subagent output passed quality gate.\"\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "SubagentStop": [{"matcher": "", "hooks": [{"type": "command", "command": "~/.claude/hooks/subagent-quality-gate.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "block-hardcoded-urls",
+  "name": "Block Hardcoded URLs",
+  "description": "Warns if edited files contain hardcoded URLs that are not localhost",
+  "category": "safety",
+  "event": "PostToolUse",
+  "matcher": "Edit",
+  "handlerType": "command",
+  "tags": ["safety", "urls", "configuration"],
+  "content": "#!/bin/bash\n# Warn about hardcoded URLs in edited files\nFILE=\"$TOOL_INPUT_FILE_PATH\"\nif [ -f \"$FILE\" ]; then\n  URLS=$(grep -oE 'https?://[a-zA-Z0-9./?=_-]+' \"$FILE\" 2>/dev/null | grep -v 'localhost' | grep -v '127.0.0.1' | grep -v 'example.com')\n  if [ -n \"$URLS\" ]; then\n    COUNT=$(echo \"$URLS\" | wc -l | tr -d ' ')\n    echo \"WARNING: $FILE contains $COUNT hardcoded URL(s). Consider using environment variables:\"\n    echo \"$URLS\" | head -5\n  fi\nfi\nexit 0",
+  "settingsJson": {
+    "hooks": {
+      "PostToolUse": [{"matcher": "Edit", "hooks": [{"type": "command", "command": "~/.claude/hooks/block-hardcoded-urls.sh"}]}]
+    }
+  },
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}
