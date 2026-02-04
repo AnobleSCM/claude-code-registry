@@ -1,0 +1,13 @@
+{
+  "id": "database-migration",
+  "name": "database-migration",
+  "displayName": "Database Migration",
+  "category": "Development",
+  "description": "Plan and execute database schema migrations with rollback strategies and data integrity checks",
+  "invocation": "/database-migration",
+  "source": "community",
+  "tags": ["database", "migration", "schema"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

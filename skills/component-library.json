@@ -1,0 +1,13 @@
+{
+  "id": "component-library",
+  "name": "component-library",
+  "displayName": "Component Library",
+  "category": "Design",
+  "description": "Build reusable component libraries with Storybook, design tokens, and automated visual testing",
+  "invocation": "/component-library",
+  "source": "community",
+  "tags": ["design", "components", "storybook", "ui"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

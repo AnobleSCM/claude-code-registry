@@ -1,0 +1,13 @@
+{
+  "id": "performance-profiler",
+  "name": "performance-profiler",
+  "displayName": "Performance Profiler",
+  "category": "Development",
+  "description": "Profile application performance, identify bottlenecks, and suggest optimizations with benchmarks",
+  "invocation": "/performance-profiler",
+  "source": "community",
+  "tags": ["performance", "profiling", "optimization"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

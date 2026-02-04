@@ -1,0 +1,13 @@
+{
+  "id": "load-testing",
+  "name": "load-testing",
+  "displayName": "Load Testing",
+  "category": "Testing",
+  "description": "Design and execute load tests using k6 or Artillery to validate performance under stress",
+  "invocation": "/load-testing",
+  "source": "community",
+  "tags": ["testing", "load-testing", "performance"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mutation-testing",
+  "name": "mutation-testing",
+  "displayName": "Mutation Testing",
+  "category": "Testing",
+  "description": "Run mutation testing to measure test suite effectiveness and identify weak test coverage",
+  "invocation": "/mutation-testing",
+  "source": "community",
+  "tags": ["testing", "mutation", "quality"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

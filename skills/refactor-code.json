@@ -1,0 +1,13 @@
+{
+  "id": "refactor-code",
+  "name": "refactor-code",
+  "displayName": "Refactor Code",
+  "category": "Development",
+  "description": "Guided code refactoring with pattern detection, dependency analysis, and safe transformation steps",
+  "invocation": "/refactor",
+  "source": "community",
+  "tags": ["development", "refactoring", "code-quality"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

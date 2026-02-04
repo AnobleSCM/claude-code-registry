@@ -1,0 +1,13 @@
+{
+  "id": "api-documentation",
+  "name": "api-documentation",
+  "displayName": "API Documentation",
+  "category": "Documentation",
+  "description": "Generate OpenAPI specs, API reference docs, and interactive examples from existing code",
+  "invocation": "/api-documentation",
+  "source": "community",
+  "tags": ["documentation", "api", "openapi"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

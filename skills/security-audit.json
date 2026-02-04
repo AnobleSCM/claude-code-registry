@@ -1,0 +1,13 @@
+{
+  "id": "security-audit",
+  "name": "security-audit",
+  "displayName": "Security Audit",
+  "category": "Development",
+  "description": "Comprehensive security audit checking OWASP Top 10, dependency vulnerabilities, and code patterns",
+  "invocation": "/security-audit",
+  "source": "community",
+  "tags": ["security", "audit", "owasp", "vulnerabilities"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "architecture-diagram",
+  "name": "architecture-diagram",
+  "displayName": "Architecture Diagram",
+  "category": "Documentation",
+  "description": "Create architecture diagrams from codebase analysis using Mermaid, PlantUML, or D2",
+  "invocation": "/architecture-diagram",
+  "source": "community",
+  "tags": ["documentation", "diagrams", "architecture"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

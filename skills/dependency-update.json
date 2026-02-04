@@ -1,0 +1,13 @@
+{
+  "id": "dependency-update",
+  "name": "dependency-update",
+  "displayName": "Dependency Update",
+  "category": "DevOps",
+  "description": "Analyze outdated dependencies, check for breaking changes, and create safe update plans",
+  "invocation": "/dependency-update",
+  "source": "community",
+  "tags": ["dependencies", "updates", "maintenance"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

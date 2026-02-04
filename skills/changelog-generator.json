@@ -1,0 +1,13 @@
+{
+  "id": "changelog-generator",
+  "name": "changelog-generator",
+  "displayName": "Changelog Generator",
+  "category": "Documentation",
+  "description": "Generate changelogs from git history following Keep a Changelog format with semantic grouping",
+  "invocation": "/changelog-generator",
+  "source": "community",
+  "tags": ["documentation", "changelog", "git"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

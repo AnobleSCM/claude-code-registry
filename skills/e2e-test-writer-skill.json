@@ -1,0 +1,13 @@
+{
+  "id": "e2e-test-writer-skill",
+  "name": "e2e-test-writer-skill",
+  "displayName": "E2E Test Writer Skill",
+  "category": "Testing",
+  "description": "Write end-to-end tests using Playwright or Cypress with page object models and fixtures",
+  "invocation": "/e2e-test-writer",
+  "source": "community",
+  "tags": ["testing", "e2e", "playwright", "cypress"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

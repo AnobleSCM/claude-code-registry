@@ -1,0 +1,13 @@
+{
+  "id": "api-design-guide",
+  "name": "api-design-guide",
+  "displayName": "API Design Guide",
+  "category": "Development",
+  "description": "Design RESTful and GraphQL APIs following industry standards with schema validation and documentation",
+  "invocation": "/api-design-guide",
+  "source": "community",
+  "tags": ["api", "rest", "graphql", "design"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

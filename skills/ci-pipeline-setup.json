@@ -1,0 +1,13 @@
+{
+  "id": "ci-pipeline-setup",
+  "name": "ci-pipeline-setup",
+  "displayName": "CI Pipeline Setup",
+  "category": "DevOps",
+  "description": "Configure CI/CD pipelines for GitHub Actions, GitLab CI, or CircleCI with best practices",
+  "invocation": "/ci-pipeline-setup",
+  "source": "community",
+  "tags": ["ci-cd", "automation", "devops"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

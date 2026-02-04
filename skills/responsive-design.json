@@ -1,0 +1,13 @@
+{
+  "id": "responsive-design",
+  "name": "responsive-design",
+  "displayName": "Responsive Design",
+  "category": "Design",
+  "description": "Audit and implement responsive design patterns with mobile-first breakpoints and fluid typography",
+  "invocation": "/responsive-design",
+  "source": "community",
+  "tags": ["design", "responsive", "mobile-first", "css"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

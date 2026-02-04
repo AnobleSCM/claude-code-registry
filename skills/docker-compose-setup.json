@@ -1,0 +1,13 @@
+{
+  "id": "docker-compose-setup",
+  "name": "docker-compose-setup",
+  "displayName": "Docker Compose Setup",
+  "category": "DevOps",
+  "description": "Generate Docker Compose configurations for multi-service development environments",
+  "invocation": "/docker-compose-setup",
+  "source": "community",
+  "tags": ["docker", "containers", "devops"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

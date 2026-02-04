@@ -1,0 +1,13 @@
+{
+  "id": "env-setup",
+  "name": "env-setup",
+  "displayName": "Env Setup",
+  "category": "DevOps",
+  "description": "Bootstrap development environments with proper tooling, linting, formatting, and git hooks",
+  "invocation": "/env-setup",
+  "source": "community",
+  "tags": ["setup", "tooling", "developer-experience"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

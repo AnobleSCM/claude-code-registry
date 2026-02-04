@@ -1,0 +1,13 @@
+{
+  "id": "snapshot-testing",
+  "name": "snapshot-testing",
+  "displayName": "Snapshot Testing",
+  "category": "Testing",
+  "description": "Set up and manage snapshot tests for UI components with proper update workflows",
+  "invocation": "/snapshot-testing",
+  "source": "community",
+  "tags": ["testing", "snapshots", "ui"],
+  "documentationUrl": null,
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}
