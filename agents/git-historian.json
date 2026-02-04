@@ -1,0 +1,17 @@
+{
+  "id": "git-historian",
+  "name": "Git Historian",
+  "displayName": "Git Historian",
+  "category": "Research",
+  "description": "Analyzes git history to understand code evolution, find when bugs were introduced, and trace responsibility",
+  "invocation": "Task tool with subagent_type=\"git-historian\"",
+  "capabilities": [
+    "Bisect to find bug-introducing commits",
+    "Analyze code ownership and contribution patterns",
+    "Trace file and function history",
+    "Generate blame reports with context"
+  ],
+  "tools": ["Read", "Bash", "Grep"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

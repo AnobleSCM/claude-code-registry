@@ -1,0 +1,17 @@
+{
+  "id": "regex-expert",
+  "name": "Regex Expert",
+  "displayName": "Regex Expert",
+  "category": "Development",
+  "description": "Crafts, debugs, and optimizes regular expressions with explanations, test cases, and performance considerations",
+  "invocation": "Task tool with subagent_type=\"regex-expert\"",
+  "capabilities": [
+    "Write complex regex patterns with explanations",
+    "Debug failing regex matches",
+    "Optimize regex for performance",
+    "Generate test cases for edge cases"
+  ],
+  "tools": ["Read", "Bash", "Grep"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

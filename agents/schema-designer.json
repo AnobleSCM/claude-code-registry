@@ -1,0 +1,17 @@
+{
+  "id": "schema-designer",
+  "name": "Schema Designer",
+  "displayName": "Schema Designer",
+  "category": "Architecture",
+  "description": "Designs data schemas for APIs, databases, and configurations with validation rules and documentation",
+  "invocation": "Task tool with subagent_type=\"schema-designer\"",
+  "capabilities": [
+    "Design JSON Schema and OpenAPI schemas",
+    "Create database entity-relationship models",
+    "Implement schema validation rules",
+    "Generate schema documentation"
+  ],
+  "tools": ["Read", "Write", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

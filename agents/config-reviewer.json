@@ -1,0 +1,17 @@
+{
+  "id": "config-reviewer",
+  "name": "Config Reviewer",
+  "displayName": "Config Reviewer",
+  "category": "Security",
+  "description": "Reviews configuration files for security issues, best practices violations, and environment-specific problems",
+  "invocation": "Task tool with subagent_type=\"config-reviewer\"",
+  "capabilities": [
+    "Audit configuration for security issues",
+    "Verify environment-specific settings",
+    "Check for exposed secrets in configs",
+    "Validate configuration consistency"
+  ],
+  "tools": ["Read", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

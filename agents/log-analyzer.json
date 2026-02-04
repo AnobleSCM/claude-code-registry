@@ -1,0 +1,17 @@
+{
+  "id": "log-analyzer",
+  "name": "Log Analyzer",
+  "displayName": "Log Analyzer",
+  "category": "Development",
+  "description": "Parses and analyzes application logs to identify errors, patterns, and performance anomalies",
+  "invocation": "Task tool with subagent_type=\"log-analyzer\"",
+  "capabilities": [
+    "Parse structured and unstructured logs",
+    "Identify error patterns and frequencies",
+    "Detect performance anomalies",
+    "Correlate events across log sources"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

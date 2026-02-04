@@ -1,0 +1,17 @@
+{
+  "id": "refactoring-advisor",
+  "name": "Refactoring Advisor",
+  "displayName": "Refactoring Advisor",
+  "category": "Quality",
+  "description": "Identifies code smells, suggests refactoring patterns, and guides safe incremental code improvements",
+  "invocation": "Task tool with subagent_type=\"refactoring-advisor\"",
+  "capabilities": [
+    "Detect code smells and anti-patterns",
+    "Suggest appropriate refactoring techniques",
+    "Plan incremental refactoring steps",
+    "Verify behavior preservation after changes"
+  ],
+  "tools": ["Read", "Edit", "Grep", "Glob", "Bash"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

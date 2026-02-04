@@ -1,0 +1,17 @@
+{
+  "id": "dependency-auditor",
+  "name": "Dependency Auditor",
+  "displayName": "Dependency Auditor",
+  "category": "Security",
+  "description": "Audits project dependencies for vulnerabilities, license compliance, and outdated packages with upgrade paths",
+  "invocation": "Task tool with subagent_type=\"dependency-auditor\"",
+  "capabilities": [
+    "Scan for known vulnerabilities (CVEs)",
+    "Check license compatibility",
+    "Identify outdated dependencies",
+    "Suggest safe upgrade paths"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob", "WebFetch"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

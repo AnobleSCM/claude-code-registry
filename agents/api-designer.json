@@ -1,0 +1,17 @@
+{
+  "id": "api-designer",
+  "name": "API Designer",
+  "displayName": "API Designer",
+  "category": "Architecture",
+  "description": "Designs RESTful and GraphQL APIs with proper resource modeling, versioning strategies, and OpenAPI documentation",
+  "invocation": "Task tool with subagent_type=\"api-designer\"",
+  "capabilities": [
+    "Design resource-oriented REST APIs",
+    "Create GraphQL schemas with proper types",
+    "Generate OpenAPI/Swagger specifications",
+    "Plan API versioning strategies"
+  ],
+  "tools": ["Read", "Write", "Grep", "Glob", "WebFetch"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

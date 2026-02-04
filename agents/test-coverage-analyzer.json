@@ -1,0 +1,17 @@
+{
+  "id": "test-coverage-analyzer",
+  "name": "Test Coverage Analyzer",
+  "displayName": "Test Coverage Analyzer",
+  "category": "Testing",
+  "description": "Analyzes test coverage gaps, identifies untested code paths, and prioritizes testing efforts by risk",
+  "invocation": "Task tool with subagent_type=\"test-coverage-analyzer\"",
+  "capabilities": [
+    "Generate detailed coverage reports",
+    "Identify critical untested code paths",
+    "Prioritize testing by risk assessment",
+    "Suggest test cases for coverage gaps"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

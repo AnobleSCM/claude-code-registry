@@ -1,0 +1,17 @@
+{
+  "id": "migration-specialist",
+  "name": "Migration Specialist",
+  "displayName": "Migration Specialist",
+  "category": "Development",
+  "description": "Plans and executes codebase migrations including framework upgrades, language transitions, and architecture shifts",
+  "invocation": "Task tool with subagent_type=\"migration-specialist\"",
+  "capabilities": [
+    "Plan incremental migration strategies",
+    "Identify breaking changes and compatibility issues",
+    "Create codemods for automated transformations",
+    "Validate migration completeness"
+  ],
+  "tools": ["Read", "Edit", "Write", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

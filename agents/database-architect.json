@@ -1,0 +1,17 @@
+{
+  "id": "database-architect",
+  "name": "Database Architect",
+  "displayName": "Database Architect",
+  "category": "Architecture",
+  "description": "Designs database schemas, optimizes queries, plans migrations, and ensures data integrity across relational and NoSQL databases",
+  "invocation": "Task tool with subagent_type=\"database-architect\"",
+  "capabilities": [
+    "Design normalized database schemas",
+    "Optimize slow queries with EXPLAIN analysis",
+    "Plan zero-downtime migrations",
+    "Implement indexing strategies"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob", "Write"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

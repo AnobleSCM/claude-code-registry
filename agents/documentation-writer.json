@@ -1,0 +1,17 @@
+{
+  "id": "documentation-writer",
+  "name": "Documentation Writer",
+  "displayName": "Documentation Writer",
+  "category": "Research",
+  "description": "Generates comprehensive technical documentation from code analysis including API docs, architecture guides, and READMEs",
+  "invocation": "Task tool with subagent_type=\"documentation-writer\"",
+  "capabilities": [
+    "Generate API reference documentation",
+    "Create architecture decision records",
+    "Write onboarding guides from codebase",
+    "Document complex algorithms and patterns"
+  ],
+  "tools": ["Read", "Write", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "css-specialist",
+  "name": "CSS Specialist",
+  "displayName": "CSS Specialist",
+  "category": "Development",
+  "description": "Solves complex CSS challenges including layouts, animations, responsive design, and cross-browser compatibility",
+  "invocation": "Task tool with subagent_type=\"css-specialist\"",
+  "capabilities": [
+    "Debug complex CSS layout issues",
+    "Implement responsive designs",
+    "Create performant CSS animations",
+    "Resolve cross-browser compatibility problems"
+  ],
+  "tools": ["Read", "Edit", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}

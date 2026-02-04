@@ -1,0 +1,17 @@
+{
+  "id": "performance-optimizer",
+  "name": "Performance Optimizer",
+  "displayName": "Performance Optimizer",
+  "category": "Development",
+  "description": "Profiles and optimizes application performance by analyzing bottlenecks, memory usage, and runtime efficiency",
+  "invocation": "Task tool with subagent_type=\"performance-optimizer\"",
+  "capabilities": [
+    "Profile CPU and memory usage",
+    "Identify rendering bottlenecks",
+    "Optimize database query performance",
+    "Reduce bundle sizes and load times"
+  ],
+  "tools": ["Read", "Bash", "Grep", "Glob"],
+  "addedAt": "2026-02-03",
+  "updatedAt": "2026-02-03"
+}
