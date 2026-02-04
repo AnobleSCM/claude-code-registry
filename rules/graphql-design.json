@@ -1,0 +1,16 @@
+{
+  "id": "graphql-design",
+  "name": "GraphQL Design",
+  "description": "GraphQL — schema-first design, proper nullability, cursor pagination, N+1 prevention, error handling",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.graphql", "**/*.gql"]
+  },
+  "content": "# GraphQL Design Rules\n\n- Design schema-first — define your GraphQL schema before writing resolvers, and use it as the contract between frontend and backend\n- Make fields non-null by default — only use nullable fields when null has a meaningful semantic (e.g., optional profile photo)\n- Implement cursor-based pagination with the Connection pattern (`edges`, `node`, `pageInfo`) — avoid offset-based pagination for large datasets\n- Prevent N+1 queries with DataLoader — batch and cache database lookups within a single request lifecycle\n- Use union types and interfaces for polymorphic fields — avoid stringly-typed `type` fields with conditional resolution\n- Return structured errors in the `errors` array with extensions for error codes — never expose internal stack traces to clients\n- Use input types (`input`) for mutations — keep mutation arguments grouped and documented in a single input object\n- Name mutations as verb-noun pairs (`createUser`, `updatePost`) and return the mutated object plus a success/error status\n- Apply field-level authorization in resolvers — never rely solely on query-level auth since clients control which fields they request\n- Keep resolvers thin — delegate business logic to service layers and use resolvers only for data fetching and field mapping",
+  "tags": ["graphql", "api", "design"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

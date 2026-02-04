@@ -1,0 +1,16 @@
+{
+  "id": "java-best-practices",
+  "name": "Java Best Practices",
+  "description": "Java conventions — immutable objects, Optional over null, SOLID principles, try-with-resources",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.java"]
+  },
+  "content": "# Java Best Practices\n\n- Prefer immutable objects — use `final` fields, no setters, and return defensive copies of mutable state\n- Use `Optional<T>` instead of returning `null` — never call `Optional.get()` without checking `isPresent()` or use `orElse`/`orElseThrow`\n- Follow SOLID principles — single responsibility per class, depend on abstractions not concretions\n- Always use try-with-resources for `AutoCloseable` objects like streams, connections, and readers\n- Use meaningful naming — classes are nouns, methods are verbs, booleans start with `is`/`has`/`can`\n- Prefer composition over inheritance — use interfaces and delegation instead of deep class hierarchies\n- Use `Stream` API for collection transformations but avoid nested streams that hurt readability\n- Catch specific exceptions, never catch `Exception` or `Throwable` broadly — handle each failure mode explicitly\n- Use `record` types (Java 16+) for simple data carriers instead of verbose POJOs with boilerplate\n- Write thread-safe code by default — use `ConcurrentHashMap`, atomic types, and avoid shared mutable state",
+  "tags": ["java", "best-practices", "development"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

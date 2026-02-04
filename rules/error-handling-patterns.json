@@ -1,0 +1,14 @@
+{
+  "id": "error-handling-patterns",
+  "name": "Error Handling Patterns",
+  "description": "Error handling — custom error classes, error boundaries, graceful degradation, structured logging, recovery",
+  "category": "code-quality",
+  "subtype": "knowledge",
+  "scope": "project",
+  "frontmatter": null,
+  "content": "# Error Handling Patterns\n\n- Define custom error classes with error codes, status codes, and user-friendly messages — distinguish between operational errors and programmer errors\n- Use error boundaries (React `ErrorBoundary`, framework equivalents) to catch rendering errors and display fallback UI instead of a white screen\n- Design for graceful degradation — when a non-critical service fails, disable that feature rather than crashing the entire application\n- Use structured logging (JSON format) with consistent fields: timestamp, level, error code, message, stack trace, and request context\n- Implement retry logic with exponential backoff for transient failures (network timeouts, rate limits, temporary service outages)\n- Never swallow errors silently — every `catch` block should log, report, re-throw, or handle the error explicitly\n- Return meaningful error responses to API consumers — include error codes, human-readable messages, and documentation links when relevant\n- Separate error handling from business logic — use middleware, interceptors, or centralized error handlers rather than try-catch in every function\n- Monitor error rates and set up alerts — track error frequency, new error types, and error spikes to catch issues before users report them\n- Test error paths explicitly — write tests for network failures, invalid input, missing permissions, and timeout scenarios, not just the happy path",
+  "tags": ["error-handling", "resilience", "code-quality"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

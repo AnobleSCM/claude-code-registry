@@ -1,0 +1,16 @@
+{
+  "id": "fastapi-patterns",
+  "name": "FastAPI Patterns",
+  "description": "FastAPI — Pydantic models, dependency injection, async endpoints, proper error handling, OpenAPI docs",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.py"]
+  },
+  "content": "# FastAPI Patterns\n\n- Define request and response schemas with Pydantic `BaseModel` — use `Field()` for validation, descriptions, and examples\n- Use FastAPI's dependency injection system (`Depends()`) for database sessions, auth, and shared logic — keep endpoints thin\n- Use `async def` for endpoints that perform I/O (database, HTTP calls) — use regular `def` only for CPU-bound synchronous work\n- Raise `HTTPException` with specific status codes and detail messages — never return raw error strings in 200 responses\n- Organize routes with `APIRouter` — group by domain (users, items, auth) and include via `app.include_router()`\n- Use Pydantic's `model_validator` and `field_validator` for complex validation logic that goes beyond simple type checks\n- Document endpoints with docstrings and `response_model` — FastAPI auto-generates OpenAPI specs, so make them useful\n- Use background tasks (`BackgroundTasks`) for fire-and-forget work like sending emails or logging — not for critical operations\n- Implement proper middleware for CORS, request logging, and authentication — use `@app.middleware` or Starlette middleware classes\n- Use `Annotated` types with `Depends` for cleaner dependency declarations — e.g., `db: Annotated[Session, Depends(get_db)]`",
+  "tags": ["python", "fastapi", "backend"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

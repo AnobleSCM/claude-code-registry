@@ -1,0 +1,16 @@
+{
+  "id": "kotlin-android",
+  "name": "Kotlin / Android",
+  "description": "Kotlin/Android — coroutines, sealed classes, data classes, null safety, Jetpack Compose patterns",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.kt"]
+  },
+  "content": "# Kotlin / Android Patterns\n\n- Use coroutines and `Flow` instead of callbacks or RxJava — launch coroutines in `viewModelScope` or `lifecycleScope`\n- Use sealed classes/interfaces for representing restricted state hierarchies — pair with `when` expressions for exhaustive handling\n- Use `data class` for models and DTOs — leverage auto-generated `copy()`, `equals()`, and `hashCode()`\n- Embrace Kotlin null safety — never use `!!` (bang-bang operator), prefer `?.let`, `?:` (elvis), or safe casts\n- Build UI with Jetpack Compose — use stateless composables, hoist state up, and follow unidirectional data flow\n- Use `remember` and `derivedStateOf` in Compose to avoid unnecessary recompositions\n- Prefer `StateFlow` and `SharedFlow` over `LiveData` for reactive state management in ViewModels\n- Use extension functions to add behavior without inheritance — keep them focused and well-scoped\n- Follow the Repository pattern — ViewModels depend on repositories, repositories depend on data sources\n- Use Kotlin DSLs for Gradle build scripts (`build.gradle.kts`) and prefer version catalogs for dependency management",
+  "tags": ["kotlin", "android", "mobile"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

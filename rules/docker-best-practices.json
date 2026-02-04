@@ -1,0 +1,16 @@
+{
+  "id": "docker-best-practices",
+  "name": "Docker Best Practices",
+  "description": "Docker — multi-stage builds, .dockerignore, non-root users, layer caching, health checks, minimal images",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/Dockerfile*", "**/docker-compose*.yml"]
+  },
+  "content": "# Docker Best Practices\n\n- Use multi-stage builds to separate build dependencies from runtime — final image should only contain what is needed to run the application\n- Always include a `.dockerignore` file — exclude `node_modules`, `.git`, `.env`, build artifacts, and test files from the build context\n- Run containers as a non-root user — add `USER` instruction after installing dependencies to reduce the attack surface\n- Order Dockerfile instructions to maximize layer caching — copy dependency files first (`package.json`), install, then copy source code\n- Use specific base image tags (e.g., `node:20-slim`) — never use `latest` as it makes builds non-reproducible\n- Add `HEALTHCHECK` instructions so orchestrators can detect unhealthy containers and restart them automatically\n- Use `COPY` instead of `ADD` unless you specifically need tar extraction or URL fetching — `COPY` is more explicit\n- Keep images minimal — prefer `-slim` or `-alpine` variants, remove package manager caches after installs, combine `RUN` commands to reduce layers\n- Set environment variables with `ENV` for configuration — use `ARG` for build-time variables that should not persist in the final image\n- Pin dependency versions in Dockerfiles — lock package managers (`npm ci`, `pip install --require-hashes`) for reproducible builds",
+  "tags": ["docker", "containers", "devops"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

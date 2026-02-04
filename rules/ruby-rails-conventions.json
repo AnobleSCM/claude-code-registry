@@ -1,0 +1,16 @@
+{
+  "id": "ruby-rails-conventions",
+  "name": "Ruby on Rails Conventions",
+  "description": "Rails — convention over configuration, fat models thin controllers, concerns, service objects, ActiveRecord",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.rb"]
+  },
+  "content": "# Ruby on Rails Conventions\n\n- Follow convention over configuration — use Rails defaults for file structure, naming, and routing unless there is a clear reason not to\n- Keep controllers thin — controllers handle HTTP concerns only (params, redirects, rendering). Move business logic to models or service objects\n- Use concerns (`ActiveSupport::Concern`) to share behavior across models or controllers — keep each concern focused on one responsibility\n- Extract complex business logic into service objects (plain Ruby classes in `app/services/`) — each service does one thing\n- Use ActiveRecord scopes for reusable query logic — chain scopes for readable, composable queries\n- Use strong parameters (`params.require().permit()`) in every controller — never pass unfiltered params to model methods\n- Write database migrations that are reversible — always define both `up` and `down` or use reversible change methods\n- Use background jobs (Sidekiq/ActiveJob) for slow operations — never make users wait for emails, API calls, or heavy processing\n- Validate data at the model level with ActiveRecord validations — use custom validators for complex rules\n- Use `has_many :through` for many-to-many relationships — avoid `has_and_belongs_to_many` as it lacks a join model for future flexibility",
+  "tags": ["ruby", "rails", "backend"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

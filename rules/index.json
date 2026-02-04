@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-02-03T00:00:00Z",
-  "count": 22,
+  "count": 40,
   "items": [
     "typescript-strict",
     "senior-react-dev",
@@ -24,6 +24,24 @@
     "devops-engineer",
     "technical-writer",
     "code-reviewer",
-    "project-architecture-guide"
+    "project-architecture-guide",
+    "java-best-practices",
+    "csharp-dotnet",
+    "kotlin-android",
+    "angular-patterns",
+    "sveltekit-patterns",
+    "fastapi-patterns",
+    "ruby-rails-conventions",
+    "php-laravel",
+    "graphql-design",
+    "docker-best-practices",
+    "github-actions-ci",
+    "kubernetes-patterns",
+    "input-validation",
+    "secrets-management",
+    "performance-optimization",
+    "error-handling-patterns",
+    "data-scientist",
+    "ux-designer-persona"
   ]
 }

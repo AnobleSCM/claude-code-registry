@@ -1,0 +1,16 @@
+{
+  "id": "csharp-dotnet",
+  "name": "C# / .NET Patterns",
+  "description": "C#/.NET patterns — async/await, LINQ, nullable reference types, dependency injection, IDisposable",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.cs"]
+  },
+  "content": "# C# / .NET Patterns\n\n- Use `async`/`await` all the way through the call chain — never block on async code with `.Result` or `.Wait()`\n- Enable nullable reference types (`<Nullable>enable</Nullable>`) and resolve all nullability warnings\n- Use LINQ for collection queries but avoid deeply chained expressions — break complex queries into named steps\n- Register dependencies via constructor injection using the built-in DI container — avoid the service locator pattern\n- Implement `IDisposable` correctly with the dispose pattern when managing unmanaged resources, and prefer `using` declarations\n- Use `record` types for immutable data transfer objects and value semantics\n- Prefer pattern matching (`is`, `switch` expressions) over type casting with `as` followed by null checks\n- Use `CancellationToken` in all async methods to support cooperative cancellation\n- Throw specific exception types (`ArgumentNullException`, `InvalidOperationException`) — never throw base `Exception`\n- Use `ILogger<T>` from Microsoft.Extensions.Logging for structured logging — avoid `Console.WriteLine` in production code",
+  "tags": ["csharp", "dotnet", "development"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

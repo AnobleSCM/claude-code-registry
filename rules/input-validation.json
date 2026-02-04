@@ -1,0 +1,14 @@
+{
+  "id": "input-validation",
+  "name": "Input Validation",
+  "description": "Input validation — sanitize user input, parameterized queries, allow-lists, server-side validation",
+  "category": "security",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": null,
+  "content": "# Input Validation Rules\n\n- Validate all user input on the server — client-side validation is for UX only, never rely on it for security\n- Use parameterized queries or prepared statements for all database operations — never concatenate user input into SQL strings\n- Prefer allow-lists over deny-lists — define what is permitted rather than trying to block every dangerous input\n- Sanitize HTML output to prevent XSS — use context-appropriate encoding (HTML entities, URL encoding, JavaScript escaping)\n- Validate input length, type, format, and range — reject requests that do not match expected schemas before processing\n- Use schema validation libraries (Zod, Joi, Pydantic, JSON Schema) to define and enforce input contracts\n- Reject unexpected fields — do not blindly pass user input to database queries or internal APIs (mass assignment protection)\n- Validate file uploads — check MIME type, file extension, file size, and scan content. Never trust the client-reported content type\n- Normalize Unicode input before validation — prevents bypass attacks using homoglyphs or encoding tricks\n- Log validation failures with request context for monitoring — detect and alert on patterns that suggest automated attacks",
+  "tags": ["security", "validation", "owasp"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "performance-optimization",
+  "name": "Performance Optimization",
+  "description": "Performance — lazy loading, memoization, caching strategies, bundle size, database indexing, efficient algorithms",
+  "category": "code-quality",
+  "subtype": "knowledge",
+  "scope": "project",
+  "frontmatter": null,
+  "content": "# Performance Optimization Guidelines\n\n- Lazy-load non-critical resources — use code splitting, dynamic imports, and `React.lazy()` (or framework equivalent) to defer loading until needed\n- Memoize expensive computations — use `useMemo`, `useCallback`, `functools.lru_cache`, or similar patterns to avoid redundant calculations\n- Implement caching at every layer — browser cache (Cache-Control headers), CDN, application cache (Redis/Memcached), and database query cache\n- Monitor and minimize bundle size — use tree shaking, analyze bundles with tools like webpack-bundle-analyzer, and avoid importing entire libraries for single functions\n- Add database indexes on columns used in WHERE, JOIN, and ORDER BY clauses — use `EXPLAIN` to verify query plans and identify full table scans\n- Choose appropriate data structures and algorithms — prefer O(1) lookups (hash maps) over O(n) scans, and avoid nested loops on large datasets\n- Debounce and throttle user input handlers — search inputs, scroll handlers, and resize listeners should not fire on every event\n- Optimize images and media — use modern formats (WebP, AVIF), responsive sizes (`srcset`), and lazy loading for below-the-fold content\n- Use pagination or virtual scrolling for large lists — never render thousands of DOM elements at once\n- Measure before optimizing — use profiling tools (Chrome DevTools, flamegraphs, APM) to identify actual bottlenecks rather than guessing",
+  "tags": ["performance", "optimization", "code-quality"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

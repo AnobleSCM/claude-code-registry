@@ -1,0 +1,16 @@
+{
+  "id": "php-laravel",
+  "name": "PHP / Laravel",
+  "description": "Laravel — Eloquent patterns, middleware, form requests, resource controllers, queued jobs",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.php"]
+  },
+  "content": "# PHP / Laravel Patterns\n\n- Use Eloquent relationships (`hasMany`, `belongsTo`, `morphMany`) and eager load with `with()` to prevent N+1 query problems\n- Validate requests using Form Request classes (`php artisan make:request`) — keep validation logic out of controllers\n- Use resource controllers with standard REST methods (`index`, `store`, `show`, `update`, `destroy`) — follow RESTful conventions\n- Apply middleware for cross-cutting concerns like authentication, rate limiting, and CORS — keep controllers focused on business logic\n- Dispatch long-running tasks to queued jobs (`ShouldQueue`) — emails, API calls, and report generation should never block HTTP requests\n- Use Laravel's service container and dependency injection — bind interfaces to implementations in service providers\n- Use Eloquent accessors, mutators, and casts for data transformation — keep formatting logic on the model, not in views or controllers\n- Use database transactions (`DB::transaction()`) for operations that must succeed or fail together — especially multi-table writes\n- Follow PSR-12 coding standards — use consistent formatting, namespace declarations, and import ordering\n- Use Laravel's built-in features (events, notifications, policies) before reaching for third-party packages — the framework covers most common needs",
+  "tags": ["php", "laravel", "backend"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "angular-patterns",
+  "name": "Angular Patterns",
+  "description": "Angular — standalone components, signals, RxJS best practices, lazy loading, OnPush change detection",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.ts", "**/*.html"]
+  },
+  "content": "# Angular Patterns\n\n- Use standalone components by default — avoid `NgModule` declarations for new components\n- Use Angular signals (`signal()`, `computed()`, `effect()`) for reactive state instead of manual change detection\n- Apply `ChangeDetectionStrategy.OnPush` to all components — rely on immutable data and signal-based reactivity\n- Use RxJS operators properly — always unsubscribe with `takeUntilDestroyed()`, `async` pipe, or explicit `unsubscribe` in `ngOnDestroy`\n- Lazy-load feature routes with `loadComponent` and `loadChildren` to reduce initial bundle size\n- Use typed reactive forms (`FormGroup`, `FormControl`) with proper validation — avoid template-driven forms for complex cases\n- Inject dependencies with the `inject()` function in functional contexts — prefer it over constructor injection in guards and resolvers\n- Separate smart (container) and dumb (presentational) components — dumb components use `@Input`/`@Output` only\n- Use Angular's built-in `HttpClient` with interceptors for auth tokens, error handling, and request/response transforms\n- Follow the Angular style guide — one component per file, feature-based folder structure, consistent naming conventions",
+  "tags": ["angular", "typescript", "frontend"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

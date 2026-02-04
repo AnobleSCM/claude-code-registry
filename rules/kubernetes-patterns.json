@@ -1,0 +1,16 @@
+{
+  "id": "kubernetes-patterns",
+  "name": "Kubernetes Patterns",
+  "description": "Kubernetes — resource limits, liveness/readiness probes, ConfigMaps, namespaces, rolling updates",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.yaml", "**/*.yml"]
+  },
+  "content": "# Kubernetes Patterns\n\n- Always set resource requests and limits (`cpu`, `memory`) on every container — prevents noisy-neighbor problems and enables proper scheduling\n- Configure liveness probes to detect deadlocked containers and readiness probes to control traffic routing — use appropriate endpoints and timeouts\n- Store configuration in ConfigMaps and secrets in Secrets — mount them as environment variables or volumes, never bake config into images\n- Use namespaces to isolate environments (dev, staging, prod) and teams — apply resource quotas and network policies per namespace\n- Use rolling update strategy with proper `maxSurge` and `maxUnavailable` settings — ensure zero-downtime deployments\n- Define Pod Disruption Budgets (`PodDisruptionBudget`) for critical services — ensures minimum availability during voluntary disruptions like node drains\n- Use labels and selectors consistently — follow a labeling convention (app, version, environment, team) for filtering and service discovery\n- Run one process per container — use sidecar containers for logging, proxying, or monitoring instead of cramming multiple processes into one container\n- Use `Deployment` for stateless workloads and `StatefulSet` for stateful services — choose the right workload type for the use case\n- Store Kubernetes manifests in version control and use GitOps tools (Flux, ArgoCD) — never apply manifests manually to production clusters",
+  "tags": ["kubernetes", "k8s", "devops"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

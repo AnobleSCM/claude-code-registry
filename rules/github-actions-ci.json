@@ -1,0 +1,16 @@
+{
+  "id": "github-actions-ci",
+  "name": "GitHub Actions CI",
+  "description": "GitHub Actions — reusable workflows, matrix strategies, caching, secrets handling, environment protection",
+  "category": "devops",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": [".github/workflows/**/*.yml"]
+  },
+  "content": "# GitHub Actions CI Best Practices\n\n- Use reusable workflows (`workflow_call`) for shared CI logic across repositories — avoid duplicating workflow definitions\n- Use matrix strategies to test across multiple OS, language, and dependency versions — fail fast with `fail-fast: true` for quicker feedback\n- Cache dependencies (`actions/cache` or built-in caching in setup actions) to speed up builds — cache `node_modules`, pip, Go modules, etc.\n- Never hardcode secrets in workflow files — use GitHub Secrets and reference them as `${{ secrets.NAME }}`, and use `${{ vars.NAME }}` for non-sensitive configuration\n- Use environment protection rules for production deployments — require approvals and limit which branches can deploy\n- Pin action versions to full commit SHAs (not tags) for security — e.g., `actions/checkout@abcdef123` instead of `actions/checkout@v4`\n- Use `concurrency` groups to cancel redundant runs — prevent multiple deployments or test runs from overlapping on the same branch\n- Keep jobs granular and independent — use `needs` for dependencies, but allow unrelated jobs to run in parallel\n- Use `GITHUB_TOKEN` permissions at the job level with least privilege — set `permissions:` explicitly rather than using defaults\n- Add status checks and branch protection rules — require CI to pass before merging to main",
+  "tags": ["github-actions", "ci", "devops"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}

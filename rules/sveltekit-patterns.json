@@ -1,0 +1,16 @@
+{
+  "id": "sveltekit-patterns",
+  "name": "SvelteKit Patterns",
+  "description": "SvelteKit — runes, server-side load functions, form actions, progressive enhancement, $effect patterns",
+  "category": "development",
+  "subtype": "constraint",
+  "scope": "project",
+  "frontmatter": {
+    "paths": ["**/*.svelte", "**/*.ts"]
+  },
+  "content": "# SvelteKit Patterns\n\n- Use Svelte 5 runes (`$state`, `$derived`, `$effect`) for reactivity — avoid legacy `$:` reactive statements\n- Load data in `+page.server.ts` or `+page.ts` `load` functions — never fetch data inside components directly\n- Use form actions (`+page.server.ts` actions) for mutations — they work without JavaScript for progressive enhancement\n- Keep `$effect` side effects minimal and focused — avoid writing to `$state` inside `$effect` to prevent infinite loops\n- Use `$derived` for computed values instead of manually syncing state in effects\n- Implement proper error handling with `+error.svelte` pages and `error()` helper from `@sveltejs/kit`\n- Use `+layout.ts` and `+layout.server.ts` for shared data loading — avoid prop drilling through component trees\n- Enable prerendering (`export const prerender = true`) for static pages to improve performance and SEO\n- Use SvelteKit's built-in `$env/static/private` and `$env/static/public` for environment variables — never expose server secrets to the client\n- Validate form data on the server with libraries like Zod in form actions — never trust client-side validation alone",
+  "tags": ["svelte", "sveltekit", "frontend"],
+  "addedAt": "2026-02-03T00:00:00Z",
+  "updatedAt": "2026-02-03T00:00:00Z",
+  "verified": true
+}
