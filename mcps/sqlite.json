@@ -2,13 +2,25 @@
   "id": "sqlite",
   "name": "SQLite",
   "displayName": "SQLite",
-  "category": "Database",
+  "category": "Databases",
   "description": "SQLite database operations. Query, write, and manage local SQLite databases with analysis capabilities.",
   "npmPackage": "@anthropic/mcp-server-sqlite",
-  "tools": ["read_query", "write_query", "create_table", "list_tables", "describe_table", "append_insight"],
+  "tools": [
+    "read_query",
+    "write_query",
+    "create_table",
+    "list_tables",
+    "describe_table",
+    "append_insight"
+  ],
   "resources": [],
   "source": "official",
-  "tags": ["database", "sqlite", "sql", "local"],
+  "tags": [
+    "database",
+    "sqlite",
+    "sql",
+    "local"
+  ],
   "documentationUrl": "https://github.com/anthropics/mcp-server-sqlite",
   "addedAt": "2026-01-24",
   "updatedAt": "2026-01-24"

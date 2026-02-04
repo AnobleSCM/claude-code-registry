@@ -2,15 +2,23 @@
   "id": "asana",
   "name": "Asana",
   "description": "Interact with Asana for project management. Create tasks, manage projects, and track work through natural language commands.",
-  "category": "productivity",
-  "tags": ["project-management", "tasks", "team-collaboration", "community"],
+  "category": "Productivity",
+  "tags": [
+    "project-management",
+    "tasks",
+    "team-collaboration",
+    "community"
+  ],
   "verified": false,
   "installCommand": "npx -y mcp-server-asana",
   "configExample": {
     "mcpServers": {
       "asana": {
         "command": "npx",
-        "args": ["-y", "mcp-server-asana"],
+        "args": [
+          "-y",
+          "mcp-server-asana"
+        ],
         "env": {
           "ASANA_ACCESS_TOKEN": "your-access-token"
         }
@@ -21,6 +29,13 @@
   "repositoryUrl": "https://github.com/asana/mcp-server-asana",
   "author": "Community",
   "toolCount": 6,
-  "tools": ["create_task", "update_task", "list_tasks", "get_task", "complete_task", "list_projects"],
+  "tools": [
+    "create_task",
+    "update_task",
+    "list_tasks",
+    "get_task",
+    "complete_task",
+    "list_projects"
+  ],
   "addedAt": "2026-01-26"
 }

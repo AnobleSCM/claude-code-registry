@@ -19,5 +19,6 @@
   "installUrl": "https://supabase.com/docs/guides/ai/mcp",
   "documentationUrl": "https://supabase.com/docs",
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23"
+  "updatedAt": "2026-01-23",
+  "category": "Databases"
 }

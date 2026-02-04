@@ -2,15 +2,23 @@
   "id": "google-drive",
   "name": "Google Drive",
   "description": "Access and manage Google Drive files. List, read, create, and organize files and folders in your Drive through natural language.",
-  "category": "productivity",
-  "tags": ["storage", "files", "google", "community"],
+  "category": "Productivity",
+  "tags": [
+    "storage",
+    "files",
+    "google",
+    "community"
+  ],
   "verified": false,
   "installCommand": "npx -y @anthropic/mcp-server-gdrive",
   "configExample": {
     "mcpServers": {
       "google-drive": {
         "command": "npx",
-        "args": ["-y", "@anthropic/mcp-server-gdrive"],
+        "args": [
+          "-y",
+          "@anthropic/mcp-server-gdrive"
+        ],
         "env": {
           "GOOGLE_CLIENT_ID": "your-client-id",
           "GOOGLE_CLIENT_SECRET": "your-client-secret"
@@ -22,6 +30,12 @@
   "repositoryUrl": "https://github.com/anthropics/anthropic-quickstarts",
   "author": "Anthropic",
   "toolCount": 5,
-  "tools": ["list_files", "read_file", "create_file", "search", "get_file_info"],
+  "tools": [
+    "list_files",
+    "read_file",
+    "create_file",
+    "search",
+    "get_file_info"
+  ],
   "addedAt": "2026-01-26"
 }

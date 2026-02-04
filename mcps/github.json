@@ -34,5 +34,6 @@
   "installUrl": "https://github.com/anthropics/claude-code",
   "documentationUrl": "https://docs.github.com/en/rest",
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23"
+  "updatedAt": "2026-01-23",
+  "category": "Developer Tools"
 }

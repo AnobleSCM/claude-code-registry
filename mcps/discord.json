@@ -2,15 +2,23 @@
   "id": "discord",
   "name": "Discord",
   "description": "Interact with Discord servers. Send messages, read channels, manage servers, and automate bot actions through natural language.",
-  "category": "communication",
-  "tags": ["chat", "messaging", "community-platform", "community"],
+  "category": "Communication",
+  "tags": [
+    "chat",
+    "messaging",
+    "community-platform",
+    "community"
+  ],
   "verified": false,
   "installCommand": "npx -y mcp-server-discord",
   "configExample": {
     "mcpServers": {
       "discord": {
         "command": "npx",
-        "args": ["-y", "mcp-server-discord"],
+        "args": [
+          "-y",
+          "mcp-server-discord"
+        ],
         "env": {
           "DISCORD_BOT_TOKEN": "your-bot-token"
         }
@@ -21,6 +29,13 @@
   "repositoryUrl": "https://github.com/v-3/mcp-discord",
   "author": "Community",
   "toolCount": 6,
-  "tools": ["send_message", "read_messages", "list_channels", "list_servers", "get_user", "create_channel"],
+  "tools": [
+    "send_message",
+    "read_messages",
+    "list_channels",
+    "list_servers",
+    "get_user",
+    "create_channel"
+  ],
   "addedAt": "2026-01-26"
 }

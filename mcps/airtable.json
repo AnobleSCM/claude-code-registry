@@ -2,15 +2,23 @@
   "id": "airtable",
   "name": "Airtable",
   "description": "Interact with Airtable bases. Query records, create entries, update data, and manage tables through natural language commands.",
-  "category": "productivity",
-  "tags": ["database", "no-code", "spreadsheet", "community"],
+  "category": "Productivity",
+  "tags": [
+    "database",
+    "no-code",
+    "spreadsheet",
+    "community"
+  ],
   "verified": false,
   "installCommand": "npx -y mcp-server-airtable",
   "configExample": {
     "mcpServers": {
       "airtable": {
         "command": "npx",
-        "args": ["-y", "mcp-server-airtable"],
+        "args": [
+          "-y",
+          "mcp-server-airtable"
+        ],
         "env": {
           "AIRTABLE_API_KEY": "your-api-key",
           "AIRTABLE_BASE_ID": "your-base-id"
@@ -22,6 +30,12 @@
   "repositoryUrl": "https://github.com/felores/airtable-mcp",
   "author": "Community",
   "toolCount": 5,
-  "tools": ["list_records", "create_record", "update_record", "delete_record", "search_records"],
+  "tools": [
+    "list_records",
+    "create_record",
+    "update_record",
+    "delete_record",
+    "search_records"
+  ],
   "addedAt": "2026-01-26"
 }

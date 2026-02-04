@@ -2,15 +2,23 @@
   "id": "jira",
   "name": "Jira",
   "description": "Interact with Atlassian Jira. Create, update, and search issues, manage sprints, and track project progress through natural language.",
-  "category": "productivity",
-  "tags": ["project-management", "issues", "atlassian", "community"],
+  "category": "Productivity",
+  "tags": [
+    "project-management",
+    "issues",
+    "atlassian",
+    "community"
+  ],
   "verified": false,
   "installCommand": "npx -y @anthropic/mcp-server-atlassian",
   "configExample": {
     "mcpServers": {
       "jira": {
         "command": "npx",
-        "args": ["-y", "@anthropic/mcp-server-atlassian"],
+        "args": [
+          "-y",
+          "@anthropic/mcp-server-atlassian"
+        ],
         "env": {
           "ATLASSIAN_API_TOKEN": "your-api-token",
           "ATLASSIAN_EMAIL": "your-email@company.com",
@@ -23,6 +31,15 @@
   "repositoryUrl": "https://github.com/modelcontextprotocol/servers",
   "author": "Atlassian",
   "toolCount": 8,
-  "tools": ["create_issue", "update_issue", "search_issues", "get_issue", "add_comment", "list_projects", "get_sprint", "transition_issue"],
+  "tools": [
+    "create_issue",
+    "update_issue",
+    "search_issues",
+    "get_issue",
+    "add_comment",
+    "list_projects",
+    "get_sprint",
+    "transition_issue"
+  ],
   "addedAt": "2026-01-26"
 }
