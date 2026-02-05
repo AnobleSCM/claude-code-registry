@@ -1,0 +1,19 @@
+{
+  "id": "desktop-commander",
+  "name": "Desktop Commander",
+  "displayName": "Desktop Commander",
+  "category": "Developer Tools",
+  "description": "Control your desktop from Claude. Execute terminal commands, manage files with diff editing, search codebases, and interact with desktop applications. The definitive desktop automation MCP.",
+  "provider": "Desktop Commander",
+  "status": "available",
+  "toolCount": 12,
+  "tools": ["execute_command", "read_file", "write_file", "edit_block", "search_code", "list_directory", "get_file_info", "directory_tree", "move_file", "copy_file", "delete_file", "search_files"],
+  "tags": ["desktop", "terminal", "files", "commands", "automation", "shell", "filesystem"],
+  "sourceUrl": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "configUrl": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "documentationUrl": "https://desktopcommander.app/",
+  "isOpenSource": true,
+  "requiresApiKey": false,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "milvus",
+  "name": "Milvus",
+  "displayName": "Milvus",
+  "category": "Databases",
+  "description": "Open-source vector database built for scalable similarity search. Store, index, and query billions of embedding vectors with millisecond latency.",
+  "provider": "Zilliz",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["milvus_create_collection", "milvus_insert", "milvus_search", "milvus_query", "milvus_delete", "milvus_list_collections", "milvus_describe_collection", "milvus_drop_collection"],
+  "tags": ["vector-database", "embeddings", "similarity-search", "ai", "ml", "rag"],
+  "sourceUrl": "https://github.com/milvus-io/milvus-mcp",
+  "configUrl": "https://github.com/milvus-io/milvus-mcp",
+  "documentationUrl": "https://milvus.io/docs",
+  "isOpenSource": true,
+  "requiresApiKey": false,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

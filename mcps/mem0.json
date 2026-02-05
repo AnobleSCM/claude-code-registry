@@ -1,0 +1,19 @@
+{
+  "id": "mem0",
+  "name": "Mem0",
+  "displayName": "Mem0 Memory",
+  "category": "AI & ML",
+  "description": "Intelligent memory layer for AI agents. Store, retrieve, and manage long-term memories across conversations. Enables personalized, context-aware AI interactions.",
+  "provider": "Mem0",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["mem0_add", "mem0_search", "mem0_get_all", "mem0_delete", "mem0_update", "mem0_history"],
+  "tags": ["memory", "context", "personalization", "ai", "agents", "long-term-memory"],
+  "sourceUrl": "https://github.com/mem0ai/mem0-mcp",
+  "configUrl": "https://github.com/mem0ai/mem0-mcp",
+  "documentationUrl": "https://docs.mem0.ai/",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

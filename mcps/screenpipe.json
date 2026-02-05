@@ -1,0 +1,19 @@
+{
+  "id": "screenpipe",
+  "name": "Screenpipe",
+  "displayName": "Screenpipe",
+  "category": "Developer Tools",
+  "description": "24/7 screen and audio capture for AI. Record everything on your screen, search through recordings with AI, and build personalized AI assistants with complete context of your work.",
+  "provider": "Screenpipe",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["screenpipe_search", "screenpipe_query_audio", "screenpipe_query_screen", "screenpipe_list_pipes", "screenpipe_run_pipe", "screenpipe_stop_pipe", "screenpipe_get_pipe_info", "screenpipe_download_pipe"],
+  "tags": ["screen-recording", "audio", "search", "ai", "productivity", "memory", "context"],
+  "sourceUrl": "https://github.com/mediar-ai/screenpipe",
+  "configUrl": "https://github.com/mediar-ai/screenpipe",
+  "documentationUrl": "https://docs.screenpi.pe/",
+  "isOpenSource": true,
+  "requiresApiKey": false,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

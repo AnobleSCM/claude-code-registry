@@ -1,0 +1,19 @@
+{
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "displayName": "Firecrawl",
+  "category": "Web Scraping",
+  "description": "Turn websites into LLM-ready markdown or structured data. Features JavaScript rendering, batch processing, site mapping, and search capabilities. The most popular web scraping MCP with 69K+ GitHub stars.",
+  "provider": "Firecrawl (Y Combinator)",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["firecrawl_scrape", "firecrawl_map", "firecrawl_crawl", "firecrawl_batch_scrape", "firecrawl_search", "firecrawl_extract", "firecrawl_deep_research", "firecrawl_generate_llmstxt"],
+  "tags": ["web-scraping", "markdown", "crawling", "search", "ai", "llm", "rag", "data-extraction"],
+  "sourceUrl": "https://github.com/firecrawl/firecrawl-mcp-server",
+  "configUrl": "https://github.com/firecrawl/firecrawl-mcp-server",
+  "documentationUrl": "https://docs.firecrawl.dev/mcp-server",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

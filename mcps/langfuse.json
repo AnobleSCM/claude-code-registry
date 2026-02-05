@@ -1,0 +1,19 @@
+{
+  "id": "langfuse",
+  "name": "Langfuse",
+  "displayName": "Langfuse",
+  "category": "AI & ML",
+  "description": "Open-source LLM observability and analytics. Trace, evaluate, and debug your LLM applications. Track costs, latency, and quality metrics across all your AI interactions.",
+  "provider": "Langfuse",
+  "status": "available",
+  "toolCount": 6,
+  "tools": ["langfuse_trace", "langfuse_score", "langfuse_get_traces", "langfuse_get_scores", "langfuse_get_sessions", "langfuse_get_metrics"],
+  "tags": ["observability", "tracing", "analytics", "llm", "debugging", "monitoring", "evaluation"],
+  "sourceUrl": "https://github.com/langfuse/langfuse-mcp",
+  "configUrl": "https://github.com/langfuse/langfuse-mcp",
+  "documentationUrl": "https://langfuse.com/docs",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

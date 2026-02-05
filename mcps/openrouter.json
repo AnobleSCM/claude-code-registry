@@ -1,0 +1,19 @@
+{
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "displayName": "OpenRouter",
+  "category": "AI & ML",
+  "description": "Unified API for 100+ LLM models. Access GPT-4, Claude, Llama, Mistral, and more through a single endpoint. Automatic fallbacks, cost tracking, and model comparison.",
+  "provider": "OpenRouter",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["openrouter_chat", "openrouter_list_models", "openrouter_get_model", "openrouter_get_usage", "openrouter_get_credits"],
+  "tags": ["llm", "api", "models", "routing", "gpt", "claude", "ai"],
+  "sourceUrl": "https://github.com/openrouter/openrouter-mcp",
+  "configUrl": "https://github.com/openrouter/openrouter-mcp",
+  "documentationUrl": "https://openrouter.ai/docs",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

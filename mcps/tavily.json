@@ -1,0 +1,19 @@
+{
+  "id": "tavily",
+  "name": "Tavily",
+  "displayName": "Tavily Search",
+  "category": "Search",
+  "description": "AI-powered web search API optimized for LLMs and RAG. Get real-time, accurate search results with AI-generated answers and source citations.",
+  "provider": "Tavily",
+  "status": "available",
+  "toolCount": 3,
+  "tools": ["tavily_search", "tavily_extract", "tavily_answer"],
+  "tags": ["search", "web-search", "rag", "ai", "llm", "research", "real-time"],
+  "sourceUrl": "https://github.com/tavily-ai/tavily-mcp",
+  "configUrl": "https://github.com/tavily-ai/tavily-mcp",
+  "documentationUrl": "https://docs.tavily.com/",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

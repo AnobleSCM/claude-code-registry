@@ -1,0 +1,19 @@
+{
+  "id": "apify",
+  "name": "Apify",
+  "displayName": "Apify",
+  "category": "Web Scraping",
+  "description": "Web scraping and automation platform with 3,000+ pre-built scrapers (Actors). Extract data from any website, automate browser workflows, and run headless browsers at scale.",
+  "provider": "Apify",
+  "status": "available",
+  "toolCount": 8,
+  "tools": ["apify_run_actor", "apify_get_run", "apify_list_actors", "apify_get_dataset", "apify_list_datasets", "apify_get_key_value_store", "apify_list_key_value_stores", "apify_get_request_queue"],
+  "tags": ["web-scraping", "automation", "actors", "headless-browser", "data-extraction"],
+  "sourceUrl": "https://github.com/apify/apify-mcp-server",
+  "configUrl": "https://github.com/apify/apify-mcp-server",
+  "documentationUrl": "https://docs.apify.com/",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

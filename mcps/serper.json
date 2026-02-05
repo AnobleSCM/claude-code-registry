@@ -1,0 +1,19 @@
+{
+  "id": "serper",
+  "name": "Serper",
+  "displayName": "Serper",
+  "category": "Search",
+  "description": "Fast, affordable Google Search API for AI applications. Get structured search results, news, images, and shopping data at a fraction of the cost of alternatives.",
+  "provider": "Serper",
+  "status": "available",
+  "toolCount": 5,
+  "tools": ["serper_search", "serper_news", "serper_images", "serper_places", "serper_shopping"],
+  "tags": ["search", "google", "api", "news", "images", "ai", "rag"],
+  "sourceUrl": "https://github.com/serper/serper-mcp",
+  "configUrl": "https://github.com/serper/serper-mcp",
+  "documentationUrl": "https://serper.dev/docs",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

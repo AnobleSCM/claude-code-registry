@@ -1,0 +1,19 @@
+{
+  "id": "jina",
+  "name": "Jina Reader",
+  "displayName": "Jina Reader",
+  "category": "Web Scraping",
+  "description": "Convert any URL to LLM-friendly markdown with a simple API. Handles JavaScript rendering, removes clutter, and extracts clean content optimized for AI consumption.",
+  "provider": "Jina AI",
+  "status": "available",
+  "toolCount": 4,
+  "tools": ["jina_read", "jina_search", "jina_fact_check", "jina_ground"],
+  "tags": ["web-scraping", "markdown", "reader", "content-extraction", "ai", "llm"],
+  "sourceUrl": "https://github.com/jina-ai/reader-mcp",
+  "configUrl": "https://github.com/jina-ai/reader-mcp",
+  "documentationUrl": "https://jina.ai/reader/",
+  "isOpenSource": true,
+  "requiresApiKey": true,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}
