@@ -1,0 +1,17 @@
+{
+  "id": "stride-analysis-patterns",
+  "name": "stride-analysis-patterns",
+  "displayName": "Stride Analysis Patterns",
+  "category": "General",
+  "description": "Stride Analysis Patterns skill for Claude Code",
+  "invocation": "/stride-analysis-patterns",
+  "source": "community",
+  "tags": [
+    "stride",
+    "analysis",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

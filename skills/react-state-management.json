@@ -1,0 +1,17 @@
+{
+  "id": "react-state-management",
+  "name": "react-state-management",
+  "displayName": "React State Management",
+  "category": "Frontend",
+  "description": "React State Management skill for Claude Code",
+  "invocation": "/react-state-management",
+  "source": "community",
+  "tags": [
+    "react",
+    "state",
+    "management"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

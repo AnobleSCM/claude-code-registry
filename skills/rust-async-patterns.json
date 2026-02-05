@@ -1,0 +1,17 @@
+{
+  "id": "rust-async-patterns",
+  "name": "rust-async-patterns",
+  "displayName": "Rust Async Patterns",
+  "category": "Languages",
+  "description": "Rust Async Patterns skill for Claude Code",
+  "invocation": "/rust-async-patterns",
+  "source": "community",
+  "tags": [
+    "rust",
+    "async",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

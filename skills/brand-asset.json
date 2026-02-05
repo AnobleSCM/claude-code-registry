@@ -1,0 +1,16 @@
+{
+  "id": "brand-asset",
+  "name": "brand-asset",
+  "displayName": "Brand Asset",
+  "category": "Design",
+  "description": "Generate branded design elements and visual assets. Use when creating logos, icons, brand patterns, or other branded visual elements.",
+  "invocation": "/brand-asset",
+  "source": "community",
+  "tags": [
+    "brand",
+    "asset"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

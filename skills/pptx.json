@@ -1,0 +1,15 @@
+{
+  "id": "pptx",
+  "name": "pptx",
+  "displayName": "Pptx",
+  "category": "Documentation",
+  "description": "Pptx skill for Claude Code",
+  "invocation": "/pptx",
+  "source": "community",
+  "tags": [
+    "pptx"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

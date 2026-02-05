@@ -1,0 +1,17 @@
+{
+  "id": "claude-opus-4-5-migration",
+  "name": "claude-opus-4-5-migration",
+  "displayName": "Claude Opus 4 5 Migration",
+  "category": "General",
+  "description": "Claude Opus 4 5 Migration skill for Claude Code",
+  "invocation": "/claude-opus-4-5-migration",
+  "source": "community",
+  "tags": [
+    "claude",
+    "opus",
+    "migration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

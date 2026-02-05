@@ -1,0 +1,17 @@
+{
+  "id": "prompt-engineering-patterns",
+  "name": "prompt-engineering-patterns",
+  "displayName": "Prompt Engineering Patterns",
+  "category": "AI/ML",
+  "description": "Prompt Engineering Patterns skill for Claude Code",
+  "invocation": "/prompt-engineering-patterns",
+  "source": "community",
+  "tags": [
+    "prompt",
+    "engineering",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

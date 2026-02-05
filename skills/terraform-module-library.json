@@ -1,0 +1,17 @@
+{
+  "id": "terraform-module-library",
+  "name": "terraform-module-library",
+  "displayName": "Terraform Module Library",
+  "category": "DevOps",
+  "description": "Terraform Module Library skill for Claude Code",
+  "invocation": "/terraform-module-library",
+  "source": "community",
+  "tags": [
+    "terraform",
+    "module",
+    "library"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

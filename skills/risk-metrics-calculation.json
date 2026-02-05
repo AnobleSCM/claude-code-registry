@@ -1,0 +1,17 @@
+{
+  "id": "risk-metrics-calculation",
+  "name": "risk-metrics-calculation",
+  "displayName": "Risk Metrics Calculation",
+  "category": "General",
+  "description": "Risk Metrics Calculation skill for Claude Code",
+  "invocation": "/risk-metrics-calculation",
+  "source": "community",
+  "tags": [
+    "risk",
+    "metrics",
+    "calculation"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "svg-logo-designer",
+  "name": "svg-logo-designer",
+  "displayName": "SVG Logo Designer",
+  "category": "Languages",
+  "description": "Create professional SVG logos from descriptions and design specifications. Generates multiple logo variations with different layouts, styles, and concepts. Produces scalable vector graphics that can be used directly or exported to PNG. Use this skill when users ask to create logos, brand identities,",
+  "invocation": "/svg-logo-designer",
+  "source": "community",
+  "tags": [
+    "svg",
+    "logo",
+    "designer"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

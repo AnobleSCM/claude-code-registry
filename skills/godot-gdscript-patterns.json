@@ -1,0 +1,17 @@
+{
+  "id": "godot-gdscript-patterns",
+  "name": "godot-gdscript-patterns",
+  "displayName": "Godot Gdscript Patterns",
+  "category": "General",
+  "description": "Godot Gdscript Patterns skill for Claude Code",
+  "invocation": "/godot-gdscript-patterns",
+  "source": "community",
+  "tags": [
+    "godot",
+    "gdscript",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

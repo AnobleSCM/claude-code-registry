@@ -1,0 +1,15 @@
+{
+  "id": "xlsx",
+  "name": "xlsx",
+  "displayName": "Xlsx",
+  "category": "Documentation",
+  "description": "Xlsx skill for Claude Code",
+  "invocation": "/xlsx",
+  "source": "community",
+  "tags": [
+    "xlsx"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

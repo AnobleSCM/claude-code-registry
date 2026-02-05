@@ -1,0 +1,17 @@
+{
+  "id": "typescript-advanced-types",
+  "name": "typescript-advanced-types",
+  "displayName": "Typescript Advanced Types",
+  "category": "Languages",
+  "description": "Typescript Advanced Types skill for Claude Code",
+  "invocation": "/typescript-advanced-types",
+  "source": "community",
+  "tags": [
+    "typescript",
+    "advanced",
+    "types"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

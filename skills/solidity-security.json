@@ -1,0 +1,16 @@
+{
+  "id": "solidity-security",
+  "name": "solidity-security",
+  "displayName": "Solidity Security",
+  "category": "Security",
+  "description": "Solidity Security skill for Claude Code",
+  "invocation": "/solidity-security",
+  "source": "community",
+  "tags": [
+    "solidity",
+    "security"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

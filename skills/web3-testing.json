@@ -1,0 +1,16 @@
+{
+  "id": "web3-testing",
+  "name": "web3-testing",
+  "displayName": "Web3 Testing",
+  "category": "Testing",
+  "description": "Web3 Testing skill for Claude Code",
+  "invocation": "/web3-testing",
+  "source": "community",
+  "tags": [
+    "web3",
+    "testing"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

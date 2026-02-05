@@ -1,0 +1,16 @@
+{
+  "id": "nft-standards",
+  "name": "nft-standards",
+  "displayName": "Nft Standards",
+  "category": "General",
+  "description": "Nft Standards skill for Claude Code",
+  "invocation": "/nft-standards",
+  "source": "community",
+  "tags": [
+    "nft",
+    "standards"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

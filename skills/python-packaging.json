@@ -1,0 +1,16 @@
+{
+  "id": "python-packaging",
+  "name": "python-packaging",
+  "displayName": "Python Packaging",
+  "category": "Languages",
+  "description": "Python Packaging skill for Claude Code",
+  "invocation": "/python-packaging",
+  "source": "community",
+  "tags": [
+    "python",
+    "packaging"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

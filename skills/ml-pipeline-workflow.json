@@ -1,0 +1,16 @@
+{
+  "id": "ml-pipeline-workflow",
+  "name": "ml-pipeline-workflow",
+  "displayName": "Ml Pipeline Workflow",
+  "category": "DevOps",
+  "description": "Ml Pipeline Workflow skill for Claude Code",
+  "invocation": "/ml-pipeline-workflow",
+  "source": "community",
+  "tags": [
+    "pipeline",
+    "workflow"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

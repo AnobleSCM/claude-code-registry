@@ -1,0 +1,17 @@
+{
+  "id": "openapi-spec-generation",
+  "name": "openapi-spec-generation",
+  "displayName": "Openapi Spec Generation",
+  "category": "Backend",
+  "description": "Openapi Spec Generation skill for Claude Code",
+  "invocation": "/openapi-spec-generation",
+  "source": "community",
+  "tags": [
+    "openapi",
+    "spec",
+    "generation"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

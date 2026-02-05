@@ -1,0 +1,17 @@
+{
+  "id": "screen-reader-testing",
+  "name": "screen-reader-testing",
+  "displayName": "Screen Reader Testing",
+  "category": "Testing",
+  "description": "Screen Reader Testing skill for Claude Code",
+  "invocation": "/screen-reader-testing",
+  "source": "community",
+  "tags": [
+    "screen",
+    "reader",
+    "testing"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nextjs-supabase-auth",
+  "name": "nextjs-supabase-auth",
+  "displayName": "Nextjs Supabase Auth",
+  "category": "Security",
+  "description": "Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route.",
+  "invocation": "/nextjs-supabase-auth",
+  "source": "community",
+  "tags": [
+    "nextjs",
+    "supabase",
+    "auth"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

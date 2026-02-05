@@ -1,0 +1,17 @@
+{
+  "id": "workflow-orchestration-patterns",
+  "name": "workflow-orchestration-patterns",
+  "displayName": "Workflow Orchestration Patterns",
+  "category": "General",
+  "description": "Workflow Orchestration Patterns skill for Claude Code",
+  "invocation": "/workflow-orchestration-patterns",
+  "source": "community",
+  "tags": [
+    "workflow",
+    "orchestration",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

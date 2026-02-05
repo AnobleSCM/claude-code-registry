@@ -1,0 +1,17 @@
+{
+  "id": "unity-ecs-patterns",
+  "name": "unity-ecs-patterns",
+  "displayName": "Unity Ecs Patterns",
+  "category": "General",
+  "description": "Unity Ecs Patterns skill for Claude Code",
+  "invocation": "/unity-ecs-patterns",
+  "source": "community",
+  "tags": [
+    "unity",
+    "ecs",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

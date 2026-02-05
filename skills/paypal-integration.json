@@ -1,0 +1,16 @@
+{
+  "id": "paypal-integration",
+  "name": "paypal-integration",
+  "displayName": "Paypal Integration",
+  "category": "General",
+  "description": "Paypal Integration skill for Claude Code",
+  "invocation": "/paypal-integration",
+  "source": "community",
+  "tags": [
+    "paypal",
+    "integration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dotnet-backend-patterns",
+  "name": "dotnet-backend-patterns",
+  "displayName": "Dotnet Backend Patterns",
+  "category": "Languages",
+  "description": "Dotnet Backend Patterns skill for Claude Code",
+  "invocation": "/dotnet-backend-patterns",
+  "source": "community",
+  "tags": [
+    "dotnet",
+    "backend",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

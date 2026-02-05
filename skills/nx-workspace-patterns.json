@@ -1,0 +1,16 @@
+{
+  "id": "nx-workspace-patterns",
+  "name": "nx-workspace-patterns",
+  "displayName": "Nx Workspace Patterns",
+  "category": "General",
+  "description": "Nx Workspace Patterns skill for Claude Code",
+  "invocation": "/nx-workspace-patterns",
+  "source": "community",
+  "tags": [
+    "workspace",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

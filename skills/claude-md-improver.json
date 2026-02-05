@@ -1,0 +1,16 @@
+{
+  "id": "claude-md-improver",
+  "name": "claude-md-improver",
+  "displayName": "Claude Md Improver",
+  "category": "General",
+  "description": "Claude Md Improver skill for Claude Code",
+  "invocation": "/claude-md-improver",
+  "source": "community",
+  "tags": [
+    "claude",
+    "improver"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

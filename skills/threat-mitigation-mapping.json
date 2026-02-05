@@ -1,0 +1,17 @@
+{
+  "id": "threat-mitigation-mapping",
+  "name": "threat-mitigation-mapping",
+  "displayName": "Threat Mitigation Mapping",
+  "category": "Security",
+  "description": "Threat Mitigation Mapping skill for Claude Code",
+  "invocation": "/threat-mitigation-mapping",
+  "source": "community",
+  "tags": [
+    "threat",
+    "mitigation",
+    "mapping"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

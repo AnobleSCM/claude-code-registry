@@ -1,0 +1,15 @@
+{
+  "id": "postgresql",
+  "name": "postgresql",
+  "displayName": "Postgresql",
+  "category": "Data",
+  "description": "Postgresql skill for Claude Code",
+  "invocation": "/postgresql",
+  "source": "community",
+  "tags": [
+    "postgresql"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

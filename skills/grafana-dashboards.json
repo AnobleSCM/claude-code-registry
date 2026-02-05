@@ -1,0 +1,16 @@
+{
+  "id": "grafana-dashboards",
+  "name": "grafana-dashboards",
+  "displayName": "Grafana Dashboards",
+  "category": "DevOps",
+  "description": "Grafana Dashboards skill for Claude Code",
+  "invocation": "/grafana-dashboards",
+  "source": "community",
+  "tags": [
+    "grafana",
+    "dashboards"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

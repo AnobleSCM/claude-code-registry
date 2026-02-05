@@ -1,0 +1,16 @@
+{
+  "id": "theme-factory",
+  "name": "theme-factory",
+  "displayName": "Theme Factory",
+  "category": "General",
+  "description": "Theme Factory skill for Claude Code",
+  "invocation": "/theme-factory",
+  "source": "community",
+  "tags": [
+    "theme",
+    "factory"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

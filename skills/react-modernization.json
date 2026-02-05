@@ -1,0 +1,16 @@
+{
+  "id": "react-modernization",
+  "name": "react-modernization",
+  "displayName": "React Modernization",
+  "category": "Frontend",
+  "description": "React Modernization skill for Claude Code",
+  "invocation": "/react-modernization",
+  "source": "community",
+  "tags": [
+    "react",
+    "modernization"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

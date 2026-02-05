@@ -1,0 +1,16 @@
+{
+  "id": "distributed-tracing",
+  "name": "distributed-tracing",
+  "displayName": "Distributed Tracing",
+  "category": "DevOps",
+  "description": "Distributed Tracing skill for Claude Code",
+  "invocation": "/distributed-tracing",
+  "source": "community",
+  "tags": [
+    "distributed",
+    "tracing"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

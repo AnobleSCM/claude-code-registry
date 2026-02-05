@@ -1,0 +1,17 @@
+{
+  "id": "attack-tree-construction",
+  "name": "attack-tree-construction",
+  "displayName": "Attack Tree Construction",
+  "category": "Security",
+  "description": "Attack Tree Construction skill for Claude Code",
+  "invocation": "/attack-tree-construction",
+  "source": "community",
+  "tags": [
+    "attack",
+    "tree",
+    "construction"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

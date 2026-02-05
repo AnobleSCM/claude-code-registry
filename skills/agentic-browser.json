@@ -1,0 +1,16 @@
+{
+  "id": "agentic-browser",
+  "name": "agentic-browser",
+  "displayName": "Agentic Browser",
+  "category": "General",
+  "description": "Browser automation for AI agents via inference.sh.\nNavigate web pages, interact with elements using @e refs, take screenshots.\nCapabilities: web scraping, form filling, clicking, typing, JavaScript execution.\nUse for: web automation, data extraction, testing, agent browsing, research.\nTriggers: brow",
+  "invocation": "/agentic-browser",
+  "source": "community",
+  "tags": [
+    "agentic",
+    "browser"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

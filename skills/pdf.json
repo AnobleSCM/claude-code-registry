@@ -1,0 +1,15 @@
+{
+  "id": "pdf",
+  "name": "pdf",
+  "displayName": "Pdf",
+  "category": "Documentation",
+  "description": "Pdf skill for Claude Code",
+  "invocation": "/pdf",
+  "source": "community",
+  "tags": [
+    "pdf"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

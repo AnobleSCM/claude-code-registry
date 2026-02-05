@@ -1,0 +1,17 @@
+{
+  "id": "modern-javascript-patterns",
+  "name": "modern-javascript-patterns",
+  "displayName": "Modern Javascript Patterns",
+  "category": "Languages",
+  "description": "Modern Javascript Patterns skill for Claude Code",
+  "invocation": "/modern-javascript-patterns",
+  "source": "community",
+  "tags": [
+    "modern",
+    "javascript",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

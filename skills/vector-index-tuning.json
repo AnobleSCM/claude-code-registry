@@ -1,0 +1,17 @@
+{
+  "id": "vector-index-tuning",
+  "name": "vector-index-tuning",
+  "displayName": "Vector Index Tuning",
+  "category": "AI/ML",
+  "description": "Vector Index Tuning skill for Claude Code",
+  "invocation": "/vector-index-tuning",
+  "source": "community",
+  "tags": [
+    "vector",
+    "index",
+    "tuning"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

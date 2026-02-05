@@ -1,0 +1,16 @@
+{
+  "id": "embedding-strategies",
+  "name": "embedding-strategies",
+  "displayName": "Embedding Strategies",
+  "category": "AI/ML",
+  "description": "Embedding Strategies skill for Claude Code",
+  "invocation": "/embedding-strategies",
+  "source": "community",
+  "tags": [
+    "embedding",
+    "strategies"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

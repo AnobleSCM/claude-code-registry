@@ -1,0 +1,16 @@
+{
+  "id": "agent-development",
+  "name": "agent-development",
+  "displayName": "Agent Development",
+  "category": "General",
+  "description": "Agent Development skill for Claude Code",
+  "invocation": "/agent-development",
+  "source": "community",
+  "tags": [
+    "agent",
+    "development"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

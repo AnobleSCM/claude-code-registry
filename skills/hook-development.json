@@ -1,0 +1,16 @@
+{
+  "id": "hook-development",
+  "name": "hook-development",
+  "displayName": "Hook Development",
+  "category": "General",
+  "description": "Hook Development skill for Claude Code",
+  "invocation": "/hook-development",
+  "source": "community",
+  "tags": [
+    "hook",
+    "development"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

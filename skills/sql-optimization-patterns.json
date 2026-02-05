@@ -1,0 +1,17 @@
+{
+  "id": "sql-optimization-patterns",
+  "name": "sql-optimization-patterns",
+  "displayName": "Sql Optimization Patterns",
+  "category": "Data",
+  "description": "Sql Optimization Patterns skill for Claude Code",
+  "invocation": "/sql-optimization-patterns",
+  "source": "community",
+  "tags": [
+    "sql",
+    "optimization",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

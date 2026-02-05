@@ -1,0 +1,16 @@
+{
+  "id": "logo-designer",
+  "name": "logo-designer",
+  "displayName": "Logo Designer",
+  "category": "Languages",
+  "description": "Design professional, modern logos with automatic project context detection. Use when users ask to \"create a logo\", \"design a logo\", \"generate brand identity\", \"make a favicon\", or need visual brand assets. Analyzes project files (README, package.json, etc.) to understand product name, purpose, and e",
+  "invocation": "/logo-designer",
+  "source": "community",
+  "tags": [
+    "logo",
+    "designer"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "spark-optimization",
+  "name": "spark-optimization",
+  "displayName": "Spark Optimization",
+  "category": "Data",
+  "description": "Spark Optimization skill for Claude Code",
+  "invocation": "/spark-optimization",
+  "source": "community",
+  "tags": [
+    "spark",
+    "optimization"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

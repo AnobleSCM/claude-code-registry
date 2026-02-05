@@ -1,0 +1,17 @@
+{
+  "id": "airflow-dag-patterns",
+  "name": "airflow-dag-patterns",
+  "displayName": "Airflow Dag Patterns",
+  "category": "Data",
+  "description": "Airflow Dag Patterns skill for Claude Code",
+  "invocation": "/airflow-dag-patterns",
+  "source": "community",
+  "tags": [
+    "airflow",
+    "dag",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

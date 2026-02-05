@@ -1,0 +1,16 @@
+{
+  "id": "saga-orchestration",
+  "name": "saga-orchestration",
+  "displayName": "Saga Orchestration",
+  "category": "Backend",
+  "description": "Saga Orchestration skill for Claude Code",
+  "invocation": "/saga-orchestration",
+  "source": "community",
+  "tags": [
+    "saga",
+    "orchestration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

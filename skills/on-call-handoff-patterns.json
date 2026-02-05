@@ -1,0 +1,17 @@
+{
+  "id": "on-call-handoff-patterns",
+  "name": "on-call-handoff-patterns",
+  "displayName": "On Call Handoff Patterns",
+  "category": "General",
+  "description": "On Call Handoff Patterns skill for Claude Code",
+  "invocation": "/on-call-handoff-patterns",
+  "source": "community",
+  "tags": [
+    "call",
+    "handoff",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

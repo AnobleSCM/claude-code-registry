@@ -1,0 +1,17 @@
+{
+  "id": "k8s-manifest-generator",
+  "name": "k8s-manifest-generator",
+  "displayName": "K8S Manifest Generator",
+  "category": "DevOps",
+  "description": "K8S Manifest Generator skill for Claude Code",
+  "invocation": "/k8s-manifest-generator",
+  "source": "community",
+  "tags": [
+    "k8s",
+    "manifest",
+    "generator"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

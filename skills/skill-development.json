@@ -1,0 +1,16 @@
+{
+  "id": "skill-development",
+  "name": "skill-development",
+  "displayName": "Skill Development",
+  "category": "General",
+  "description": "Skill Development skill for Claude Code",
+  "invocation": "/skill-development",
+  "source": "community",
+  "tags": [
+    "skill",
+    "development"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

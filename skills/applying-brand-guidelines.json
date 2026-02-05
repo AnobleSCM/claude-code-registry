@@ -1,0 +1,17 @@
+{
+  "id": "applying-brand-guidelines",
+  "name": "applying-brand-guidelines",
+  "displayName": "Applying Brand Guidelines",
+  "category": "Design",
+  "description": "This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging",
+  "invocation": "/applying-brand-guidelines",
+  "source": "community",
+  "tags": [
+    "applying",
+    "brand",
+    "guidelines"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

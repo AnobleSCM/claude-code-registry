@@ -1,0 +1,19 @@
+{
+  "id": "brand-strategist",
+  "name": "brand-strategist",
+  "displayName": "Brand Strategist",
+  "category": "Marketing",
+  "description": "Expert brand strategy covering brand positioning, identity development, brand architecture, messaging frameworks, and brand governance.",
+  "invocation": "/brand-strategist",
+  "source": "community",
+  "tags": [
+    "brand",
+    "strategy",
+    "positioning",
+    "identity",
+    "messaging"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

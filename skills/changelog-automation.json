@@ -1,0 +1,16 @@
+{
+  "id": "changelog-automation",
+  "name": "changelog-automation",
+  "displayName": "Changelog Automation",
+  "category": "Documentation",
+  "description": "Changelog Automation skill for Claude Code",
+  "invocation": "/changelog-automation",
+  "source": "community",
+  "tags": [
+    "changelog",
+    "automation"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

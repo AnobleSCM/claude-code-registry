@@ -1,0 +1,16 @@
+{
+  "id": "turborepo-caching",
+  "name": "turborepo-caching",
+  "displayName": "Turborepo Caching",
+  "category": "General",
+  "description": "Turborepo Caching skill for Claude Code",
+  "invocation": "/turborepo-caching",
+  "source": "community",
+  "tags": [
+    "turborepo",
+    "caching"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rag-implementation",
+  "name": "rag-implementation",
+  "displayName": "Rag Implementation",
+  "category": "AI/ML",
+  "description": "Rag Implementation skill for Claude Code",
+  "invocation": "/rag-implementation",
+  "source": "community",
+  "tags": [
+    "rag",
+    "implementation"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

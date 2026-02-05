@@ -1,0 +1,17 @@
+{
+  "id": "gdpr-data-handling",
+  "name": "gdpr-data-handling",
+  "displayName": "Gdpr Data Handling",
+  "category": "Security",
+  "description": "Gdpr Data Handling skill for Claude Code",
+  "invocation": "/gdpr-data-handling",
+  "source": "community",
+  "tags": [
+    "gdpr",
+    "data",
+    "handling"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

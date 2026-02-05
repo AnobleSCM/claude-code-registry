@@ -1,0 +1,17 @@
+{
+  "id": "error-handling-patterns",
+  "name": "error-handling-patterns",
+  "displayName": "Error Handling Patterns",
+  "category": "General",
+  "description": "Error Handling Patterns skill for Claude Code",
+  "invocation": "/error-handling-patterns",
+  "source": "community",
+  "tags": [
+    "error",
+    "handling",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tailwind-design-system",
+  "name": "tailwind-design-system",
+  "displayName": "Tailwind Design System",
+  "category": "Frontend",
+  "description": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
+  "invocation": "/tailwind-design-system",
+  "source": "community",
+  "tags": [
+    "tailwind",
+    "design",
+    "system"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

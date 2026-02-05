@@ -1,0 +1,16 @@
+{
+  "id": "vibes-audit",
+  "name": "vibes-audit",
+  "displayName": "Vibes Audit",
+  "category": "General",
+  "description": "Use when reviewing a web app's visual quality, brand consistency, premium feel, or detecting generic AI-generated aesthetics. Also use when UI feels \"off\" but the reason is unclear, before launches, or after major UI changes.",
+  "invocation": "/vibes-audit",
+  "source": "community",
+  "tags": [
+    "vibes",
+    "audit"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

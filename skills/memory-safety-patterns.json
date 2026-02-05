@@ -1,0 +1,17 @@
+{
+  "id": "memory-safety-patterns",
+  "name": "memory-safety-patterns",
+  "displayName": "Memory Safety Patterns",
+  "category": "General",
+  "description": "Memory Safety Patterns skill for Claude Code",
+  "invocation": "/memory-safety-patterns",
+  "source": "community",
+  "tags": [
+    "memory",
+    "safety",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

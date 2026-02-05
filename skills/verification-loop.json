@@ -1,0 +1,16 @@
+{
+  "id": "verification-loop",
+  "name": "verification-loop",
+  "displayName": "Verification Loop",
+  "category": "General",
+  "description": "Systematic verification of code changes before claiming completion.",
+  "invocation": "/verification-loop",
+  "source": "community",
+  "tags": [
+    "verification",
+    "loop"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

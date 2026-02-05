@@ -1,0 +1,16 @@
+{
+  "id": "gitops-workflow",
+  "name": "gitops-workflow",
+  "displayName": "Gitops Workflow",
+  "category": "DevOps",
+  "description": "Gitops Workflow skill for Claude Code",
+  "invocation": "/gitops-workflow",
+  "source": "community",
+  "tags": [
+    "gitops",
+    "workflow"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

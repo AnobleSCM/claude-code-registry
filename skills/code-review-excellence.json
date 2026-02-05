@@ -1,0 +1,17 @@
+{
+  "id": "code-review-excellence",
+  "name": "code-review-excellence",
+  "displayName": "Code Review Excellence",
+  "category": "General",
+  "description": "Code Review Excellence skill for Claude Code",
+  "invocation": "/code-review-excellence",
+  "source": "community",
+  "tags": [
+    "code",
+    "review",
+    "excellence"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

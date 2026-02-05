@@ -1,0 +1,17 @@
+{
+  "id": "helm-chart-scaffolding",
+  "name": "helm-chart-scaffolding",
+  "displayName": "Helm Chart Scaffolding",
+  "category": "DevOps",
+  "description": "Helm Chart Scaffolding skill for Claude Code",
+  "invocation": "/helm-chart-scaffolding",
+  "source": "community",
+  "tags": [
+    "helm",
+    "chart",
+    "scaffolding"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

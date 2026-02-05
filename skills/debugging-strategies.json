@@ -1,0 +1,16 @@
+{
+  "id": "debugging-strategies",
+  "name": "debugging-strategies",
+  "displayName": "Debugging Strategies",
+  "category": "General",
+  "description": "Debugging Strategies skill for Claude Code",
+  "invocation": "/debugging-strategies",
+  "source": "community",
+  "tags": [
+    "debugging",
+    "strategies"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

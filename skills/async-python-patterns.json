@@ -1,0 +1,17 @@
+{
+  "id": "async-python-patterns",
+  "name": "async-python-patterns",
+  "displayName": "Async Python Patterns",
+  "category": "Languages",
+  "description": "Async Python Patterns skill for Claude Code",
+  "invocation": "/async-python-patterns",
+  "source": "community",
+  "tags": [
+    "async",
+    "python",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

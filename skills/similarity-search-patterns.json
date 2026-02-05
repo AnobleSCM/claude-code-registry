@@ -1,0 +1,17 @@
+{
+  "id": "similarity-search-patterns",
+  "name": "similarity-search-patterns",
+  "displayName": "Similarity Search Patterns",
+  "category": "General",
+  "description": "Similarity Search Patterns skill for Claude Code",
+  "invocation": "/similarity-search-patterns",
+  "source": "community",
+  "tags": [
+    "similarity",
+    "search",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

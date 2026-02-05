@@ -1,0 +1,16 @@
+{
+  "id": "billing-automation",
+  "name": "billing-automation",
+  "displayName": "Billing Automation",
+  "category": "General",
+  "description": "Billing Automation skill for Claude Code",
+  "invocation": "/billing-automation",
+  "source": "community",
+  "tags": [
+    "billing",
+    "automation"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

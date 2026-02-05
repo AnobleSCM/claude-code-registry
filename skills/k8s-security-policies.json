@@ -1,0 +1,17 @@
+{
+  "id": "k8s-security-policies",
+  "name": "k8s-security-policies",
+  "displayName": "K8S Security Policies",
+  "category": "Security",
+  "description": "K8S Security Policies skill for Claude Code",
+  "invocation": "/k8s-security-policies",
+  "source": "community",
+  "tags": [
+    "k8s",
+    "security",
+    "policies"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

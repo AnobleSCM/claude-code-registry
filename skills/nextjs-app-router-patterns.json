@@ -1,0 +1,18 @@
+{
+  "id": "nextjs-app-router-patterns",
+  "name": "nextjs-app-router-patterns",
+  "displayName": "Nextjs App Router Patterns",
+  "category": "Frontend",
+  "description": "Nextjs App Router Patterns skill for Claude Code",
+  "invocation": "/nextjs-app-router-patterns",
+  "source": "community",
+  "tags": [
+    "nextjs",
+    "app",
+    "router",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

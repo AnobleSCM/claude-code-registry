@@ -1,0 +1,17 @@
+{
+  "id": "git-advanced-workflows",
+  "name": "git-advanced-workflows",
+  "displayName": "Git Advanced Workflows",
+  "category": "General",
+  "description": "Git Advanced Workflows skill for Claude Code",
+  "invocation": "/git-advanced-workflows",
+  "source": "community",
+  "tags": [
+    "git",
+    "advanced",
+    "workflows"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

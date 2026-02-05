@@ -1,0 +1,17 @@
+{
+  "id": "python-performance-optimization",
+  "name": "python-performance-optimization",
+  "displayName": "Python Performance Optimization",
+  "category": "Languages",
+  "description": "Python Performance Optimization skill for Claude Code",
+  "invocation": "/python-performance-optimization",
+  "source": "community",
+  "tags": [
+    "python",
+    "performance",
+    "optimization"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

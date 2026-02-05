@@ -1,0 +1,17 @@
+{
+  "id": "api-design-principles",
+  "name": "api-design-principles",
+  "displayName": "Api Design Principles",
+  "category": "DevOps",
+  "description": "Api Design Principles skill for Claude Code",
+  "invocation": "/api-design-principles",
+  "source": "community",
+  "tags": [
+    "api",
+    "design",
+    "principles"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

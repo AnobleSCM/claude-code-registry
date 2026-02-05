@@ -1,0 +1,16 @@
+{
+  "id": "angular-migration",
+  "name": "angular-migration",
+  "displayName": "Angular Migration",
+  "category": "Frontend",
+  "description": "Angular Migration skill for Claude Code",
+  "invocation": "/angular-migration",
+  "source": "community",
+  "tags": [
+    "angular",
+    "migration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "multi-cloud-architecture",
+  "name": "multi-cloud-architecture",
+  "displayName": "Multi Cloud Architecture",
+  "category": "Infrastructure",
+  "description": "Multi Cloud Architecture skill for Claude Code",
+  "invocation": "/multi-cloud-architecture",
+  "source": "community",
+  "tags": [
+    "multi",
+    "cloud",
+    "architecture"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

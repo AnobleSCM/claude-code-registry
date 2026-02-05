@@ -1,0 +1,16 @@
+{
+  "id": "stripe-integration",
+  "name": "stripe-integration",
+  "displayName": "Stripe Integration",
+  "category": "General",
+  "description": "Stripe Integration skill for Claude Code",
+  "invocation": "/stripe-integration",
+  "source": "community",
+  "tags": [
+    "stripe",
+    "integration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

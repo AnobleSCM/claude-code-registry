@@ -1,0 +1,17 @@
+{
+  "id": "deployment-pipeline-design",
+  "name": "deployment-pipeline-design",
+  "displayName": "Deployment Pipeline Design",
+  "category": "DevOps",
+  "description": "Deployment Pipeline Design skill for Claude Code",
+  "invocation": "/deployment-pipeline-design",
+  "source": "community",
+  "tags": [
+    "deployment",
+    "pipeline",
+    "design"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

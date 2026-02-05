@@ -1,0 +1,16 @@
+{
+  "id": "cqrs-implementation",
+  "name": "cqrs-implementation",
+  "displayName": "Cqrs Implementation",
+  "category": "Backend",
+  "description": "Cqrs Implementation skill for Claude Code",
+  "invocation": "/cqrs-implementation",
+  "source": "community",
+  "tags": [
+    "cqrs",
+    "implementation"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

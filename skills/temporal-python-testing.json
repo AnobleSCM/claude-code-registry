@@ -1,0 +1,17 @@
+{
+  "id": "temporal-python-testing",
+  "name": "temporal-python-testing",
+  "displayName": "Temporal Python Testing",
+  "category": "Testing",
+  "description": "Temporal Python Testing skill for Claude Code",
+  "invocation": "/temporal-python-testing",
+  "source": "community",
+  "tags": [
+    "temporal",
+    "python",
+    "testing"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

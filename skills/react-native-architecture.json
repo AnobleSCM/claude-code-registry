@@ -1,0 +1,17 @@
+{
+  "id": "react-native-architecture",
+  "name": "react-native-architecture",
+  "displayName": "React Native Architecture",
+  "category": "Frontend",
+  "description": "React Native Architecture skill for Claude Code",
+  "invocation": "/react-native-architecture",
+  "source": "community",
+  "tags": [
+    "react",
+    "native",
+    "architecture"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

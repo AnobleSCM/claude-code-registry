@@ -1,0 +1,16 @@
+{
+  "id": "architecture-patterns",
+  "name": "architecture-patterns",
+  "displayName": "Architecture Patterns",
+  "category": "Infrastructure",
+  "description": "Architecture Patterns skill for Claude Code",
+  "invocation": "/architecture-patterns",
+  "source": "community",
+  "tags": [
+    "architecture",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

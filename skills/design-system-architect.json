@@ -1,0 +1,17 @@
+{
+  "id": "design-system-architect",
+  "name": "design-system-architect",
+  "displayName": "Design System Architect",
+  "category": "Design",
+  "description": "Build scalable, maintainable design systems that unify product experiences. Use when creating component libraries, design tokens, or establishing design standards. Covers atomic design, Storybook, theming, and design system governance.",
+  "invocation": "/design-system-architect",
+  "source": "community",
+  "tags": [
+    "design",
+    "system",
+    "architect"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

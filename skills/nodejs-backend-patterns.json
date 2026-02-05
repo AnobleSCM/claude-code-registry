@@ -1,0 +1,17 @@
+{
+  "id": "nodejs-backend-patterns",
+  "name": "nodejs-backend-patterns",
+  "displayName": "Nodejs Backend Patterns",
+  "category": "Languages",
+  "description": "Nodejs Backend Patterns skill for Claude Code",
+  "invocation": "/nodejs-backend-patterns",
+  "source": "community",
+  "tags": [
+    "nodejs",
+    "backend",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

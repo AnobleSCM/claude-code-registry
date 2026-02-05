@@ -1,0 +1,17 @@
+{
+  "id": "data-quality-frameworks",
+  "name": "data-quality-frameworks",
+  "displayName": "Data Quality Frameworks",
+  "category": "Data",
+  "description": "Data Quality Frameworks skill for Claude Code",
+  "invocation": "/data-quality-frameworks",
+  "source": "community",
+  "tags": [
+    "data",
+    "quality",
+    "frameworks"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

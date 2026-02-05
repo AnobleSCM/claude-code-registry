@@ -1,0 +1,17 @@
+{
+  "id": "kpi-dashboard-design",
+  "name": "kpi-dashboard-design",
+  "displayName": "Kpi Dashboard Design",
+  "category": "Design",
+  "description": "Kpi Dashboard Design skill for Claude Code",
+  "invocation": "/kpi-dashboard-design",
+  "source": "community",
+  "tags": [
+    "kpi",
+    "dashboard",
+    "design"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bats-testing-patterns",
+  "name": "bats-testing-patterns",
+  "displayName": "Bats Testing Patterns",
+  "category": "Testing",
+  "description": "Bats Testing Patterns skill for Claude Code",
+  "invocation": "/bats-testing-patterns",
+  "source": "community",
+  "tags": [
+    "bats",
+    "testing",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "auth-implementation-patterns",
+  "name": "auth-implementation-patterns",
+  "displayName": "Auth Implementation Patterns",
+  "category": "Security",
+  "description": "Auth Implementation Patterns skill for Claude Code",
+  "invocation": "/auth-implementation-patterns",
+  "source": "community",
+  "tags": [
+    "auth",
+    "implementation",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

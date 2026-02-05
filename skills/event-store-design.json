@@ -1,0 +1,17 @@
+{
+  "id": "event-store-design",
+  "name": "event-store-design",
+  "displayName": "Event Store Design",
+  "category": "Design",
+  "description": "Event Store Design skill for Claude Code",
+  "invocation": "/event-store-design",
+  "source": "community",
+  "tags": [
+    "event",
+    "store",
+    "design"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

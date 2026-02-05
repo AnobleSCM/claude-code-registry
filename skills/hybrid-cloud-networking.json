@@ -1,0 +1,17 @@
+{
+  "id": "hybrid-cloud-networking",
+  "name": "hybrid-cloud-networking",
+  "displayName": "Hybrid Cloud Networking",
+  "category": "Infrastructure",
+  "description": "Hybrid Cloud Networking skill for Claude Code",
+  "invocation": "/hybrid-cloud-networking",
+  "source": "community",
+  "tags": [
+    "hybrid",
+    "cloud",
+    "networking"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

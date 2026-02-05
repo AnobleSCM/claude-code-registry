@@ -1,0 +1,16 @@
+{
+  "id": "go-concurrency-patterns",
+  "name": "go-concurrency-patterns",
+  "displayName": "Go Concurrency Patterns",
+  "category": "Languages",
+  "description": "Go Concurrency Patterns skill for Claude Code",
+  "invocation": "/go-concurrency-patterns",
+  "source": "community",
+  "tags": [
+    "concurrency",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

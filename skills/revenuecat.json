@@ -1,0 +1,15 @@
+{
+  "id": "revenuecat",
+  "name": "revenuecat",
+  "displayName": "Revenuecat",
+  "category": "General",
+  "description": "Comprehensive assistance with RevenueCat in-app subscriptions and purchases",
+  "invocation": "/revenuecat",
+  "source": "community",
+  "tags": [
+    "revenuecat"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "istio-traffic-management",
+  "name": "istio-traffic-management",
+  "displayName": "Istio Traffic Management",
+  "category": "DevOps",
+  "description": "Istio Traffic Management skill for Claude Code",
+  "invocation": "/istio-traffic-management",
+  "source": "community",
+  "tags": [
+    "istio",
+    "traffic",
+    "management"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

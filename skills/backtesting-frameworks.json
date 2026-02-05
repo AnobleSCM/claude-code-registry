@@ -1,0 +1,16 @@
+{
+  "id": "backtesting-frameworks",
+  "name": "backtesting-frameworks",
+  "displayName": "Backtesting Frameworks",
+  "category": "Testing",
+  "description": "Backtesting Frameworks skill for Claude Code",
+  "invocation": "/backtesting-frameworks",
+  "source": "community",
+  "tags": [
+    "backtesting",
+    "frameworks"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

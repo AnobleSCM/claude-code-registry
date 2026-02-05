@@ -1,0 +1,16 @@
+{
+  "id": "sast-configuration",
+  "name": "sast-configuration",
+  "displayName": "Sast Configuration",
+  "category": "Security",
+  "description": "Sast Configuration skill for Claude Code",
+  "invocation": "/sast-configuration",
+  "source": "community",
+  "tags": [
+    "sast",
+    "configuration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

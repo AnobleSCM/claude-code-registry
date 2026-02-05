@@ -1,0 +1,16 @@
+{
+  "id": "langchain-architecture",
+  "name": "langchain-architecture",
+  "displayName": "Langchain Architecture",
+  "category": "AI/ML",
+  "description": "Langchain Architecture skill for Claude Code",
+  "invocation": "/langchain-architecture",
+  "source": "community",
+  "tags": [
+    "langchain",
+    "architecture"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

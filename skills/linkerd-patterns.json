@@ -1,0 +1,16 @@
+{
+  "id": "linkerd-patterns",
+  "name": "linkerd-patterns",
+  "displayName": "Linkerd Patterns",
+  "category": "DevOps",
+  "description": "Linkerd Patterns skill for Claude Code",
+  "invocation": "/linkerd-patterns",
+  "source": "community",
+  "tags": [
+    "linkerd",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "service-mesh-observability",
+  "name": "service-mesh-observability",
+  "displayName": "Service Mesh Observability",
+  "category": "General",
+  "description": "Service Mesh Observability skill for Claude Code",
+  "invocation": "/service-mesh-observability",
+  "source": "community",
+  "tags": [
+    "service",
+    "mesh",
+    "observability"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

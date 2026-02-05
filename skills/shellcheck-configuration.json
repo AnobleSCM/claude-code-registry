@@ -1,0 +1,16 @@
+{
+  "id": "shellcheck-configuration",
+  "name": "shellcheck-configuration",
+  "displayName": "Shellcheck Configuration",
+  "category": "General",
+  "description": "Shellcheck Configuration skill for Claude Code",
+  "invocation": "/shellcheck-configuration",
+  "source": "community",
+  "tags": [
+    "shellcheck",
+    "configuration"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

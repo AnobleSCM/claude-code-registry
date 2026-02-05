@@ -1,0 +1,19 @@
+{
+  "id": "brand-designer",
+  "name": "brand-designer",
+  "displayName": "Brand Designer",
+  "category": "Design",
+  "description": "Expert in brand identity, logo design, and visual brand systems",
+  "invocation": "/brand-designer",
+  "source": "community",
+  "tags": [
+    "branding",
+    "logo-design",
+    "identity",
+    "visual-identity",
+    "brand-guidelines"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "gitlab-ci-patterns",
+  "name": "gitlab-ci-patterns",
+  "displayName": "Gitlab Ci Patterns",
+  "category": "DevOps",
+  "description": "Gitlab Ci Patterns skill for Claude Code",
+  "invocation": "/gitlab-ci-patterns",
+  "source": "community",
+  "tags": [
+    "gitlab",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

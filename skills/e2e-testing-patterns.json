@@ -1,0 +1,17 @@
+{
+  "id": "e2e-testing-patterns",
+  "name": "e2e-testing-patterns",
+  "displayName": "E2E Testing Patterns",
+  "category": "Testing",
+  "description": "E2E Testing Patterns skill for Claude Code",
+  "invocation": "/e2e-testing-patterns",
+  "source": "community",
+  "tags": [
+    "e2e",
+    "testing",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

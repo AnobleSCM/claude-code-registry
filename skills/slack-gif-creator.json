@@ -1,0 +1,17 @@
+{
+  "id": "slack-gif-creator",
+  "name": "slack-gif-creator",
+  "displayName": "Slack Gif Creator",
+  "category": "General",
+  "description": "Slack Gif Creator skill for Claude Code",
+  "invocation": "/slack-gif-creator",
+  "source": "community",
+  "tags": [
+    "slack",
+    "gif",
+    "creator"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

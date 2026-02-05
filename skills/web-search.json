@@ -1,0 +1,16 @@
+{
+  "id": "web-search",
+  "name": "web-search",
+  "displayName": "Web Search",
+  "category": "General",
+  "description": "Web search and content extraction with Tavily and Exa via inference.sh CLI.\nApps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract.\nCapabilities: AI-powered search, content extraction, direct answers, research.\nUse for: research, RAG pipelines, fact-checking, content aggregation, a",
+  "invocation": "/web-search",
+  "source": "community",
+  "tags": [
+    "web",
+    "search"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

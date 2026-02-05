@@ -1,0 +1,17 @@
+{
+  "id": "architecture-decision-records",
+  "name": "architecture-decision-records",
+  "displayName": "Architecture Decision Records",
+  "category": "DevOps",
+  "description": "Architecture Decision Records skill for Claude Code",
+  "invocation": "/architecture-decision-records",
+  "source": "community",
+  "tags": [
+    "architecture",
+    "decision",
+    "records"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

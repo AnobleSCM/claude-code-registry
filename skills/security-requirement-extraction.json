@@ -1,0 +1,17 @@
+{
+  "id": "security-requirement-extraction",
+  "name": "security-requirement-extraction",
+  "displayName": "Security Requirement Extraction",
+  "category": "Security",
+  "description": "Security Requirement Extraction skill for Claude Code",
+  "invocation": "/security-requirement-extraction",
+  "source": "community",
+  "tags": [
+    "security",
+    "requirement",
+    "extraction"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

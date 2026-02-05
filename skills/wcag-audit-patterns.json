@@ -1,0 +1,17 @@
+{
+  "id": "wcag-audit-patterns",
+  "name": "wcag-audit-patterns",
+  "displayName": "Wcag Audit Patterns",
+  "category": "Accessibility",
+  "description": "Wcag Audit Patterns skill for Claude Code",
+  "invocation": "/wcag-audit-patterns",
+  "source": "community",
+  "tags": [
+    "wcag",
+    "audit",
+    "patterns"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

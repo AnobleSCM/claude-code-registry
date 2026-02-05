@@ -1,0 +1,17 @@
+{
+  "id": "svg-logo-creator",
+  "name": "svg-logo-creator",
+  "displayName": "Svg Logo Creator",
+  "category": "Languages",
+  "description": "Create professional SVG logos from concept briefs or descriptions. Use when generating SVG logo files, creating logo variations (horizontal, vertical, icon-only), or implementing logo designs. Triggers on \"create SVG logo,\" \"generate logo,\" \"make a logo,\" \"logo SVG,\" \"design a logo,\" or when given a",
+  "invocation": "/svg-logo-creator",
+  "source": "community",
+  "tags": [
+    "svg",
+    "logo",
+    "creator"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

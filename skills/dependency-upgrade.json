@@ -1,0 +1,16 @@
+{
+  "id": "dependency-upgrade",
+  "name": "dependency-upgrade",
+  "displayName": "Dependency Upgrade",
+  "category": "General",
+  "description": "Dependency Upgrade skill for Claude Code",
+  "invocation": "/dependency-upgrade",
+  "source": "community",
+  "tags": [
+    "dependency",
+    "upgrade"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

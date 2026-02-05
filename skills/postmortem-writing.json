@@ -1,0 +1,16 @@
+{
+  "id": "postmortem-writing",
+  "name": "postmortem-writing",
+  "displayName": "Postmortem Writing",
+  "category": "Documentation",
+  "description": "Postmortem Writing skill for Claude Code",
+  "invocation": "/postmortem-writing",
+  "source": "community",
+  "tags": [
+    "postmortem",
+    "writing"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

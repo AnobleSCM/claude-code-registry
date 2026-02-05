@@ -1,0 +1,16 @@
+{
+  "id": "skill-creator",
+  "name": "skill-creator",
+  "displayName": "Skill Creator",
+  "category": "General",
+  "description": "Skill Creator skill for Claude Code",
+  "invocation": "/skill-creator",
+  "source": "community",
+  "tags": [
+    "skill",
+    "creator"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

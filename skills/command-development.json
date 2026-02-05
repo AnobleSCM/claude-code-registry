@@ -1,0 +1,16 @@
+{
+  "id": "command-development",
+  "name": "command-development",
+  "displayName": "Command Development",
+  "category": "General",
+  "description": "Command Development skill for Claude Code",
+  "invocation": "/command-development",
+  "source": "community",
+  "tags": [
+    "command",
+    "development"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}

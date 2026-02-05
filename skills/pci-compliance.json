@@ -1,0 +1,16 @@
+{
+  "id": "pci-compliance",
+  "name": "pci-compliance",
+  "displayName": "Pci Compliance",
+  "category": "Security",
+  "description": "Pci Compliance skill for Claude Code",
+  "invocation": "/pci-compliance",
+  "source": "community",
+  "tags": [
+    "pci",
+    "compliance"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-02-05",
+  "updatedAt": "2026-02-05"
+}
