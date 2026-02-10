@@ -4,7 +4,7 @@ Community-maintained catalog of Claude Code capabilities. **Data-only repo** —
 
 ## Purpose
 
-Provides JSON data for [Claude Code Playbook](https://claudecodeplaybook.ai):
+Provides JSON data for [Vibe Code Playbook](https://vibecodeplaybook.ai):
 - Skills (83)
 - Agents (51)
 - MCPs (101)
@@ -86,7 +86,7 @@ It's static JSON served via GitHub raw URLs.
 
 ## Related
 
-- **Playbook App**: `~/claude-code-playbook` (consumes this data)
+- **Playbook App**: `~/Developer/claude-code-playbook` (consumes this data)
 - **GitHub**: `github.com/AnobleSCM/claude-code-registry`
 
 ## Raw URLs

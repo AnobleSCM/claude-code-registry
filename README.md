@@ -2,7 +2,7 @@
 
 The community-maintained catalog of Claude Code capabilities — skills, agents, MCPs, tools, and commands.
 
-> **Note:** This registry powers [Claude Code Playbook](https://claudecodeplaybook.ai), the visual companion app for Claude Code.
+> **Note:** This registry powers [Vibe Code Playbook](https://vibecodeplaybook.ai), the visual companion app for Claude Code.
 
 ## What's in this registry?
 
@@ -17,7 +17,7 @@ The community-maintained catalog of Claude Code capabilities — skills, agents,
 ## Usage
 
 This registry is consumed by:
-- **Claude Code Playbook app** — fetches registry data to display the catalog
+- **Vibe Code Playbook app** — fetches registry data to display the catalog
 - **Developers** — reference for Claude Code capabilities
 - **Community** — contribute new items as Claude Code evolves
 
@@ -70,6 +70,6 @@ This registry data is released under [CC0 1.0 Universal](LICENSE) — public dom
 
 ## Links
 
-- [Claude Code Playbook](https://claudecodeplaybook.ai) — The companion app
+- [Vibe Code Playbook](https://vibecodeplaybook.ai) — The companion app
 - [Claude Code Documentation](https://docs.anthropic.com/claude-code) — Official docs
 - [Report an issue](https://github.com/AnobleSCM/claude-code-registry/issues)
