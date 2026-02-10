@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["pr-review-toolkit-review-pr"],
   "agents": ["pr-review-toolkit-code-reviewer", "pr-review-toolkit-code-simplifier", "pr-review-toolkit-comment-analyzer", "pr-review-toolkit-pr-test-analyzer", "pr-review-toolkit-silent-failure-hunter", "pr-review-toolkit-type-design-analyzer"],
-  "installCommand": "claude plugins:add pr-review-toolkit",
+  "installCommand": "npx claude-plugins add pr-review-toolkit",
   "source": "official",
   "tags": ["pr", "review", "testing", "code-quality"],
   "documentationUrl": null,

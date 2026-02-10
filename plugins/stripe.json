@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["stripe-explain-error", "stripe-test-cards"],
   "agents": [],
-  "installCommand": "claude plugins:add stripe",
+  "installCommand": "npx claude-plugins add stripe",
   "source": "official",
   "tags": ["stripe", "payments", "testing", "debugging"],
   "documentationUrl": null,

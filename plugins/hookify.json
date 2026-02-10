@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["hookify-configure", "hookify-help", "hookify-hookify", "hookify-list"],
   "agents": ["hookify-conversation-analyzer"],
-  "installCommand": "claude plugins:add hookify",
+  "installCommand": "npx claude-plugins add hookify",
   "source": "official",
   "tags": ["hooks", "automation", "prevention", "patterns"],
   "documentationUrl": null,

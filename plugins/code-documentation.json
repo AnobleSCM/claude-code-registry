@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["code-documentation-code-reviewer", "code-documentation-docs-architect", "code-documentation-tutorial-engineer"],
   "agents": ["code-documentation-code-reviewer", "code-documentation-docs-architect", "code-documentation-tutorial-engineer"],
-  "installCommand": "claude plugins:add code-documentation",
+  "installCommand": "npx claude-plugins add code-documentation",
   "source": "official",
   "tags": ["documentation", "tutorials", "technical-writing"],
   "documentationUrl": null,

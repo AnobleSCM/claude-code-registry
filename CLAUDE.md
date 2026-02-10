@@ -68,6 +68,9 @@ Each directory has an `index.json` listing item IDs. Individual JSON files conta
 ```bash
 # Check all JSON files are valid
 find . -name "*.json" -exec python3 -m json.tool {} > /dev/null \;
+
+# Check index/file contracts and plugin install command syntax
+node scripts/validate-index-contracts.mjs
 ```
 
 ---

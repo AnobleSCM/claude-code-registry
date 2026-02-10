@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["claude-md-management-revise-claude-md"],
   "agents": [],
-  "installCommand": "claude plugins:add claude-md-management",
+  "installCommand": "npx claude-plugins add claude-md-management",
   "source": "official",
   "tags": ["claude-md", "configuration", "context"],
   "documentationUrl": null,

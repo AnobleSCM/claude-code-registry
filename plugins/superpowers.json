@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["brainstorming", "writing-plans", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "dispatching-parallel-agents", "test-driven-development", "systematic-debugging", "writing-skills"],
   "agents": ["superpowers-code-reviewer"],
-  "installCommand": "claude plugins:add superpowers",
+  "installCommand": "npx claude-plugins add superpowers",
   "source": "official",
   "tags": ["planning", "tdd", "code-review", "workflow", "development"],
   "documentationUrl": null,

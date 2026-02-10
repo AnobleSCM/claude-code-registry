@@ -64,6 +64,16 @@ Each item is a JSON file with this structure:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full schema documentation.
 
+## Validation
+
+```bash
+# Validate index/file contracts (including plugin install command syntax)
+node scripts/validate-index-contracts.mjs
+
+# Validate all JSON documents parse
+find . -name "*.json" -exec python3 -m json.tool {} > /dev/null \;
+```
+
 ## License
 
 This registry data is released under [CC0 1.0 Universal](LICENSE) — public domain, no restrictions.

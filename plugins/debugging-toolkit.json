@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["debugging-toolkit-debugger", "debugging-toolkit-dx-optimizer"],
   "agents": ["debugging-toolkit-debugger", "debugging-toolkit-dx-optimizer"],
-  "installCommand": "claude plugins:add debugging-toolkit",
+  "installCommand": "npx claude-plugins add debugging-toolkit",
   "source": "official",
   "tags": ["debugging", "errors", "dx", "tooling"],
   "documentationUrl": null,

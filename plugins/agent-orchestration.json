@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["agent-orchestration-context-manager"],
   "agents": ["agent-orchestration-context-manager"],
-  "installCommand": "claude plugins:add agent-orchestration",
+  "installCommand": "npx claude-plugins add agent-orchestration",
   "source": "official",
   "tags": ["ai", "context", "orchestration", "memory"],
   "documentationUrl": null,

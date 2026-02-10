@@ -148,6 +148,27 @@ Thank you for helping maintain the Claude Code Registry! This document explains 
 }
 ```
 
+### Plugins
+
+```json
+{
+  "id": "plugin-name",
+  "name": "plugin-name",
+  "displayName": "Plugin Name",
+  "category": "Workflow",
+  "description": "What this plugin does",
+  "author": "Author Name",
+  "installCommand": "npx claude-plugins add plugin-name",
+  "source": "official|community",
+  "tags": ["tag1", "tag2"],
+  "addedAt": "YYYY-MM-DD",
+  "updatedAt": "YYYY-MM-DD"
+}
+```
+
+**Plugin install command contract:**
+- `installCommand` must use `npx claude-plugins add <slug>`
+
 ## Guidelines
 
 ### Do

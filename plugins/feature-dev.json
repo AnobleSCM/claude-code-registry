@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["feature-dev"],
   "agents": ["feature-dev-code-architect", "feature-dev-code-explorer", "feature-dev-code-reviewer"],
-  "installCommand": "claude plugins:add feature-dev",
+  "installCommand": "npx claude-plugins add feature-dev",
   "source": "official",
   "tags": ["features", "development", "architecture", "planning"],
   "documentationUrl": null,

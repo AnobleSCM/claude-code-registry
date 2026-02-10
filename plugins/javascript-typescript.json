@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["javascript-typescript-javascript-pro", "javascript-typescript-typescript-pro"],
   "agents": ["javascript-typescript-javascript-pro", "javascript-typescript-typescript-pro"],
-  "installCommand": "claude plugins:add javascript-typescript",
+  "installCommand": "npx claude-plugins add javascript-typescript",
   "source": "official",
   "tags": ["javascript", "typescript", "nodejs", "es6"],
   "documentationUrl": null,

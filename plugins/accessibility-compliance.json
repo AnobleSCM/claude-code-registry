@@ -7,7 +7,7 @@
   "author": "Anthropic",
   "skills": ["accessibility-compliance-ui-visual-validator"],
   "agents": [],
-  "installCommand": "claude plugins:add accessibility-compliance",
+  "installCommand": "npx claude-plugins add accessibility-compliance",
   "source": "official",
   "tags": ["accessibility", "wcag", "visual", "testing"],
   "documentationUrl": null,
