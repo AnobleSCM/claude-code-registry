@@ -19,19 +19,7 @@ Provides JSON data for [Vibe Code Playbook](https://vibecodeplaybook.ai):
 
 ## Structure
 
-```
-skills/        # 267 skill definitions
-agents/        # 100 agent definitions
-mcps/          # 176 MCP server definitions
-tools/         # 19 tool definitions
-commands/      # 46 command definitions
-collections/   # 5 curated skill collections
-plugins/       # 12 plugin definitions
-rules/         # 80 rule definitions
-hooks/         # 80 hook definitions
-```
-
-Each directory has an `index.json` listing item IDs. Individual JSON files contain full metadata.
+One directory per category: `skills/`, `agents/`, `mcps/`, `tools/`, `commands/`, `collections/`, `plugins/`, `rules/`, `hooks/`. Each has an `index.json` listing item IDs. Individual JSON files contain full metadata.
 
 ---
 
@@ -78,6 +66,11 @@ node scripts/validate-index-contracts.mjs
 **No backend services.** Static JSON served via GitHub raw URLs. No Firebase, no Supabase, no build process.
 
 Full schemas: See `CONTRIBUTING.md`.
+
+## Gotchas
+
+- **Index/file sync:** Every item must have an entry in its category's `index.json` AND a matching JSON file. Run `node scripts/validate-index-contracts.mjs` to catch drift.
+- **Item counts change:** Don't hardcode counts in docs — check `index.json` for current totals.
 
 ## Related
 
