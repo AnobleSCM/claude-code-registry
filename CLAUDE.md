@@ -5,30 +5,30 @@ Community-maintained catalog of Claude Code capabilities. **Data-only repo** —
 ## Purpose
 
 Provides JSON data for [Vibe Code Playbook](https://vibecodeplaybook.ai):
-- Skills (83)
-- Agents (51)
-- MCPs (101)
-- Tools (20)
-- Commands (47)
-- Collections (6)
-- Plugins (13)
-- Rules (3)
-- Hooks (3)
+- Skills (267)
+- Agents (100)
+- MCPs (176)
+- Tools (19)
+- Commands (46)
+- Collections (5)
+- Plugins (12)
+- Rules (80)
+- Hooks (80)
 
 ---
 
 ## Structure
 
 ```
-skills/        # 83 skill definitions
-agents/        # 51 agent definitions
-mcps/          # 101 MCP server definitions
-tools/         # 20 tool definitions
-commands/      # 47 command definitions
-collections/   # 6 curated skill collections
-plugins/       # 13 plugin definitions
-rules/         # 3 rule definitions
-hooks/         # 3 hook definitions
+skills/        # 267 skill definitions
+agents/        # 100 agent definitions
+mcps/          # 176 MCP server definitions
+tools/         # 19 tool definitions
+commands/      # 46 command definitions
+collections/   # 5 curated skill collections
+plugins/       # 12 plugin definitions
+rules/         # 80 rule definitions
+hooks/         # 80 hook definitions
 ```
 
 Each directory has an `index.json` listing item IDs. Individual JSON files contain full metadata.
@@ -75,17 +75,9 @@ node scripts/validate-index-contracts.mjs
 
 ---
 
-## No Services
+**No backend services.** Static JSON served via GitHub raw URLs. No Firebase, no Supabase, no build process.
 
-This repo uses **NO backend services**:
-- No Firebase
-- No Supabase
-- No build process
-- No deployment
-
-It's static JSON served via GitHub raw URLs.
-
----
+Full schemas: See `CONTRIBUTING.md`.
 
 ## Related
 
