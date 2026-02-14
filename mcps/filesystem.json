@@ -10,6 +10,11 @@
   "source": "official",
   "tags": ["filesystem", "files", "directories", "io"],
   "documentationUrl": "https://github.com/anthropics/mcp-server-filesystem",
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/dir"]
+  },
+  "requiredEnv": [],
   "addedAt": "2026-01-24",
-  "updatedAt": "2026-01-24"
+  "updatedAt": "2026-02-13"
 }

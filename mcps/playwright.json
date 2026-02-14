@@ -10,6 +10,11 @@
   "source": "official",
   "tags": ["playwright", "browser", "testing", "automation"],
   "documentationUrl": "https://github.com/anthropics/mcp-server-playwright",
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "@playwright/mcp@latest"]
+  },
+  "requiredEnv": [],
   "addedAt": "2026-01-24",
-  "updatedAt": "2026-01-24"
+  "updatedAt": "2026-02-13"
 }

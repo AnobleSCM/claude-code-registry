@@ -13,6 +13,11 @@
   "configUrl": "https://context7.com",
   "tags": ["documentation", "libraries", "frameworks", "api-docs", "reference"],
   "documentationUrl": null,
+  "configSnippet": {
+    "type": "http",
+    "url": "https://mcp.context7.com/mcp"
+  },
+  "requiredEnv": [],
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23"
+  "updatedAt": "2026-02-13"
 }

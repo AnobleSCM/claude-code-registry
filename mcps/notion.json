@@ -10,6 +10,17 @@
   "source": "official",
   "tags": ["notion", "docs", "wiki", "productivity"],
   "documentationUrl": "https://github.com/anthropics/mcp-server-notion",
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "@notionhq/notion-mcp-server"],
+    "env": {
+      "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer ntn_****\", \"Notion-Version\": \"2022-06-28\"}"
+    }
+  },
+  "requiredEnv": ["OPENAPI_MCP_HEADERS"],
+  "envComments": {
+    "OPENAPI_MCP_HEADERS": "JSON string with Notion auth. Create integration at https://www.notion.so/my-integrations"
+  },
   "addedAt": "2026-01-24",
-  "updatedAt": "2026-01-24"
+  "updatedAt": "2026-02-13"
 }

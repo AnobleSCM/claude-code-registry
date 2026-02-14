@@ -33,7 +33,18 @@
   ],
   "installUrl": "https://github.com/anthropics/claude-code",
   "documentationUrl": "https://docs.github.com/en/rest",
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-github"],
+    "env": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "<your-token>"
+    }
+  },
+  "requiredEnv": ["GITHUB_PERSONAL_ACCESS_TOKEN"],
+  "envComments": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "GitHub PAT with repo, read:org scopes. Generate at https://github.com/settings/tokens"
+  },
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23",
+  "updatedAt": "2026-02-13",
   "category": "Developer Tools"
 }

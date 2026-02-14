@@ -18,7 +18,18 @@
   ],
   "installUrl": "https://supabase.com/docs/guides/ai/mcp",
   "documentationUrl": "https://supabase.com/docs",
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "@supabase/mcp-server-supabase@latest"],
+    "env": {
+      "SUPABASE_ACCESS_TOKEN": "<your-access-token>"
+    }
+  },
+  "requiredEnv": ["SUPABASE_ACCESS_TOKEN"],
+  "envComments": {
+    "SUPABASE_ACCESS_TOKEN": "Personal access token from https://supabase.com/dashboard/account/tokens"
+  },
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23",
+  "updatedAt": "2026-02-13",
   "category": "Databases"
 }

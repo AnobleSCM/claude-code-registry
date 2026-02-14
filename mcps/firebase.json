@@ -16,6 +16,11 @@
   "configUrl": "https://firebase.google.com/docs/cli",
   "tags": ["firebase", "backend", "auth", "firestore", "hosting"],
   "documentationUrl": null,
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "firebase-tools@latest", "mcp"]
+  },
+  "requiredEnv": [],
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23"
+  "updatedAt": "2026-02-13"
 }

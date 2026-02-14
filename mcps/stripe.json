@@ -17,6 +17,17 @@
   "configUrl": "https://stripe.com/docs/stripe-apps/reference/api",
   "tags": ["payments", "stripe", "subscriptions", "invoices", "checkout"],
   "documentationUrl": null,
+  "configSnippet": {
+    "command": "npx",
+    "args": ["-y", "@stripe/mcp@latest", "--tools=all"],
+    "env": {
+      "STRIPE_SECRET_KEY": "sk_test_****"
+    }
+  },
+  "requiredEnv": ["STRIPE_SECRET_KEY"],
+  "envComments": {
+    "STRIPE_SECRET_KEY": "Stripe secret key (sk_test_ or sk_live_). From https://dashboard.stripe.com/apikeys"
+  },
   "addedAt": "2026-01-23",
-  "updatedAt": "2026-01-23"
+  "updatedAt": "2026-02-13"
 }
