@@ -4,15 +4,29 @@ The community-maintained catalog of Claude Code capabilities — skills, agents,
 
 > **Note:** This registry powers [Vibe Code Playbook](https://vibecodeplaybook.ai), the visual companion app for Claude Code.
 
+## Why This Exists
+
+AI coding tools are powerful, but without structure they become a mess of undocumented scripts, one-off integrations, and tribal knowledge. This registry solves that by providing a single, organized catalog of everything Claude Code can do.
+
+**The problem:** As AI-assisted development scales, teams accumulate hundreds of capabilities across slash commands, sub-agents, MCP integrations, automation hooks, and coding rules. Without a structured system, these become impossible to discover, share, or maintain.
+
+**What this registry contains:** 786 individually documented items across 9 categories — each with structured metadata, consistent schemas, and machine-readable JSON. This is not a list of bookmarks. Every entry is validated, categorized, and ready for programmatic consumption.
+
+**What this demonstrates:** The ability to design and maintain structured technical systems at scale — cataloging, schema design, data validation, and systematic documentation across a fast-moving domain.
+
 ## What's in this registry?
 
 | Category | Description | Count |
 |----------|-------------|-------|
-| [Skills](/skills) | Slash commands that provide specialized capabilities | 80+ |
-| [Agents](/agents) | Sub-agents that can be spawned for complex tasks | 48+ |
-| [MCPs](/mcps) | Model Context Protocol servers for external integrations | 8+ |
-| [Tools](/tools) | Core built-in tools available to Claude Code | 15+ |
-| [Commands](/commands) | CLI commands for Claude Code | 20+ |
+| [Skills](/skills) | Slash commands that provide specialized capabilities | 267 |
+| [Agents](/agents) | Sub-agents that can be spawned for complex tasks | 100 |
+| [MCPs](/mcps) | Model Context Protocol servers for external integrations | 177 |
+| [Tools](/tools) | Core built-in tools available to Claude Code | 19 |
+| [Commands](/commands) | CLI commands for Claude Code | 46 |
+| [Collections](/collections) | Curated bundles of related capabilities | 5 |
+| [Plugins](/plugins) | Installable plugin packages | 12 |
+| [Rules](/rules) | Coding standards and behavioral rules | 80 |
+| [Hooks](/hooks) | Event-driven automation hooks | 80 |
 
 ## Usage
 
