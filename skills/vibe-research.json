@@ -1,0 +1,19 @@
+{
+  "id": "vibe-research",
+  "name": "vibe-research",
+  "displayName": "Vibe Research",
+  "category": "Workflow",
+  "description": "Deep research and market validation for app ideas. Analyze competitors, validate demand, and identify opportunities before building.",
+  "invocation": "/vibe-research",
+  "source": "community",
+  "tags": [
+    "vibe-coding",
+    "mvp",
+    "workflow",
+    "startup",
+    "research"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

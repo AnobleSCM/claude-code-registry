@@ -1,0 +1,20 @@
+{
+  "id": "startup-financial-modeling",
+  "name": "startup-financial-modeling",
+  "displayName": "Startup Financial Modeling",
+  "category": "Planning",
+  "description": "Create financial projections, forecast revenue, calculate burn rate, estimate runway, model cash flow, and build 3-5 year financial plans for startups.",
+  "invocation": "/startup-financial-modeling",
+  "source": "community",
+  "tags": [
+    "finance",
+    "startup",
+    "projections",
+    "revenue",
+    "burn-rate",
+    "runway"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

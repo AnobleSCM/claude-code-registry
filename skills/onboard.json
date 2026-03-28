@@ -1,0 +1,19 @@
+{
+  "id": "onboard",
+  "name": "onboard",
+  "displayName": "Onboard",
+  "category": "Design",
+  "description": "Design and improve onboarding flows, empty states, and first-run experiences to help users reach value quickly.",
+  "invocation": "/onboard",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "onboard"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

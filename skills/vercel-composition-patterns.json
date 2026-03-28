@@ -1,0 +1,19 @@
+{
+  "id": "vercel-composition-patterns",
+  "name": "vercel-composition-patterns",
+  "displayName": "Vercel Composition Patterns",
+  "category": "Development",
+  "description": "React composition patterns that scale. Refactor components with boolean prop proliferation, build flexible component libraries, and design reusable APIs. Includes React 19 patterns.",
+  "invocation": "/vercel-composition-patterns",
+  "source": "community",
+  "tags": [
+    "react",
+    "composition",
+    "patterns",
+    "vercel",
+    "components"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

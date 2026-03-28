@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-03-28",
-  "count": 183,
+  "count": 186,
   "items": [
     "activecamp",
     "airtable",
@@ -9,6 +9,7 @@
     "algolia",
     "amplitude",
     "anthropic-api",
+    "antv-chart",
     "apify",
     "argocd",
     "asana",
@@ -103,6 +104,7 @@
     "looker",
     "mailgun",
     "markdown-tools",
+    "mcp-memory-service",
     "meilisearch",
     "mem0",
     "memory",
@@ -161,6 +163,7 @@
     "sonarqube",
     "splunk",
     "sqlite",
+    "stability-ai",
     "stripe",
     "supabase",
     "tableau",

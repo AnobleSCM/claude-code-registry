@@ -1,0 +1,19 @@
+{
+  "id": "vibe-techdesign",
+  "name": "vibe-techdesign",
+  "displayName": "Vibe Tech Design",
+  "category": "Workflow",
+  "description": "Create a Technical Design Document for your MVP. Plan architecture, data models, API design, and infrastructure decisions.",
+  "invocation": "/vibe-techdesign",
+  "source": "community",
+  "tags": [
+    "vibe-coding",
+    "mvp",
+    "workflow",
+    "startup",
+    "techdesign"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

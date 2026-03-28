@@ -1,0 +1,19 @@
+{
+  "id": "distill",
+  "name": "distill",
+  "displayName": "Distill",
+  "category": "Design",
+  "description": "Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean.",
+  "invocation": "/distill",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "distill"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

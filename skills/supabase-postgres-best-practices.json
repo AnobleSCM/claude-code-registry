@@ -1,0 +1,19 @@
+{
+  "id": "supabase-postgres-best-practices",
+  "name": "supabase-postgres-best-practices",
+  "displayName": "Supabase Postgres Best Practices",
+  "category": "Development",
+  "description": "Postgres performance optimization and best practices from Supabase. Covers indexing, query optimization, RLS policies, migrations, and connection pooling.",
+  "invocation": "/supabase-postgres-best-practices",
+  "source": "community",
+  "tags": [
+    "supabase",
+    "postgres",
+    "database",
+    "performance",
+    "sql"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

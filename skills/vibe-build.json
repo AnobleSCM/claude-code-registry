@@ -1,0 +1,19 @@
+{
+  "id": "vibe-build",
+  "name": "vibe-build",
+  "displayName": "Vibe Build",
+  "category": "Workflow",
+  "description": "Build your MVP following the AGENTS.md plan. Execute the implementation with guided development, testing, and deployment.",
+  "invocation": "/vibe-build",
+  "source": "community",
+  "tags": [
+    "vibe-coding",
+    "mvp",
+    "workflow",
+    "startup",
+    "build"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "polish",
+  "name": "polish",
+  "displayName": "Polish",
+  "category": "Design",
+  "description": "Perform a final quality pass fixing alignment, spacing, consistency, and micro-detail issues before shipping.",
+  "invocation": "/polish",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "polish"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

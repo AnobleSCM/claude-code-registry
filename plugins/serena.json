@@ -1,0 +1,23 @@
+{
+  "id": "serena",
+  "name": "serena",
+  "displayName": "Serena",
+  "category": "Development",
+  "description": "Semantic code intelligence via LSP. Find symbols, get overviews, trace references, rename across files, and navigate codebases with structural understanding rather than text search.",
+  "author": "Anthropic",
+  "skills": [],
+  "agents": [],
+  "installCommand": "npx claude-plugins add serena@claude-plugins-official",
+  "source": "official",
+  "tags": [
+    "lsp",
+    "code-intelligence",
+    "symbols",
+    "references",
+    "navigation",
+    "semantic"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

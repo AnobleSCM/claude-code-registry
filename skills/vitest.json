@@ -1,0 +1,19 @@
+{
+  "id": "vitest",
+  "name": "vitest",
+  "displayName": "Vitest",
+  "category": "Testing",
+  "description": "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Write and run tests with modern ESM support, TypeScript, and watch mode.",
+  "invocation": "/vitest",
+  "source": "community",
+  "tags": [
+    "vitest",
+    "testing",
+    "vite",
+    "jest",
+    "unit-tests"
+  ],
+  "documentationUrl": "https://github.com/vitest-dev/vitest",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

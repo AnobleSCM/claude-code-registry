@@ -1,0 +1,63 @@
+{
+  "id": "antv-chart",
+  "name": "AntV Chart",
+  "displayName": "AntV Chart",
+  "category": "Data & Analytics",
+  "description": "Generate 26+ chart types using AntV visualization library. Bar, line, pie, scatter, radar, sankey, treemap, word cloud, maps, mind maps, flow diagrams, network graphs, and more. Returns PNG/SVG/HTML output.",
+  "provider": "AntV",
+  "status": "available",
+  "toolCount": 28,
+  "tools": [
+    "generate_bar_chart",
+    "generate_line_chart",
+    "generate_pie_chart",
+    "generate_area_chart",
+    "generate_scatter_chart",
+    "generate_column_chart",
+    "generate_radar_chart",
+    "generate_funnel_chart",
+    "generate_waterfall_chart",
+    "generate_histogram_chart",
+    "generate_boxplot_chart",
+    "generate_violin_chart",
+    "generate_treemap_chart",
+    "generate_sankey_chart",
+    "generate_venn_chart",
+    "generate_word_cloud_chart",
+    "generate_liquid_chart",
+    "generate_dual_axes_chart",
+    "generate_spreadsheet",
+    "generate_mind_map",
+    "generate_flow_diagram",
+    "generate_network_graph",
+    "generate_organization_chart",
+    "generate_fishbone_diagram",
+    "generate_district_map",
+    "generate_path_map",
+    "generate_pin_map"
+  ],
+  "tags": [
+    "charts",
+    "visualization",
+    "data",
+    "antv",
+    "graphs",
+    "diagrams",
+    "maps"
+  ],
+  "repositoryUrl": "https://github.com/antvis/mcp-server-chart",
+  "configUrl": "https://github.com/antvis/mcp-server-chart",
+  "documentationUrl": "https://antv.antgroup.com/",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@antv/mcp-server-chart@latest"
+    ],
+    "env": {}
+  },
+  "requiredEnv": [],
+  "envComments": {},
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

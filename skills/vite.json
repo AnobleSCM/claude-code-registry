@@ -1,0 +1,19 @@
+{
+  "id": "vite",
+  "name": "vite",
+  "displayName": "Vite",
+  "category": "Development",
+  "description": "Vite build tool configuration, plugin API, SSR, and migration guides. Covers Vite 6+ with Rolldown integration.",
+  "invocation": "/vite",
+  "source": "community",
+  "tags": [
+    "vite",
+    "build-tool",
+    "bundler",
+    "ssr",
+    "rolldown"
+  ],
+  "documentationUrl": "https://github.com/vitejs/vite",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

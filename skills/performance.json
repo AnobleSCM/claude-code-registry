@@ -1,0 +1,19 @@
+{
+  "id": "performance",
+  "name": "performance",
+  "displayName": "Performance",
+  "category": "Design",
+  "description": "Optimize web performance for faster loading and better user experience. Covers Core Web Vitals, bundle size, caching, and rendering strategies.",
+  "invocation": "/performance",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "performance"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

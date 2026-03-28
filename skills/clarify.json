@@ -1,0 +1,19 @@
+{
+  "id": "clarify",
+  "name": "clarify",
+  "displayName": "Clarify",
+  "category": "Design",
+  "description": "Improve unclear UX copy, error messages, microcopy, labels, and instructions to make interfaces easier to understand.",
+  "invocation": "/clarify",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "clarify"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

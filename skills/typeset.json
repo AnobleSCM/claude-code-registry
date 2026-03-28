@@ -1,0 +1,19 @@
+{
+  "id": "typeset",
+  "name": "typeset",
+  "displayName": "Typeset",
+  "category": "Design",
+  "description": "Improve typography by fixing font choices, hierarchy, sizing, weight, and readability so text feels intentional and polished.",
+  "invocation": "/typeset",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "typeset"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

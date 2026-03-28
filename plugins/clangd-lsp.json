@@ -1,0 +1,22 @@
+{
+  "id": "clangd-lsp",
+  "name": "clangd-lsp",
+  "displayName": "Clangd LSP",
+  "category": "Development",
+  "description": "C/C++ language server integration via clangd. Provides code completion, diagnostics, go-to-definition, and cross-reference navigation for C and C++ projects.",
+  "author": "Anthropic",
+  "skills": [],
+  "agents": [],
+  "installCommand": "npx claude-plugins add clangd-lsp@claude-plugins-official",
+  "source": "official",
+  "tags": [
+    "c",
+    "cpp",
+    "clangd",
+    "lsp",
+    "systems-programming"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

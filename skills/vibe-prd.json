@@ -1,0 +1,19 @@
+{
+  "id": "vibe-prd",
+  "name": "vibe-prd",
+  "displayName": "Vibe PRD",
+  "category": "Workflow",
+  "description": "Create a Product Requirements Document (PRD) for your MVP. Define features, user stories, success metrics, and scope.",
+  "invocation": "/vibe-prd",
+  "source": "community",
+  "tags": [
+    "vibe-coding",
+    "mvp",
+    "workflow",
+    "startup",
+    "prd"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

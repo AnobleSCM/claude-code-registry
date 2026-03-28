@@ -1,0 +1,44 @@
+{
+  "id": "mcp-memory-service",
+  "name": "MCP Memory Service",
+  "displayName": "Memory Service",
+  "category": "AI/ML",
+  "description": "Persistent semantic memory for AI agents. Vector storage with sqlite-vec, knowledge graph, semantic search, and autonomous memory consolidation. Self-hosted, zero cloud cost. Works with Claude, LangGraph, CrewAI, and AutoGen.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": [
+    "memory_store",
+    "memory_search",
+    "memory_list",
+    "memory_delete",
+    "memory_update",
+    "memory_graph",
+    "memory_health",
+    "memory_stats",
+    "memory_quality",
+    "memory_cleanup"
+  ],
+  "tags": [
+    "memory",
+    "vector-database",
+    "knowledge-graph",
+    "semantic-search",
+    "agents",
+    "rag"
+  ],
+  "repositoryUrl": "https://github.com/doobidoo/mcp-memory-service",
+  "configUrl": "https://github.com/doobidoo/mcp-memory-service",
+  "documentationUrl": "https://github.com/doobidoo/mcp-memory-service#readme",
+  "configSnippet": {
+    "command": "memory",
+    "args": [
+      "server"
+    ],
+    "env": {}
+  },
+  "requiredEnv": [],
+  "envComments": {},
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

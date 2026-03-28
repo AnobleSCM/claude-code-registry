@@ -1,13 +1,16 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-03-28",
-  "count": 14,
+  "count": 21,
   "items": [
     "accessibility-compliance",
     "agent-orchestration",
+    "clangd-lsp",
+    "claude-code-setup",
     "claude-md-management",
     "code-documentation",
     "debugging-toolkit",
+    "discord",
     "document-skills",
     "feature-dev",
     "google-workspace-cli",
@@ -15,7 +18,11 @@
     "javascript-typescript",
     "multi-platform-apps",
     "pr-review-toolkit",
+    "serena",
     "stripe",
-    "superpowers"
+    "superpowers",
+    "swift-lsp",
+    "telegram",
+    "typescript-lsp"
   ]
 }

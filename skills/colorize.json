@@ -1,0 +1,19 @@
+{
+  "id": "colorize",
+  "name": "colorize",
+  "displayName": "Colorize",
+  "category": "Design",
+  "description": "Add strategic color to features that are too monochromatic or lack visual interest, making interfaces more engaging and expressive.",
+  "invocation": "/colorize",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "colorize"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "optimize",
+  "name": "optimize",
+  "displayName": "Optimize",
+  "category": "Design",
+  "description": "Diagnose and fix UI performance across loading speed, rendering, animations, images, and bundle size.",
+  "invocation": "/optimize",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "optimize"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

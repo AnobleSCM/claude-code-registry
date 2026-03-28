@@ -1,0 +1,22 @@
+{
+  "id": "typescript-lsp",
+  "name": "typescript-lsp",
+  "displayName": "TypeScript LSP",
+  "category": "Development",
+  "description": "TypeScript language server integration for Claude Code. Provides type checking, completions, diagnostics, and go-to-definition for TypeScript and JavaScript projects.",
+  "author": "Anthropic",
+  "skills": [],
+  "agents": [],
+  "installCommand": "npx claude-plugins add typescript-lsp@claude-plugins-official",
+  "source": "official",
+  "tags": [
+    "typescript",
+    "javascript",
+    "lsp",
+    "type-checking",
+    "intellisense"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

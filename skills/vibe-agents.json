@@ -1,0 +1,19 @@
+{
+  "id": "vibe-agents",
+  "name": "vibe-agents",
+  "displayName": "Vibe Agents",
+  "category": "Workflow",
+  "description": "Generate AGENTS.md and AI configuration files for your project. Define agent roles, tools, and workflows for AI-assisted development.",
+  "invocation": "/vibe-agents",
+  "source": "community",
+  "tags": [
+    "vibe-coding",
+    "mvp",
+    "workflow",
+    "startup",
+    "agents"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

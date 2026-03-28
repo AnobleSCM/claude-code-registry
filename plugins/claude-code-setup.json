@@ -1,0 +1,24 @@
+{
+  "id": "claude-code-setup",
+  "name": "claude-code-setup",
+  "displayName": "Claude Code Setup",
+  "category": "Development",
+  "description": "Analyze a codebase and recommend Claude Code automations — hooks, subagents, skills, plugins, and MCP servers tailored to your project.",
+  "author": "Anthropic",
+  "skills": [
+    "claude-code-setup-claude-automation-recommender"
+  ],
+  "agents": [],
+  "installCommand": "npx claude-plugins add claude-code-setup@claude-plugins-official",
+  "source": "official",
+  "tags": [
+    "setup",
+    "onboarding",
+    "automation",
+    "configuration",
+    "recommendations"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

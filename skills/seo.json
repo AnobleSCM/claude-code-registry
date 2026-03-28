@@ -1,0 +1,19 @@
+{
+  "id": "seo",
+  "name": "seo",
+  "displayName": "SEO",
+  "category": "Marketing",
+  "description": "Optimize for search engine visibility and ranking. Covers technical SEO, meta tags, structured data, sitemaps, Core Web Vitals, and content optimization.",
+  "invocation": "/seo",
+  "source": "community",
+  "tags": [
+    "seo",
+    "search-engine",
+    "meta-tags",
+    "structured-data",
+    "ranking"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

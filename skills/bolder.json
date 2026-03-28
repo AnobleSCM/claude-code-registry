@@ -1,0 +1,19 @@
+{
+  "id": "bolder",
+  "name": "bolder",
+  "displayName": "Bolder",
+  "category": "Design",
+  "description": "Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability.",
+  "invocation": "/bolder",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "bolder"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

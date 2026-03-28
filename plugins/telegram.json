@@ -1,0 +1,22 @@
+{
+  "id": "telegram",
+  "name": "telegram",
+  "displayName": "Telegram",
+  "category": "Communication",
+  "description": "Connect Claude Code to Telegram. Send and receive messages, enabling remote access to Claude Code sessions from Telegram chats.",
+  "author": "Anthropic",
+  "skills": [],
+  "agents": [],
+  "installCommand": "npx claude-plugins add telegram@claude-plugins-official",
+  "source": "official",
+  "tags": [
+    "telegram",
+    "messaging",
+    "remote-access",
+    "chat",
+    "communication"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "discord",
+  "name": "discord",
+  "displayName": "Discord",
+  "category": "Communication",
+  "description": "Connect Claude Code to Discord channels. Receive messages, reply, react, edit messages, and download attachments. Enables remote access to Claude Code sessions from any Discord channel.",
+  "author": "Anthropic",
+  "skills": [
+    "discord-configure",
+    "discord-access"
+  ],
+  "agents": [],
+  "installCommand": "npx claude-plugins add discord@claude-plugins-official",
+  "source": "official",
+  "tags": [
+    "discord",
+    "messaging",
+    "remote-access",
+    "chat",
+    "communication"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "zustand-store-ts",
+  "name": "zustand-store-ts",
+  "displayName": "Zustand Store (TypeScript)",
+  "category": "Development",
+  "description": "Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation patterns.",
+  "invocation": "/zustand-store-ts",
+  "source": "community",
+  "tags": [
+    "zustand",
+    "state-management",
+    "typescript",
+    "react"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "extract",
+  "name": "extract",
+  "displayName": "Extract",
+  "category": "Design",
+  "description": "Extract and consolidate reusable components, design tokens, and patterns into your design system. Identifies opportunities for systematic reuse.",
+  "invocation": "/extract",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "extract"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

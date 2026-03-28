@@ -1,0 +1,19 @@
+{
+  "id": "harden",
+  "name": "harden",
+  "displayName": "Harden",
+  "category": "Design",
+  "description": "Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case management. Makes interfaces production-ready.",
+  "invocation": "/harden",
+  "source": "community",
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "impeccable",
+    "harden"
+  ],
+  "documentationUrl": null,
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}
