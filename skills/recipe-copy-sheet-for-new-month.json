@@ -1,0 +1,21 @@
+{
+  "id": "recipe-copy-sheet-for-new-month",
+  "name": "recipe-copy-sheet-for-new-month",
+  "displayName": "Copy Sheet for New Month",
+  "category": "Workflow",
+  "description": "Duplicate a Google Sheets template tab for a new month of tracking.",
+  "invocation": "/recipe-copy-sheet-for-new-month",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "sheets",
+    "templates",
+    "monthly",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

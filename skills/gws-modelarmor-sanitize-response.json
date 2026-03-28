@@ -1,0 +1,20 @@
+{
+  "id": "gws-modelarmor-sanitize-response",
+  "name": "gws-modelarmor-sanitize-response",
+  "displayName": "Model Armor Sanitize Response",
+  "category": "Security",
+  "description": "Sanitize model responses through a Google Model Armor template.",
+  "invocation": "/gws-modelarmor-sanitize-response",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "modelarmor",
+    "safety",
+    "responses",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

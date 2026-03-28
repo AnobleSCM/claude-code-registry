@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-shared-drive",
+  "name": "recipe-create-shared-drive",
+  "displayName": "Create Shared Drive",
+  "category": "Workflow",
+  "description": "Create a Google Shared Drive and add members with appropriate roles.",
+  "invocation": "/recipe-create-shared-drive",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "shared",
+    "teams",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

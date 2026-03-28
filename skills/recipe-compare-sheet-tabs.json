@@ -1,0 +1,21 @@
+{
+  "id": "recipe-compare-sheet-tabs",
+  "name": "recipe-compare-sheet-tabs",
+  "displayName": "Compare Sheet Tabs",
+  "category": "Workflow",
+  "description": "Read data from two tabs in a Google Sheet to compare and identify differences.",
+  "invocation": "/recipe-compare-sheet-tabs",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "sheets",
+    "compare",
+    "analysis",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

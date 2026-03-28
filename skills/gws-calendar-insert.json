@@ -1,0 +1,20 @@
+{
+  "id": "gws-calendar-insert",
+  "name": "gws-calendar-insert",
+  "displayName": "Calendar Create Event",
+  "category": "Productivity",
+  "description": "Create new Google Calendar events with attendees, location, and reminders.",
+  "invocation": "/gws-calendar-insert",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "calendar",
+    "events",
+    "scheduling",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

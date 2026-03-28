@@ -1,0 +1,20 @@
+{
+  "id": "persona-team-lead",
+  "name": "persona-team-lead",
+  "displayName": "Team Lead",
+  "category": "Workflow",
+  "description": "Lead a team — run standups, coordinate tasks, and communicate across Workspace.",
+  "invocation": "/persona-team-lead",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "persona",
+    "leadership",
+    "standups",
+    "google",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

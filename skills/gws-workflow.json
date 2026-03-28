@@ -1,0 +1,20 @@
+{
+  "id": "gws-workflow",
+  "name": "gws-workflow",
+  "displayName": "GWS Workflow",
+  "category": "Workflow",
+  "description": "Cross-service Google Workspace productivity workflows.",
+  "invocation": "/gws-workflow",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "workflow",
+    "automation",
+    "productivity",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

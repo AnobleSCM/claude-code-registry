@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-presentation",
+  "name": "recipe-create-presentation",
+  "displayName": "Create Presentation",
+  "category": "Workflow",
+  "description": "Create a new Google Slides presentation and add initial slides.",
+  "invocation": "/recipe-create-presentation",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "slides",
+    "presentations",
+    "create",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

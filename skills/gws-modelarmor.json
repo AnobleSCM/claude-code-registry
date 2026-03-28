@@ -1,0 +1,20 @@
+{
+  "id": "gws-modelarmor",
+  "name": "gws-modelarmor",
+  "displayName": "Model Armor",
+  "category": "Security",
+  "description": "Google Model Armor content safety filtering for AI-generated content.",
+  "invocation": "/gws-modelarmor",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "modelarmor",
+    "safety",
+    "content-filtering",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

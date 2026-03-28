@@ -1,0 +1,21 @@
+{
+  "id": "recipe-find-free-time",
+  "name": "recipe-find-free-time",
+  "displayName": "Find Free Time",
+  "category": "Workflow",
+  "description": "Query Google Calendar free/busy status for multiple users to find meeting slots.",
+  "invocation": "/recipe-find-free-time",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "calendar",
+    "freebusy",
+    "scheduling",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

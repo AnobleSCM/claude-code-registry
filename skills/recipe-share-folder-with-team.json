@@ -1,0 +1,21 @@
+{
+  "id": "recipe-share-folder-with-team",
+  "name": "recipe-share-folder-with-team",
+  "displayName": "Share Folder with Team",
+  "category": "Workflow",
+  "description": "Share a Google Drive folder and all its contents with a list of collaborators.",
+  "invocation": "/recipe-share-folder-with-team",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "sharing",
+    "collaboration",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

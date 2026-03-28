@@ -1,0 +1,20 @@
+{
+  "id": "gws-events-subscribe",
+  "name": "gws-events-subscribe",
+  "displayName": "Events Subscribe",
+  "category": "Productivity",
+  "description": "Subscribe to Workspace events and stream them as NDJSON.",
+  "invocation": "/gws-events-subscribe",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "events",
+    "subscribe",
+    "streaming",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

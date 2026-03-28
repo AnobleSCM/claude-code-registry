@@ -1,0 +1,21 @@
+{
+  "id": "recipe-watch-drive-changes",
+  "name": "recipe-watch-drive-changes",
+  "displayName": "Watch Drive Changes",
+  "category": "Workflow",
+  "description": "Subscribe to change notifications on a Google Drive file or folder.",
+  "invocation": "/recipe-watch-drive-changes",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "watch",
+    "notifications",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

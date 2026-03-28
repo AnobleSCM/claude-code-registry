@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-xlsx",
+  "name": "document-skills-xlsx",
+  "displayName": "Excel (XLSX)",
+  "category": "Documentation",
+  "description": "Create, read, and edit Excel spreadsheet files (.xlsx). Full spreadsheet manipulation for data, formatting, and formulas.",
+  "invocation": "/document-skills:xlsx",
+  "source": "plugin:document-skills",
+  "tags": [
+    "excel",
+    "xlsx",
+    "spreadsheet",
+    "office",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

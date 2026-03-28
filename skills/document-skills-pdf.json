@@ -1,0 +1,19 @@
+{
+  "id": "document-skills-pdf",
+  "name": "document-skills-pdf",
+  "displayName": "PDF",
+  "category": "Documentation",
+  "description": "Read, extract, and work with PDF files. Handle PDF reading, text extraction, and manipulation.",
+  "invocation": "/document-skills:pdf",
+  "source": "plugin:document-skills",
+  "tags": [
+    "pdf",
+    "documents",
+    "extraction",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

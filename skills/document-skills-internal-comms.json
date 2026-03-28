@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-internal-comms",
+  "name": "document-skills-internal-comms",
+  "displayName": "Internal Communications",
+  "category": "Documentation",
+  "description": "Write all kinds of internal communications using professional formats that people actually read.",
+  "invocation": "/document-skills:internal-comms",
+  "source": "plugin:document-skills",
+  "tags": [
+    "communications",
+    "writing",
+    "internal",
+    "business",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

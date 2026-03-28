@@ -1,0 +1,21 @@
+{
+  "id": "recipe-send-team-announcement",
+  "name": "recipe-send-team-announcement",
+  "displayName": "Send Team Announcement",
+  "category": "Workflow",
+  "description": "Send a team announcement via both Gmail and a Google Chat space.",
+  "invocation": "/recipe-send-team-announcement",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "gmail",
+    "chat",
+    "announcements",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

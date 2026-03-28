@@ -1,0 +1,43 @@
+{
+  "id": "document-skills",
+  "name": "document-skills",
+  "displayName": "Document Skills",
+  "category": "Documentation",
+  "description": "Official Anthropic plugin for creating and editing documents. Covers Excel (.xlsx), Word (.docx), PowerPoint (.pptx), and PDF files, plus design tools, MCP builder, API guides, and content creation skills.",
+  "author": "Anthropic",
+  "skills": [
+    "document-skills-xlsx",
+    "document-skills-docx",
+    "document-skills-pptx",
+    "document-skills-pdf",
+    "document-skills-theme-factory",
+    "document-skills-canvas-design",
+    "document-skills-algorithmic-art",
+    "document-skills-slack-gif-creator",
+    "document-skills-mcp-builder",
+    "document-skills-skill-creator",
+    "document-skills-claude-api",
+    "document-skills-webapp-testing",
+    "document-skills-web-artifacts-builder",
+    "document-skills-internal-comms",
+    "document-skills-brand-guidelines",
+    "document-skills-doc-coauthoring",
+    "document-skills-frontend-design"
+  ],
+  "agents": [],
+  "installCommand": "npx claude-plugins add document-skills@anthropic-agent-skills",
+  "source": "official",
+  "tags": [
+    "documents",
+    "excel",
+    "word",
+    "powerpoint",
+    "pdf",
+    "design",
+    "anthropic",
+    "official"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

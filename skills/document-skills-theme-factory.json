@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-theme-factory",
+  "name": "document-skills-theme-factory",
+  "displayName": "Theme Factory",
+  "category": "Design",
+  "description": "Style artifacts with themed designs. Apply consistent themes to slides, docs, reports, and HTML artifacts.",
+  "invocation": "/document-skills:theme-factory",
+  "source": "plugin:document-skills",
+  "tags": [
+    "themes",
+    "styling",
+    "design",
+    "branding",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

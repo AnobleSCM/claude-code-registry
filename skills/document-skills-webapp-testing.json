@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-webapp-testing",
+  "name": "document-skills-webapp-testing",
+  "displayName": "Web App Testing",
+  "category": "Testing",
+  "description": "Test web applications using Playwright. Verify UI behavior, take screenshots, and run E2E test flows.",
+  "invocation": "/document-skills:webapp-testing",
+  "source": "plugin:document-skills",
+  "tags": [
+    "playwright",
+    "testing",
+    "e2e",
+    "web",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

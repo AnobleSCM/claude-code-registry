@@ -1,0 +1,20 @@
+{
+  "id": "gws-chat-send",
+  "name": "gws-chat-send",
+  "displayName": "Chat Send",
+  "category": "Communication",
+  "description": "Send messages to Google Chat spaces.",
+  "invocation": "/gws-chat-send",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "chat",
+    "messaging",
+    "send",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

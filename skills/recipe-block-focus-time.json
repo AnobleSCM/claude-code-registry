@@ -1,0 +1,21 @@
+{
+  "id": "recipe-block-focus-time",
+  "name": "recipe-block-focus-time",
+  "displayName": "Block Focus Time",
+  "category": "Workflow",
+  "description": "Create recurring focus time blocks on Google Calendar to protect deep work.",
+  "invocation": "/recipe-block-focus-time",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "calendar",
+    "focus",
+    "productivity",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

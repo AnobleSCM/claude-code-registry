@@ -1,0 +1,22 @@
+{
+  "id": "recipe-post-mortem-setup",
+  "name": "recipe-post-mortem-setup",
+  "displayName": "Post-Mortem Setup",
+  "category": "Workflow",
+  "description": "Create a Google Docs post-mortem, schedule a Calendar review meeting, and notify via Chat.",
+  "invocation": "/recipe-post-mortem-setup",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "docs",
+    "calendar",
+    "chat",
+    "incident",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

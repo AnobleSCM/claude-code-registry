@@ -1,0 +1,56 @@
+{
+  "id": "google-docs",
+  "name": "Google Docs MCP",
+  "displayName": "Google Docs",
+  "category": "Productivity",
+  "description": "Full access to Google Docs, Sheets, and Drive. Read, create, and edit documents with Claude. The most popular Google Docs MCP server.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 12,
+  "tools": [
+    "create_document",
+    "read_document",
+    "edit_document",
+    "search_documents",
+    "list_documents",
+    "create_spreadsheet",
+    "read_spreadsheet",
+    "edit_spreadsheet",
+    "list_files",
+    "search_files",
+    "upload_file",
+    "share_file"
+  ],
+  "tags": [
+    "google",
+    "docs",
+    "documents",
+    "drive",
+    "sheets",
+    "productivity"
+  ],
+  "repositoryUrl": "https://github.com/a-bonus/google-docs-mcp",
+  "configUrl": "https://github.com/a-bonus/google-docs-mcp",
+  "documentationUrl": "https://developers.google.com/docs/api",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@a-bonus/google-docs-mcp"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "your-client-id",
+      "GOOGLE_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "requiredEnv": [
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET"
+  ],
+  "envComments": {
+    "GOOGLE_CLIENT_ID": "Google OAuth client ID",
+    "GOOGLE_CLIENT_SECRET": "Google OAuth client secret"
+  },
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

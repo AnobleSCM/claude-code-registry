@@ -1,0 +1,21 @@
+{
+  "id": "recipe-sync-contacts-to-sheet",
+  "name": "recipe-sync-contacts-to-sheet",
+  "displayName": "Sync Contacts to Sheet",
+  "category": "Workflow",
+  "description": "Export Google Contacts directory to a Google Sheets spreadsheet.",
+  "invocation": "/recipe-sync-contacts-to-sheet",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "contacts",
+    "sheets",
+    "export",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

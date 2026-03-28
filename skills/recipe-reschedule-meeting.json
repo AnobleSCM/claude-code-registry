@@ -1,0 +1,21 @@
+{
+  "id": "recipe-reschedule-meeting",
+  "name": "recipe-reschedule-meeting",
+  "displayName": "Reschedule Meeting",
+  "category": "Workflow",
+  "description": "Move a Google Calendar event to a new time and notify all attendees.",
+  "invocation": "/recipe-reschedule-meeting",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "calendar",
+    "reschedule",
+    "meetings",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

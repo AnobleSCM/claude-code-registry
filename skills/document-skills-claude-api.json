@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-claude-api",
+  "name": "document-skills-claude-api",
+  "displayName": "Claude API",
+  "category": "Development",
+  "description": "Build apps with the Claude API or Anthropic SDK. Covers tool use, streaming, multi-turn, and Agent SDK patterns.",
+  "invocation": "/document-skills:claude-api",
+  "source": "plugin:document-skills",
+  "tags": [
+    "claude",
+    "api",
+    "anthropic",
+    "sdk",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

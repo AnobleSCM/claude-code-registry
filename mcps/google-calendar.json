@@ -2,15 +2,50 @@
   "id": "google-calendar",
   "name": "Google Calendar",
   "displayName": "Google Calendar",
-  "category": "APIs & Services",
-  "description": "Google Calendar event management, scheduling, and calendar operations.",
+  "category": "Productivity",
+  "description": "Full Google Calendar management — create, update, delete events, check availability, and manage scheduling. The most popular Google Calendar MCP with 1,000+ stars.",
   "provider": "Community",
   "status": "available",
-  "toolCount": 6,
-  "tools": ["list_events", "create_event", "update_event", "delete_event", "list_calendars"],
-  "tags": ["google", "calendar", "scheduling", "events", "productivity"],
-  "configUrl": "https://github.com/nicholasgriffintn/google-calendar-mcp",
+  "toolCount": 8,
+  "tools": [
+    "list_events",
+    "create_event",
+    "update_event",
+    "delete_event",
+    "list_calendars",
+    "get_freebusy",
+    "get_event",
+    "search_events"
+  ],
+  "tags": [
+    "google",
+    "calendar",
+    "scheduling",
+    "events",
+    "productivity"
+  ],
+  "repositoryUrl": "https://github.com/nspady/google-calendar-mcp",
+  "configUrl": "https://github.com/nspady/google-calendar-mcp",
   "documentationUrl": "https://developers.google.com/calendar",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cocal/google-calendar-mcp"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "your-client-id",
+      "GOOGLE_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "requiredEnv": [
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET"
+  ],
+  "envComments": {
+    "GOOGLE_CLIENT_ID": "Google OAuth client ID",
+    "GOOGLE_CLIENT_SECRET": "Google OAuth client secret"
+  },
   "addedAt": "2026-01-31",
-  "updatedAt": "2026-01-31"
+  "updatedAt": "2026-03-28"
 }

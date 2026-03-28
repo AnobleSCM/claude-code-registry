@@ -1,0 +1,22 @@
+{
+  "id": "recipe-backup-sheet-as-csv",
+  "name": "recipe-backup-sheet-as-csv",
+  "displayName": "Backup Sheet as CSV",
+  "category": "Workflow",
+  "description": "Export a Google Sheets spreadsheet as a CSV file for local backup or processing.",
+  "invocation": "/recipe-backup-sheet-as-csv",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "sheets",
+    "csv",
+    "export",
+    "backup",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

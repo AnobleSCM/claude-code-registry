@@ -1,0 +1,20 @@
+{
+  "id": "gws-drive",
+  "name": "gws-drive",
+  "displayName": "Google Drive",
+  "category": "Productivity",
+  "description": "Manage Google Drive files, folders, and shared drives.",
+  "invocation": "/gws-drive",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "drive",
+    "files",
+    "storage",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

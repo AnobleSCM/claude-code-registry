@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-slack-gif-creator",
+  "name": "document-skills-slack-gif-creator",
+  "displayName": "Slack GIF Creator",
+  "category": "Design",
+  "description": "Create animated GIFs optimized for Slack with proper constraints, validation, and file size.",
+  "invocation": "/document-skills:slack-gif-creator",
+  "source": "plugin:document-skills",
+  "tags": [
+    "gif",
+    "slack",
+    "animation",
+    "messaging",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

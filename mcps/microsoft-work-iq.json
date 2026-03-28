@@ -1,0 +1,47 @@
+{
+  "id": "microsoft-work-iq",
+  "name": "Microsoft Work IQ",
+  "displayName": "Microsoft Work IQ",
+  "category": "Productivity",
+  "description": "Official Microsoft MCP server. Query Microsoft 365 data with natural language — emails, meetings, documents, Teams messages, and people via Microsoft Graph.",
+  "provider": "Microsoft",
+  "status": "official",
+  "toolCount": 10,
+  "tools": [
+    "query_emails",
+    "query_meetings",
+    "query_documents",
+    "query_teams",
+    "query_people",
+    "search_files",
+    "send_email",
+    "create_event",
+    "list_tasks",
+    "get_profile"
+  ],
+  "tags": [
+    "microsoft",
+    "office365",
+    "outlook",
+    "teams",
+    "onedrive",
+    "graph-api",
+    "official"
+  ],
+  "repositoryUrl": "https://github.com/microsoft/work-iq-mcp",
+  "configUrl": "https://github.com/microsoft/work-iq-mcp",
+  "documentationUrl": "https://learn.microsoft.com/graph/",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@microsoft/workiq",
+      "mcp"
+    ],
+    "env": {}
+  },
+  "requiredEnv": [],
+  "envComments": {},
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

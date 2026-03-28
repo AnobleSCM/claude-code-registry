@@ -1,0 +1,20 @@
+{
+  "id": "gws-workflow-meeting-prep",
+  "name": "gws-workflow-meeting-prep",
+  "displayName": "Meeting Prep",
+  "category": "Workflow",
+  "description": "Prepare for your next meeting with agenda, attendees, and linked docs.",
+  "invocation": "/gws-workflow-meeting-prep",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "meetings",
+    "preparation",
+    "agenda",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

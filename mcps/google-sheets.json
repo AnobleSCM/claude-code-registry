@@ -1,0 +1,47 @@
+{
+  "id": "google-sheets",
+  "name": "Google Sheets MCP",
+  "displayName": "Google Sheets",
+  "category": "Productivity",
+  "description": "Read, write, and manage Google Sheets spreadsheets. Create new spreadsheets, modify cells, manage sheets, and integrate with Google Drive.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 8,
+  "tools": [
+    "create_spreadsheet",
+    "get_spreadsheet",
+    "update_cells",
+    "get_cells",
+    "list_sheets",
+    "create_sheet",
+    "list_spreadsheets",
+    "search_spreadsheets"
+  ],
+  "tags": [
+    "google",
+    "sheets",
+    "spreadsheet",
+    "productivity",
+    "data"
+  ],
+  "repositoryUrl": "https://github.com/xing5/mcp-google-sheets",
+  "configUrl": "https://github.com/xing5/mcp-google-sheets",
+  "documentationUrl": "https://developers.google.com/sheets/api",
+  "configSnippet": {
+    "command": "uvx",
+    "args": [
+      "mcp-google-sheets"
+    ],
+    "env": {
+      "GOOGLE_CREDENTIALS_PATH": "path/to/credentials.json"
+    }
+  },
+  "requiredEnv": [
+    "GOOGLE_CREDENTIALS_PATH"
+  ],
+  "envComments": {
+    "GOOGLE_CREDENTIALS_PATH": "Path to Google OAuth credentials JSON file"
+  },
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

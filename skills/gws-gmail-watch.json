@@ -1,0 +1,21 @@
+{
+  "id": "gws-gmail-watch",
+  "name": "gws-gmail-watch",
+  "displayName": "Gmail Watch",
+  "category": "Communication",
+  "description": "Watch for new emails and stream them as NDJSON notifications.",
+  "invocation": "/gws-gmail-watch",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "gmail",
+    "email",
+    "watch",
+    "streaming",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

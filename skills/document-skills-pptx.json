@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-pptx",
+  "name": "document-skills-pptx",
+  "displayName": "PowerPoint (PPTX)",
+  "category": "Documentation",
+  "description": "Create, read, and edit PowerPoint presentation files (.pptx). Full presentation manipulation for slides, shapes, and text.",
+  "invocation": "/document-skills:pptx",
+  "source": "plugin:document-skills",
+  "tags": [
+    "powerpoint",
+    "pptx",
+    "presentations",
+    "office",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "recipe-find-large-files",
+  "name": "recipe-find-large-files",
+  "displayName": "Find Large Files",
+  "category": "Workflow",
+  "description": "Identify large Google Drive files consuming storage quota.",
+  "invocation": "/recipe-find-large-files",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "storage",
+    "cleanup",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

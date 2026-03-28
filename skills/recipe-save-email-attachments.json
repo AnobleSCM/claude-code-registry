@@ -1,0 +1,21 @@
+{
+  "id": "recipe-save-email-attachments",
+  "name": "recipe-save-email-attachments",
+  "displayName": "Save Email Attachments",
+  "category": "Workflow",
+  "description": "Find Gmail messages with attachments and save them to a Google Drive folder.",
+  "invocation": "/recipe-save-email-attachments",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "gmail",
+    "drive",
+    "attachments",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

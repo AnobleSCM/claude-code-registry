@@ -1,0 +1,21 @@
+{
+  "id": "gws-admin-reports",
+  "name": "gws-admin-reports",
+  "displayName": "Admin Reports",
+  "category": "Productivity",
+  "description": "Google Workspace Admin SDK audit logs and usage reports.",
+  "invocation": "/gws-admin-reports",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "admin",
+    "audit",
+    "reports",
+    "security",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

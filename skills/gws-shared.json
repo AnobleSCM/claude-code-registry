@@ -1,0 +1,20 @@
+{
+  "id": "gws-shared",
+  "name": "gws-shared",
+  "displayName": "GWS Shared Patterns",
+  "category": "Development",
+  "description": "Shared patterns for gws CLI authentication, global flags, and output formatting.",
+  "invocation": "/gws-shared",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "workspace",
+    "cli",
+    "auth",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

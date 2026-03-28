@@ -1,0 +1,20 @@
+{
+  "id": "persona-content-creator",
+  "name": "persona-content-creator",
+  "displayName": "Content Creator",
+  "category": "Workflow",
+  "description": "Create, organize, and distribute content across Google Workspace.",
+  "invocation": "/persona-content-creator",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "persona",
+    "content",
+    "creation",
+    "google",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

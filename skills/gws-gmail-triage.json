@@ -1,0 +1,21 @@
+{
+  "id": "gws-gmail-triage",
+  "name": "gws-gmail-triage",
+  "displayName": "Gmail Triage",
+  "category": "Communication",
+  "description": "Show unread inbox summary with sender, subject, and date.",
+  "invocation": "/gws-gmail-triage",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "gmail",
+    "email",
+    "triage",
+    "inbox",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

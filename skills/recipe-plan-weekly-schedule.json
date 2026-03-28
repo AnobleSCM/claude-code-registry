@@ -1,0 +1,21 @@
+{
+  "id": "recipe-plan-weekly-schedule",
+  "name": "recipe-plan-weekly-schedule",
+  "displayName": "Plan Weekly Schedule",
+  "category": "Workflow",
+  "description": "Review your Google Calendar week, identify gaps, and add events to fill them.",
+  "invocation": "/recipe-plan-weekly-schedule",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "calendar",
+    "planning",
+    "weekly",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

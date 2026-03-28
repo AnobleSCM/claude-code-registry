@@ -1,0 +1,20 @@
+{
+  "id": "persona-event-coordinator",
+  "name": "persona-event-coordinator",
+  "displayName": "Event Coordinator",
+  "category": "Workflow",
+  "description": "Plan and manage events — scheduling, invitations, and logistics via Workspace.",
+  "invocation": "/persona-event-coordinator",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "persona",
+    "events",
+    "planning",
+    "google",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

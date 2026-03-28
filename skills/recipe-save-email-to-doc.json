@@ -1,0 +1,21 @@
+{
+  "id": "recipe-save-email-to-doc",
+  "name": "recipe-save-email-to-doc",
+  "displayName": "Save Email to Doc",
+  "category": "Workflow",
+  "description": "Save a Gmail message body into a Google Doc for archival or reference.",
+  "invocation": "/recipe-save-email-to-doc",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "gmail",
+    "docs",
+    "archive",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

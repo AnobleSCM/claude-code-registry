@@ -1,0 +1,20 @@
+{
+  "id": "gws-workflow-standup-report",
+  "name": "gws-workflow-standup-report",
+  "displayName": "Standup Report",
+  "category": "Workflow",
+  "description": "Today's meetings plus open tasks as a daily standup summary.",
+  "invocation": "/gws-workflow-standup-report",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "standup",
+    "daily",
+    "summary",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

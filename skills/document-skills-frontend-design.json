@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-frontend-design",
+  "name": "document-skills-frontend-design",
+  "displayName": "Frontend Design",
+  "category": "Design",
+  "description": "Create distinctive, production-grade frontend interfaces with high design quality and creative direction.",
+  "invocation": "/document-skills:frontend-design",
+  "source": "plugin:document-skills",
+  "tags": [
+    "frontend",
+    "design",
+    "ui",
+    "react",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

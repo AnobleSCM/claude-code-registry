@@ -1,0 +1,48 @@
+{
+  "id": "google-slides",
+  "name": "Google Slides MCP",
+  "displayName": "Google Slides",
+  "category": "Productivity",
+  "description": "Create, read, and edit Google Slides presentations programmatically. Manage slides, shapes, text, and images.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 6,
+  "tools": [
+    "create_presentation",
+    "get_presentation",
+    "add_slide",
+    "update_slide",
+    "delete_slide",
+    "add_text"
+  ],
+  "tags": [
+    "google",
+    "slides",
+    "presentations",
+    "productivity"
+  ],
+  "repositoryUrl": "https://github.com/matteoantoci/google-slides-mcp",
+  "configUrl": "https://github.com/matteoantoci/google-slides-mcp",
+  "documentationUrl": "https://developers.google.com/slides/api",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "google-slides-mcp"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "your-client-id",
+      "GOOGLE_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "requiredEnv": [
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET"
+  ],
+  "envComments": {
+    "GOOGLE_CLIENT_ID": "Google OAuth client ID",
+    "GOOGLE_CLIENT_SECRET": "Google OAuth client secret"
+  },
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

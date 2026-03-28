@@ -1,0 +1,20 @@
+{
+  "id": "gws-drive-upload",
+  "name": "gws-drive-upload",
+  "displayName": "Drive Upload",
+  "category": "Productivity",
+  "description": "Upload files to Google Drive with automatic metadata.",
+  "invocation": "/gws-drive-upload",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "drive",
+    "upload",
+    "files",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

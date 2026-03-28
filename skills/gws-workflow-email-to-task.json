@@ -1,0 +1,20 @@
+{
+  "id": "gws-workflow-email-to-task",
+  "name": "gws-workflow-email-to-task",
+  "displayName": "Email to Task",
+  "category": "Workflow",
+  "description": "Convert Gmail messages into Google Tasks entries automatically.",
+  "invocation": "/gws-workflow-email-to-task",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "gmail",
+    "tasks",
+    "automation",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

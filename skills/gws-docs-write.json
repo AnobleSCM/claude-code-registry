@@ -1,0 +1,20 @@
+{
+  "id": "gws-docs-write",
+  "name": "gws-docs-write",
+  "displayName": "Docs Write",
+  "category": "Productivity",
+  "description": "Append text to Google Docs documents.",
+  "invocation": "/gws-docs-write",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "docs",
+    "documents",
+    "write",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

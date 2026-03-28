@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-feedback-form",
+  "name": "recipe-create-feedback-form",
+  "displayName": "Create Feedback Form",
+  "category": "Workflow",
+  "description": "Create a Google Form for feedback collection and share it via Gmail.",
+  "invocation": "/recipe-create-feedback-form",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "forms",
+    "feedback",
+    "gmail",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

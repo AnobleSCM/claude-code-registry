@@ -1,0 +1,45 @@
+{
+  "id": "excel",
+  "name": "Excel MCP Server",
+  "displayName": "Excel",
+  "category": "Productivity",
+  "description": "Read and write local Excel files (xlsx, xlsm, xltx, xltm). Supports formulas, tables, formatting, and sheet operations. No Microsoft account needed — works offline on local files.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 10,
+  "tools": [
+    "read_sheet",
+    "write_sheet",
+    "create_workbook",
+    "list_sheets",
+    "add_sheet",
+    "read_cell",
+    "write_cell",
+    "apply_formula",
+    "format_cells",
+    "copy_sheet"
+  ],
+  "tags": [
+    "excel",
+    "spreadsheet",
+    "xlsx",
+    "office",
+    "data",
+    "local"
+  ],
+  "repositoryUrl": "https://github.com/negokaz/excel-mcp-server",
+  "configUrl": "https://github.com/negokaz/excel-mcp-server",
+  "documentationUrl": null,
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "--yes",
+      "@negokaz/excel-mcp-server"
+    ],
+    "env": {}
+  },
+  "requiredEnv": [],
+  "envComments": {},
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

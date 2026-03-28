@@ -1,0 +1,19 @@
+{
+  "id": "document-skills-skill-creator",
+  "name": "document-skills-skill-creator",
+  "displayName": "Skill Creator",
+  "category": "Development",
+  "description": "Create new skills, modify existing skills, and measure skill performance for Claude Code.",
+  "invocation": "/document-skills:skill-creator",
+  "source": "plugin:document-skills",
+  "tags": [
+    "skills",
+    "development",
+    "tooling",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

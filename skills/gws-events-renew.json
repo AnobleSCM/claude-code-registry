@@ -1,0 +1,20 @@
+{
+  "id": "gws-events-renew",
+  "name": "gws-events-renew",
+  "displayName": "Events Renew",
+  "category": "Productivity",
+  "description": "Renew or reactivate Workspace Events subscriptions.",
+  "invocation": "/gws-events-renew",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "events",
+    "renew",
+    "subscriptions",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

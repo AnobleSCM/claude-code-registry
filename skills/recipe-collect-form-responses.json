@@ -1,0 +1,21 @@
+{
+  "id": "recipe-collect-form-responses",
+  "name": "recipe-collect-form-responses",
+  "displayName": "Collect Form Responses",
+  "category": "Workflow",
+  "description": "Retrieve and review responses from a Google Form.",
+  "invocation": "/recipe-collect-form-responses",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "forms",
+    "responses",
+    "data",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

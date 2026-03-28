@@ -1,0 +1,19 @@
+{
+  "id": "gws-gmail",
+  "name": "gws-gmail",
+  "displayName": "Gmail",
+  "category": "Communication",
+  "description": "Read, search, and manage Gmail messages. Full email lifecycle management.",
+  "invocation": "/gws-gmail",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "gmail",
+    "email",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

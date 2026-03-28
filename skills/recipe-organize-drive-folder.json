@@ -1,0 +1,21 @@
+{
+  "id": "recipe-organize-drive-folder",
+  "name": "recipe-organize-drive-folder",
+  "displayName": "Organize Drive Folder",
+  "category": "Workflow",
+  "description": "Create a Google Drive folder structure and move files into the right locations.",
+  "invocation": "/recipe-organize-drive-folder",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "folders",
+    "organization",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

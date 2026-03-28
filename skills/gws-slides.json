@@ -1,0 +1,19 @@
+{
+  "id": "gws-slides",
+  "name": "gws-slides",
+  "displayName": "Google Slides",
+  "category": "Productivity",
+  "description": "Read and write Google Slides presentations.",
+  "invocation": "/gws-slides",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "slides",
+    "presentations",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "recipe-share-event-materials",
+  "name": "recipe-share-event-materials",
+  "displayName": "Share Event Materials",
+  "category": "Workflow",
+  "description": "Share Google Drive files with all attendees of a Google Calendar event.",
+  "invocation": "/recipe-share-event-materials",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "calendar",
+    "sharing",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

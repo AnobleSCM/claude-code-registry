@@ -1,0 +1,21 @@
+{
+  "id": "recipe-share-doc-and-notify",
+  "name": "recipe-share-doc-and-notify",
+  "displayName": "Share Doc and Notify",
+  "category": "Workflow",
+  "description": "Share a Google Doc with edit access and email collaborators the link.",
+  "invocation": "/recipe-share-doc-and-notify",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "docs",
+    "sharing",
+    "collaboration",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

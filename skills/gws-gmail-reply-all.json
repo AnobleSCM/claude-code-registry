@@ -1,0 +1,20 @@
+{
+  "id": "gws-gmail-reply-all",
+  "name": "gws-gmail-reply-all",
+  "displayName": "Gmail Reply All",
+  "category": "Communication",
+  "description": "Reply-all to Gmail messages with automatic threading.",
+  "invocation": "/gws-gmail-reply-all",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "gmail",
+    "email",
+    "reply",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "recipe-log-deal-update",
+  "name": "recipe-log-deal-update",
+  "displayName": "Log Deal Update",
+  "category": "Workflow",
+  "description": "Append a deal status update to a Google Sheets sales tracking spreadsheet.",
+  "invocation": "/recipe-log-deal-update",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "sheets",
+    "sales",
+    "crm",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

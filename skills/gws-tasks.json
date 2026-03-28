@@ -1,0 +1,20 @@
+{
+  "id": "gws-tasks",
+  "name": "gws-tasks",
+  "displayName": "Google Tasks",
+  "category": "Productivity",
+  "description": "Manage Google Tasks lists and tasks.",
+  "invocation": "/gws-tasks",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "tasks",
+    "todo",
+    "productivity",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

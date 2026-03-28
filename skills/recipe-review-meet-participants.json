@@ -1,0 +1,21 @@
+{
+  "id": "recipe-review-meet-participants",
+  "name": "recipe-review-meet-participants",
+  "displayName": "Review Meet Participants",
+  "category": "Workflow",
+  "description": "Review who attended a Google Meet conference and for how long.",
+  "invocation": "/recipe-review-meet-participants",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "meet",
+    "attendance",
+    "analytics",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

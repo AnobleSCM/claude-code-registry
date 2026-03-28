@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-gmail-filter",
+  "name": "recipe-create-gmail-filter",
+  "displayName": "Create Gmail Filter",
+  "category": "Workflow",
+  "description": "Create Gmail filters to automatically label, star, or categorize incoming messages.",
+  "invocation": "/recipe-create-gmail-filter",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "gmail",
+    "filter",
+    "automation",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

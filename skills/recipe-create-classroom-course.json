@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-classroom-course",
+  "name": "recipe-create-classroom-course",
+  "displayName": "Create Classroom Course",
+  "category": "Workflow",
+  "description": "Create a Google Classroom course and invite students.",
+  "invocation": "/recipe-create-classroom-course",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "classroom",
+    "education",
+    "courses",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

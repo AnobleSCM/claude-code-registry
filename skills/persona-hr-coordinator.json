@@ -1,0 +1,20 @@
+{
+  "id": "persona-hr-coordinator",
+  "name": "persona-hr-coordinator",
+  "displayName": "HR Coordinator",
+  "category": "Workflow",
+  "description": "Handle HR workflows — onboarding, announcements, and employee communications.",
+  "invocation": "/persona-hr-coordinator",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "persona",
+    "hr",
+    "onboarding",
+    "google",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-doc-coauthoring",
+  "name": "document-skills-doc-coauthoring",
+  "displayName": "Doc Co-authoring",
+  "category": "Documentation",
+  "description": "Structured workflow for co-authoring documentation with iterative review and refinement.",
+  "invocation": "/document-skills:doc-coauthoring",
+  "source": "plugin:document-skills",
+  "tags": [
+    "documentation",
+    "collaboration",
+    "writing",
+    "workflow",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

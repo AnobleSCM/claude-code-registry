@@ -1,0 +1,21 @@
+{
+  "id": "recipe-bulk-download-folder",
+  "name": "recipe-bulk-download-folder",
+  "displayName": "Bulk Download Folder",
+  "category": "Workflow",
+  "description": "List and download all files from a Google Drive folder.",
+  "invocation": "/recipe-bulk-download-folder",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "download",
+    "bulk",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

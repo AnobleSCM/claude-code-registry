@@ -1,0 +1,20 @@
+{
+  "id": "gws-workflow-weekly-digest",
+  "name": "gws-workflow-weekly-digest",
+  "displayName": "Weekly Digest",
+  "category": "Workflow",
+  "description": "Weekly summary of this week's meetings and unread email count.",
+  "invocation": "/gws-workflow-weekly-digest",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "digest",
+    "summary",
+    "weekly",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

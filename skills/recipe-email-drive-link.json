@@ -1,0 +1,21 @@
+{
+  "id": "recipe-email-drive-link",
+  "name": "recipe-email-drive-link",
+  "displayName": "Email Drive Link",
+  "category": "Workflow",
+  "description": "Share a Google Drive file and email the link with a message to recipients.",
+  "invocation": "/recipe-email-drive-link",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "drive",
+    "gmail",
+    "sharing",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

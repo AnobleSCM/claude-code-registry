@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-expense-tracker",
+  "name": "recipe-create-expense-tracker",
+  "displayName": "Create Expense Tracker",
+  "category": "Workflow",
+  "description": "Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.",
+  "invocation": "/recipe-create-expense-tracker",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "sheets",
+    "expenses",
+    "finance",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

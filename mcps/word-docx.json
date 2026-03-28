@@ -1,0 +1,46 @@
+{
+  "id": "word-docx",
+  "name": "Word DOCX MCP Server",
+  "displayName": "Word (DOCX)",
+  "category": "Productivity",
+  "description": "Read, edit, and format Word documents (.docx) locally. 32 tools covering text, tables, headers, footers, comments, tracked changes, and page layout. No file uploads — works on local files.",
+  "provider": "Community",
+  "status": "available",
+  "toolCount": 32,
+  "tools": [
+    "read_document",
+    "write_document",
+    "add_paragraph",
+    "add_table",
+    "add_header",
+    "add_footer",
+    "add_comment",
+    "track_changes",
+    "format_text",
+    "add_image",
+    "set_page_layout",
+    "add_footnote"
+  ],
+  "tags": [
+    "word",
+    "docx",
+    "document",
+    "office",
+    "local"
+  ],
+  "repositoryUrl": "https://github.com/knorq-ai/docx-mcp-server",
+  "configUrl": "https://github.com/knorq-ai/docx-mcp-server",
+  "documentationUrl": null,
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "docx-mcp-server"
+    ],
+    "env": {}
+  },
+  "requiredEnv": [],
+  "envComments": {},
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

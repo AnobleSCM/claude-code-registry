@@ -1,0 +1,20 @@
+{
+  "id": "gws-sheets",
+  "name": "gws-sheets",
+  "displayName": "Google Sheets",
+  "category": "Productivity",
+  "description": "Read and write Google Sheets spreadsheets.",
+  "invocation": "/gws-sheets",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "sheets",
+    "spreadsheet",
+    "data",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

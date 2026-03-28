@@ -1,0 +1,21 @@
+{
+  "id": "recipe-draft-email-from-doc",
+  "name": "recipe-draft-email-from-doc",
+  "displayName": "Draft Email from Doc",
+  "category": "Workflow",
+  "description": "Read content from a Google Doc and use it as the body of a Gmail message.",
+  "invocation": "/recipe-draft-email-from-doc",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "docs",
+    "gmail",
+    "drafting",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

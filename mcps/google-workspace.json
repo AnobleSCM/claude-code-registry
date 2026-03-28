@@ -3,14 +3,60 @@
   "name": "Google Workspace",
   "displayName": "Google Workspace",
   "category": "Productivity",
-  "description": "Unified access to Google Workspace apps including Sheets, Docs, Gmail, Calendar, and Drive. Read and write spreadsheets, compose emails, manage calendar events, and organize files.",
-  "provider": "Google",
+  "description": "Unified access to Gmail, Calendar, and Drive with single OAuth authentication. Covers the three most-needed Google Workspace APIs in one MCP server.",
+  "provider": "Community",
   "status": "available",
   "toolCount": 18,
-  "tools": ["sheets_read_range", "sheets_write_range", "sheets_create_spreadsheet", "docs_read_document", "docs_create_document", "docs_insert_text", "gmail_send_email", "gmail_search_messages", "gmail_read_message", "calendar_list_events", "calendar_create_event", "calendar_update_event", "drive_list_files", "drive_upload_file", "drive_download_file", "drive_create_folder", "drive_share_file", "drive_search_files"],
-  "tags": ["google", "workspace", "sheets", "docs", "gmail", "calendar", "drive", "productivity"],
-  "configUrl": "https://github.com/anthropics/mcp-server-google-workspace",
+  "tools": [
+    "gmail_send",
+    "gmail_search",
+    "gmail_read",
+    "gmail_reply",
+    "gmail_labels",
+    "calendar_list",
+    "calendar_create",
+    "calendar_update",
+    "calendar_delete",
+    "calendar_freebusy",
+    "drive_list",
+    "drive_upload",
+    "drive_download",
+    "drive_create_folder",
+    "drive_share",
+    "drive_search",
+    "drive_delete",
+    "drive_move"
+  ],
+  "tags": [
+    "google",
+    "workspace",
+    "gmail",
+    "calendar",
+    "drive",
+    "productivity"
+  ],
+  "repositoryUrl": "https://github.com/aaronsb/google-workspace-mcp",
+  "configUrl": "https://github.com/aaronsb/google-workspace-mcp",
   "documentationUrl": "https://developers.google.com/workspace",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "google-workspace-mcp"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "your-client-id",
+      "GOOGLE_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "requiredEnv": [
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET"
+  ],
+  "envComments": {
+    "GOOGLE_CLIENT_ID": "Google OAuth client ID",
+    "GOOGLE_CLIENT_SECRET": "Google OAuth client secret"
+  },
   "addedAt": "2026-02-04",
-  "updatedAt": "2026-02-04"
+  "updatedAt": "2026-03-28"
 }

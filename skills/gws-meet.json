@@ -1,0 +1,20 @@
+{
+  "id": "gws-meet",
+  "name": "gws-meet",
+  "displayName": "Google Meet",
+  "category": "Communication",
+  "description": "Manage Google Meet conferences and video calls.",
+  "invocation": "/gws-meet",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "meet",
+    "video",
+    "conferencing",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

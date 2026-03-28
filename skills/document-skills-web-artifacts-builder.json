@@ -1,0 +1,20 @@
+{
+  "id": "document-skills-web-artifacts-builder",
+  "name": "document-skills-web-artifacts-builder",
+  "displayName": "Web Artifacts Builder",
+  "category": "Development",
+  "description": "Create elaborate multi-component HTML artifacts using modern frontend frameworks for claude.ai.",
+  "invocation": "/document-skills:web-artifacts-builder",
+  "source": "plugin:document-skills",
+  "tags": [
+    "html",
+    "artifacts",
+    "frontend",
+    "components",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

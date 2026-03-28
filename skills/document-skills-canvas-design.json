@@ -1,0 +1,21 @@
+{
+  "id": "document-skills-canvas-design",
+  "name": "document-skills-canvas-design",
+  "displayName": "Canvas Design",
+  "category": "Design",
+  "description": "Create beautiful visual art in PNG and PDF documents using design philosophy and creative techniques.",
+  "invocation": "/document-skills:canvas-design",
+  "source": "plugin:document-skills",
+  "tags": [
+    "canvas",
+    "design",
+    "art",
+    "png",
+    "pdf",
+    "anthropic",
+    "document-skills"
+  ],
+  "documentationUrl": "https://github.com/anthropics/skills",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

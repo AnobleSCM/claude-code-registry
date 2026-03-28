@@ -1,0 +1,20 @@
+{
+  "id": "gws-modelarmor-create-template",
+  "name": "gws-modelarmor-create-template",
+  "displayName": "Model Armor Create Template",
+  "category": "Security",
+  "description": "Create new Google Model Armor safety templates.",
+  "invocation": "/gws-modelarmor-create-template",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "modelarmor",
+    "safety",
+    "templates",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

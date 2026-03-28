@@ -1,0 +1,20 @@
+{
+  "id": "gws-modelarmor-sanitize-prompt",
+  "name": "gws-modelarmor-sanitize-prompt",
+  "displayName": "Model Armor Sanitize Prompt",
+  "category": "Security",
+  "description": "Sanitize user prompts through a Google Model Armor template.",
+  "invocation": "/gws-modelarmor-sanitize-prompt",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "google",
+    "modelarmor",
+    "safety",
+    "prompts",
+    "workspace",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

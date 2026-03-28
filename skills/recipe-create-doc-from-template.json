@@ -1,0 +1,21 @@
+{
+  "id": "recipe-create-doc-from-template",
+  "name": "recipe-create-doc-from-template",
+  "displayName": "Create Doc from Template",
+  "category": "Workflow",
+  "description": "Copy a Google Docs template, fill in content, and share with collaborators.",
+  "invocation": "/recipe-create-doc-from-template",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "docs",
+    "templates",
+    "automation",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}

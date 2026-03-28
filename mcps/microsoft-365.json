@@ -2,15 +2,56 @@
   "id": "microsoft-365",
   "name": "Microsoft 365",
   "displayName": "Microsoft 365",
-  "category": "APIs & Services",
-  "description": "MS Office, Outlook, mail, files, Excel, and calendar via Microsoft Graph API.",
+  "category": "Productivity",
+  "description": "The most comprehensive Microsoft 365 MCP server. 90+ tools covering Outlook, Calendar, OneDrive, Excel, OneNote, Teams, SharePoint, To Do, Planner, and Contacts via Microsoft Graph. Supports Claude Code natively.",
   "provider": "Community",
   "status": "available",
-  "toolCount": 15,
-  "tools": ["send_mail", "list_events", "manage_files", "read_excel", "manage_calendar", "search_users"],
-  "tags": ["microsoft", "office365", "outlook", "excel", "graph-api"],
-  "configUrl": "https://github.com/softeria/mcp-microsoft365",
+  "toolCount": 90,
+  "tools": [
+    "send_mail",
+    "search_mail",
+    "read_mail",
+    "reply_mail",
+    "list_events",
+    "create_event",
+    "list_files",
+    "upload_file",
+    "download_file",
+    "read_excel",
+    "write_excel",
+    "list_notebooks",
+    "read_note",
+    "send_teams_message",
+    "list_channels",
+    "list_tasks",
+    "create_task",
+    "search_sharepoint",
+    "list_contacts",
+    "search_users"
+  ],
+  "tags": [
+    "microsoft",
+    "office365",
+    "outlook",
+    "excel",
+    "teams",
+    "onedrive",
+    "sharepoint",
+    "graph-api"
+  ],
+  "repositoryUrl": "https://github.com/softeria/ms-365-mcp-server",
+  "configUrl": "https://github.com/softeria/ms-365-mcp-server",
   "documentationUrl": "https://learn.microsoft.com/graph/",
+  "configSnippet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@softeria/ms-365-mcp-server"
+    ],
+    "env": {}
+  },
+  "requiredEnv": [],
+  "envComments": {},
   "addedAt": "2026-01-31",
-  "updatedAt": "2026-01-31"
+  "updatedAt": "2026-03-28"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "recipe-forward-labeled-emails",
+  "name": "recipe-forward-labeled-emails",
+  "displayName": "Forward Labeled Emails",
+  "category": "Workflow",
+  "description": "Find Gmail messages with a specific label and forward them to another address.",
+  "invocation": "/recipe-forward-labeled-emails",
+  "source": "plugin:google-workspace-cli",
+  "tags": [
+    "gmail",
+    "forward",
+    "labels",
+    "google",
+    "workspace",
+    "recipe",
+    "gws"
+  ],
+  "documentationUrl": "https://github.com/googleworkspace/cli",
+  "addedAt": "2026-03-28",
+  "updatedAt": "2026-03-28"
+}
